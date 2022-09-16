@@ -14,7 +14,7 @@ export default class Chemical extends Component {
                     <div className='over_content'>
                         <div className='container'>
                             <div className='row'>
-                                <div className="col-12 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <div className="col-12 col-lg-6 col-md-6 col-sm-12 col-xs-12 fadeInUp  Wow from-left">
                                     <div className='head-light'>
                                         <h2 className="h2-heading white-color mb-xs-10">How can we help you?</h2>
                                     </div>
@@ -31,7 +31,7 @@ export default class Chemical extends Component {
                         <div className="row">
                             <div className="circle-grid">
                 
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_health">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_health">
                                     <div className="bg-queries pdg-queries">
                                     <h4>Health</h4>
                                     <span className="head-abtus-bdr"></span>
@@ -40,7 +40,7 @@ export default class Chemical extends Component {
                                     </a>
                                 </div>
                         
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_chemical">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_chemical">
                                     <div className="bg-queries pdg-queries">
                                     <h4>Chemicals</h4>
                                     <span className="head-abtus-bdr"></span>
@@ -49,7 +49,7 @@ export default class Chemical extends Component {
                                     </a>
                                 </div>
                         
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_retail">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_retail">
                                     <div className="bg-queries pdg-queries">
                                     <h4>Retail</h4>
                                     <span className="head-abtus-bdr"></span>
@@ -58,7 +58,7 @@ export default class Chemical extends Component {
                                     </a>
                                 </div>
                         
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_automative">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_automative">
                                     <div className="bg-queries pdg-queries">
                                     <h4>Automative</h4>
                                     <span className="head-abtus-bdr"></span>
@@ -67,7 +67,7 @@ export default class Chemical extends Component {
                                     </a>
                                 </div>
                         
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_dental">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_dental">
                                     <div className="bg-queries pdg-queries">
                                     <h4>Dental</h4>
                                     <span className="head-abtus-bdr"></span>
@@ -76,7 +76,7 @@ export default class Chemical extends Component {
                                     </a>
                                 </div>
                         
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_consumer_goods">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_consumer_goods">
                                     <div className="bg-queries pdg-queries">
                                     <h4>Consumer Goods</h4>
                                     <span className="head-abtus-bdr"></span>
@@ -85,7 +85,7 @@ export default class Chemical extends Component {
                                     </a>
                                 </div>
                         
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_bfsi">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_bfsi">
                                     <div className="bg-queries pdg-queries">
                                     <h4>BSFI</h4>
                                     <span className="head-abtus-bdr"></span>
@@ -94,7 +94,7 @@ export default class Chemical extends Component {
                                     </a>
                                 </div>
                         
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_energy">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_energy">
                                     <div className="bg-queries pdg-queries">
                                     <h4>Energy</h4>
                                     <span className="head-abtus-bdr"></span>
@@ -111,7 +111,7 @@ export default class Chemical extends Component {
                                     </div>
                                     </a>
                                 </div>
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_capital_market">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_capital_market">
                                     <div className="bg-queries pdg-queries">
                                     <h4>Capital Markets</h4>
                                     <span className="head-abtus-bdr"></span>
@@ -120,7 +120,7 @@ export default class Chemical extends Component {
                                     </a>
                                 </div>
                         
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_insurance">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_insurance">
                                     <div className="bg-queries pdg-queries">
                                     <h4>Insurance</h4>
                                     <span className="head-abtus-bdr"></span>
@@ -129,7 +129,7 @@ export default class Chemical extends Component {
                                     </a>
                                 </div>
                         
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_media_entertainment">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_media_entertainment">
                                     <div className="bg-queries pdg-queries">
                                     <h4>Media and Entertainment</h4>
                                     <span className="head-abtus-bdr"></span>
@@ -144,7 +144,7 @@ export default class Chemical extends Component {
                 <section id="subscribe-newsletter" className="contact-us">
                     <div className="container">
                         <div className="contact-info row">
-                            <div className="col-12 col-lg-12 col-sm-12 text-center" style={{paddingBottom:30}}>
+                            <div className="col-12 col-lg-12 col-sm-12 text-center fadeInUp  Wow from-right" style={{paddingBottom:30}}>
                                 <div>
                                 <h2>SAY HELLO</h2>
                                 <p style={{fontSize:16}}>If you have an interesting project, an RFP, or just need some help, reach out to us. We’re available. We also teach, lecture, give workshops, and love sharing our knowledge, and we’ll literally go anywhere!</p>

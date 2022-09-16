@@ -45,7 +45,7 @@ export class AboutUs extends Component {
                             <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 px-0 text-center'>
                                 <img src='/assets/img/vertical-line.png' alt='vertical-line' />
                                 <h2 className='text-center'>Our ESG Priorities</h2>
-                                <div className='col-12 col-lg-4 col-md-12 col-sm-12'>
+                                <div className='col-12 col-lg-4 col-md-12 col-sm-12 fadeInUp  Wow from-bottom'>
                                     <div class="ripple_hover shadow-box1 zoom_wrap1 bg-jade-light">
                                         <div class="above_div">
                                             <div class="zoom_text"> 
@@ -59,7 +59,7 @@ export class AboutUs extends Component {
                                     </div>
                                 </div>    
                             
-                                <div className='col-12 col-lg-4 col-md-12 col-sm-12'>
+                                <div className='col-12 col-lg-4 col-md-12 col-sm-12 fadeInUp  Wow from-bottom'>
                                     <div class="ripple_hover shadow-box1 zoom_wrap1 bg-sapphire-light">
                                         <div class="above_div">
                                             <div class="zoom_text"> 
@@ -69,7 +69,7 @@ export class AboutUs extends Component {
                                     </div>
                                     <span class="ripple_effect"></span></div>
                                 </div>
-                                <div className='col-12 col-lg-4 col-md-12 col-sm-12'>
+                                <div className='col-12 col-lg-4 col-md-12 col-sm-12 fadeInUp  Wow from-bottom'>
                                     <div class="ripple_hover shadow-box1 zoom_wrap1 bg-amethyst-light">
                                         <div class="above_div">
                                             <div class="zoom_text">
@@ -123,11 +123,11 @@ export class AboutUs extends Component {
                         </div>
                     </div>
                 </section>
-                <section id="team" className="team">
+                <section id="team" className="team fadeInUp  Wow from-right">
                     <div className="container">
                        
                     <div className='row'>
-                    <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+                    <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 fadeInUp '>
                             <div id="tabs" className='tabs team_pro'>
                                 <ul className="nav nav-tabs" role="tablist">
                                     <li className="nav-item">
@@ -287,7 +287,7 @@ export class AboutUs extends Component {
                                            
                     </div>
                 </section>
-                <section id="work-stratery" className="work-stratery">
+                <section id="work-stratery" className="work-stratery fadeInUp">
                     <div className="col-12 col-lg-12 col-sm-12 text-center">
                         <img src='/assets/img/vertical-line.png' alt='vertical-line' />
                         <h2 className='h2-heading'>WORK STRATEGY</h2>
@@ -421,7 +421,7 @@ export class AboutUs extends Component {
                 <section className='aim'>
                     <div className='container'>
                         <div className='row gx-0 g-0 no-gutters'>
-                            <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 px-0 text-center'>
+                            <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 px-0 text-center fadeInUp  Wow from-right'>
                                 <div className='our-purpose hrsh-aim'>
                                     <h2 className="title-sml mb20">“THE SECRET OF CHANGE IS TO FOCUS ALL OF YOUR ENERGY, NOT ON FIGHTING THE OLD, BUT BUILDING ON THE NEW.”</h2>
                                     <p className="para-ovr">HARSH MACWAN</p>
@@ -443,7 +443,7 @@ export class AboutUs extends Component {
                         <div className="row">
                             <div className="circle-grid">
                 
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_health">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_health">
                                     <div className="bg-queries pdg-queries">
                                     <h4>Health</h4>
                                     <span className="head-abtus-bdr"></span>
@@ -452,7 +452,7 @@ export class AboutUs extends Component {
                                     </a>
                                 </div>
                         
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_chemical">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_chemical">
                                     <div className="bg-queries pdg-queries">
                                     <h4>Chemicals</h4>
                                     <span className="head-abtus-bdr"></span>
@@ -461,7 +461,7 @@ export class AboutUs extends Component {
                                     </a>
                                 </div>
                         
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_retail">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_retail">
                                     <div className="bg-queries pdg-queries">
                                     <h4>Retail</h4>
                                     <span className="head-abtus-bdr"></span>
@@ -470,7 +470,7 @@ export class AboutUs extends Component {
                                     </a>
                                 </div>
                         
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_automative">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_automative">
                                     <div className="bg-queries pdg-queries">
                                     <h4>Automative</h4>
                                     <span className="head-abtus-bdr"></span>
@@ -479,7 +479,7 @@ export class AboutUs extends Component {
                                     </a>
                                 </div>
                         
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_dental">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_dental">
                                     <div className="bg-queries pdg-queries">
                                     <h4>Dental</h4>
                                     <span className="head-abtus-bdr"></span>
@@ -488,7 +488,7 @@ export class AboutUs extends Component {
                                     </a>
                                 </div>
                         
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_consumer_goods">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_consumer_goods">
                                     <div className="bg-queries pdg-queries">
                                     <h4>Consumer Goods</h4>
                                     <span className="head-abtus-bdr"></span>
@@ -497,7 +497,7 @@ export class AboutUs extends Component {
                                     </a>
                                 </div>
                         
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_bfsi">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_bfsi">
                                     <div className="bg-queries pdg-queries">
                                     <h4>BSFI</h4>
                                     <span className="head-abtus-bdr"></span>
@@ -506,7 +506,7 @@ export class AboutUs extends Component {
                                     </a>
                                 </div>
                         
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_energy">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_energy">
                                     <div className="bg-queries pdg-queries">
                                     <h4>Energy</h4>
                                     <span className="head-abtus-bdr"></span>
@@ -515,7 +515,7 @@ export class AboutUs extends Component {
                                     </a>
                                 </div>
                         
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_oil_and_gas">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_oil_and_gas">
                                     <div className="bg-queries pdg-queries">
                                     <h4>Oil and Gas</h4>
                                     <span className="head-abtus-bdr"></span>
@@ -523,7 +523,7 @@ export class AboutUs extends Component {
                                     </div>
                                     </a>
                                 </div>
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_capital_market">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_capital_market">
                                     <div className="bg-queries pdg-queries">
                                     <h4>Capital Markets</h4>
                                     <span className="head-abtus-bdr"></span>
@@ -532,7 +532,7 @@ export class AboutUs extends Component {
                                     </a>
                                 </div>
                         
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_insurance">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_insurance">
                                     <div className="bg-queries pdg-queries">
                                     <h4>Insurance</h4>
                                     <span className="head-abtus-bdr"></span>
@@ -541,7 +541,7 @@ export class AboutUs extends Component {
                                     </a>
                                 </div>
                         
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_media_entertainment">
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_media_entertainment">
                                     <div className="bg-queries pdg-queries">
                                     <h4>Media and Entertainment</h4>
                                     <span className="head-abtus-bdr"></span>

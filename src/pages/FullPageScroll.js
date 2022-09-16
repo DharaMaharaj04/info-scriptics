@@ -490,13 +490,13 @@ function FullPageScroll() {
                                     <div className='border'>
                                         <div className='col-lg-12 col-md-12 col-sm-12 px-0 col-xs-12 border-rgt border-rgt-xs border-btm p0'>
                                             <div className='expan_contact'>
-                                                <a className='cntry-nme' href='/#'>Canada</a>
+                                                <a className='cntry-nme' href='/contact/#locate_us'>Canada</a>
                                             </div>
                                             <hr className='cntry-line'/>
                                         </div>
                                         <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 px-0  border-btm p0'>
                                             <div className='expan_contact'>
-                                                <a className='cntry-nme' href='/#'>Asia Pacific</a>
+                                                <a className='cntry-nme' href='/contact/#locate_us'>Asia Pacific</a>
                                             </div>
                                         </div>
                                     </div>
@@ -505,13 +505,13 @@ function FullPageScroll() {
                                     <div className='border'>
                                         <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 px-0 border-rgt border-rgt-xs border-btm p0'>
                                             <div className='expan_contact'>
-                                                <a className='cntry-nme' href='/#'>Middle East and Africa</a>
+                                                <a className='cntry-nme' href='/contact/#locate_us'>Middle East and Africa</a>
                                             </div>
                                             <hr className="cntry-line"/>
                                         </div>
                                         <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12  border-rgt border-rgt-xs border-btm p0'>
                                             <div className='expan_contact'>
-                                                <a className='cntry-nme' href='/#'>Australia</a>
+                                                <a className='cntry-nme' href='/contact/locate_us'>Australia</a>
                                             </div>
                                         </div>
                                     </div>
@@ -521,7 +521,7 @@ function FullPageScroll() {
                         <div className='col-lg col-md'></div>
                         <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center over_content">
                             <h2 className='cnt_us_txt white-color mb30'>STAY IN WITH OUR NEWSLETTER</h2>
-                            <a className="btn  text-uppercase career_btn" href="/">Contact Us</a>
+                            <a className="btn  text-uppercase career_btn" href="/contact/#subscribe-newsletter">Contact Us</a>
                         </div>
                     </div>    
                 </div>
