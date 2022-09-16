@@ -154,7 +154,7 @@ export default class Chemical extends Component {
                         </div>
                     </div>
                 </section>
-                <section className="contact-loc" id="locate_us">
+                <section className="contact-loc fadeInUp  Wow from-right" id="locate_us">
                     <div className="container">
                         <h2 className='white-color'>Locations Explore our service offerings and subsidiaries in specific geography</h2>
                         <div id="tabs">
