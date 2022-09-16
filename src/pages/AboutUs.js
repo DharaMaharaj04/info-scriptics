@@ -7,6 +7,17 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 export class AboutUs extends Component {
     render() {
+
+        const options = {
+            loop: true,
+            margin: 0,
+            items: 1,
+            autoplay: true,
+            dots: true,
+            autoplay: true,
+            dots: true
+        };    
+
         return (
             <div>
                 <Helmet>
@@ -112,11 +123,11 @@ export class AboutUs extends Component {
                         </div>
                     </div>
                 </section>
-                <section id="team" className="team sec">
+                <section id="team" className="team">
                     <div className="container">
                        
-                    
-
+                    <div className='row'>
+                    <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                             <div id="tabs" className='tabs team_pro'>
                                 <ul className="nav nav-tabs" role="tablist">
                                     <li className="nav-item">
@@ -134,10 +145,10 @@ export class AboutUs extends Component {
                         <div className="tab-content">
                             <div className="tab-pane fade tab-style  active show" id="tab-0" role="tabpanel">
                                 <div className='loc_tab founder'>
-                                    <div className='col-12 col-lg-12'>
+                                    <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                                         <h2 className=''>Founder</h2>
                                     </div>
-                                    <div className='col-lg-3 col-md-12 col-sm-12'>
+                                    <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>
                                         <div className='eqh-box'>
                                             <div className='team-img text-center'>
                                                 <img src="/assets/img/harsh.png" alt="Harsh Macwan" />
@@ -153,10 +164,10 @@ export class AboutUs extends Component {
                             
                             <div className="tab-pane fade tab-style ml-3 mt-3" id="tab-1" role="tabpanel">
                                 <div className='loc_tab bood row'>
-                                    <div className='col-12 col-lg-12 col-md-12 col-sm-12'>
+                                    <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                                         <h2>Board of Directors</h2>
                                     </div>
-                                    <div className='col-lg-3 col-md-12 col-sm-12'>
+                                    <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>
                                        
                                             <div className='eqh-box'>
                                                 <div className='team-img text-center'>
@@ -169,7 +180,7 @@ export class AboutUs extends Component {
                                             </div>
                                         
                                     </div>
-                                    <div className='col-lg-3 col-md-12 col-sm-12'>
+                                    <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>
                                         
                                             <div className='eqh-box'>
                                                 <div className='team-img text-center'>
@@ -182,7 +193,7 @@ export class AboutUs extends Component {
                                             </div>
                                         
                                     </div>
-                                    <div className='col-lg-3 col-md-12 col-sm-12'>
+                                    <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>
                                         
                                             <div className='eqh-box'>
                                                 <div className='team-img text-center'>
@@ -195,7 +206,7 @@ export class AboutUs extends Component {
                                             </div>
                                         
                                     </div>
-                                    <div className='col-lg-3 col-md-12 col-sm-12'>
+                                    <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>
                                         
                                             <div className='eqh-box'>
                                                 <div className='team-img text-center'>
@@ -211,10 +222,10 @@ export class AboutUs extends Component {
                             </div>
                             <div className="tab-pane fade tab-style ml-3 mt-3" id="tab-2" role="tabpanel">
                                 <div className='loc_tab row exo'>
-                                <div className='col-12 col-lg-12 col-md-12 col-sm-12'>
+                                <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                                 <h2>Executive Officers</h2>
                             </div>
-                            <div className='col-lg-3 col-md-12 col-sm-12'>
+                            <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>
                                
                                     <div className='eqh-box'>
                                         <div className='team-img text-center'>
@@ -227,7 +238,7 @@ export class AboutUs extends Component {
                                     </div>
                                 
                             </div>
-                            <div className='col-lg-3 col-md-12 col-sm-12'>
+                            <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>
                                 
                                     <div className='eqh-box'>
                                         <div className='team-img text-center'>
@@ -240,7 +251,7 @@ export class AboutUs extends Component {
                                     </div>
                                 
                             </div>
-                            <div className='col-lg-3 col-md-12 col-sm-12'>
+                            <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>
                                 
                                     <div className='eqh-box'>
                                         <div className='team-img text-center'>
@@ -253,7 +264,7 @@ export class AboutUs extends Component {
                                     </div>
                                 
                             </div>
-                            <div className='col-lg-3 col-md-12 col-sm-12'>
+                            <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>
                                 
                                     <div className='eqh-box'>
                                         <div className='team-img text-center'>
@@ -266,17 +277,146 @@ export class AboutUs extends Component {
                                     </div>
                             </div>
                                           
-                                    
+                              </div>      
                                 </div>
                             </div>
+                        
                         </div>
-
-
+                    </div>
 
                                            
                     </div>
                 </section>
-                   
+                <section id="work-stratery" className="work-stratery">
+                    <div className="col-12 col-lg-12 col-sm-12 text-center">
+                        <img src='/assets/img/vertical-line.png' alt='vertical-line' />
+                        <h2 className='h2-heading'>WORK STRATEGY</h2>
+                    </div>
+                </section>
+                <section className="work-caro work work-des" id={5}>
+                    <div className="container-fuild">
+                        <div className="row align-items-center">
+                        <OwlCarousel className="owl-theme" {...options} >
+                            <div className='slide-1'>  
+                                <div className='slide-img'>
+                                    <img src="/assets/img/factory-boosts-growth-lead.png" />
+                                    <div className='slider-overlay-amethyst'></div>
+                                </div>
+                                <div className='caption'>
+                                    <div className='container'>
+                                        <div className='row'>
+                                            <div className='col-lg-8 col-md-8 col-sm-12 col-xs-12'>
+                                                <div className='slide_content'>
+                                                    <h2 className="h2-slide white-color mb-xs-10">MAKE THE FIRST MOVE WITH STRATEGY & CONSULTING</h2>
+                                                    <p className="white-color ">At Scriptics, our real-world and advanced quality solutions will help you power your digitalization.</p>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>     
+                                </div>      
+                            </div>
+                            <div className='slide-2'>  
+                                <div className='slide-img'>
+                                    <img src="/assets/img/interactive.jpeg" />
+                                    <div className='slider-overlay-amethyst'></div>
+                                </div>
+                                <div className='caption'>
+                                    <div className='container'>
+                                        <div className='row'>
+                                            <div className='col-lg-8 col-md-8 col-sm-12 col-xs-12'>
+                                                <div className='slide_content'>
+                                                    <h2 className="h2-slide white-color mb-xs-10">INITIAL DESIGN WITH INTERACTIVE TECHNOLOGY</h2>
+                                                    <p className="white-color ">Implement technologies to amplify and automate processes without any human intervention.</p>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>     
+                                </div>      
+                            </div>
+                            <div className='slide-3'>  
+                                <div className='slide-img'>
+                                    <img src="/assets/img/emerging-digital-engagement-lead-mob.png" />
+                                    <div className='slider-overlay-amethyst'></div>
+                                </div>
+                                <div className='caption'>
+                                    <div className='container'>
+                                        <div className='row'>
+                                            <div className='col-lg-8 col-md-8 col-sm-12 col-xs-12'>
+                                                <div className='slide_content'>
+                                                    <h2 className="h2-slide white-color mb-xs-10">SCRIPTICS, AI FOR GAMING EXPERIENCE</h2>
+                                                    <p className="white-color ">Uncover the layers of entertainment with an AI-powered Gaming experience to all the gamers.</p>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>     
+                                </div>      
+                            </div>
+                        </OwlCarousel>
+                        </div>
+                    </div>
+                </section>        
+                <section className="work-caro work work-mob" id={5}>
+                    <div className="container">
+                        <div className="row align-items-center">
+                        <OwlCarousel className="owl-theme" {...options} >
+                            <div className='slide-1'>  
+                                <div className='slide-img'>
+                                    <img src="/assets/img/factory-boosts-growth-lead.png" />
+                                    <div className='slider-overlay-amethyst'></div>
+                                </div>
+                                <div className='caption'>
+                                    <div className='container'>
+                                        <div className='row'>
+                                            <div className='col-lg-8 col-md-8 col-sm-12 col-xs-12'>
+                                                <div className='slide_content'>
+                                                    <h2 className="h2-slide white-color mb-xs-10">MAKE THE FIRST MOVE WITH STRATEGY & CONSULTING</h2>
+                                                    <p className="white-color ">At Scriptics, our real-world and advanced quality solutions will help you power your digitalization.</p>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>     
+                                </div>      
+                            </div>
+                            <div className='slide-2'>  
+                                <div className='slide-img'>
+                                    <img src="/assets/img/interactive.jpeg" />
+                                    <div className='slider-overlay-amethyst'></div>
+                                </div>
+                                <div className='caption'>
+                                    <div className='container'>
+                                        <div className='row'>
+                                            <div className='col-lg-8 col-md-8 col-sm-12 col-xs-12'>
+                                                <div className='slide_content'>
+                                                    <h2 className="h2-slide white-color mb-xs-10">INITIAL DESIGN WITH INTERACTIVE TECHNOLOGY</h2>
+                                                    <p className="white-color ">Implement technologies to amplify and automate processes without any human intervention.</p>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>     
+                                </div>      
+                            </div>
+                            <div className='slide-3'>  
+                                <div className='slide-img'>
+                                    <img src="/assets/img/emerging-digital-engagement-lead-mob.png" />
+                                    <div className='slider-overlay-amethyst'></div>
+                                </div>
+                                <div className='caption'>
+                                    <div className='container'>
+                                        <div className='row'>
+                                            <div className='col-lg-8 col-md-8 col-sm-12 col-xs-12'>
+                                                <div className='slide_content'>
+                                                    <h2 className="h2-slide white-color mb-xs-10">SCRIPTICS, AI FOR GAMING EXPERIENCE</h2>
+                                                    <p className="white-color ">Uncover the layers of entertainment with an AI-powered Gaming experience to all the gamers.</p>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>     
+                                </div>      
+                            </div>
+                        </OwlCarousel>
+                        </div>
+                    </div>
+                </section>        
                 
                 <section className='aim'>
                     <div className='container'>

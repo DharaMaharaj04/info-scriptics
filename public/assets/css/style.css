@@ -379,32 +379,6 @@ border-btm {border-bottom: 1px solid rgba(255,255,255,.2);}
   background-color: #D0B5D5;
 }
 .know-us{ margin: 50px 0;}
-.team .scrtabs-tab-scroll-arrow.scrtabs-tab-scroll-arrow-left {text-align: right; /* affects amount of scrollToActiveTab movement */padding-right: 6px;}
-.team .scrtabs-tab-scroll-arrow{ color: rgb(30, 28, 28);}
-.team .nav-tabs .nav-link { color: #000;}
-.team .nav-tabs .nav-link:hover{ background-color: #ff9901; color: #fff;}
-.team .nav-tabs .nav-link.active { background-color: #ff9901; color: #fff;}
-.team .loc_tab{ padding-top: 40px; margin: 30px 0; height: 200px; max-width: 100%;}
-
-.team.loc_tab p{ font-size: 18px;}
-.team .scrtabs-tab-scroll-arrow.scrtabs-tab-scroll-arrow-right {width: 48px; /* affects amount of scrollToActiveTab movement */padding-left: 6px;}
-.team-pro ul li::before{
-  content: line !important;
-  color: #777777 !important;
-  position: relative !important;
-  top: 0px !important;
-  left: 10px !important;
-}
-.team .tab-content{ margin: 50px 0;}
-.tabs ul > li:first-child > a {border-left: 1px solid #777777 !important;}
-.tabs ul > li > a {border-top: 1px solid #777777 !important;border-bottom: 1px solid #777777 !important;border-right: transparent !important;}
-.tabs ul > li:last-child > a {border-right: 1px solid #777777 !important;}
-.team .nav-tabs .nav-link {border: none;border-top-left-radius: 0rem ; border-top-right-radius: 0rem; }
-.team li a{padding: 20px 40px;}
-.team .nav-tabs {
-   border-bottom: none; 
-   justify-content: center;
-}
 
 .team-desc {margin: 20px 0;}
 .eqh-box{ background-color: #cdcdcd; margin: 50px 0;}

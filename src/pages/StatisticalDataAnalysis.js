@@ -1,8 +1,23 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
+
 
 export default class StatisticalDataAnalysis extends Component {
     render() {
+
+        const options = {
+            loop: true,
+            margin: 0,
+            items: 1,
+            autoplay: true,
+            dots: true,
+            autoplay: true,
+            dots: true
+        }; 
+
         return (
             <div className="service-page">
             <Helmet>
@@ -10,41 +25,86 @@ export default class StatisticalDataAnalysis extends Component {
                 <meta name="description" content= "Statistical Data Analysis" />
                 <body id="page-service" />
             </Helmet>
-                <div className="spacer"></div>
-                <section className="srv-main">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-12 col-sm-12 col-lg-6">
-                                <h3 className="srv-cat">Service</h3>
-                                <h2 className="">Statistical Data Analysis</h2>
-                                <div className="srv-excerpt">
-                                    <p>Quantifying the unquantifiable.</p>
-                                </div>
-                            </div>
-                        </div>
+            <section className='srv-main'>
+            <OwlCarousel className="owl-theme" {...options} >
+                <div className='slide-1'>  
+                    <div className='slide-img'>
+                        <img src="/assets/img/employee-experience-lead.png" />
+                        <div className='slider-overlay-amethyst'></div>
                     </div>
-                </section>
-                <section className="srv-img" style={{background:`url(/assets/img/service_ai_banner.png) no-repeat`}}>
-                </section>
+                    <div className='caption'>
+                        <div className='container'>
+                            <div className='row'>
+                                <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
+                                    <div className='slide_content'>
+                                        <h2 className="h2-slide white-color mb-xs-10">MAKE THE FIRST MOVE WITH STRATEGY & CONSULTING</h2>
+                                       
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>     
+                    </div>      
+                </div>
+                <div className='slide-2'>
+                    <div className='slide-img'>
+                        <img src="/assets/img/cloud-data-cultivates-cs-lead.png" />
+                        <div className='slider-overlay-amethyst'></div>
+                    </div>
+                    <div className='caption'>
+                        <div className='container'>
+                            <div className='row'>
+                                <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
+                                    <div className='slide_content'>
+                                        <h2 className="h2-slide white-color mb-xs-10">INITIAL DESIGN WITH INTERACTIVE TECHNOLOGY</h2>
+                                        
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>    
+                </div>
+                <div className='slide-3'>
+                    <div className='slide-img'>
+                        <img src="/assets/img/enterprise-agility-lead-mob.jpg" />
+                        <div className='slider-overlay-amethyst'></div>
+                    </div>
+                    <div className='caption'>
+                        <div className='container'>
+                            <div className='row'> 
+                                <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12 fadeInUp  Wow from-bottom'>
+                                    <div className='slide_content'>
+                                        <h2 className="h2-slide white-color mb-xs-10">SCRIPTICS, AI FOR GAMING EXPERIENCE</h2>
+                                        
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>    
+                    </div>
+                </div>
+            </OwlCarousel>
+        </section>
                 <section className="srv-content">
                     <div className="container">
                         <div className="row">
-                            <div className="col-12 col-sm-12 col-md-12 col-lg-12">
-                                <div className="srv-info">
-                                    <p className="srv-info">We proudly live in an age called the Information age, data being of the utmost relevance. The importance of data comes to play when statistical data analysis comes into the picture.<br/><br/>Scriptics uses Statistical Data Analysis, a subset of mathematics and science wherein descriptive and qualitative data is quantified to establish trends and patterns. We enable you to understand the expectations of the consumer and we ensure that those expectations are met and exceeded in every consumer interaction. </p>
+                        <div className='col-12 col-sm-12 col-md-12 col-lg-12'>
+                                <div className="col-12 col-sm-12 col-md-6 col-lg-6 fadeInUp  Wow from-right">
+                                    <div className="indus-info">
+                                        <h2 className="indus-title_1">Quantifying the unquantifiable.</h2>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="col-12 col-sm-12 col-md-6 col-1g-6">
+                            <div className="col-12 col-sm-12 col-md-6 col-1g-6 fadeInUp  Wow from-right">
                                 <div className="srv-info">
+                                    <p>We proudly live in an age called the Information age, data being of the utmost relevance. The importance of data comes to play when statistical data analysis comes into the picture.<br/><br/>Scriptics uses Statistical Data Analysis, a subset of mathematics and science wherein descriptive and qualitative data is quantified to establish trends and patterns. We enable you to understand the expectations of the consumer and we ensure that those expectations are met and exceeded in every consumer interaction.</p>
                                     <p>We, at Scriptics, use Statistical Data Analysis to manage your professional data. During the process of assimilation of data, we give special attention to be given to ensure that no mistakes are made while inputting the data. We also emphasize on the fact that if the data is not processed within the timeline, the results may no longer be useful and the whole process loses its importance.</p>
                                 </div>
                             </div>
-                            <div className="col-12 col-sm-12 col-md-6 col-1g-6">
+                            <div className="col-12 col-sm-12 col-md-6 col-1g-6  fadeInUp  Wow from-left">
                                 <img className="srv-con-img" src="/assets/img/ai_ (1).png" alt="AI & Automation icon" style={{height:300,width:'100%'}}/>
                             </div>
                             <div className="srv-con col-12 col-sm-12 col-md-12 col-lg-12" style={{paddingTop:50}}>
                                 <div className="srv-info">
-                                    <p className="srv-info">Scriptics is continually working towards using Statistical Data Analysis to its maximum capability.The Statistical Data Analysis also includes services of presenting data using the following:</p>
+                                    <h4 className="srv-info">Scriptics is continually working towards using Statistical Data Analysis to its maximum capability.The Statistical Data Analysis also includes services of presenting data using the following:</h4>
                                 </div>
                             </div>
                         </div>
@@ -53,31 +113,31 @@ export default class StatisticalDataAnalysis extends Component {
                 <section className="srv-level">
                     <div className="container">
                         <div className="row">
-                            <div className="srv-box col-12 col-sm-12 col-md-6 col-lg-6">
+                            <div className="srv-box col-12 col-sm-12 col-md-6 col-lg-6 fadeInUp  Wow from-bottom">
                                 <div className="image_with_text">
                                     <img src="/assets/img/choice.svg" alt="service level icon 1"/>
                                     <p>SPSS – Statistical Package for Social Sciences, used for the most complex forms of data and produces easy to read and understand statistical data</p>
                                 </div>
                             </div>
-                            <div className="srv-box col-12 col-sm-12 col-md-12 col-lg-6">
+                            <div className="srv-box col-12 col-sm-12 col-md-12 col-lg-6 fadeInUp  Wow from-bottom">
                                 <div className="image_with_text">
                                     <img src="/assets/img/discover (1).svg" alt="service level icon 2"/>
                                     <p>SAS – Statistical Analysis Systems, comes to play in analyzing and managing of data</p>
                                 </div>
                             </div>
-                            <div className="srv-box col-12 col-sm-12 col-md-12 col-lg-6">
+                            <div className="srv-box col-12 col-sm-12 col-md-12 col-lg-6 fadeInUp  Wow from-bottom">
                                 <div className="image_with_text">
                                     <img src="/assets/img/development.svg" alt="service level icon 3"/>
                                     <p>Microsoft Excel </p>
                                 </div>
                             </div>
-                            <div className="srv-box col-12 col-sm-12 col-md-12 col-lg-6">
+                            <div className="srv-box col-12 col-sm-12 col-md-12 col-lg-6 fadeInUp  Wow from-bottom">
                                 <div className="image_with_text">
                                     <img src="/assets/img/automation (1).svg" alt="service level icon 4"/>
                                     <p>We work on digitizing data that is collected in various formats and then is transported via an excel spreadsheet or database. </p>
                                 </div>
                             </div>
-                            <div className="srv-box col-12 col-sm-12 col-md-12 col-lg-6">
+                            <div className="srv-box col-12 col-sm-12 col-md-12 col-lg-6 fadeInUp  Wow from-bottom">
                                 <div className="image_with_text">
                                     <img src="/assets/img/innovation.svg" alt="service level icon 5"/>
                                     <p> Based on the need for this digitized data and the value it imparts in decision-making, the data can be segregated and coded. </p>
@@ -92,13 +152,13 @@ export default class StatisticalDataAnalysis extends Component {
                             <div className="col-12 col-sm-12 col-md-12 col-lg-12">
                                 <h2>CAPABILITIES</h2>
                             </div>
-                            <div className="srv-capability-box col-12 col-lg-4">
+                            <div className="srv-capability-box col-12 col-lg-4 fadeInUp  Wow from-bottom">
                                 <div className="capa_image_with_text">
                                     <img src="/assets/img/robotic.svg" alt="capabilities"/>
                                     <p>We also use the following tests to analyze the data collected. Few of those tests are – Correlation, Regression, Chi-Square Test etc.</p>
                                 </div>
                             </div>
-                            <div className="srv-capability-box col-12 col-lg-4">
+                            <div className="srv-capability-box col-12 col-lg-4 fadeInUp  Wow from-bottom">
                                 <div className="capa_image_with_text">
                                     <div className="capa_img">
                                         <img src="/assets/img/Mask Group 2.svg" alt="capabilities"/>
@@ -106,7 +166,7 @@ export default class StatisticalDataAnalysis extends Component {
                                     <p>The data is usually processed and populated in the form of tables or graphs, which can then be used in presenting them on MS PowerPoint, Keynote or Impress.</p>
                                 </div>
                             </div>
-                            <div className="srv-capability-box col-12 col-lg-4">
+                            <div className="srv-capability-box col-12 col-lg-4 fadeInUp  Wow from-bottom">
                                 <div className="capa_image_with_text">
                                     <div className="capa_img">
                                         <img src="/assets/img/Mask Group 3.svg" alt="capabilities"/>
@@ -114,7 +174,7 @@ export default class StatisticalDataAnalysis extends Component {
                                     <p>Scriptics works on breathing life into lifeless data, by which it can not only produce correct and trustworthy results but also contribute to decision-making, from the simplest to the most complex one at hand. </p>
                                 </div>
                             </div>
-                            <div className="srv-capability-box col-12 col-lg-4">
+                            <div className="srv-capability-box col-12 col-lg-4 fadeInUp  Wow from-bottom">
                                 <div className="capa_image_with_text">
                                     <div className="capa_img">
                                         <img src="/assets/img/Mask Group 4.svg" alt="capabilities"/>
@@ -122,7 +182,7 @@ export default class StatisticalDataAnalysis extends Component {
                                     <p>We also emphasize on the fact that if the data is not processed within the timeline, the results may no longer be useful and the whole process loses its importance. </p>
                                 </div>
                             </div>
-                            <div className="srv-capability-box col-12 col-lg-4">
+                            <div className="srv-capability-box col-12 col-lg-4 fadeInUp  Wow from-bottom">
                                 <div className="capa_image_with_text">
                                     <div className="capa_img">
                                         <img src="/assets/img/Mask Group 5.svg" alt="capabilities"/>

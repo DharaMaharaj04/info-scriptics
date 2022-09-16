@@ -42,6 +42,14 @@ import {Helmet} from "react-helmet";
 import React, { useEffect } from 'react';
 import ReactGA from 'react-ga';
 
+import OilAndGas from './pages/OilAndGas';
+import Retail from './pages/Retail';
+import ScripticsAIGaming from './pages/ScripticsAIGaming';
+import SignalProcessing from './pages/SignalProcessing';
+import StatisticalDataAnalysis from './pages/StatisticalDataAnalysis'
+import ThinkboxStudio from './pages/ThinkboxStudio';
+import WearableComputing from './pages/WearableComputing';
+
 function App() {
   useEffect(() => {
     ReactGA.initialize('UA-204814637-2');
@@ -78,6 +86,7 @@ function App() {
             <Route exact path='/industry_checmical' component={Chemical} />
             <Route exact path='/computer_vision' component={ComputerVision} />
             <Route exact path='/industry_consumer_goods' component={ConsumerGoods} />
+            <Route exact path='/contact' component={Contact} />
             <Route exact path='/case_study_automation' component={CsAi} />
             <Route exact path='/data_engineering_and_analytics' component={DataEngineeringAnalytics} />
             <Route exact path='/deep_learning' component={DeepLearning} />
@@ -93,7 +102,13 @@ function App() {
             <Route exact path='/microsoft_on_aws' component={MicrosoftOnAws} />
             <Route exact path='/migration' component={Migration} />
             <Route exact path='/natural_language_processing' component={NaturalLanguageProcessing} />
-            <Route exact path='/contact' component={Contact} />
+            <Route exact path='/industry_retail' component={Retail} />
+            <Route exact path='/industry_oil_and_gas' component={OilAndGas} />
+            <Route exact path='/scriptics_ai_gaming' component={ScripticsAIGaming} />
+            <Route exact path='/signal_processing' component={SignalProcessing} />
+            <Route exact path='/statistical_data_analysis' component={StatisticalDataAnalysis} />
+            <Route exact path='/thinkbox_studio' component={ThinkboxStudio} />
+            <Route exact path='/wearable_computing' component={WearableComputing} />
             <Route component={Page404} />
           </Switch>
         <Footer/>
