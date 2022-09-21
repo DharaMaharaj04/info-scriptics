@@ -58,6 +58,11 @@ function FullPageScroll() {
                         </a>
                     </li>
                     <li>
+                        <a href="#partners" className="dot" data-scroll="partners">
+                            <span className='slider_name'>Partners</span>
+                        </a>
+                    </li>
+                    <li>
                         <a href="#the_careers" className="dot" data-scroll="the_careers">
                             <span className='slider_name'>Careers</span>
                         </a>
@@ -101,8 +106,8 @@ function FullPageScroll() {
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-lg-7 col-md-8 col-sm-12 col-xs-12 p0 wow fadeInUp animated from-right appear">
-                                <h1 className="home-second-heading white-color mb20 mb-xs-10">KNOWLEDGE IS OF NO VALUE UNLESS YOU PUT IT INTO PRACTICE</h1>
-                                <p><em>Embrace the talent revolution to remain relevant in the future.</em></p>
+                                <h1 className="h2-heading white-color mb20 mb-xs-10">KNOWLEDGE IS OF NO VALUE UNLESS YOU PUT IT INTO PRACTICE</h1>
+                                <p>Embrace the talent revolution to remain relevant in the future.</p>
                                 <a className="btn btn-shutter-more text-uppercase" href="/works">explore</a>
                             </div>
                         </div>
@@ -116,7 +121,7 @@ function FullPageScroll() {
                             <div className="col-lg-6 col-md-6 col-sm-12 col-md-offset-6 col-xs-12"></div>
                             <div className="col-lg-6 col-md-6 col-sm-12 col-md-offset-6 col-xs-12 wow fadeInUp animated from-left">
                                 <p className="case-cat">Case Studies - BPO</p>
-                                <h1 className="home-second-heading white-color mb20 mb-xs-10">WHAT IS SO GOOD ABOUT CUSTOMER SERVICE: SALES FORCE</h1>
+                                <h1 className="h2-heading white-color mb20 mb-xs-10">WHAT IS SO GOOD ABOUT CUSTOMER SERVICE: SALES FORCE</h1>
                                 <a className="btn btn-shutter-more text-uppercase" href="/case_study_bpo">explore</a>
                             </div>
                         </div>
@@ -238,14 +243,12 @@ function FullPageScroll() {
                                 </button>  
                                 <div className='container'>
                                     <div className='row'>
-                                        <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12'>            
-                                                                
+                                        <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 modal_h3'>                                
                                             <h3>SCRIPTICS, MACHINE LEARNING AND ARTIFICIAL INTELLIGENCE LEVERAGES THE BEST TOOLS AND LEARNINGS THE BEST TOOLS,</h3>
                                             <p>Scriptics is one of the leading deep learning companies that focus on the development of enterprise solutions with the combination of artificial intelligence and machine learning. Our Deep Learning experts provide a comprehensive solutions.</p>
                                             <h3>TALENTED AND DEDICATED TEAM, BRINGS YOU COLSER TO THE FUTURE.</h3>
                                             <p>At Scriptics, our real-world and advanced quality solutions will help you power your digitalization with comprehensive digital asset management. Our expert team of Machine Learning and Artificial Intelligence leverages the best tools and learnings to transform your customer experience into an innovative digital experience. Our team will help you capitalize the visual data and information with the help of comprehensive computer vision solutions through streamlined processes.</p>
                                             <p>Scriptics is one of the leading deep learning companies that focus on the development of enterprise solutions with the combination of artificial intelligence and machine learning. Our Deep Learning experts provide a comprehensive set of solutions right from development to maintenance by employing the right set of platforms, tools, and languages. We allow our clients to uncover new processes and adapt to the trends in volatile business scenarios and demands. With our exemplary deep learning services, business capabilities.</p>          
-                                
                                         </div>  
                                     </div>
                                 </div>
@@ -258,14 +261,12 @@ function FullPageScroll() {
                                 </button>  
                                 <div className='container'>
                                     <div className='row'>
-                                        <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12'>            
-                                                                
+                                        <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 modal_h3'>                                    
                                             <h3>SCRIPTICS, MACHINE LEARNING AND ARTIFICIAL INTELLIGENCE LEVERAGES THE BEST TOOLS AND LEARNINGS THE BEST TOOLS,</h3>
                                             <p>Scriptics is one of the leading deep learning companies that focus on the development of enterprise solutions with the combination of artificial intelligence and machine learning. Our Deep Learning experts provide a comprehensive solutions.</p>
                                             <h3>TALENTED AND DEDICATED TEAM, BRINGS YOU COLSER TO THE FUTURE.</h3>
                                             <p>At Scriptics, our real-world and advanced quality solutions will help you power your digitalization with comprehensive digital asset management. Our expert team of Machine Learning and Artificial Intelligence leverages the best tools and learnings to transform your customer experience into an innovative digital experience. Our team will help you capitalize the visual data and information with the help of comprehensive computer vision solutions through streamlined processes.</p>
                                             <p>Scriptics is one of the leading deep learning companies that focus on the development of enterprise solutions with the combination of artificial intelligence and machine learning. Our Deep Learning experts provide a comprehensive set of solutions right from development to maintenance by employing the right set of platforms, tools, and languages. We allow our clients to uncover new processes and adapt to the trends in volatile business scenarios and demands. With our exemplary deep learning services, business capabilities.</p>          
-                                
                                         </div>  
                                     </div>
                                 </div>
@@ -278,14 +279,12 @@ function FullPageScroll() {
                                 </button>  
                                 <div className='container'>
                                     <div className='row'>
-                                        <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12'>            
-                                                                
+                                        <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 modal_h3'>                               
                                             <h3>SCRIPTICS, MACHINE LEARNING AND ARTIFICIAL INTELLIGENCE LEVERAGES THE BEST TOOLS AND LEARNINGS THE BEST TOOLS,</h3>
                                             <p>Scriptics is one of the leading deep learning companies that focus on the development of enterprise solutions with the combination of artificial intelligence and machine learning. Our Deep Learning experts provide a comprehensive solutions.</p>
                                             <h3>TALENTED AND DEDICATED TEAM, BRINGS YOU COLSER TO THE FUTURE.</h3>
                                             <p>At Scriptics, our real-world and advanced quality solutions will help you power your digitalization with comprehensive digital asset management. Our expert team of Machine Learning and Artificial Intelligence leverages the best tools and learnings to transform your customer experience into an innovative digital experience. Our team will help you capitalize the visual data and information with the help of comprehensive computer vision solutions through streamlined processes.</p>
                                             <p>Scriptics is one of the leading deep learning companies that focus on the development of enterprise solutions with the combination of artificial intelligence and machine learning. Our Deep Learning experts provide a comprehensive set of solutions right from development to maintenance by employing the right set of platforms, tools, and languages. We allow our clients to uncover new processes and adapt to the trends in volatile business scenarios and demands. With our exemplary deep learning services, business capabilities.</p>          
-                                
                                         </div>  
                                     </div>
                                 </div>
@@ -298,14 +297,12 @@ function FullPageScroll() {
                                 </button>  
                                 <div className='container'>
                                     <div className='row'>
-                                        <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12'>            
-                                                                
+                                        <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 modal_h3'>                               
                                             <h3>SCRIPTICS, MACHINE LEARNING AND ARTIFICIAL INTELLIGENCE LEVERAGES THE BEST TOOLS AND LEARNINGS THE BEST TOOLS,</h3>
                                             <p>Scriptics is one of the leading deep learning companies that focus on the development of enterprise solutions with the combination of artificial intelligence and machine learning. Our Deep Learning experts provide a comprehensive solutions.</p>
                                             <h3>TALENTED AND DEDICATED TEAM, BRINGS YOU COLSER TO THE FUTURE.</h3>
                                             <p>At Scriptics, our real-world and advanced quality solutions will help you power your digitalization with comprehensive digital asset management. Our expert team of Machine Learning and Artificial Intelligence leverages the best tools and learnings to transform your customer experience into an innovative digital experience. Our team will help you capitalize the visual data and information with the help of comprehensive computer vision solutions through streamlined processes.</p>
                                             <p>Scriptics is one of the leading deep learning companies that focus on the development of enterprise solutions with the combination of artificial intelligence and machine learning. Our Deep Learning experts provide a comprehensive set of solutions right from development to maintenance by employing the right set of platforms, tools, and languages. We allow our clients to uncover new processes and adapt to the trends in volatile business scenarios and demands. With our exemplary deep learning services, business capabilities.</p>          
-                                
                                         </div>  
                                     </div>
                                 </div>
@@ -368,29 +365,29 @@ function FullPageScroll() {
                                 <div className='new_padd'>
                                     <h2>In the news</h2>
                                     <div className='pro_news'>
-                                        <h4 className='news-desc'>
-                                            Scriptics starting with new country- "Australia"
-                                            <img className="img-right-arrow" alt="arrow" src="/assets/img/right-arrow.svg" /></h4>
+                                        <h4 className='news-desc'>Scriptics starting with new country- "Australia"
+                                            <img className="img-right-arrow" alt="arrow" src="/assets/img/right-arrow.svg" />
+                                        </h4>
                                     </div>
                                     <div className='pro_news'>
-                                        <h4 className='news-desc'>
-                                        The Millets Meetup. Organic - Chemical Free Food - Vegan & Health Eating Community.
-                                            <img className="img-right-arrow" alt="arrow" src="/assets/img/right-arrow.svg" /></h4>
+                                        <h4 className='news-desc'>The Millets Meetup. Organic - Chemical Free Food - Vegan & Health Eating Community.
+                                            <img className="img-right-arrow" alt="arrow" src="/assets/img/right-arrow.svg" />
+                                        </h4>
                                     </div>
                                     <div className='pro_news'>
-                                        <h4 className='news-desc'>
-                                            Invest Ontario and Toronto Business Development Centre supports to Scriptics for future development.
-                                            <img className="img-right-arrow" alt="arrow" src="/assets/img/right-arrow.svg" /></h4>
+                                        <h4 className='news-desc'>Invest Ontario and Toronto Business Development Centre supports to Scriptics for future development.
+                                            <img className="img-right-arrow" alt="arrow" src="/assets/img/right-arrow.svg" />
+                                        </h4>
                                     </div>
                                     <div className='pro_news'>
-                                        <h4 className='news-desc'>
-                                        Scriptics will be attending at Collision Conf in Toronto 2022.
-                                            <img className="img-right-arrow" alt="arrow" src="/assets/img/right-arrow.svg" /></h4>
+                                        <h4 className='news-desc'>Scriptics will be attending at Collision Conf in Toronto 2022.
+                                            <img className="img-right-arrow" alt="arrow" src="/assets/img/right-arrow.svg" />
+                                        </h4>
                                     </div>
                                     <div className='pro_news'>
-                                        <h4 className='news-desc'>
-                                        Scriptics, #ICYMI unlocking global market opportunities for startups with T-Hub.
-                                            <img className="img-right-arrow" alt="arrow" src="/assets/img/right-arrow.svg" /></h4>
+                                        <h4 className='news-desc'>Scriptics, #ICYMI unlocking global market opportunities for startups with T-Hub.
+                                            <img className="img-right-arrow" alt="arrow" src="/assets/img/right-arrow.svg" />
+                                        </h4>
                                     </div>
                                 </div>    
                             </div>
@@ -399,8 +396,7 @@ function FullPageScroll() {
                             <div className='row col-eq-ht no-gutters'>
                                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-0 ctrl-width-mob">
                                     <div className="new_in"> 
-                                        <a href="/" title="Insight">
-                                          
+                                        <a href="/" title="Insight">  
                                             <img alt="Insight" className="content-image" src="/assets/img/strategy.jpg" /> 
                                             <div className="content-details fadeIn-bottom">
                                                 <h3 className="content-title">STRATEGY<br /></h3>
@@ -444,6 +440,19 @@ function FullPageScroll() {
                     </div>
                 </div> 
             </section>
+            <section className='sec partners nav_name' id="partners">
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center'>
+                            <img src='/assets/img/vertical-line.png' alt='vertical-line' />
+                            <h2 className="h2-heading">Partners</h2>
+                            <h2 className="partner-head">OUR PARTNER ECOSYSTEM</h2>
+                            <h4 className="inner-head">Our aim is to harness the potential of these platforms at the greatest speed in the market, accelerating the path to value in all directions for our clients.</h4>
+                            <img src="/assets/img/partner.png" alt="partner icon" className='eco-partner-img'/>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section className="sec the_careers nav_name" id="the_careers">
                 <div className='container'>
                     <div className='row'>
@@ -476,7 +485,7 @@ function FullPageScroll() {
                         </div>
                         <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center wow fadeInUp animated from-right'>    
                             <h4 className='careere_tlt'>Find Career opportunities </h4>
-                            <a className="btn  text-uppercase career_btn" href="/aboutus#career">Explore Careers</a>
+                            <a className="btn  text-uppercase career_btn" href="/contact/#contact-us">Explore Careers</a>
                         </div>
                     </div>
                 </div>

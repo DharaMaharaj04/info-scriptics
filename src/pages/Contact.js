@@ -6,9 +6,9 @@ export default class Chemical extends Component {
         return (
             <div className="industries-page">
                 <Helmet>
-                <title>Scritpics | Contact</title>
-                <meta name="description"  content />
-                <body id="page-case-studies" />
+                    <title>Scritpics | Contact</title>
+                    <meta name="description"  content />
+                    <body id="page-case-studies" />
                 </Helmet>
                 <section className="sec contact_page">
                     <div className='over_content'>
@@ -30,125 +30,126 @@ export default class Chemical extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="circle-grid">
-                
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_health">
-                                    <div className="bg-queries pdg-queries">
-                                    <h4>Health</h4>
-                                    <span className="head-abtus-bdr"></span>
-                                    <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
-                                    </div>
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> 
+                                    <a href="/industry_health">
+                                        <div className="bg-queries pdg-queries">
+                                            <h4>Health</h4>
+                                            <span className="head-abtus-bdr"></span>
+                                            <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
+                                        </div>
                                     </a>
                                 </div>
-                        
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_chemical">
-                                    <div className="bg-queries pdg-queries">
-                                    <h4>Chemicals</h4>
-                                    <span className="head-abtus-bdr"></span>
-                                    <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
-                                    </div>
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom">
+                                    <a href="/industry_chemical">
+                                        <div className="bg-queries pdg-queries">
+                                            <h4>Chemicals</h4>
+                                            <span className="head-abtus-bdr"></span>
+                                            <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
+                                        </div>
                                     </a>
                                 </div>
-                        
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_retail">
-                                    <div className="bg-queries pdg-queries">
-                                    <h4>Retail</h4>
-                                    <span className="head-abtus-bdr"></span>
-                                    <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
-                                    </div>
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom">
+                                    <a href="/industry_retail">
+                                        <div className="bg-queries pdg-queries">
+                                            <h4>Retail</h4>
+                                            <span className="head-abtus-bdr"></span>
+                                            <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
+                                        </div>
                                     </a>
                                 </div>
-                        
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_automative">
-                                    <div className="bg-queries pdg-queries">
-                                    <h4>Automative</h4>
-                                    <span className="head-abtus-bdr"></span>
-                                    <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
-                                    </div>
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> 
+                                    <a href="/industry_automative">
+                                        <div className="bg-queries pdg-queries">
+                                            <h4>Automative</h4>
+                                            <span className="head-abtus-bdr"></span>
+                                            <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
+                                        </div>
                                     </a>
                                 </div>
-                        
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_dental">
-                                    <div className="bg-queries pdg-queries">
-                                    <h4>Dental</h4>
-                                    <span className="head-abtus-bdr"></span>
-                                    <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
-                                    </div>
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> 
+                                    <a href="/industry_dental">
+                                        <div className="bg-queries pdg-queries">
+                                            <h4>Dental</h4>
+                                            <span className="head-abtus-bdr"></span>
+                                            <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
+                                        </div>
                                     </a>
                                 </div>
-                        
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_consumer_goods">
-                                    <div className="bg-queries pdg-queries">
-                                    <h4>Consumer Goods</h4>
-                                    <span className="head-abtus-bdr"></span>
-                                    <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
-                                    </div>
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> 
+                                    <a href="/industry_consumer_goods">
+                                        <div className="bg-queries pdg-queries">
+                                            <h4>Consumer Goods</h4>
+                                            <span className="head-abtus-bdr"></span>
+                                            <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
+                                        </div>
                                     </a>
                                 </div>
-                        
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_bfsi">
-                                    <div className="bg-queries pdg-queries">
-                                    <h4>BSFI</h4>
-                                    <span className="head-abtus-bdr"></span>
-                                    <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
-                                    </div>
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> 
+                                    <a href="/industry_bfsi">
+                                        <div className="bg-queries pdg-queries">
+                                            <h4>BSFI</h4>
+                                            <span className="head-abtus-bdr"></span>
+                                            <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
+                                        </div>
                                     </a>
                                 </div>
-                        
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_energy">
-                                    <div className="bg-queries pdg-queries">
-                                    <h4>Energy</h4>
-                                    <span className="head-abtus-bdr"></span>
-                                    <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
-                                    </div>
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> 
+                                    <a href="/industry_energy">
+                                        <div className="bg-queries pdg-queries">
+                                            <h4>Energy</h4>
+                                            <span className="head-abtus-bdr"></span>
+                                            <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
+                                        </div>
                                     </a>
                                 </div>
-                        
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> <a href="/industry_oil_and_gas">
-                                    <div className="bg-queries pdg-queries">
-                                    <h4>Oil and Gas</h4>
-                                    <span className="head-abtus-bdr"></span>
-                                    <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
-                                    </div>
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20"> 
+                                    <a href="/industry_oil_and_gas">
+                                        <div className="bg-queries pdg-queries">
+                                            <h4>Oil and Gas</h4>
+                                            <span className="head-abtus-bdr"></span>
+                                            <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
+                                        </div>
                                     </a>
                                 </div>
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_capital_market">
-                                    <div className="bg-queries pdg-queries">
-                                    <h4>Capital Markets</h4>
-                                    <span className="head-abtus-bdr"></span>
-                                    <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
-                                    </div>
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> 
+                                    <a href="/industry_capital_market">
+                                        <div className="bg-queries pdg-queries">
+                                            <h4>Capital Markets</h4>
+                                            <span className="head-abtus-bdr"></span>
+                                            <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
+                                        </div>
                                     </a>
                                 </div>
-                        
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_insurance">
-                                    <div className="bg-queries pdg-queries">
-                                    <h4>Insurance</h4>
-                                    <span className="head-abtus-bdr"></span>
-                                    <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
-                                    </div>
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> 
+                                    <a href="/industry_insurance">
+                                        <div className="bg-queries pdg-queries">
+                                            <h4>Insurance</h4>
+                                            <span className="head-abtus-bdr"></span>
+                                            <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
+                                        </div>
                                     </a>
                                 </div>
-                        
-                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> <a href="/industry_media_entertainment">
-                                    <div className="bg-queries pdg-queries">
-                                    <h4>Media and Entertainment</h4>
-                                    <span className="head-abtus-bdr"></span>
-                                    <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
-                                    </div>
+                                <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> 
+                                    <a href="/industry_media_entertainment">
+                                        <div className="bg-queries pdg-queries">
+                                            <h4>Media and Entertainment</h4>
+                                            <span className="head-abtus-bdr"></span>
+                                            <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
+                                        </div>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section> 
-                <section id="subscribe-newsletter" className="contact-us">
+                <section id="subscribe-newsletter contact-us" className="contact-us">
                     <div className="container">
                         <div className="contact-info row">
                             <div className="col-12 col-lg-12 col-sm-12 text-center fadeInUp  Wow from-right" style={{paddingBottom:30}}>
                                 <div>
-                                <h2>SAY HELLO</h2>
-                                <p style={{fontSize:16}}>If you have an interesting project, an RFP, or just need some help, reach out to us. We’re available. We also teach, lecture, give workshops, and love sharing our knowledge, and we’ll literally go anywhere!</p>
-                                <a className="cnt-mail" href = "mailto: hello@scriptics.ai">hello@scriptics.ai</a>
+                                    <h2>SAY HELLO</h2>
+                                    <p style={{fontSize:16}}>If you have an interesting project, an RFP, or just need some help, reach out to us. We’re available. We also teach, lecture, give workshops, and love sharing our knowledge, and we’ll literally go anywhere!</p>
+                                    <a className="cnt-mail" href = "mailto: hello@scriptics.ai">hello@scriptics.ai</a>
                                 </div>
                             </div>
                         </div>
@@ -159,21 +160,11 @@ export default class Chemical extends Component {
                         <h2 className='white-color'>Locations Explore our service offerings and subsidiaries in specific geography</h2>
                         <div id="tabs">
                             <ul className="nav nav-tabs" role="tablist">
-                            <li className="nav-item">
-                                <a className="nav-link active" data-index="0" data-toggle="tab" href="#tab-0" role="tab">Canada</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link white-color" data-index="1" data-toggle="tab" href="#tab-1" role="tab">USA</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link white-color" data-index="2" data-toggle="tab" href="#tab-2" role="tab">London</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link white-color" data-index="3" data-toggle="tab" href="#tab-3" role="tab">Denmark</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link white-color" data-index="4" data-toggle="tab" href="#tab-4" role="tab">Singapore</a>
-                            </li>
+                                <li className="nav-item"><a className="nav-link active" data-index="0" data-toggle="tab" href="#tab-0" role="tab">Canada</a></li>
+                                <li className="nav-item"><a className="nav-link white-color" data-index="1" data-toggle="tab" href="#tab-1" role="tab">USA</a></li>
+                                <li className="nav-item"><a className="nav-link white-color" data-index="2" data-toggle="tab" href="#tab-2" role="tab">London</a></li>
+                                <li className="nav-item"><a className="nav-link white-color" data-index="3" data-toggle="tab" href="#tab-3" role="tab">Denmark</a></li>
+                                <li className="nav-item"><a className="nav-link white-color" data-index="4" data-toggle="tab" href="#tab-4" role="tab">Singapore</a></li>
                             </ul>
                         </div>
                         <div className="tab-content">

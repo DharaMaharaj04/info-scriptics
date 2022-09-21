@@ -6,7 +6,6 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 export default class Chemical extends Component {
         render() {
-
             const options = {
                 loop: true,
                 margin: 0,
@@ -19,9 +18,9 @@ export default class Chemical extends Component {
         return (
             <div className="industries-page">
                 <Helmet>
-                <title>Scritpics | Chemical</title>
-                <meta name="description"  content />
-                <body id="page-industry" className="industry-health"/>
+                    <title>Scritpics | Chemical</title>
+                    <meta name="description"  content />
+                    <body id="page-industry" className="industry-health"/>
                 </Helmet>
                 <section className='srv-main'>
                     <OwlCarousel className="owl-theme" {...options} >
@@ -35,8 +34,7 @@ export default class Chemical extends Component {
                                     <div className='row'>
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                             <div className='slide_content'>
-                                                <h2 className="h2-slide white-color mb-xs-10">MAKE THE FIRST MOVE WITH STRATEGY & CONSULTING</h2>
-                                               
+                                                <h2 className="h2-slide white-color mb-xs-10">MAKE THE FIRST MOVE WITH STRATEGY & CONSULTING</h2>   
                                             </div>
                                         </div>
                                     </div> 
@@ -54,7 +52,6 @@ export default class Chemical extends Component {
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                             <div className='slide_content'>
                                                 <h2 className="h2-slide white-color mb-xs-10">INITIAL DESIGN WITH INTERACTIVE TECHNOLOGY</h2>
-                                                
                                             </div>
                                         </div>
                                     </div>  
@@ -71,8 +68,7 @@ export default class Chemical extends Component {
                                     <div className='row'> 
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12 fadeInUp  Wow from-bottom'>
                                             <div className='slide_content'>
-                                                <h2 className="h2-slide white-color mb-xs-10">SCRIPTICS, AI FOR GAMING EXPERIENCE</h2>
-                                                
+                                                <h2 className="h2-slide white-color mb-xs-10">SCRIPTICS, AI FOR GAMING EXPERIENCE</h2>    
                                             </div>
                                         </div>
                                     </div> 
@@ -92,10 +88,10 @@ export default class Chemical extends Component {
                                 </div>
                             </div>    
                             <div className="col-12 col-sm-12 col-md-6 col-1g-6 fadeInUp  Wow from-right">
-                            <div className="srv-info">
-                                <p>The chemical and process industry is transitioning from being product sellers to solution providers with constant changes in their landscape. Increased cost, reduced growth rate, and inefficient operations are bringing down their performance. Establishing a secure future with increasing revenues and reduced costs is the top priority of organizations. There is a need for players to join the digital revolution, build new business models, provide effective chemical industry consulting, establish process manufacturing software, and raise the bar for operational excellence.</p>
-                            <p>Our services help streamline processes, enhance production efficiency of plants and reduce environmental impact. We enable efficient operations management through effective cloud strategies, process manufacturing software, asset management, chemical manufacturing software, and Big Data analytics.</p>
-                            </div>
+                                <div className="srv-info">
+                                    <p>The chemical and process industry is transitioning from being product sellers to solution providers with constant changes in their landscape. Increased cost, reduced growth rate, and inefficient operations are bringing down their performance. Establishing a secure future with increasing revenues and reduced costs is the top priority of organizations. There is a need for players to join the digital revolution, build new business models, provide effective chemical industry consulting, establish process manufacturing software, and raise the bar for operational excellence.</p>
+                                    <p>Our services help streamline processes, enhance production efficiency of plants and reduce environmental impact. We enable efficient operations management through effective cloud strategies, process manufacturing software, asset management, chemical manufacturing software, and Big Data analytics.</p>
+                                </div>
                             </div>
                             <div className="col-12 col-sm-12 col-md-6 col-1g-6 fadeInUp  Wow from-left">
                                 <img className="srv-con-img" src="/assets/img/indus_content.png" alt="AI & Automation icon" style={{height:300,width:'100%'}}/>
@@ -154,9 +150,9 @@ export default class Chemical extends Component {
                                         <p>Scriptics's capital market solution suite serves investment banks, prime brokerages, and dealers in alignment with current market standards. </p>
                                     </div>
                                 </div>
-                                </div>
-                                <div className="srv-capability-box col-12 col-lg-4 fadeInUp  Wow from-bottom">
-                                    <div className="capa_image_with_text">
+                            </div>
+                            <div className="srv-capability-box col-12 col-lg-4 fadeInUp  Wow from-bottom">
+                                <div className="capa_image_with_text">
                                     <div className="capa_img">
                                         <img src="/assets/img/Mask Group 5.svg" alt="capabilities icon 3"/>
                                         <p>We are one of the world’s leading and fastest growing global engineering services provider. From product blueprinting to support, from software or hardware to mechanical.</p>
