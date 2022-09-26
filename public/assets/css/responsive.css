@@ -45,14 +45,16 @@
     .abt-menu-row .col-md-12{ padding-right: 0!important; }
     .box{ display: none;}
     .sec h1{ font-size: 2rem;}
-    .home{ background-image: url(/assets/img/endless-retail-cpg-logistics-mob.png); }
-    .digital_cap{ background-image: url(/assets/img/indus_content.png);}
-    .digital_operate{ background: url(/assets/img/cloud-managed-services-cs-lead-mob.png); }
-    .talent_lead{ background-image: url(/assets/img/building-digital-workplaces-lead-mob.png); }
+    .future_technology{ background-image: url(/assets/img/endless-retail-cpg-logistics-mob.png); }
+    .digital_dentistry{ background-image: url(/assets/img/indus_content.png);}
+    .customer_service{ background: url(/assets/img/cloud-managed-services-cs-lead-mob.png); }
+    .talent_revol{ background-image: url(/assets/img/building-digital-workplaces-lead-mob.png); }
     .contact_us{  background-size:cover; background-image: url(/assets/img/fortified-energy-framework.png);}
     .about_page{ background-image: url(/assets/img/company-mob.png);}
     .case_study{ display: none; }
     .case_study{ display: none !important; }
+
+    .our-purpose .para-ovr {line-height: 25px;font-size: 18PX;}
     /*** the next ***/
     .down_img img { height: auto; }
     .expand_sec .col-lg-3{ margin-bottom: 25px; }
@@ -116,15 +118,15 @@
 }    
 @media screen and (min-width: 768px) {
      /*** logo **/
-    .home{ background-image: url(/assets/img/endless-retail-cpg-logistics.png); height: 100vh;}
-    .digital_cap{ background-image: url(/assets/img/indus_content.png); background-position: center left;}
-    .digital_operate{background-image: url(/assets/img/cloud-managed-services-cs-lead.png); height: 100vh;}
-    .talent_lead{background-image: url(/assets/img/building-digital-workplaces-lead.png); height: 100vh;}
+    .future_technology{ background-image: url(/assets/img/endless-retail-cpg-logistics.png); height: 100vh;}
+    .digital_dentistry{ background-image: url(/assets/img/indus_content.png); background-position: center left;}
+    .customer_service{background-image: url(/assets/img/cloud-managed-services-cs-lead.png); height: 100vh;}
+    .talent_revol{background-image: url(/assets/img/building-digital-workplaces-lead.png); height: 100vh;}
     .sec{padding: 100px 0;}
     .contact_page{ background-image: url(/assets/img/fortified-energy-framework.png); height: 100vh; background-color: cadetblue}
     .about_page{ background-image: url(/assets/img/company.png); height: 100vh;}
     /*** our purpose***/
-    .our-purpose .para-ovr {line-height: 22px;font-size: 24PX;}
+    .our-purpose .para-ovr {line-height: 32px;font-size: 30px;}
     .our-purpose .title-sml {font-size: 3rem;padding-bottom: 15px;}
     /** about us ***/
     .about_us p {margin-bottom: 60px;}
@@ -219,10 +221,7 @@
     .bg-amethyst-light .zoom_text:hover{clip-path: circle(460px at 44px 44px);background-color: #963596;}
 }
 @media screen and (prefers-color-scheme: light) {
-    .box i {color: #7e7e7e;}
-    .front_slider ul li .dot span {color: #7e7e7e;  }
-    .front_slider ul li .dot::before {}
-    .front_slider ul li .dot.active::after{border: 2px solid #7e7e7e;background-color: #7e7e7e;}
+   
 }
 @media screen and (max-width: 1200px){
     /** header **/

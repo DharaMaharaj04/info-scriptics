@@ -65,24 +65,31 @@ $(document).ready(function(){
   
   $(window).on('scroll',function(){
 
-    var link = $('.front_slider a.dot');
+    var link = $('.front_slider li.l');
     var top = $(window).scrollTop();
     $('.nav_name').each(function(){
       var id = $(this).attr('id');
       var height = $(this).height();
       var offset = $(this).offset().top - 150;
       if(top >= offset && top < offset + height){
-        link.removeClass('active');
-        $('.front_slider').find('[data-scroll="' + id + '"]').addClass('active');
+        link.removeClass('active').removeClass('mb-50');
+        //var colo = $('.front_slider').find($('ul li.active')).addClass('active'); 
+        $('.front_slider').find('[data-scroll="' + id + '"]').parent('li').addClass('active').addClass('mb-50'); 
+        
+        if($('.front_slider ul .text-colo-white').hasClass('active')){
+          $('.front_slider ul li').removeClass('dark');
+        }
+        if($('.front_slider ul .text-colo-dark').hasClass('active')){
+          $('.front_slider ul li').addClass('dark');
+        }
+
       }
     });
+    
   }); 
-  $('ripple_hover').hover(function(){
-    $(this).addClass("ripple_effect", 1000);
-  }, function(){
-    $(this).removeClass("ripple_effect", 1000);
-  }); 
+  
 });
+
 
 /** check_footer */
 function checkOffset() {
