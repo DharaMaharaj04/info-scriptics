@@ -101,9 +101,8 @@ ul.footer-txt > li > a:hover{color: #bcb8b8;text-decoration: none;}
 .front_slider ul li:hover .dot span{opacity: 1;}
 .front_slider ul li .dot span::before{content: '';position: absolute;top:50%; left:0;transform: translate(7px, -50%);border-top: 7px solid transparent;border-bottom: 7px solid transparent;display: block; }
 .front_slider ul li .dot::before,
-.front_slider ul li .dot::after{content: '';position: absolute;top:50%;display: block;transition: .2s ease-out; border: 0px solid #fff;background-color: #fff;}
-.front_slider ul li .dot::before{height:1px;width: 35px;left:0;transform: translateY(-50%); }
-.front_slider ul li .dot::after{height:4px;width: 55px;transform: translateY(-50%) scale(0);}
+.front_slider ul li .dot::after{content: '';position: absolute;top:50%;display: block;transition: .2s ease-out; border: 0px solid #fff;background-color: #fff; height:0.5px;width: 32px;left:0;transform: translateY(-50%);}
+
 .front_slider ul li .dot.active::after,
 .front_slider ul li.dark:hover .dot::after{transform: translateY(-50%) scale(1);border: 2px solid #7e7e7e;background-color: #7e7e7e;opacity: 1;}
 .front_slider ul li:hover .dot::after{transform: translateY(-50%) scale(1);border: 2px solid #ffffff;background-color: #ffffff;opacity: 1;}
