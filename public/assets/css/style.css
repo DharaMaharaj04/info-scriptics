@@ -139,9 +139,9 @@ ul.footer-txt > li > a:hover{color: #bcb8b8;text-decoration: none;}
 /***------------- digital_operate ---------***/
 .customer_service{}
 .btn-shutter-more:hover {border: 1px solid #000;color: #fff;background-position: left bottom;}
-.btn-shutter-more{border: 1px solid #fff;border-radius: 3px;padding: 15px 30px;width: 155px;height: 50px;color: #fff;display: block;
+.btn-shutter-more{border: 1px solid #fff;border-radius: 3px;padding: 15px 30px;width: 155px;height: 47px;color: #fff;display: block;
   letter-spacing: 1.5px;  margin-top: 20px;  font-weight: 700;  font-size: 14px; background: linear-gradient(to right, black 50%, transparent 50%);
-  background-size: 200% 100%;background-position: right bottom;transition: all .5s ease-out;}
+  background-size: 200% 100%;background-position: right bottom;transition: all .2s ease-out;}
 
 .btn { font-size: 14px; font-weight: 400;  text-align: center; white-space: nowrap;  vertical-align: middle;  text-transform: uppercase;}
 /**----------- talent_lead ------**/
