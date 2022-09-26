@@ -123,8 +123,7 @@ ul.footer-txt > li > a:hover{color: #bcb8b8;text-decoration: none;}
 .front_slider ul .text-colo-white.active .dot::after{height:4px;width: 55px;border: 2px solid #fff;background-color: #fff;transform: translateY(-50%) scale(0);}
 .front_slider ul .text-colo-white.active .dot::after,
 .front_slider ul .text-colo-white.active:hover .dot::after{transform: translateY(-50%) scale(1);border: 2px solid #fff;background-color: #fff;opacity: 1;}
-.front_slider ul .text-colo-white.active .dot::before{background-color: #fff; border-color: 1px solid #fff; }
-.front_slider ul .text-colo-white.active .dot::after{ background-color: #fff; border-color: 2px solid #fff;}
+
 
 .box i {color: #7e7e7e;}
 .front_slider ul li .dot.active::after{border: 2px solid #7e7e7e;background-color: #7e7e7e;}
@@ -139,9 +138,12 @@ ul.footer-txt > li > a:hover{color: #bcb8b8;text-decoration: none;}
 .digital_dentistry{background-color: #f69696 !important;}
 /***------------- digital_operate ---------***/
 .customer_service{}
-.btn-shutter-more:hover {border: 1px solid #000;color: #fff;box-shadow: inset 400px 0 0 0 #000;}
-.btn-shutter-more {color: #fff;  border: 1px solid #fff;  position: relative;  z-index: 1;  display: inline-block;  background-color: transparent;  -webkit-transition: all 0.3s ease-in-out;  -moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;  -o-transition: all 0.3s ease-in-out;  transition: all 0.3s ease-in-out;  padding: 12px 50px;  -webkit-border-radius: 0;  -moz-border-radius: 0;  border-radius: 0;  letter-spacing: 1.5px;  margin-top: 20px;  font-weight: 700;  font-size: 14px;}
-.btn {  display: inline-block;  padding: 15px 35px;  font-size: 14px;  font-weight: 400;  text-align: center;  /* line-height: 1.42857143; */  /* text-align: center; */  white-space: nowrap;  vertical-align: middle;  text-transform: uppercase;  cursor: pointer;  background-image: none;border: 1px solid #fff !important;border-radius: 4px;}
+.btn-shutter-more:hover {border: 1px solid #000;color: #fff;background-position: left bottom;}
+.btn-shutter-more{border: 1px solid #fff;border-radius: 3px;padding: 15px 30px;width: 155px;height: 50px;color: #fff;display: block;
+  letter-spacing: 1.5px;  margin-top: 20px;  font-weight: 700;  font-size: 14px; background: linear-gradient(to right, black 50%, transparent 50%);
+  background-size: 200% 100%;background-position: right bottom;transition: all .5s ease-out;}
+
+.btn { font-size: 14px; font-weight: 400;  text-align: center; white-space: nowrap;  vertical-align: middle;  text-transform: uppercase;}
 /**----------- talent_lead ------**/
 .talent_revol{background-color:#007cc3 }
 
