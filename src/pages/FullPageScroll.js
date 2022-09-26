@@ -83,7 +83,7 @@ function FullPageScroll() {
                                 <div className="col-12 col-lg-7 col-md-8 col-sm-12 col-xs-12 fadeInUp animated from-left">
                                     <div className='head-light'>
                                         <h1 className="h2-heading white-color mb-xs-10">WE BELIEVE IN A FUTURE WHERE TECHNOLOGY MAKES YOUR WORLD BETTER.</h1>
-                                        <Link className="btn btn-shutter-more text-uppercase" to="/works">explore</Link>
+                                        <Link className="btn btn-shutter-more text-uppercase" to="/about-us/#work-stratery">explore</Link>
                                     </div>
                                 </div>
                             </div>
