@@ -179,7 +179,7 @@ button.close{ color: #fff; background-color: #000; border-radius: 20%; border: 2
 .expand_sec{  margin: 70px 0;}
 .btn-danger{background-color: rgba(0, 0, 0, 0.69) !important;border-radius: 50% !important;padding: 8px 15px;}
 .modalDialog {position: fixed;font-family: Arial, Helvetica, sans-serif;top: 0;color:white;right: 0;left: 0;z-index: 99999;opacity:0;-webkit-transition: opacity 300ms ease-in;-moz-transition: opacity 300ms ease-in;transition: opacity 300ms ease-in; pointer-events: none;}
-#largeModal1{ background: url(/assets/img/cloud-1.jpg); background-size:cover;}
+#largeModal1{ background: url(/assets/img/cloud.jpg); background-size:cover;}
 #largeModal2{background: url(/assets/img/industries-1.jpg); background-size:cover;}
 #largeModal3{background: url(/assets/img/cloud-1.jpg); background-size:cover;}
 .modalDialog:target {opacity:1;pointer-events: auto;}
