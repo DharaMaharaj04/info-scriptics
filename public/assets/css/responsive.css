@@ -46,9 +46,9 @@
     .box{ display: none;}
     .sec h1{ font-size: 2rem;}
     .future_technology{ background-image: url(/assets/img/endless-retail-cpg-logistics-mob.png); }
-    .digital_dentistry{ background-image: url(/assets/img/indus_content.png);}
+    .digital_dentistry{ background-image: url(/assets/img/cs-ai-automation-mob.png); }
     .customer_service{ background: url(/assets/img/cloud-managed-services-cs-lead-mob.png); }
-    .talent_revol{ background-image: url(/assets/img/building-digital-workplaces-lead-mob.png); }
+    .talent_revol{ background-image: url(/assets/img/building-digital-workplaces-lead-mob.png); background-position:right; background-color: #133f57fa;}
     .contact_us{  background-size:cover; background-image: url(/assets/img/fortified-energy-framework.png);}
     .about_page{ background-image: url(/assets/img/company-mob.png);}
     .case_study{ display: none; }
