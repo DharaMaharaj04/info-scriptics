@@ -232,7 +232,7 @@ function FullPageScroll() {
                                 <div className="doMoreExpand"><a href="#" className="" data-toggle="modal" data-target="#largeModal3"><img src="/assets/img/explore_expand.svg" width="100" height="30" /> </a></div>
                             </div>
                             
-                            <div className="modal fade" id="largeModal1" tabIndex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">                    
+                            <div className="modal fade" id="largeModal1" tabIndex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true" style={{background: "url('/assets/img/services.png')" }}>                    
                                 <div className="modal-dialog"> 
                                     <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
@@ -442,7 +442,7 @@ function FullPageScroll() {
                             </div>
                             <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center wow fadeInUp animated from-right'>    
                                 <h4 className='careere_tlt'>Find Career opportunities </h4>
-                                <a className="btn  text-uppercase career_btn" href="/contact/#contact-us">Explore Careers</a>
+                                <a className="btn text-uppercase career_btn" href="/contact/#contact-us">Explore Careers</a>
                             </div>
                         </div>
                     </div>
