@@ -88,12 +88,7 @@ $(document).ready(function(){
     
   }); 
 
-  var typed = new Typed(".auto-type", {
-    strings: ["help you?","server you?","connect?"],
-    typeSpeed: 150,
-    backSpeed: 150,
-    loop: true
-});
+  
 
   
 });
@@ -150,12 +145,6 @@ $(document).ready(function(){
       $("html, body").animate({ scrollTop: 0 }, 600); 
       return false; 
   }); 
-  var notFound = new Typed(".notFound", {
-    strings: ["Page Not Found"],
-    typeSpeed: 150,
-    backSpeed: 150,
-    loop: true
-  });
 });
 
 

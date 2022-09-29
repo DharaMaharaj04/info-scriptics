@@ -236,6 +236,7 @@ border-btm {border-bottom: 1px solid rgba(255,255,255,.2);}
 .border_bottom { border-bottom: 1px solid rgba(255,255,255,.9);}
 .cntry-line{border-top: 1px solid #fff;}
 .cnt_us_txt {font-size: 64px;line-height: 73px;font-weight: 900;margin-bottom: 30px;}
+.contact_page span {color: #fff; font-weight: 600; margin-top: 0;}
 /*** next_rotate expand***/
 /*** Animation and fade **/
   .fadeInUp {opacity: 0;transition: opacity 250ms ease-in;}

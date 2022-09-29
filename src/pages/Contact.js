@@ -1,5 +1,9 @@
 import React, {Component} from 'react';
+import Typed from 'react-typed';
 import { Helmet } from 'react-helmet';
+
+
+const textLines = ["help you?","server you?","connect?"];
 
 export default class Chemical extends Component {
         render() {
@@ -16,7 +20,13 @@ export default class Chemical extends Component {
                             <div className='row'>
                                 <div className="col-12 col-lg-6 col-md-6 col-sm-12 col-xs-12 fadeInUp  Wow from-left">
                                     <div className='head-light'>
-                                        <h2 className="h2-heading white-color mb-xs-10">How can we <span className="auto-type"></span></h2>
+                                        <h2 className="h2-heading white-color mb-xs-10">How can we&ensp;  
+                                            <Typed
+                                                strings={textLines}
+                                                typeSpeed={150}
+                                                backSpeed={150}
+                                            loop />    
+                                        </h2>
                                     </div>
                                 </div>
                             </div>

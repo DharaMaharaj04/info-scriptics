@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import Typed from 'react-typed';
+
+const textLines = ["Page Not Found"];
+
 export class Page404 extends Component {
     render() {
         return (
@@ -7,7 +11,14 @@ export class Page404 extends Component {
                         <div id="notfound">
                             <div className="notfound">
                                 <div className="notfound-404">
-                                <h1><span className='notFound'></span></h1></div>
+                                    <h1>
+                                        <Typed
+                                            strings={textLines}
+                                            typeSpeed={150}
+                                            backSpeed={150}
+                                        loop />
+                                    </h1>
+                                </div>
                                 <em>We are Sorry </em>
                                 <p>The page you requested cannot be found.</p>
                             </div>
