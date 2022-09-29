@@ -58,7 +58,7 @@ p{ font-family: HNB; font-size: 14px; color: #212121; line-height: 25px;}
 /*** About header ends***/
 /***------------------- right menu ---------------------***/
 /***------------ search ------------------***/
-.box{ position: fixed; right: 40px; }
+.box{ position: absolute; right: 40px; }
 .searchBox {position: fixed;right: 6%;transform:  translate(-50%,50%);border:2px solid white;height: 40px;border-radius: 40px;padding: 0px;}
 .searchBox:hover > .searchInput {width: 240px;padding: 0 6px;}
 .searchBox:hover > .searchButton {background: white;color : #2f3640;}
@@ -231,6 +231,7 @@ border-btm {border-bottom: 1px solid rgba(255,255,255,.2);}
 .cntry-nme {padding: 75px 0;display: block;color: #fff;font-size: 20px;text-align: center;font-weight: 600;text-decoration: none;}
 .cntry-nme:hover {background-color: #d0b5d5;color: #000;text-decoration: none;transition: ease;}
 .border-btm:hover, .cntry-line:hover{background-color: #d0b5d5;}
+.border_bottom { border-bottom: 1px solid rgba(255,255,255,.9);}
 .cntry-line{border-top: 1px solid #fff;}
 .cnt_us_txt {font-size: 64px;line-height: 73px;font-weight: 900;margin-bottom: 30px;}
 /*** next_rotate expand***/
@@ -344,6 +345,7 @@ border-btm {border-bottom: 1px solid rgba(255,255,255,.2);}
 .london{background-image: url(/assets/img/london.jpg); background-repeat: no-repeat;}
 .denmark{background-image: url(/assets/img/denmark.jpg); background-repeat: no-repeat;}
 .singapore{background-image: url(/assets/img/singapore.jpg); background-repeat: no-repeat;}
+.autralia{background-image: url(/assets/img/austraila.jpg); background-repeat: no-repeat;}
 /*** contact-we-serve ***/
 .indtry-serve{ margin: 50px 0;}
 .circle-grid {display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;}

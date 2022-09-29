@@ -216,8 +216,8 @@ function Header() {
                                         </div>
                                     </div>    
                                 </li>
-                                <li>
-                                    <div className="box">
+                                <li className=''>
+                                    <div className="box ">
                                         <form name="search"><input type="text"  name="txt" className='input'/></form>
                                         <i className="fa fa-search"></i>
                                     </div>

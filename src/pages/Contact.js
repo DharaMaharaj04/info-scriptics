@@ -16,7 +16,7 @@ export default class Chemical extends Component {
                             <div className='row'>
                                 <div className="col-12 col-lg-6 col-md-6 col-sm-12 col-xs-12 fadeInUp  Wow from-left">
                                     <div className='head-light'>
-                                        <h2 className="h2-heading white-color mb-xs-10">How can we help you?</h2>
+                                        <h2 className="h2-heading white-color mb-xs-10">How can we <span className="auto-type"></span></h2>
                                     </div>
                                 </div>
                             </div>
@@ -165,6 +165,7 @@ export default class Chemical extends Component {
                                 <li className="nav-item"><a className="nav-link white-color" data-index="2" data-toggle="tab" href="#tab-2" role="tab">London</a></li>
                                 <li className="nav-item"><a className="nav-link white-color" data-index="3" data-toggle="tab" href="#tab-3" role="tab">Denmark</a></li>
                                 <li className="nav-item"><a className="nav-link white-color" data-index="4" data-toggle="tab" href="#tab-4" role="tab">Singapore</a></li>
+                                <li className="nav-item"><a className="nav-link white-color" data-index="5" data-toggle="tab" href="#tab-5" role="tab">Autralia</a></li>
                             </ul>
                         </div>
                         <div className="tab-content">
@@ -202,7 +203,14 @@ export default class Chemical extends Component {
                                         <p className='white-color'>#19-08 Prudential Tower, <br/>Singapore 049712 +1 877-572-7478</p>
                                     </div>
                                 </div>
-                            </div>    
+                            </div>  
+                            <div className="tab-pane fade tab-style ml-3 mt-3" id="tab-5" role="tabpanel"> 
+                                <div className='loc_tab autralia'>
+                                    <div className='col-12 col-lg-8'>
+                                        <p className='white-color'>5/140 Smith Street, <br/>Laarraeyah NT 0800</p>
+                                    </div>
+                                </div>
+                            </div>   
                         </div>
                     </div>    
                 </section>    

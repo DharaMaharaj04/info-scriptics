@@ -87,6 +87,13 @@ $(document).ready(function(){
     });
     
   }); 
+
+  var typed = new Typed(".auto-type", {
+    strings: ["help you?","server you?","connect?"],
+    typeSpeed: 150,
+    backSpeed: 150,
+    loop: true
+})
   
 });
 

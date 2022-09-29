@@ -1,5 +1,6 @@
 @media screen and (max-width: 500px){
     .capa_image_with_text {height: 330px !important;}
+    .cnt_us_txt {font-size: 36px !important;line-height: 40px !important;}
 }
 @media (max-width:  768px) { 
     .modal{ width: 350px; height: 350px; margin: auto; }
@@ -45,7 +46,7 @@
     .abt-menu-row .col-md-12{ padding-right: 0!important; }
     .box{ display: none;}
     .sec h1{ font-size: 2rem;}
-    .future_technology{ background-image: url(/assets/img/endless-retail-cpg-logistics-mob.png); }
+    .future_technology{ background-image: url(/assets/img/future_tech.png); }
     .digital_dentistry{ background-image: url(/assets/img/cs-ai-automation-mob.png); }
     .customer_service{ background: url(/assets/img/cloud-managed-services-cs-lead-mob.png); }
     .talent_revol{ background-image: url(/assets/img/building-digital-workplaces-lead-mob.png); background-position:right; background-color: #133f57fa;}
@@ -53,7 +54,6 @@
     .about_page{ background-image: url(/assets/img/company-mob.png);}
     .case_study{ display: none; }
     .case_study{ display: none !important; }
-
     .our-purpose .para-ovr {line-height: 25px;font-size: 18PX;}
     /*** the next ***/
     .down_img img { height: auto; }
@@ -115,13 +115,17 @@
     .team .nav-tabs .nav-link.active { color: #fff; background-color: #ff9901;}
     .team .nav-tabs {display: block;text-align: center;}  
     .team .loc_tab {max-width: 100%; height: auto;}
+    .doMoreExpand{padding-bottom: 40px; }
+    .expand_sec h3 {font-size: 1.8rem;}
+    .doMoreExpand img{ height: 40px;}
+    .modal {top: -330px;}
 }    
 @media screen and (min-width: 768px) {
      /*** logo **/
-    .future_technology{ background-image: url(/assets/img/endless-retail-cpg-logistics.png); height: 100vh;}
+    .future_technology{ background-image: url(/assets/img/future_tech_win.png); }
     .digital_dentistry{ background-image: url(/assets/img/indus_content.png); background-position: center left;}
-    .customer_service{background-image: url(/assets/img/cloud-managed-services-cs-lead.png); height: 100vh;}
-    .talent_revol{background-image: url(/assets/img/building-digital-workplaces-lead.png); height: 100vh;}
+    .customer_service{background-image: url(/assets/img/cloud-managed-services-cs-lead.png); }
+    .talent_revol{background-image: url(/assets/img/building-digital-workplaces-lead.png); }
     .sec{padding: 100px 0;}
     .contact_page{ background-image: url(/assets/img/fortified-energy-framework.png); height: 100vh; background-color: cadetblue}
     .about_page{ background-image: url(/assets/img/company.png); height: 100vh;}
@@ -141,8 +145,8 @@
     .the_careers{ padding-top: 50px;}
     .eco-partner-img{width: 100%; height: 40%;}
     .spacer {padding-top: 5px;}
-    .cntry-nme {font-size: 11px;} 
-    .cnt_us_txt {font-size: 46px;line-height: 48px;}   
+    .cntry-nme {font-size: 11px !important;} 
+    .cnt_us_txt {font-size: 42px;line-height: 48px;}   
     .indus-info { flex-direction: column-reverse;}   
     .indus-info img {padding-top: 26px;} 
     .ctrl-width-mob{ margin-bottom: 20px;}
@@ -158,7 +162,6 @@
     .item{ height: 100vh; width: 100%; }
     .h2-heading { font-size: 62px; font-weight: 500; line-height: 65px; padding-bottom: 15px }
     .sec {padding: 100px 0;}
-    .cntry-nme {font-size: 20px;}
     .cnt_us_txt {font-size: 56px;line-height: 73px;}    
     .fadIn_title1 {top: 102%}
     .fadIn_title2{top: 110%}
@@ -200,12 +203,15 @@
     .team li a{padding: 20px 40px;}
     .team .nav-tabs {border-bottom: none; justify-content: center;}
     .team-desc {height: 120px; }
+    .navbar-collapse .navbar-nav .nav-item a {padding: 0 .5rem;}
 }
 @media screen and (max-width: 1024px){
     .fixed-top{ position: initial; }
     .fixed-top .navbar-brand h1{ color: #212121; }
     .slider-arrow{ display: none; }
     .front_slider{display: none;}
+    
+    
 }
 @media screen and (min-width: 1024px){
     /** header **/
@@ -220,18 +226,31 @@
     .bg-jade-light .zoom_text:hover{clip-path: circle(470px at 24px 24px);background-color: #00b28f;}
     .bg-sapphire-light .zoom_text:hover{clip-path: circle(460px at 44px 44px);background-color: #007CC3;}
     .bg-amethyst-light .zoom_text:hover{clip-path: circle(460px at 44px 44px);background-color: #963596;}
-}
-@media screen and (prefers-color-scheme: light) {
+    .cntry-nme{ font-size: 14px;}
    
 }
 @media screen and (max-width: 1200px){
     /** header **/
     .navbar-collapse{ margin-left: 6em; }
+    .cntry-nme{ font-size: 16px;}
+    .navbar-collapse {margin-left: 10em;}
+    
 }
+
 @media screen and (min-width: 1200px){
     /** header **/
     .navbar-collapse{ margin-left: 26em; }
     .cnt_us_txt{ font-size: 64px;}
+    .cntry-nme{ font-size: 18px;}
+}
+@media screen and (max-width: 1280px) {
+    .front_slider { left: 10px;}
+    .navbar-collapse {margin-left: 14em;}
+    .box{ right: -8px;}
+}
+@media screen and (min-width: 1280px) {
+    .cntry-nme{ font-size: 20px;}
+    .navbar-collapse {margin-left: 26em;}
 }
 
 
