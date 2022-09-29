@@ -87,6 +87,8 @@ ul.footer-txt > li > a:hover{color: #bcb8b8;text-decoration: none;}
 /*** scroll-Up **/
 #scrollToTop{position:fixed;right:10px;bottom:10px;cursor:pointer;width:40px;height:50px;;}
 #scroll{display: block;max-width: 100%;height: auto;}
+/***------------------------ 404_page --------------------------***/
+.page_404{ background-color: skyblue;}
 
 /***------------------------ FullPageSections --------------------------***/
 .sec{  width: 100%;display: flex;align-items: left;justify-content: center;letter-spacing: 2px;background-size: cover;background-repeat: no-repeat;background-position: center center;height: auto;padding: 100px 0;}

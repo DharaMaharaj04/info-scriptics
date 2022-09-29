@@ -119,6 +119,7 @@
     .expand_sec h3 {font-size: 1.8rem;}
     .doMoreExpand img{ height: 40px;}
     .modal {top: -330px;}
+    
 }    
 @media screen and (min-width: 768px) {
      /*** logo **/
@@ -138,6 +139,7 @@
      .slide-1, .slide-2, .slide-3, .slide-4, .slide-5{height: 600px !important;}
      h2-slide{ }
      .esg .col-lg-4{ display: inline-block;}
+    
 }
 @media screen and (max-width: 992px) {
     .navbar {padding-top: 10px !important;}
@@ -204,6 +206,7 @@
     .team .nav-tabs {border-bottom: none; justify-content: center;}
     .team-desc {height: 120px; }
     .navbar-collapse .navbar-nav .nav-item a {padding: 0 .5rem;}
+    
 }
 @media screen and (max-width: 1024px){
     .fixed-top{ position: initial; }
