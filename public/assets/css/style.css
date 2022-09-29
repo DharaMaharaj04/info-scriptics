@@ -125,8 +125,8 @@ ul.footer-txt > li > a:hover{color: #bcb8b8;text-decoration: none;}
 .front_slider ul .text-colo-white.active .dot::after{height:4px;width: 55px;border: 2px solid #fff;background-color: #fff;transform: translateY(-50%) scale(0);}
 .front_slider ul .text-colo-white.active .dot::after,
 .front_slider ul .text-colo-white.active:hover .dot::after{transform: translateY(-50%) scale(1);border: 2px solid #fff;background-color: #fff;opacity: 1;}
-
-
+.bottom{ transform: translateY(-85%);}
+.top{transform: translateY(-40%);}
 .box i {color: #7e7e7e;}
 .front_slider ul li .dot.active::after{border: 2px solid #7e7e7e;background-color: #7e7e7e;}
 .over_content{position: relative;left: 0;right: 0;}

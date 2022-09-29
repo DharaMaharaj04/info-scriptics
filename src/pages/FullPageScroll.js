@@ -67,7 +67,7 @@ function FullPageScroll() {
                             <span className='slider_name'>Careers</span>
                         </a>
                     </li>
-                    <li className="text-colo-white l">
+                    <li className="text-colo-white l last">
                         <a href="#contact_us" className="dot" data-scroll="contact_us">
                             <span className='slider_name a'>Contact us</span>
                         </a>

@@ -67,6 +67,8 @@ $(document).ready(function(){
 
     var link = $('.front_slider li.l');
     var top = $(window).scrollTop();
+    var cla = $('#contact_us').attr('class');
+    console.log('class-' + cla);
     $('.nav_name').each(function(){
       var id = $(this).attr('id');
       var height = $(this).height();
@@ -82,7 +84,12 @@ $(document).ready(function(){
         if($('.front_slider ul .text-colo-dark').hasClass('active')){
           $('.front_slider ul li').addClass('dark');
         }
-
+        if($('.front_slider ul li.active').hasClass('last')){
+          $('.front_slider').addClass('bottom');
+        }
+        else{
+          $('.front_slider').removeClass('bottom');
+        }
       }
     });
     
@@ -102,9 +109,7 @@ function checkOffset() {
   if($(document).scrollTop() + window.innerHeight < $('#footer').offset().top)
       $('.front_slider').css('position', 'fixed'); // restore when you scroll up
 }
-$(document).scroll(function() {
-  checkOffset();
-});
+
 
 /** contact-scroll-tab */
 
