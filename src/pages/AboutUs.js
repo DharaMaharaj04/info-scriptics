@@ -44,37 +44,37 @@ export class AboutUs extends Component {
                                 <img src='/assets/img/vertical-line.png' alt='vertical-line' />
                                 <h2 className='text-center'>Our ESG Priorities</h2>
                                 <div className='col-12 col-lg-4 col-md-12 col-sm-12 fadeInUp  Wow from-bottom'>
-                                    <div class="ripple_hover shadow-box1 zoom_wrap1 bg-jade-light">
-                                        <div class="above_div">
-                                            <div class="zoom_text"> 
-                                                <div class="img_wrap">
-                                                    <img src="/assets/img/env.png" alt="Environmental" class="img-responsive" />
+                                    <div className="ripple_hover shadow-box1 zoom_wrap1 bg-jade-light">
+                                        <div className="above_div">
+                                            <div className="zoom_text"> 
+                                                <div className="img_wrap">
+                                                    <img src="/assets/img/env.png" alt="Environmental" className="img-responsive" />
                                                 </div>
-                                                <p><strong class="block mb20 fz-30">Environmental <br/></strong>Serve the preservation of our planet by shaping and sharing technology solutions </p>
+                                                <p><strong className="block mb20 fz-30">Environmental <br/></strong>Serve the preservation of our planet by shaping and sharing technology solutions </p>
                                             </div>
                                         </div>
-                                        <span class="ripple_effect"></span>
+                                        <span className="ripple_effect"></span>
                                     </div>
                                 </div>    
                                 <div className='col-12 col-lg-4 col-md-12 col-sm-12 fadeInUp  Wow from-bottom'>
-                                    <div class="ripple_hover shadow-box1 zoom_wrap1 bg-sapphire-light">
-                                        <div class="above_div">
-                                            <div class="zoom_text"> 
-                                            <div class="img_wrap"><img src="/assets/img/social.png" alt="Social" class="img-responsive" /></div>
-                                            <p><strong class="block mb20 fz-30">Social<br/></strong>Serve the development of people by shaping a future with meaningful opportunities for all </p>
+                                    <div className="ripple_hover shadow-box1 zoom_wrap1 bg-sapphire-light">
+                                        <div className="above_div">
+                                            <div className="zoom_text"> 
+                                            <div className="img_wrap"><img src="/assets/img/social.png" alt="Social" className="img-responsive" /></div>
+                                            <p><strong className="block mb20 fz-30">Social<br/></strong>Serve the development of people by shaping a future with meaningful opportunities for all </p>
                                         </div>
                                     </div>
-                                    <span class="ripple_effect"></span></div>
+                                    <span className="ripple_effect"></span></div>
                                 </div>
                                 <div className='col-12 col-lg-4 col-md-12 col-sm-12 fadeInUp  Wow from-bottom'>
-                                    <div class="ripple_hover shadow-box1 zoom_wrap1 bg-amethyst-light">
-                                        <div class="above_div">
-                                            <div class="zoom_text">
-                                                <div class="img_wrap"><img src="/assets/img/governace.png" alt="Governance" class="img-responsive" /></div>
-                                                <p><strong class="block mb20 fz-30">Governance</strong>Serve the interests of all our stakeholders by leading through our core values </p>
+                                    <div className="ripple_hover shadow-box1 zoom_wrap1 bg-amethyst-light">
+                                        <div className="above_div">
+                                            <div className="zoom_text">
+                                                <div className="img_wrap"><img src="/assets/img/governace.png" alt="Governance" className="img-responsive" /></div>
+                                                <p><strong className="block mb20 fz-30">Governance</strong>Serve the interests of all our stakeholders by leading through our core values </p>
                                              </div>
                                         </div>
-                                        <span class="ripple_effect"></span>
+                                        <span className="ripple_effect"></span>
                                     </div>
                                 </div>
                             </div>
@@ -139,10 +139,12 @@ export class AboutUs extends Component {
                                             </div>
                                             <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>
                                                 <div className='eqh-box'>
-                                                    <div className='team-img text-center'><img src="/assets/img/harsh.png" alt="Harsh Macwan" /></div>
                                                     <div className='team-desc text-center'>
                                                         <h4>Harsh Macwan</h4>
                                                         <p className="title">CEO</p>
+                                                        <div className='linked'>
+                                                            <a href="https://www.linkedin.com/in/harshmacwan"><i className="fa fa-linkedin"></i></a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -155,45 +157,45 @@ export class AboutUs extends Component {
                                             </div>
                                             <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>
                                                 <div className='eqh-box'>
-                                                    <div className='team-img text-center'>
-                                                        <img src="/assets/img/nirav_patel.png" alt="nirav_patel" />
-                                                    </div>
                                                     <div className='team-desc text-center'>
                                                         <h4>Nirav Patel</h4>
                                                         <p className="title">CTO</p>
+                                                        <div className='linked'>
+                                                            <a href="#"><i className="fa fa-linkedin"></i></a>
+                                                        </div>
                                                     </div>
                                                 </div>    
                                             </div>
                                             <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>
                                                 <div className='eqh-box'>
-                                                    <div className='team-img text-center'>
-                                                        <img src="/assets/img/dr.anu.png" alt="dr.anu" />
-                                                    </div>
                                                     <div className='team-desc text-center'>
                                                         <h4>Dr.Anupriya M. MDS, PhD</h4>
                                                         <p className="title">CMO</p>
+                                                        <div className='linked'>
+                                                            <a href="https://www.linkedin.com/in/dr-anupriya-m-36765621"><i className="fa fa-linkedin"></i></a>
+                                                        </div>
                                                     </div>
                                                 </div>    
                                             </div>
                                             <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>
                                                 <div className='eqh-box'>
-                                                    <div className='team-img text-center'>
-                                                        <img src="/assets/img/abhilasha_malhotra.png" alt="abhilasha_malhotra" />
-                                                    </div>
                                                     <div className='team-desc text-center'>
                                                         <h4>Abhilasha Malhotra, MBA</h4>
                                                         <p className="title">CPO</p>
+                                                        <div className='linked'>
+                                                            <a href="https://www.linkedin.com/in/abhilasha-malhotra-806a28205"><i className="fa fa-linkedin"></i></a>
+                                                        </div>
                                                     </div>
                                                 </div>    
                                             </div>
                                             <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>           
                                                 <div className='eqh-box'>
-                                                    <div className='team-img text-center'>
-                                                        <img src="/assets/img/sachin_bhatia.png" alt="sachin_bhatia" />
-                                                    </div>
                                                     <div className='team-desc text-center'>
                                                         <h4>Sachin Bhatia, M.Tech</h4>
                                                         <p className="title">COO</p>
+                                                        <div className='linked'>
+                                                            <a href="https://www.linkedin.com/in/sachin-bhatia-m-eng-81b51634"><i className="fa fa-linkedin"></i></a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -206,45 +208,45 @@ export class AboutUs extends Component {
                                             </div>
                                             <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>
                                                 <div className='eqh-box'>
-                                                    <div className='team-img text-center'>
-                                                        <img src="/assets/img/s_taposh.png" alt="s_taposh" />
-                                                    </div>
                                                     <div className='team-desc text-center'>
                                                         <h4>S. Taposh, PMP</h4>
                                                         <p className="title">VP – Global business</p>
+                                                        <div className='linked'>
+                                                            <a href="#"><i className="fa fa-linkedin"></i></a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>
                                                 <div className='eqh-box'>
-                                                    <div className='team-img text-center'>
-                                                        <img src="/assets/img/viral.png" alt="viral" />
-                                                    </div>
                                                     <div className='team-desc text-center'>
                                                         <h4>VIRAL BHALIA</h4>
                                                         <p className="title">VP - Engineering</p>
+                                                        <div className='linked'>
+                                                            <a href="#"><i className="fa fa-linkedin"></i></a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>
                                                 <div className='eqh-box'>
-                                                    <div className='team-img text-center'>
-                                                        <img src="/assets/img/darpan_patel.png" alt="darpan_patel" />
-                                                    </div>
                                                     <div className='team-desc text-center'>
                                                         <h4>Darpan Patel, M.tech</h4>
                                                         <p className="title">VP - Software</p>
+                                                        <div className='linked'>
+                                                            <a href="#"><i className="fa fa-linkedin"></i></a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>
                                                 <div className='eqh-box'>
-                                                    <div className='team-img text-center'>
-                                                        <img src="/assets/img/pravesh.png" alt="pravesh" />
-                                                    </div>
                                                     <div className='team-desc text-center'>
                                                         <h4>Pravesh Macwan, CPA</h4>
                                                         <p className="title">VP - Finance</p>
+                                                        <div className='linked'>
+                                                            <a href="#"><i className="fa fa-linkedin"></i></a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>   

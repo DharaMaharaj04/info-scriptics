@@ -28,8 +28,8 @@ p{ font-family: HNB; font-size: 14px; color: #212121; line-height: 25px;}
 .bg-white{ padding-top: 10px!important; box-shadow: 0px 15px 25px #00000026; margin-bottom: 0px;}
 .fixed-top .navbar-brand h1{ color: #ffffff; font-family: HNC!important; }
 .navbar-brand{ margin: 0 9.3%; }
-.nav-link.dropdown-toggle.header-link{ font-size: 16px!important;}
-.navbar-collapse .navbar-nav .nav-item a{ color: #2b2929; font-size: 14px; padding: 0 1em; }
+.nav-link.dropdown-toggle.header-link{ font-size: 16px!important; color: #fff !important;}
+.navbar-collapse .navbar-nav .nav-item a{ color: #3f3f3f;}
 .bg-white .navbar-collapse .navbar-nav .nav-item a{ color: #212121!important; font-size: 14px; padding: 0 1em;}
 .show .navbar-nav .nav-item a {color: #212121 !important;}
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover { color: #212121; font-weight: bold;}
@@ -127,12 +127,11 @@ ul.footer-txt > li > a:hover{color: #bcb8b8;text-decoration: none;}
 .front_slider ul .text-colo-white.active:hover .dot::after{transform: translateY(-50%) scale(1);border: 2px solid #fff;background-color: #fff;opacity: 1;}
 .bottom{ transform: translateY(-85%);}
 .top{transform: translateY(-40%);}
-.box i {color: #7e7e7e;}
 .front_slider ul li .dot.active::after{border: 2px solid #7e7e7e;background-color: #7e7e7e;}
 .over_content{position: relative;left: 0;right: 0;}
 .white-color{color: #fff;}
 .over_content p{color: #fff;}
-.future_technology{background-color: #df9926;}
+.future_technology{background-color: #FF9900 ;}
 /*** case-study ***/
 .case-cat:before {content: "";display: block;border-top: 1px solid #ffffff!important;width: 36px!important;margin-top: 13px;margin-right: 10px;}
 .case-cat {display: flex;}
@@ -178,7 +177,7 @@ button.close{ color: #fff; background-color: #000; border-radius: 20%; border: 2
 .expand_sec{  margin: 70px 0;}
 .btn-danger{background-color: rgba(0, 0, 0, 0.69) !important;border-radius: 50% !important;padding: 8px 15px;}
 .modalDialog {position: fixed;font-family: Arial, Helvetica, sans-serif;top: 0;color:white;right: 0;left: 0;z-index: 99999;opacity:0;-webkit-transition: opacity 300ms ease-in;-moz-transition: opacity 300ms ease-in;transition: opacity 300ms ease-in; pointer-events: none;}
-#largeModal1{ background: url(/assets/img/services.png); background-size:cover;}
+#largeModal1{ background: url(/assets/img/serv.jpg) !important; background-size:cover;}
 #largeModal2{background: url(/assets/img/industries-1.jpg); background-size:cover;}
 #largeModal3{background: url(/assets/img/cloud-1.jpg); background-size:cover;}
 .modalDialog:target {opacity:1;pointer-events: auto;}
@@ -214,15 +213,11 @@ button.close{ color: #fff; background-color: #000; border-radius: 20%; border: 2
 .about_us p {text-transform: lowercase;}
 /**** Careers ***/
 .career_opt{overflow: hidden;padding: 50px 0;}
-.careere_tlt{margin-top: 140px;}
+.careere_tlt{margin-top: 40px;}
 .career_opt img{transition: all 0.3s ease-out;width: 100%;}
 .career_opt img:hover{transform: scale(1.1);}
 .career_btn{background-color: #000 !important;color: #fff;margin-top: 20px;border: 0px solid #000 !important; background: linear-gradient(to right, rgb(255, 255, 255) 50%, transparent 50%);background-size: 200% 100%;background-position: right bottom;transition: all .2s ease-out; padding: 14px 25px;}
 .career_btn:hover{background-color: #fff !important;color: #000 !important;border: 1px solid #000 !important; background-position: left bottom;}
-.careers-employeespeak {background-color: #f3f3f3;bottom: -80px;color: #000;max-width: 420px;padding: 35px;position: absolute;right: 60px;text-align: left;}
-.employeespeak-head {color: #333;font-size: 14px;margin-bottom: 10px;padding-left: 95px;}
-.img-employee {border-radius: 50%;display: inline-block;float: left;height: 85px;margin-right: 10px;width: 85px!important;}
-.employeespeak-content {font-size: 17px;font-weight: 400;}
 /*** contact_us **/
 .contact_us{background-color: #963596;}
 .contact_us.row::before{display: table;content: " ";}
@@ -364,8 +359,10 @@ border-btm {border-bottom: 1px solid rgba(255,255,255,.2);}
 .bg-sapphire-light {background-color: #92D1FF;}
 .bg-amethyst-light {background-color: #D0B5D5;}
 .know-us{ margin: 50px 0;}
-.team-desc {margin: 20px 0;}
+.team-desc {margin: 20px 0; padding: 25px 0;}
+.team-desc h4{ height: 50px; padding-left: 5px; padding-right: 5px;}
 .eqh-box{ background-color: #cdcdcd; margin: 50px 0;}
+.linked a { border: 1px solid #007bff; color: #007bff; padding: 3px;}
 
 
 

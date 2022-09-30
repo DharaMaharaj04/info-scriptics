@@ -110,11 +110,6 @@ function Header() {
                                                             </div>
                                                             <div className="col-md-4 col-sm-12 col-xs-12 align-list">
                                                                 <ul className="list-inline mb0">
-                                                                    <li><a className="nav-link" href="/works">How we work with clients</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div className="col-md-4 col-sm-12 col-xs-12 align-list">
-                                                                <ul className="list-inline mb0">
                                                                     <li><a className="nav-link" href="/case-studies">Case Studies</a></li>
                                                                 </ul>
                                                             </div>

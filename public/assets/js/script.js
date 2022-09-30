@@ -67,8 +67,6 @@ $(document).ready(function(){
 
     var link = $('.front_slider li.l');
     var top = $(window).scrollTop();
-    var cla = $('#contact_us').attr('class');
-    console.log('class-' + cla);
     $('.nav_name').each(function(){
       var id = $(this).attr('id');
       var height = $(this).height();
@@ -92,6 +90,7 @@ $(document).ready(function(){
         }
       }
     });
+    $('.header-link').css('color','white');
     
   }); 
 

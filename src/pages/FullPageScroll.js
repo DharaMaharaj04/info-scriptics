@@ -80,7 +80,7 @@ function FullPageScroll() {
                     <div className='over_content'>
                         <div className='container'>
                             <div className='row'>
-                                <div className="col-12 col-lg-7 col-md-8 col-sm-12 col-xs-12 fadeInUp animated from-left">
+                                <div className="col-12 col-lg-7 col-md-8 col-sm-12 col-xs-12 home_banner fadeInUp animated from-left">
                                     <div className='head-light'>
                                         <h1 className="h2-heading white-color mb-xs-10">WE BELIEVE IN A FUTURE WHERE TECHNOLOGY MAKES YOUR WORLD BETTER.</h1>
                                         <Link className="btn btn-shutter-more text-uppercase" to="/about-us/#work-stratery">explore</Link>
@@ -107,7 +107,7 @@ function FullPageScroll() {
                     <div className="over_content">
                         <div className="container">
                             <div className="row">
-                                <div className="col-12 col-lg-7 col-md-8 col-sm-12 col-xs-12 p0 wow fadeInUp animated from-right appear">
+                                <div className="col-12 col-lg-7 col-md-8 col-sm-12 col-xs-12 home_banner p0 wow fadeInUp animated from-right appear">
                                     <h1 className="h2-heading white-color mb20 mb-xs-10">KNOWLEDGE IS OF NO VALUE UNLESS YOU PUT IT INTO PRACTICE</h1>
                                     <p>Embrace the talent revolution to remain relevant in the future.</p>
                                     <a className="btn btn-shutter-more text-uppercase" href="/works">explore</a>
@@ -121,7 +121,7 @@ function FullPageScroll() {
                         <div className='container'>
                             <div className='row'>
                                 <div className="col-lg-6 col-md-6 col-sm-12 col-md-offset-6 col-xs-12"></div>
-                                <div className="col-lg-6 col-md-6 col-sm-12 col-md-offset-6 col-xs-12 wow fadeInUp animated from-left">
+                                <div className="col-lg-6 col-md-6 col-sm-12 col-md-offset-6 col-xs-12 home_banner wow fadeInUp animated from-left">
                                     <p className="case-cat">Case Studies - BPO</p>
                                     <h1 className="h2-heading white-color mb20 mb-xs-10">WHAT IS SO GOOD ABOUT CUSTOMER SERVICE: SALES FORCE</h1>
                                     <a className="btn btn-shutter-more text-uppercase" href="/case_study_bpo">explore</a>
@@ -354,7 +354,7 @@ function FullPageScroll() {
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-0 ctrl-width-mob">
                                         <div className="new_in"> 
                                             <a href="/" title="Insight">  
-                                                <img alt="Insight" className="content-image" src="/assets/img/strategy.jpg" /> 
+                                                <img alt="Insight" className="content-image" src="/assets/img/strategy.png" /> 
                                                 <div className="content-details fadeIn-bottom">
                                                     <h3 className="content-title">STRATEGY<br /></h3>
                                                 </div>      
@@ -364,7 +364,7 @@ function FullPageScroll() {
                                     <div className="col-12 col-lg-6 col-md-6 col-sm-12 col-xs-12 px-0 ctrl-width-mob">
                                         <div className="new_in">    
                                             <a href="/" title="Innovate">        
-                                                <img alt="Innovate" className="content-image" src="/assets/img/technology.jpg" /> 
+                                                <img alt="Innovate" className="content-image" src="/assets/img/technology.png" /> 
                                                 <div className="content-details fadeIn-bottom">
                                                     <h3 className="content-title">TECHNOLOGY<br/></h3>    
                                                 </div>       
@@ -375,7 +375,7 @@ function FullPageScroll() {
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-0 ctrl-width-mob">
                                         <div className="new_in">            
                                             <a href="/" title="Accelerate">           
-                                                <img alt="Accelerate" className="content-image" src="/assets/img/ai-game.jpg" /> 
+                                                <img alt="Accelerate" className="content-image" src="/assets/img/ai-game.png" /> 
                                                 <div className="content-details fadeIn-bottom">
                                                     <h3 className="content-title">AI FOR GAMING</h3>    
                                                 </div>           
@@ -385,7 +385,7 @@ function FullPageScroll() {
                                     <div className="col-12 col-lg-6 col-md-6 col-sm-12 col-xs-12 px-0 ctrl-width-mob"> 
                                         <div className="new_in">           
                                             <a href="/" title="Assure">       
-                                                <img  alt="Assure" className="content-image" src="/assets/img/consult.jpg" /> 
+                                                <img  alt="Assure" className="content-image" src="/assets/img/consult.png" /> 
                                                 <div className="content-details fadeIn-bottom">
                                                     <h3 className="content-title"> CONSULTING<br /></h3>    
                                                 </div>       
@@ -421,23 +421,6 @@ function FullPageScroll() {
                             <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center wow fadeInUp animated from-right'>
                                 <div className='career_opt'>
                                     <img src='/assets/img/disrupting-core-platform-economy.png'/>
-                                </div>
-                                <div className='careers-employeespeak'>
-                                    <h5 className="employeespeak-head text-uppercase">WHAT OUR PEOPLE SAY</h5>
-                                    <Slider {...settings}>
-                                        <div className="slide1">
-                                            <img src="/assets/img/user-400-3.jpg" alt="strategy featuremedia" className='img-employee'/>
-                                            < em className='employeespeak-content'>"I joined Scriptics because of the excellent hands-on training." <br/> <br/>-Dhara Maharaj </em>                                                                                           
-                                        </div>
-                                        <div className="slide2">
-                                            <img src="/assets/img/user-400-6.jpg" alt="strategy featuremedia" className='img-employee'/>
-                                            <em className='employeespeak-content'>"I'm most excited about the opportunity to grow at Scriptics." <br /><br /> -Parthvi Patel</em>                                                                                           
-                                        </div>
-                                        <div className="slide2">
-                                            <img src="/assets/img/user-400-2.jpg" alt="strategy featuremedia" className='img-employee'/>
-                                            <em className='employeespeak-content'>"Scriptics is on an Amazing journey of transformation" <br /><br /> -Nidhi</em>                                                                                           
-                                        </div>
-                                    </Slider>
                                 </div>
                             </div>
                             <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center wow fadeInUp animated from-right'>    
