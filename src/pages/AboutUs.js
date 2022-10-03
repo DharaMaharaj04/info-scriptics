@@ -161,7 +161,7 @@ export class AboutUs extends Component {
                                                         <h4>Nirav Patel</h4>
                                                         <p className="title">CTO</p>
                                                         <div className='linked'>
-                                                            <a href="#"><i className="fa fa-linkedin"></i></a>
+                                                            <a href="https://www.linkedin.com/in/nirav-patel-18288823a"><i className="fa fa-linkedin"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>    
@@ -212,7 +212,7 @@ export class AboutUs extends Component {
                                                         <h4>S. Taposh, PMP</h4>
                                                         <p className="title">VP – Global business</p>
                                                         <div className='linked'>
-                                                            <a href="#"><i className="fa fa-linkedin"></i></a>
+                                                            <a href="https://www.linkedin.com/in/shahrear-taposh-a3113021"><i className="fa fa-linkedin"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -223,7 +223,7 @@ export class AboutUs extends Component {
                                                         <h4>VIRAL BHALIA</h4>
                                                         <p className="title">VP - Engineering</p>
                                                         <div className='linked'>
-                                                            <a href="#"><i className="fa fa-linkedin"></i></a>
+                                                            <a href="https://www.linkedin.com/in/viral-bhalia"><i className="fa fa-linkedin"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -234,7 +234,7 @@ export class AboutUs extends Component {
                                                         <h4>Darpan Patel, M.tech</h4>
                                                         <p className="title">VP - Software</p>
                                                         <div className='linked'>
-                                                            <a href="#"><i className="fa fa-linkedin"></i></a>
+                                                            <a href="https://www.linkedin.com/in/darpan-korat-74a78393"><i className="fa fa-linkedin"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -245,7 +245,7 @@ export class AboutUs extends Component {
                                                         <h4>Pravesh Macwan, CPA</h4>
                                                         <p className="title">VP - Finance</p>
                                                         <div className='linked'>
-                                                            <a href="#"><i className="fa fa-linkedin"></i></a>
+                                                            <a href="https://www.linkedin.com/in/pravesh-victor-macwan-04928146"><i className="fa fa-linkedin"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
