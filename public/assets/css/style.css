@@ -225,19 +225,18 @@ button.close{ color: #fff; background-color: #000; border-radius: 20%; border: 2
 .career_btn{background-color: #000 !important;color: #fff;margin-top: 20px;border: 0px solid #000 !important; background: linear-gradient(to right, rgb(255, 255, 255) 50%, transparent 50%);background-size: 200% 100%;background-position: right bottom;transition: all .2s ease-out; padding: 14px 25px;}
 .career_btn:hover{background-color: #fff !important;color: #000 !important;border: 1px solid #000 !important; background-position: left bottom;}
 /*** contact_us **/
-.contact_us{background-color: #963596;}
+.contact_us{color: #963596;}
 .contact_us.row::before{display: table;content: " ";}
-.border {border: 1px solid rgba(255,255,255,.2);float: left;position: relative;width: 100%;}
-.border-btm {border-bottom: 1px solid rgba(255,255,255,.2); }
+.border {border: 0px solid !important;float: left;position: relative;width: 100%;}
 .contact_back{background-color: #fff; color: #000;}
-.border-rgt {border-right: 1px solid rgba(255,255,255,.2);}
+.border-rgt { border: 1px solid;}
+.border_asia{border:1px solid; }
 #contact_us .expand {cursor: pointer;}
-.cntry-nme {padding: 75px 0;display: block;color: #000;font-size: 20px;text-align: center;font-weight: 600;text-decoration: none;}
+.cntry-nme {padding: 75px 0;display: block;color: #963596;font-size: 20px;text-align: center;font-weight: 600;text-decoration: none;}
 .cntry-nme:hover {background-color: #d0b5d5;color: #000;text-decoration: none;transition: ease;}
 .border-btm:hover, .cntry-line:hover{background-color: #d0b5d5;}
-.border_bottom { border-bottom: 2px solid #dee2e6;}
 .cntry-line{border-top: 1px solid #fff;}
-.cnt_us_txt {font-size: 64px;line-height: 73px;font-weight: 900;margin-bottom: 30px;}
+.cnt_us_txt {font-size: 64px;line-height: 73px;font-weight: 900;margin-bottom: 30px; color: #963596;}
 .contact_page span {color: #fff; font-weight: 600; margin-top: 0;}
 /*** next_rotate expand***/
 /*** Animation and fade **/
@@ -371,7 +370,11 @@ button.close{ color: #fff; background-color: #000; border-radius: 20%; border: 2
 .eqh-box{ background-color: #cdcdcd; margin: 50px 0;}
 .linked a { border: 1px solid #007bff; color: #007bff; padding: 3px;}
 .actionable{margin-top: 100px;}
-
+.actionable_sec{background-image: url(/assets/img/endless-retail-cpg-logistics.png); background-color: aliceblue;}
+.img-bottom{padding-bottom: 20px;}
+.srv-content p{ text-align: justify;}
+.future-tech{background-image: url(/assets/img/future_of_technology.jpeg); background-position: center center; background-size: cover;}
+.future-of-technology{ height: 350px;}
 
 
 

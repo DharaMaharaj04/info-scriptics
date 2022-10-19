@@ -25,6 +25,7 @@ export default class StatisticalDataAnalysis extends Component {
                 <meta name="description" content= "Statistical Data Analysis" />
                 <body id="page-service" />
             </Helmet>
+            <div className="spacer"></div>
             <section className='srv-main'>
             <OwlCarousel className="owl-theme" {...options} >
                 <div className='slide-1'>  

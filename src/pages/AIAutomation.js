@@ -24,6 +24,7 @@ export default class AIAutomation extends Component {
                     <meta name="description" content="AI & Automation" />
                     <body id="page-service" />
                 </Helmet>
+                <div className="spacer"></div>
                 <section className='srv-main'>
                     <OwlCarousel className="owl-theme" {...options} >
                         <div className='slide-1'>  

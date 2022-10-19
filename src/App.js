@@ -49,6 +49,7 @@ import StatisticalDataAnalysis from './pages/StatisticalDataAnalysis'
 import ThinkboxStudio from './pages/ThinkboxStudio';
 import WearableComputing from './pages/WearableComputing';
 import ActionableInsight from './pages/ActionableInsight';
+import FutureTechnology from './pages/FutureTechnology';
 
 function App() {
   useEffect(() => {
@@ -110,6 +111,7 @@ function App() {
             <Route exact path='/thinkbox_studio' component={ThinkboxStudio} />
             <Route exact path='/wearable_computing' component={WearableComputing} />
             <Route exact path='/actionable_insights' component={ActionableInsight} />
+            <Route exact path='/future_technology' component={FutureTechnology} />
             <Route component={Page404} />
           </Switch>
         <Footer/>

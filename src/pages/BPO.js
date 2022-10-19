@@ -8,7 +8,7 @@ function BPO() {
                 <meta name="description" content="What is so good about Customer Service: Sales force"/>
                 <body id="page-case-sudy" />
             </Helmet>
-            <section className="case-study-inner" style={{background:`url(/assets/img/ai-banner.png) no-repeat`}}>
+            <section className="case-study-inner" style={{background:`url(/assets/img/cs-BPO.png) no-repeat`}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-sm-3 col-md-4 col-lg-4 cs-main">
@@ -35,10 +35,10 @@ function BPO() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-sm-12 col-md-12 col-lg-4 cs-left">
-                            <img src="/assets/img/cs-left.png" alt="case study left featuremedia"/>
+                        
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-8 cs-right ">
-                            <img src="/assets/img/cs-right.png" alt="case study right featuremedia"/>
+                            <img src="/assets/img/consult.png" alt="case study right featuremedia"/>
                         </div>
                     </div>
                 </div>
@@ -52,18 +52,6 @@ function BPO() {
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-8">
                             <p className="para-txt">Salesforce CRM's internationalization options and ease of integration impressed the decision makers. Scriptics successfully deployed Salesforce CRM to more than 500 users worldwide withing a condensed span of 9 weeks helping the client realise RoI instantaneously. Optimized the point & click usability for sales teams for faster data entry and retrieval. Optimized Sales & Marketing processes. Reports & Dashboards serve The Client business objectives in terms of metrics & KPIs tracked at each of the hierarchical levels.</p>
-                        </div>
-                    </div>
-                </div>
-            </section> 
-            <section className="case-study-art">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12 col-sm-12 col-md-12 col-lg-4 cs-left">
-                            <img src="/assets/img/cs-left.png" alt="case study left featuremedia"/>
-                        </div>
-                        <div className="col-12 col-sm-12 col-md-12 col-lg-8 cs-right">
-                            <img src="/assets/img/cs-right.png" alt="case study right featuremedia"/>
                         </div>
                     </div>
                 </div>

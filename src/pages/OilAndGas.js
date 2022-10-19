@@ -25,6 +25,7 @@ export default class OilAndGas extends Component {
                 <meta name="description"  content />
                 <body id="page-industry" className="industry-health"/>
                 </Helmet>
+                <div className="spacer"></div>
                 <section className='srv-main'>
                     <OwlCarousel className="owl-theme" {...options} >
                         <div className='slide-1'>  

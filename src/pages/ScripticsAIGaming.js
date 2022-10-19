@@ -25,6 +25,7 @@ export default class ScripticsAIGaming extends Component {
                 <meta name="description" content= "Scriptics AI for Gaming" />
                 <body id="page-service" />
             </Helmet>
+            <div className="spacer"></div>
             <section className='srv-main'>
             <OwlCarousel className="owl-theme" {...options} >
                 <div className='slide-1'>  

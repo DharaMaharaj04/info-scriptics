@@ -25,6 +25,7 @@ export default class WearableComputing extends Component {
                 <meta name="description" content= "Wearable Computing" />
                 <body id="page-service" />
             </Helmet>
+            <div className="spacer"></div>
             <section className='srv-main'>
             <OwlCarousel className="owl-theme" {...options} >
                 <div className='slide-1'>  
@@ -119,31 +120,31 @@ export default class WearableComputing extends Component {
                 <section className="srv-level">
                     <div className="container">
                         <div className="row">
-                            <div className="srv-box col-12 col-sm-12 col-md-6 col-lg-6D fadeInUp  Wow from-bottom">
+                            <div className="srv-box col-12 col-sm-12 col-md-6 col-lg-6 fadeInUp  Wow from-bottom">
                                 <div className="image_with_text">
                                     <img src="/assets/img/choice.svg" alt="service level icon 1"/>
                                     <p>Store and process user data with a dynamic dashboard to online cloud-based secured data: AWS, Google Cloud, Microsoft Azure.</p>
                                 </div>
                             </div>
-                            <div className="srv-box col-12 col-sm-12 col-md-12 col-lg-6D fadeInUp  Wow from-bottom">
+                            <div className="srv-box col-12 col-sm-12 col-md-12 col-lg-6 fadeInUp  Wow from-bottom">
                                 <div className="image_with_text">
                                     <img src="/assets/img/discover (1).svg" alt="service level icon 2"/>
                                     <p>Reliable backend with integrated APIs for tracking and measuring user data. </p>
                                 </div>
                             </div>
-                            <div className="srv-box col-12 col-sm-12 col-md-12 col-lg-6D fadeInUp  Wow from-bottom">
+                            <div className="srv-box col-12 col-sm-12 col-md-12 col-lg-6 fadeInUp  Wow from-bottom">
                                 <div className="image_with_text">
                                     <img src="/assets/img/development.svg" alt="service level icon 3"/>
                                     <p>Web and app dashboard development with responsive designs.</p>
                                 </div>
                             </div>
-                            <div className="srv-box col-12 col-sm-12 col-md-12 col-lg-6D fadeInUp  Wow from-bottom">
+                            <div className="srv-box col-12 col-sm-12 col-md-12 col-lg-6 fadeInUp  Wow from-bottom">
                                 <div className="image_with_text">
                                     <img src="/assets/img/automation (1).svg" alt="service level icon 4"/>
                                     <p>Mobile app to sync data from custom device via secured connectivity protocols and APIs.</p>
                                 </div>
                             </div>
-                            <div className="srv-box col-12 col-sm-12 col-md-12 col-lg-6D fadeInUp  Wow from-bottom">
+                            <div className="srv-box col-12 col-sm-12 col-md-12 col-lg-6 fadeInUp  Wow from-bottom">
                                 <div className="image_with_text">
                                     <img src="/assets/img/innovation.svg" alt="service level icon 5"/>
                                     <p>Visionary dashboard for analytics and insights into data, reporting, and sync to the cloud.</p>
@@ -158,13 +159,13 @@ export default class WearableComputing extends Component {
                             <div className="col-12 col-sm-12 col-md-12 col-lg-12">
                                 <h2>CAPABILITIES</h2>
                             </div>
-                            <div className="srv-capability-box col-12 col-lg-4D fadeInUp  Wow from-bottom">
+                            <div className="srv-capability-box col-12 col-lg-4 fadeInUp  Wow from-bottom">
                                 <div className="capa_image_with_text">
                                     <img src="/assets/img/robotic.svg" alt="capabilities"/>
                                     <p>Our proficient team of iOS developers have experience working on complex iWatch app projects that involve configurations with enhanced security and better user experience. </p>
                                 </div>
                             </div>
-                            <div className="srv-capability-box col-12 col-lg-4D fadeInUp  Wow from-bottom">
+                            <div className="srv-capability-box col-12 col-lg-4 fadeInUp  Wow from-bottom">
                                 <div className="capa_image_with_text">
                                     <div className="capa_img">
                                         <img src="/assets/img/Mask Group 2.svg" alt="capabilities"/>
@@ -172,7 +173,7 @@ export default class WearableComputing extends Component {
                                     <p>Android, the largest powerhouse of wearables, has an enormous user base. With that, our team promises exceptional quality designs and built wearables for the latest versions of android wears with comprehensive integration with smartphones and other gadgets.</p>
                                 </div>
                             </div>
-                            <div className="srv-capability-box col-12 col-lg-4D fadeInUp  Wow from-bottom">
+                            <div className="srv-capability-box col-12 col-lg-4 fadeInUp  Wow from-bottom">
                                 <div className="capa_image_with_text">
                                     <div className="capa_img">
                                         <img src="/assets/img/Mask Group 3.svg" alt="capabilities"/>
@@ -180,7 +181,7 @@ export default class WearableComputing extends Component {
                                     <p>Empower glasses with smart features to promote your business to the masses with our ever-so-personalized and stunning Google glass applications.</p>
                                 </div>
                             </div>
-                            <div className="srv-capability-box col-12 col-lg-4D fadeInUp  Wow from-bottom">
+                            <div className="srv-capability-box col-12 col-lg-4 fadeInUp  Wow from-bottom">
                                 <div className="capa_image_with_text">
                                     <div className="capa_img">
                                         <img src="/assets/img/Mask Group 4.svg" alt="capabilities"/>
@@ -188,7 +189,7 @@ export default class WearableComputing extends Component {
                                     <p>We process the smooth transition of users from smartphones to wristwear, glasses, hearables, and other devices. </p>
                                 </div>
                             </div>
-                            <div className="srv-capability-box col-12 col-lg-4D fadeInUp  Wow from-bottom">
+                            <div className="srv-capability-box col-12 col-lg-4 fadeInUp  Wow from-bottom">
                                 <div className="capa_image_with_text">
                                     <div className="capa_img">
                                         <img src="/assets/img/Mask Group 5.svg" alt="capabilities"/>

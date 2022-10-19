@@ -27,6 +27,7 @@ export class SignalProcessing extends Component {
                     <meta name="description" content= "Signal Processing" />
                     <body id="page-service" />
                 </Helmet>
+                <div className="spacer"></div>
                 <section className='srv-main'>
                 <OwlCarousel className="owl-theme" {...options} >
                     <div className='slide-1'>  
