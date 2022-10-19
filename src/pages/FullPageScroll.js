@@ -28,8 +28,8 @@ function FullPageScroll() {
         <div>
             <nav className="front_slider">
                 <ul className="">
-                    <li className='text-colo-white active l'>
-                        <a href=" " className="dot w d" data-scroll="future_technology">
+                    <li className='text-colo-dark active l first'>
+                        <a href=" " className="dot" data-scroll="future_technology">
                         <span className='slider_name a'>Future<br/>Technology</span></a>
                     </li>
                     <li className="text-colo-white l">
@@ -38,8 +38,8 @@ function FullPageScroll() {
                         </a>
                     </li>
                     <li className="text-colo-white l">
-                        <a href="#talent_revol" className="dot" data-scroll="talent_revol">
-                            <span className='slider_name a'>Talent<br/> Revolution </span>
+                        <a href="#actionable_insights" className="dot" data-scroll="actionable_insights">
+                            <span className='slider_name a'>Actionable <br/> Insights</span>
                         </a>
                     </li>
                     <li className="text-colo-white l">
@@ -82,10 +82,11 @@ function FullPageScroll() {
                             <div className='row'>
                                 <div className="col-12 col-lg-7 col-md-8 col-sm-12 col-xs-12 home_banner fadeInUp animated from-left">
                                     <div className='head-light'>
-                                        <h1 className="h2-heading white-color mb-xs-10">WE BELIEVE IN A FUTURE WHERE TECHNOLOGY MAKES YOUR WORLD BETTER.</h1>
-                                        <Link className="btn btn-shutter-more text-uppercase" to="/about-us/#work-stratery">explore</Link>
+                                        <h1 className="h2-heading blue mb-xs-10">WE BELIEVE IN A FUTURE WHERE TECHNOLOGY MAKES YOUR WORLD BETTER.</h1>
+                                        <Link className="btn blue_btn text-uppercase" to="/about-us/#work-stratery">explore</Link>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
                     </div>  
@@ -103,14 +104,14 @@ function FullPageScroll() {
                         </div>
                     </div>
                 </section>
-                <section className="sec talent_revol nav_name" id="talent_revol">
+                <section className="sec talent_revol nav_name" id="actionable_insights">
                     <div className="over_content">
                         <div className="container">
                             <div className="row">
-                                <div className="col-12 col-lg-7 col-md-8 col-sm-12 col-xs-12 home_banner p0 wow fadeInUp animated from-right appear">
-                                    <h1 className="h2-heading white-color mb20 mb-xs-10">KNOWLEDGE IS OF NO VALUE UNLESS YOU PUT IT INTO PRACTICE</h1>
-                                    <p>Embrace the talent revolution to remain relevant in the future.</p>
-                                    <a className="btn btn-shutter-more text-uppercase" href="/works">explore</a>
+                                <div className="col-12 col-lg-8 col-md-8 col-sm-12 col-xs-12 home_banner p0 wow fadeInUp animated from-right appear">
+                                    <h1 className="h2-heading white-color mb20 mb-xs-10">Actionable Insights</h1>
+                                    <p>Turn data into actionable insights.</p>
+                                    <a className="btn btn-shutter-more text-uppercase" href="/actionable_insights">explore</a>
                                 </div>
                             </div>
                         </div>
@@ -299,7 +300,7 @@ function FullPageScroll() {
                             </div>
                             <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 mb50 wow fadeInUp animated from-left">
                                 <div className="aboutus-grid text-center">
-                                    <p className="aboutus-grid-title"> <span>400</span></p>
+                                    <p className="aboutus-grid-title"> <span>200</span></p>
                                     <p className="aboutus-grid-desc">Scriptics employees Worldwide</p>
                                 </div>
                             </div>
@@ -322,12 +323,12 @@ function FullPageScroll() {
                                     <div className='new_padd'>
                                         <h2>In the news</h2>
                                         <div className='pro_news'>
-                                            <h4 className='news-desc'>Scriptics starting with new country- "Australia"
-                                                <img className="img-right-arrow" alt="arrow" src="/assets/img/right-arrow.svg" />
+                                            <h4 className='news-desc'>Gujarat Biotechnology Research Centre (GBRC) has signed MoU with Scriptics Inc.
+                                                <a href='https://timesofindia.indiatimes.com/city/vadodara/gbrc-inks-pact-with-canadian-co/articleshow/94670778.cms?utm_source=whatsapp&utm_medium=social&utm_campaign=TOIArticleshowicon'><img className="img-right-arrow" alt="arrow" src="/assets/img/right-arrow.svg" /></a>
                                             </h4>
                                         </div>
                                         <div className='pro_news'>
-                                            <h4 className='news-desc'>The Millets Meetup. Organic - Chemical Free Food - Vegan & Health Eating Community.
+                                            <h4 className='news-desc'>Scriptics starting with new country- "Australia"
                                                 <img className="img-right-arrow" alt="arrow" src="/assets/img/right-arrow.svg" />
                                             </h4>
                                         </div>
@@ -338,7 +339,7 @@ function FullPageScroll() {
                                         </div>
                                         <div className='pro_news'>
                                             <h4 className='news-desc'>Scriptics will be attending at Collision Conf in Toronto 2022.
-                                                <img className="img-right-arrow" alt="arrow" src="/assets/img/right-arrow.svg" />
+                                                <img className="img-right-arrow" alt="arrow" src="/assets/img/right-arrow.svg"/>
                                             </h4>
                                         </div>
                                         <div className='pro_news'>
@@ -433,7 +434,7 @@ function FullPageScroll() {
                 <section className="sec contact_us nav_name" id="contact_us">
                     <div className='container'>
                         <div className='row'>
-                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                            <div className='col-lg-6 col-md-6 col-sm-12 contact_back col-xs-12'>
                                 <div className='row'>
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-0 mb-sm-40">
                                         <div className='border'>

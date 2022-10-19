@@ -4,7 +4,7 @@ function Header() {
             <header id="masthead" className="site-header navbar-static-top navbar-light masthead-sticky ">
                 <div className="container">
                     <nav className="navbar fixed-top navbar-expand-lg">
-                        <a className="navbar-brand" href="/"><img src="/assets/img/Scriptics_bg_logo.svg" alt="scriptics logo"/></a>
+                        <a className="navbar-brand" href="/"><img src="/assets/img/scriptics_wht_bg.svg" alt="scriptics logo"/></a>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button> 

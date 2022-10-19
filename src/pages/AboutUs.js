@@ -91,7 +91,7 @@ export class AboutUs extends Component {
                             </div>
                             <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 mb50 wow fadeInUp animated from-left">
                                 <div className="aboutus-grid text-center">
-                                    <p className="aboutus-grid-title"> <span>400</span></p>
+                                    <p className="aboutus-grid-title"> <span>200</span></p>
                                     <p className="aboutus-grid-desc">Scriptics employees Worldwide</p>
                                 </div>
                             </div>

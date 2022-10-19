@@ -9,7 +9,7 @@ document.onreadystatechange = function() {
 	}
 };
 
-/* Fixed header */
+/* Fixed header $('.header-link').css('color','white'); */
 var nav = document.querySelector('nav');
 window.addEventListener('scroll', function () {
   if (window.innerWidth > 992) {
@@ -17,16 +17,20 @@ window.addEventListener('scroll', function () {
     if (window.pageYOffset > 40 && pid) {
       nav.classList.add('bg-white');
       $('.navbar-brand img').attr('src','/assets/img/scriptics_wht_bg.svg');
-      $('.navbar-collapse .navbar-nav .nav-item a').css('color','white');
+      $('.navbar-collapse .navbar-nav .nav-item a').addClass('black');
+      console.log('entered for color change---- WHITE');
     } else {
       nav.classList.remove('bg-white');
-      $('.navbar-brand img').attr('src','/assets/img/Scriptics_bg_logo.svg');
-      $('.navbar-collapse .navbar-nav .nav-item a').css('color','black');
+      $('.navbar-brand img').attr('src','/assets/img/scriptics_wht_bg.svg');
+      $('.navbar-collapse .navbar-nav .nav-item a').addClass('black');
+      console.log('entered for color change---- BLACK');
     }
   }
   else{
+    
     $('.navbar-brand img').attr('src','/assets/img/scriptics_wht_bg.svg');
     $('.navbar-collapse .navbar-nav .nav-item a').css('color','white');
+    console.log('entered for color change---- ELSEwH');
   }
 });
 
@@ -73,9 +77,11 @@ $(document).ready(function(){
       var offset = $(this).offset().top - 150;
       if(top >= offset && top < offset + height){
         link.removeClass('active').removeClass('mb-50');
-        //var colo = $('.front_slider').find($('ul li.active')).addClass('active'); 
         $('.front_slider').find('[data-scroll="' + id + '"]').parent('li').addClass('active').addClass('mb-50'); 
         
+        if($('.front_slider ul li.active').hasClass('first')){
+          $('.navbar-light .navbar-nav .nav-link').css('color','white');
+        }
         if($('.front_slider ul .text-colo-white').hasClass('active')){
           $('.front_slider ul li').removeClass('dark');
         }
@@ -90,7 +96,7 @@ $(document).ready(function(){
         }
       }
     });
-    $('.header-link').css('color','white');
+    
     
   }); 
 

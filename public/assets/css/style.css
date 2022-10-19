@@ -28,12 +28,14 @@ p{ font-family: HNB; font-size: 14px; color: #212121; line-height: 25px;}
 .bg-white{ padding-top: 10px!important; box-shadow: 0px 15px 25px #00000026; margin-bottom: 0px;}
 .fixed-top .navbar-brand h1{ color: #ffffff; font-family: HNC!important; }
 .navbar-brand{ margin: 0 9.3%; }
-.nav-link.dropdown-toggle.header-link{ font-size: 16px!important; color: #fff !important;}
-.navbar-collapse .navbar-nav .nav-item a{ color: #3f3f3f;}
-.bg-white .navbar-collapse .navbar-nav .nav-item a{ color: #212121!important; font-size: 14px; padding: 0 1em;}
-.show .navbar-nav .nav-item a {color: #212121 !important;}
+.nav-link.dropdown-toggle.header-link{ font-size: 16px!important;}
+.navbar-collapse .navbar-nav .nav-item a{ }
+.bg-white .navbar-collapse .navbar-nav .nav-item a{font-size: 14px; padding: 0 1em;}
+.show .navbar-nav .nav-item a {}
+.black{color: #2f3640 !important;}
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover { color: #212121; font-weight: bold;}
 .navbar .dropdown-menu { width:99.99%; left:0; right:0; }
+.navbar-light .navbar-nav .nav-link {color: rgb(0 0 0);}
 .dropdown-menu{ padding: 0; margin: 0; background-clip: unset; }
 .dropdown-menu .row{ padding: 40px 0; }
 .dropdown-menu .fi{ width: 260px; height: 116px; margin-bottom: 20px; }
@@ -42,6 +44,7 @@ p{ font-family: HNB; font-size: 14px; color: #212121; line-height: 25px;}
 .slider-arrow-header{ display: none; }
 .header-head{ text-transform: uppercase; width: 90%; }
 .i-img{ width: 26px!important; height: 15px!important; margin-left: 16px; }
+.dropdown-menu ul li a { color: #2f3640 !important;}
 .dropdown-menu li{ margin-bottom: 60px; }
 .dp-block .row{ padding-bottom: 0px; }
 .dp-block .dropdown-menu li{ margin-bottom: 50px; padding-left: 50px; }
@@ -62,11 +65,11 @@ p{ font-family: HNB; font-size: 14px; color: #212121; line-height: 25px;}
 .searchBox {position: fixed;right: 6%;transform:  translate(-50%,50%);border:2px solid white;height: 40px;border-radius: 40px;padding: 0px;}
 .searchBox:hover > .searchInput {width: 240px;padding: 0 6px;}
 .searchBox:hover > .searchButton {background: white;color : #2f3640;}
-.searchButton {color: white;float: right;width: 40px;height: 40px;background: transparent;display: flex;justify-content: center;align-items: center;transition: 0.4s;border: none;}
+.searchButton {color: rgb(46, 45, 45);float: right;width: 40px;height: 40px;background: transparent;display: flex;justify-content: center;align-items: center;transition: 0.4s;border: none;}
 .searchInput {border:none;background: none;outline:none;float:left;padding: 0;color: white;font-size: 16px;transition: 0.4s;line-height: 40px;width: 0px;}
 .input {padding: 10px;width: 40px;height: 30px;background: none;font-size: 20px;outline: none;transition: .5s;border: none;}
-.box:hover input{width: 120px;background: #fefbfb;border-radius: 5px;}
-.box i{position: absolute;top: 50%;right: 15px;transform: translate(-50%,-50%);font-size: 26px;color: #fff;transition: .2s;}
+.box:hover input{width: 120px;background: #737373;border-radius: 5px; color: #fff;}
+.box i{position: absolute;top: 50%;right: 15px;transform: translate(-50%,-50%);font-size: 26px;color: #393939;transition: .2s;}
 .box:hover i{opacity: 0;z-index: -1;}
 .bg-white .box:hover input{ background-color: #ff99019f;}
 /***---------------- left bar ---------------***/
@@ -91,7 +94,7 @@ ul.footer-txt > li > a:hover{color: #bcb8b8;text-decoration: none;}
 .page_404{ background-color: skyblue;}
 
 /***------------------------ FullPageSections --------------------------***/
-.sec{  width: 100%;display: flex;align-items: left;justify-content: center;letter-spacing: 2px;background-size: cover;background-repeat: no-repeat;background-position: center center;height: auto;padding: 100px 0;}
+.sec{  width: 100%;align-items: left;justify-content: center;letter-spacing: 2px;background-size: cover;background-repeat: no-repeat;background-position: center center;height: auto;padding: 100px 0;}
 /****                                 *****/
 .front_slider{position: fixed;top:50%; left:30px;transform: translateY(-40%);z-index: 1000;}
 .front_slider ul{list-style: none;padding:0; margin: 0;}
@@ -131,10 +134,13 @@ ul.footer-txt > li > a:hover{color: #bcb8b8;text-decoration: none;}
 .over_content{position: relative;left: 0;right: 0;}
 .white-color{color: #fff;}
 .over_content p{color: #fff;}
-.future_technology{background-color: #FF9900 ;}
 /*** case-study ***/
 .case-cat:before {content: "";display: block;border-top: 1px solid #ffffff!important;width: 36px!important;margin-top: 13px;margin-right: 10px;}
 .case-cat {display: flex;}
+.future_technology{background-position: right; }
+.blue{color: #2c3e6f; padding: 15px 30px;}
+.blue_btn{ background-color: #2c3e6f; border: 1px solid #2c3e6f; color: #fff; margin-left:30px; padding: 15px 30px;}
+.blue_btn:hover{background-color: #fff; color: #2c3e6f;}
 /**--------------- digital_cap ---------------**/
 .digital_dentistry{background-color: #f69696 !important;}
 /***------------- digital_operate ---------***/
@@ -222,13 +228,14 @@ button.close{ color: #fff; background-color: #000; border-radius: 20%; border: 2
 .contact_us{background-color: #963596;}
 .contact_us.row::before{display: table;content: " ";}
 .border {border: 1px solid rgba(255,255,255,.2);float: left;position: relative;width: 100%;}
-border-btm {border-bottom: 1px solid rgba(255,255,255,.2);}
+.border-btm {border-bottom: 1px solid rgba(255,255,255,.2); }
+.contact_back{background-color: #fff; color: #000;}
 .border-rgt {border-right: 1px solid rgba(255,255,255,.2);}
 #contact_us .expand {cursor: pointer;}
-.cntry-nme {padding: 75px 0;display: block;color: #fff;font-size: 20px;text-align: center;font-weight: 600;text-decoration: none;}
+.cntry-nme {padding: 75px 0;display: block;color: #000;font-size: 20px;text-align: center;font-weight: 600;text-decoration: none;}
 .cntry-nme:hover {background-color: #d0b5d5;color: #000;text-decoration: none;transition: ease;}
 .border-btm:hover, .cntry-line:hover{background-color: #d0b5d5;}
-.border_bottom { border-bottom: 1px solid rgba(255,255,255,.9);}
+.border_bottom { border-bottom: 2px solid #dee2e6;}
 .cntry-line{border-top: 1px solid #fff;}
 .cnt_us_txt {font-size: 64px;line-height: 73px;font-weight: 900;margin-bottom: 30px;}
 .contact_page span {color: #fff; font-weight: 600; margin-top: 0;}
@@ -363,6 +370,7 @@ border-btm {border-bottom: 1px solid rgba(255,255,255,.2);}
 .team-desc h4{ height: 50px; padding-left: 5px; padding-right: 5px;}
 .eqh-box{ background-color: #cdcdcd; margin: 50px 0;}
 .linked a { border: 1px solid #007bff; color: #007bff; padding: 3px;}
+.actionable{margin-top: 100px;}
 
 
 

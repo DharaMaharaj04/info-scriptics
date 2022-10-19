@@ -41,7 +41,6 @@ import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 import {Helmet} from "react-helmet";
 import React, { useEffect } from 'react';
 import ReactGA from 'react-ga';
-
 import OilAndGas from './pages/OilAndGas';
 import Retail from './pages/Retail';
 import ScripticsAIGaming from './pages/ScripticsAIGaming';
@@ -49,6 +48,7 @@ import SignalProcessing from './pages/SignalProcessing';
 import StatisticalDataAnalysis from './pages/StatisticalDataAnalysis'
 import ThinkboxStudio from './pages/ThinkboxStudio';
 import WearableComputing from './pages/WearableComputing';
+import ActionableInsight from './pages/ActionableInsight';
 
 function App() {
   useEffect(() => {
@@ -109,6 +109,7 @@ function App() {
             <Route exact path='/statistical_data_analysis' component={StatisticalDataAnalysis} />
             <Route exact path='/thinkbox_studio' component={ThinkboxStudio} />
             <Route exact path='/wearable_computing' component={WearableComputing} />
+            <Route exact path='/actionable_insights' component={ActionableInsight} />
             <Route component={Page404} />
           </Switch>
         <Footer/>
