@@ -33,7 +33,7 @@ export  class ActionableInsight extends Component {
                         <p>Created portfolio health monitoring dashboards for executives. Designed marketing campaign calendar and strategies for each campaign – CLI (Credit Limit Increase), BT (Balance Transfer), Spend (Back to School, Buy Local). Created decision trees and marginal loss calculations to identify the right segments for the offers.</p>
                     </div>
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12 fadeInUp animated from-right'>
-                        <img src="/assets/img/action.jpeg" />
+                        <img src="/assets/img/action.png" />
                         </div>
                     </div>    
                 </div> 
