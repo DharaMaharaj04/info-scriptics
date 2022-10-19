@@ -34,7 +34,7 @@ export class FutureTechnology extends Component {
                         <p>But, most importantly how we can change people’s lives we are putting our heavy investment towards life science and improving the next generation of drug discovery technology. AMR(Anti-Microbial Resistance) is a big problem as most of the vaccines and treatments are resistant to the microbes, our recent collaboration with GBRC(Gujarat Biotechnology Research Centre) will open new doors for AMR research our core focus will be identifying responsible genes for AMR and possible treatment of it.</p>
                     </div>
                     <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12 img-bottom fadeInUp animated from-right'>
-                        <img src="/assets/img/biot.jpeg" alt='future of technology' className='future-of-technology' />
+                        <img src="/assets/img/biot.png" alt='future of technology' className='future-of-technology' />
                     </div>
                 </div>    
             </div> 
