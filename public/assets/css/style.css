@@ -14,7 +14,7 @@
     font-family: HNT;
     src: url(../fonts/Poppins/Poppins-Thin.ttf);
 }
-#loader { position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 999999; background: url(/assets/img/scriptics_loader.gif) center center no-repeat rgb(255,255,255); }
+#loader { position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 999999; background: url(/assets/img/loader.gif) 50% 50% no-repeat rgb(255,255,255); }
 html  { width: 100%; height: 100%; margin: 0px; padding: 0px; overflow-x: hidden !important; font-family: HNR; }
 h1,h2,h3,h4,h5,h6 { margin-top: 0; margin-bottom: 20px; font-family: HNR; }
 h1,h3,h4 { color:  #212121; font-family: HNR;}
