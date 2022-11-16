@@ -18,19 +18,16 @@ window.addEventListener('scroll', function () {
       nav.classList.add('bg-white');
       $('.navbar-brand img').attr('src','/assets/img/scriptics_wht_bg.svg');
       $('.navbar-collapse .navbar-nav .nav-item a').addClass('black');
-      console.log('entered for color change---- WHITE');
     } else {
       nav.classList.remove('bg-white');
       $('.navbar-brand img').attr('src','/assets/img/scriptics_wht_bg.svg');
       $('.navbar-collapse .navbar-nav .nav-item a').addClass('black');
-      console.log('entered for color change---- BLACK');
     }
   }
   else{
     
     $('.navbar-brand img').attr('src','/assets/img/scriptics_wht_bg.svg');
     $('.navbar-collapse .navbar-nav .nav-item a').css('color','white');
-    console.log('entered for color change---- ELSEwH');
   }
 });
 
@@ -97,11 +94,7 @@ $(document).ready(function(){
       }
     });
     
-    
   }); 
-
-  
-
   
 });
 
