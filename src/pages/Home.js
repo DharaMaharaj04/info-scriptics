@@ -1,23 +1,10 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import FullPageScroll from './FullPageScroll';
-import 'slick-carousel/slick/slick.css'; 
-import 'slick-carousel/slick/slick-theme.css';
-import Slider from 'react-slick';
+
 import { Helmet } from 'react-helmet';
 export class Home extends Component {
     render() {
-        const settings = {
-            dots: true,
-            infinite: true,
-            fade: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 5000,
-            arrows: false,
-            className: "front_slider"
-        };  
+        
         return (
             <div>
                 <Helmet>

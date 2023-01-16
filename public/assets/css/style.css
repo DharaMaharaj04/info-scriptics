@@ -254,7 +254,7 @@ button.close{ color: #fff; background-color: #000; border-radius: 20%; border: 2
 .slide-1, .slide-2, .slide-3, .slide-4, .slide-5{background-size: cover;height: 100vh;width: 100%;}
 .slide-3 img{background-color: thistle;}
 .slide-4 img{background-color: darkseagreen;}
-.owl-nav{display: none;}
+.srv-main .owl-nav{display: none;}
 .owl-dots{position: relative; bottom: 50px;}
 .slide-img>img{height: 100%; min-height: 100%; min-width: 100%;position: absolute; right: 0; width: 100%;}
 .slide_content{ }
@@ -377,4 +377,35 @@ button.close{ color: #fff; background-color: #000; border-radius: 20%; border: 2
 .future-of-technology{ height: 350px;}
 
 
+.cyber_head h3{ padding-top: 50px; }
+.cyber-title{padding-top: 40px;}
+.cyber_head img{padding-top: 20px; width: 50%; height: auto;}
+.cyhead{padding-top: 20px;}
+.cyber_head h3{font-size: 40px; text-align: center;}
+.capa_image_with_text_sec{padding: 12px 18px; background-color: #fff; text-align: justify; margin: 20px 0;}
+.video_logo{ width: 60% !important;}
+.indus-info-cy h4{padding-top: 35px;}
 
+.cyber .col-sm-12 {margin: 15px 0;}
+.cyber_box{margin: 0 auto;max-width: 290px;width: 100%;min-height: 500px;padding: 20px;position: relative;background-image: url(/assets/img/pattern-bg.png);background-color: #bee3ff;}
+.title-box {background-color: #000;color: #ffffff;padding: 4px;display: inline-block;position: relative;font-size: 11px;letter-spacing: 1px;font-weight: 700;text-transform: uppercase;}
+.title-box:after {content: '';position: absolute;right: -19px;top: 0px;width: 0; height: 0;border-left: 0px solid transparent;border-right: 19px solid transparent;border-top: 32px solid #000;clear: both;}
+.slider-title {font-size: 30px;color: #000000;text-align: left;margin-top: 30px;font-weight: 900;line-height: 30px;}
+.slider-btn {font-size: 14px;color: #000;text-transform: uppercase;letter-spacing: 1.5px;font-weight: 900;width: 200px;position: absolute;margin: 0 auto;text-align: center;left: 0;right: 0;bottom: 30px;padding: 10px 20px;background-color: transparent;display: block;z-index: 1;border: 1px solid #000;-webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+.owl-carousel .owl-nav{height: 47px;width: 26px;cursor: pointer;top: 100px !important;}
+.owl-carousel .owl-next,
+.owl-carousel .owl-prev{position: absolute;  top:40%;}
+.owl-carousel .owl-prev{left: -13px;}
+.owl-carousel .owl-next{right: -13px;}
+
+input {width: 100%;height: 40px;background-color: #eee;border: none;padding-left: 15px;outline: none;font-weight: 600;position: relative; border-radius:10px;margin: 6px;}
+
+.wrapper {width: 100%;height: 100%;display: none;position: absolute;top: 0px;left: 0px;content: "";background: #000;z-index: 99999;}
+.popup-box {width: 400px;padding: 70px;transform: translate(-50%, -50%) scale(.5);position: absolute;top: 50%;left: 50%;box-shadow: 0px 2px 16px rgba(255,255, 255, .9);border-radius: 20px;text-align: center;}
+.popup-box h2 {color: #fff;}
+.popup-box h3 {color: #888;}
+.popup-box .close-button {width: 35px;height: 35px;display: inline-block;position: absolute;top: 10px;right: 10px;-webkit-transition: all ease 0.5s;transition: all ease 0.5s;border-radius: 1000px;background: #7b78ff;font-weight: bold;text-decoration: none;color: #fff;line-height: 190%;}
+.popup-box .close-button:hover {-webkit-transform: rotate(180deg); transform: rotate(180deg);}
+.transform-in, .transform-out {display: block;-webkit-transition: all ease 0.5s;transition: all ease 0.5s;}
+.transform-in {-webkit-transform: translate(-50%, -50%) scale(1); transform: translate(-50%, -50%) scale(1);}
+.transform-out { -webkit-transform: translate(-50%, -50%) scale(0.5); transform: translate(-50%, -50%) scale(0.5);}
