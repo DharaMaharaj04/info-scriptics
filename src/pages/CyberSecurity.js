@@ -96,10 +96,10 @@ export default class CyberSecurity extends Component {
                 <div className='row'>
                 <div className='col-12'>
                 <div 
-                dangerouslySetInnerHtml={{
+                dangerouslySetInnerHTML={{
                     __html:
-                <video src="/assets/img/bg-blackberry-lock-up.mp4" type="video/mp4" loop autoPlay width="500" height="281" muted>
-                                    <source  />
+                <video loop autoPlay mute playsinline>
+                    <source src="/assets/img/bg-blackberry-lock-up.mp4" type="video/mp4" />
                 </video>
                 }}
                 />
