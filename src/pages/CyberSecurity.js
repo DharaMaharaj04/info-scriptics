@@ -7,8 +7,6 @@ import emailjs from 'emailjs-com';
 
 
 export default class CyberSecurity extends Component {
-
-
   render() {
 
     function sendEmail(e) {
