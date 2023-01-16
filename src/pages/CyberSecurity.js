@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect, useRef } from 'react';
 import { Helmet } from 'react-helmet';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -8,7 +8,19 @@ import emailjs from 'emailjs-com';
 export default class CyberSecurity extends Component {
   render() {
 
+    const videoEl = useRef(null);
 
+    const attemptPlay = () => {
+      videoEl &&
+        videoEl.current &&
+        videoEl.current.play().catch(error => {
+          console.error("Error attempting to play", error);
+        });
+    };
+  
+    useEffect(() => {
+      attemptPlay();
+    }, []);
 
     function sendEmail(e) {
         e.preventDefault();
@@ -96,11 +108,17 @@ export default class CyberSecurity extends Component {
                 <div className='row'>
                 <div className='col-12'>
                
-                <video loop={true} autoPlay="autoplay" muted="muted" playsinline>
-                    <source src="/assets/img/bg-blackberry-lock-up.mp4" type="video/mp4" alt="Muted video" />
-                </video>
+                
             
-            
+                <video
+                playsInline
+                loop
+                muted
+                controls
+                alt="All the devices"
+                src="/assets/img/bg-blackberry-lock-up.mp4"
+                ref={videoEl}
+              />
                 </div>
                 </div>
                 </div>
