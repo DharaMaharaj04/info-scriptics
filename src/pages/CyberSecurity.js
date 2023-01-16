@@ -95,14 +95,12 @@ export default class CyberSecurity extends Component {
                 <div className='container'>
                 <div className='row'>
                 <div className='col-12'>
-                <div 
-                dangerouslySetInnerHTML={{
-                    __html:
-                <video loop autoPlay mute playsinline>
-                    <source src="/assets/img/bg-blackberry-lock-up.mp4" type="video/mp4" />
+               
+                <video loop={true} autoPlay="autoplay" muted={true} playsinline>
+                    <source src="/assets/img/bg-blackberry-lock-up.mp4" type="video/mp4" alt="Muted video" />
                 </video>
-                }}
-                />
+            
+            
                 </div>
                 </div>
                 </div>
