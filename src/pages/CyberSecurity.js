@@ -5,22 +5,11 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import emailjs from 'emailjs-com';
 
+
 export default class CyberSecurity extends Component {
+
+
   render() {
-
-    const videoEl = useRef(null);
-
-    const attemptPlay = () => {
-      videoEl &&
-        videoEl.current &&
-        videoEl.current.play().catch(error => {
-          console.error("Error attempting to play", error);
-        });
-    };
-  
-    useEffect(() => {
-      attemptPlay();
-    }, []);
 
     function sendEmail(e) {
         e.preventDefault();
@@ -81,9 +70,7 @@ export default class CyberSecurity extends Component {
                     <OwlCarousel className="owl-theme" {...options} >
                         <div className=''>  
                             <div className='slide-img'>
-                                <video loop={true} autoPlay="autoplay" controls="controls" muted>
-                                    <source src="/assets/img/bg-blackberry-lock-up.mp4" type="video/mp4" />
-                                </video>    
+                                <iframe width="1560" height="760" src="/assets/img/bg-blackberry-lock-up.mp4"  autoPlay loop ></iframe>    
                                 <div className='slider-overlay-amethyst'></div>
                             </div>
                             <div className='caption'>
@@ -103,26 +90,6 @@ export default class CyberSecurity extends Component {
                 </section>
                 
 
-                <section>
-                <div className='container'>
-                <div className='row'>
-                <div className='col-12'>
-               
-                
-            
-                <video
-                playsInline
-                loop
-                muted
-                controls
-                alt="All the devices"
-                src="/assets/img/bg-blackberry-lock-up.mp4"
-                ref={videoEl}
-              />
-                </div>
-                </div>
-                </div>
-                </section>
 
                 <section className='cyber_head'>
                     <div className='container'>
@@ -144,7 +111,6 @@ export default class CyberSecurity extends Component {
                         </div>    
                     </div> 
                 </section>
-
             <section className='cyber'>
                 <div className='container'>
                     <div className='row'>
@@ -241,7 +207,6 @@ export default class CyberSecurity extends Component {
                                         <a className="slider-btn popup-button" href="/assests/docs/br-desktop-VDI.pdf" target="_blank" >Download pdf</a>
                                     </div>
                                 </div>
-
                                 
                             </OwlCarousel>
                             <div className="wrapper">
@@ -261,7 +226,6 @@ export default class CyberSecurity extends Component {
                     </div>    
                 </div> 
             </section>
-            
       </div>
     )
   }
