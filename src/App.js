@@ -113,7 +113,7 @@ function App() {
             <Route exact path='/wearable_computing' component={WearableComputing} />
             <Route exact path='/actionable_insights' component={ActionableInsight} />
             <Route exact path='/future_technology' component={FutureTechnology} />
-            <Route exact path='/cyber_security' component={CyberSecurity} />
+            <Route exact path='/cybersecurity' component={CyberSecurity} />
 
             <Route component={Page404} />
           </Switch>
