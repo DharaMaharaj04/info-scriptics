@@ -95,8 +95,8 @@ export default class CyberSecurity extends Component {
                 <div className='container'>
                 <div className='row'>
                 <div className='col-12'>
-                <video loop autoPlay controls muted>
-                                    <source src="/assets/img/bg-blackberry-lock-up.mp4" type="video/mp4" />
+                <video src="/assets/img/bg-blackberry-lock-up.mp4" type="video/mp4" loop autoPlay width="500" height="281" muted>
+                                    <source  />
                                 </video>
                 </div>
                 </div>
