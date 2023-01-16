@@ -69,7 +69,7 @@ export default class CyberSecurity extends Component {
                     <OwlCarousel className="owl-theme" {...options} >
                         <div className=''>  
                             <div className='slide-img'>
-                                <video loop autoPlay controls muted>
+                                <video loop={true} autoPlay="autoplay" controls="controls" muted>
                                     <source src="/assets/img/bg-blackberry-lock-up.mp4" type="video/mp4" />
                                 </video>    
                                 <div className='slider-overlay-amethyst'></div>
@@ -91,7 +91,17 @@ export default class CyberSecurity extends Component {
                 </section>
                 
 
-                
+                <section>
+                <div className='container'>
+                <div className='row'>
+                <div className='col-12'>
+                <video loop autoPlay controls muted>
+                                    <source src="/assets/img/bg-blackberry-lock-up.mp4" type="video/mp4" />
+                                </video>
+                </div>
+                </div>
+                </div>
+                </section>
 
                 <section className='cyber_head'>
                     <div className='container'>
