@@ -114,7 +114,6 @@ function App() {
             <Route exact path='/actionable_insights' component={ActionableInsight} />
             <Route exact path='/future_technology' component={FutureTechnology} />
             <Route exact path='/cybersecurity' component={CyberSecurity} />
-
             <Route component={Page404} />
           </Switch>
         <Footer/>
