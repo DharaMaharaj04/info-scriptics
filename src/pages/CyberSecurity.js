@@ -66,11 +66,11 @@ export default class CyberSecurity extends Component {
                 <body id="page-service" />
             </Helmet>
             
-                <section className='srv-main'>
+            <section className='srv-main'>
                     <OwlCarousel className="owl-theme" {...options} >
-                        <div className=''>  
+                        <div className='slide-1'>  
                             <div className='slide-img'>
-                                <iframe width="1560" height="760" src="/assets/img/bg-blackberry-lock-up.mp4"  autoPlay loop ></iframe>    
+                                <img src='/assets/img/blackberry-lock.png' alt='blackberry_cyber_security' />   
                                 <div className='slider-overlay-amethyst'></div>
                             </div>
                             <div className='caption'>
@@ -84,10 +84,11 @@ export default class CyberSecurity extends Component {
                                     </div> 
                                 </div>     
                             </div>      
-                        </div> 
+                        </div>
+                        
                     </OwlCarousel>
                 </section>
-
+                
 
                 <section className='cyber_head'>
                     <div className='container'>
@@ -103,7 +104,7 @@ export default class CyberSecurity extends Component {
                                <p>Cybersecurity has failed to keep up, because it fails to look ahead. Our intelligent security pairs artificial intelligence with machine learning to proactively protect your system from cyberthreats. It’s time to protect, prevent and respond.</p>
                                <img src='/assets/img/Scriptics blackberry logo - CYbe.png' /> 
                             </div>
-                            <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12 indus-img-col'>
+                            <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12 indus-img-col fadeInUp animated from-right'>
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/4NtSuKkIzYc?start=15" title="YouTube video player" ></iframe>
                             </div>
                         </div>    
