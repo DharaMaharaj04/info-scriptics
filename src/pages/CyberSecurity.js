@@ -91,8 +91,7 @@ export default class CyberSecurity extends Component {
                         <div className='container'>
                             <div className='row'>
                                 <div className='col-12'>
-                                <video style={{ maxWidth: "100%", width: "800px", margin: "0 auto" }}
-                                    playsInline loop={true} muted={true} autoPlay={true} alt="All the devices" src="/assets/img/bg-blackberry-lock-up.mp4" />
+                                
 
                                 </div>
                             </div>
