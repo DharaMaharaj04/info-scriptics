@@ -51,7 +51,6 @@ import WearableComputing from './pages/WearableComputing';
 import ActionableInsight from './pages/ActionableInsight';
 import FutureTechnology from './pages/FutureTechnology';
 import CyberSecurity from './pages/CyberSecurity';
-import CylanceAVERT from './pages/CylanceAVERT';
 
 function App() {
   useEffect(() => {
@@ -115,7 +114,6 @@ function App() {
             <Route exact path='/actionable_insights' component={ActionableInsight} />
             <Route exact path='/future_technology' component={FutureTechnology} />
             <Route exact path='/cybersecurity' component={CyberSecurity} />
-            <Route exact path='/blackberry_cybersecurity' component={CylanceAVERT} />
             <Route component={Page404} />
           </Switch>
         <Footer/>

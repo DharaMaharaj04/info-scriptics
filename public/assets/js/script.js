@@ -137,6 +137,7 @@ function IsEmail(email) {
 
 /** bottom scrollUp */
 $(document).ready(function(){ 
+  $('.cysec-overlay').removeClass('cysec-overlay-active');
   $(window).scroll(function(){ 
       if ($(this).scrollTop() > 100) { 
           $('#scroll').fadeIn(); 
@@ -153,18 +154,19 @@ $(document).ready(function(){
   $('.popup-button').click(function(e) {
     $('.wrapper').fadeIn(500);
     $('.popup-box').removeClass('transform-out').addClass('transform-in');
-
+    $('.cysec-overlay').addClass('cysec-overlay-active');
     e.preventDefault();
-    
   });
 
   $('.popup-close').click(function(e) {
     $('.wrapper').fadeOut(500);
     $('.popup-box').removeClass('transform-in').addClass('transform-out');
-
+    $('.cysec-overlay').removeClass('cysec-overlay-active');
     e.preventDefault();
   });
 
+ 
+  
 });
 
 
