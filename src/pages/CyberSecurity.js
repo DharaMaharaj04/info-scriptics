@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useRef } from 'react';
+import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -46,13 +46,13 @@ export default class CyberSecurity extends Component {
     };
 
     const options = {
-        loop: true,
+        loop: false,
         margin: 0,
         items: 1,
         autoplay: true,
-        dots: true,
-        autoplay: true,
-        dots: true
+        dots: false,
+        autoplay: false,
+        dots: false
     };
 
 
@@ -83,22 +83,8 @@ export default class CyberSecurity extends Component {
                                     </div>     
                                 </div>      
                             </div>
-                            
                         </OwlCarousel>
                     </section>
-
-                    <section>
-                        <div className='container'>
-                            <div className='row'>
-                                <div className='col-12'>
-                                
-
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-
                     <section className='cyber_head'>
                         <div className='container'>
                             <div className='row'>

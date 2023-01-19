@@ -39,12 +39,11 @@ function Header() {
                                                         <li className="nav-item"><a className="nav-link" href="/"></a></li>
                                                     </ul>
                                                 </div>
+                                                
                                                 <div className="col-12 col-sm-12 col-md-3">
                                                     <ul className="nav flex-column">
-                                                        <li className="nav-item"><a className="nav-link" href="/wearable_computing">Wearable computing</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/distributed_computing">Distributed Computing</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/mathematical_modelling_optimization">Mathematical modeling and optimizing</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/"></a></li>
+                                                        <li className="nav-item"><a className="nav-link" href="/cybersecurity"> BlackBerry Cyber Security</a></li>
+                                                        <li className="nav-item"><a className="nav-link" href="/soc">SOC</a></li>
                                                     </ul>
                                                 </div>  
                                             </div>

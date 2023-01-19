@@ -413,3 +413,36 @@ input {width: 100%;height: 40px;background-color: #eee;border: none;padding-left
 /*** blur background ***/
 .cysec-overlay-active{filter: blur(3px);}
 
+/*** soc ***/
+.slide_content h2, .slide_content p {color: #fff;}
+.strategicservices img{width: 100%;}
+.strategicservices_h8{ background-image: url(/assets/img/strategicservices-h8.jpg);}
+.strategicservices-right p {padding-left: 40px; padding-right: 40px;}
+.strategicservices-right{position: relative; top: 35%;}
+
+/*** vCISO ***/
+.vCISO{ background-size: cover; background-repeat: no-repeat; background-position: 50%; display: table-cell; position: relative;vertical-align: middle; width: 100%;}
+.vCISO h2, .vCISO li{color: #fff;}
+.vCISO p{color: #fff;}
+.vCISO-con{padding: 120px 0; padding-right: 82px !important; padding-left: 82px !important;}
+.vCISO-row{margin-right: -10px; margin-left: -10px;}
+.vCISO.vCISO-con.vCISO-row.col-12 a{margin-top: 30px !important;}
+.cta.cta-primary {background-color: #1475dc;margin-top: 30px !important; color: #fff !important; min-width: 160px; margin-right: 37px; margin-bottom: 0; text-align: center; -webkit-transition: all .5s ease-in-out; transition: all .5s ease-in-out; padding: 6px 15px 4px; font-weight: 800; font-size: 18px; line-height: 24px; border-radius: 32px;}
+.cta__bullet-icon{background-image: url(/assets/img/cta-bullet.svg); background-size: contain; margin-right: 10px; height: 13px; background-position: 50%; background-repeat: no-repeat; display: inline-block; width: 18px;margin-bottom: -1px;}
+
+/*** ss-Assessment ***/
+.ss-Assessment img{width: 100%;}
+.ss-IR-left{ top:20%; position: relative; padding-left: 82px; padding-right: 17%;}
+.ss-IR-left h3{margin-bottom: 30px;}
+.ss-Assessment-right{top:20%; position: relative; padding-left: 82px; padding-right: 17%;}
+.ss-Assessment-right h3{margin-bottom: 30px;}
+
+.content--grey {
+  background-color: #f9f9fa;
+  color: #000;
+}
+.Custom-con{}
+
+/*** ***/
+.threat{background-color: #0d0e12;}
+.threat h2{color: #fff;}
