@@ -91,7 +91,7 @@ export default class SOC extends Component {
                 </section>
                 <section className='ss-IR'>
                     <div className='container-fuild'>
-                        <div className='row'>
+                        <div className='row flex-direction'>
                             <div className='col-12 col-lg-6 col-md-6 col-sm-12 col-xs-12 fadeInUp animated from-right'>
                                 <div className='ss-IR-left'>
                                     <h3 className='text-center'>At The Intersection of Endpoint Protection and Incident Response</h3>  
@@ -131,22 +131,152 @@ export default class SOC extends Component {
                         </div>
                     </div>
                 </section> 
+
+
+
+                <section className='timeline_sec'>
+                <div className='container'>
+                <div className='row'>
+                <div className='col-12'>
+                    <h3>Our 5-Step Process</h3>
+                </div>
+                <div className="timeline">
+                <div className="timeline-controllers" style={{top: 56}}>
+                    <div className="left" style={{display:"none"}}></div>
+                    <div className="right" style={{display: "none"}}></div>
+                </div>
+                <div className="timeline-light-line" style={{top: 162, display: "none"}}></div>
+                <div className="timeline-mask col-sm-12">
+                    <div className="timeline-items" style={{width: 1130, transform: "translateX(0)"}}>
+                        <div className="timeline-item" data-index="0" style={{width: 226}}>
+                            <div className="timeline-item-container">
+                                <div className="timeline-item-icon item-toggler">
+                                    <div>
+                                            <img className="default" src="/assets/img/strategicservices-ia1-icon1.svg" alt="Interviews" />
+                                            <img className="selected" src="/assets/img/strategicservices-ia1-icon1-blue.svg" alt="Interviews" />    
+                                    </div>
+                                    <p className="timeline-item-header" tabIndex="0">Interviews</p>
+                                    <div className="timeline-item-header-dot"></div>
+                                </div>
+                                <div className="timeline-item-content">
+                                    <p className="timeline-item-header item-toggler">Interviews</p>
+                                    <div className="expanded">
+                                        
+                                        <div className="timeline-item-content__text">
+                                            Interviews with key stakeholders.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="timeline-item" data-index="1" style={{width: 226}}>
+                            <div className="timeline-item-container">
+                                <div className="timeline-item-icon item-toggler">
+                                    <div>
+                                            <img className="default" src="/assets/img/strategicservices-ia1-icon2.svg" alt="Documentation" />
+                                            <img className="selected" src="/assets/img/strategicservices-ia1-icon2-blue.svg" alt="Documentation" />
+                                    </div>
+                                    <p className="timeline-item-header" tabIndex="0">Documentation</p>
+                                    <div className="timeline-item-header-dot"></div>
+                                </div>
+                                <div className="timeline-item-content">
+                                    <p className="timeline-item-header item-toggler">Documentation</p>
+                                    <div className="expanded">
+                                        
+                                        <div className="timeline-item-content__text">
+                                            Collection and review of relevant documentation.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="timeline-item" data-index="2" style={{width: 226}}>
+                            <div className="timeline-item-container">
+                                <div className="timeline-item-icon item-toggler">
+                                    <div>  
+                                            <img className="default" src="/assets/img/strategicservices-ia1-icon3.svg" alt="Assessment" />
+                                            <img className="selected" src="/assets/img/strategicservices-ia1-icon3-blue.svg" alt="Assessment" />
+                                    </div>
+                                    <p className="timeline-item-header" tabIndex="0">Assessment</p>
+                                    <div className="timeline-item-header-dot"></div>
+                                </div>
+                                <div className="timeline-item-content">
+                                    <p className="timeline-item-header item-toggler">Assessment</p>
+                                    <div className="expanded">
+                                        <div className="timeline-item-content__text">
+                                            Assessment notes and documentation as it pertains to each element of the Assessment model (E.G. NIST, ISO).
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="timeline-item selected" data-index="3" style={{width: 452}}>
+                            <div className="timeline-item-container">
+                                <div className="timeline-item-icon item-toggler">
+                                    <div>
+                                            <img className="default" src="/assets/img/strategicservices-ia1-icon4.svg" alt="Report Production" />
+                                            <img className="selected" src="/assets/img/strategicservices-ia1-icon4-blue.svg" alt="Report Production" />
+                                    </div>
+                                    <p className="timeline-item-header" tabIndex="0">Report Production</p>
+                                    <div className="timeline-item-header-dot"></div>
+                                </div>
+                                <div className="timeline-item-content">
+                                    <p className="timeline-item-header item-toggler">Report Production</p>
+                                    <div className="expanded">
+                                        
+                                        <div className="timeline-item-content__text">
+                                            Production of a report with recommendations for improvement and strategy. Includes peer reviews and technical editor review.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="timeline-item" data-index="4" style={{width: 226}}>
+                            <div className="timeline-item-container">
+                                <div className="timeline-item-icon item-toggler">
+                                    <div>    
+                                            <img className="default" src="/assets/img/strategicservices-ia1-icon5.svg" alt="Report Delivery" />
+                                            <img className="selected" src="/assets/img/strategicservices-ia1-icon5-blue.svg" alt="Report Delivery" />
+                                        
+                                    </div>
+                                    <p className="timeline-item-header" tabIndex="0">Report Delivery</p>
+                                    <div className="timeline-item-header-dot"></div>
+                                </div>
+                                <div className="timeline-item-content">
+                                    <p className="timeline-item-header item-toggler">Report Delivery</p>
+                                    <div className="expanded">
+                                        
+                                        <div className="timeline-item-content__text">
+                                            Report delivery and executive closeout.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+                </section>
+                
+
                 <section className='Custom-Staff'>
-                        <div class="cylance-mod-it16 content--grey">
-                            <div class="cylance-mod-container-headline container-custom-staff vCISO-con">
+                        <div className="cylance-mod-it16 content--grey">
+                            <div className="cylance-mod-container-headline container-custom-staff vCISO-con">
                                 <article>
-                                    <div class="row vCISO-row">
-                                        <div class="col-sm-12 col-md-5 offset-md-right-1 col-lg-5 offset-lg-right-1">
-                                            <div class="cylance-mod-it16__text-container">
-                                                <h3 class="cylance-mod-headline cylance-mod-it16__title">Custom Staff Augmentation</h3>
-                                                <div class="cylance-mod-body-copy">
+                                    <div className="row vCISO-row">
+                                        <div className="col-sm-12 col-md-5 offset-md-right-1 col-lg-5 offset-lg-right-1">
+                                            <div className="cylance-mod-it16__text-container">
+                                                <h3 className="cylance-mod-headline cylance-mod-it16__title">Custom Staff Augmentation</h3>
+                                                <div className="cylance-mod-body-copy">
                                                     Finding and hiring a candidate with relevant information security experience is not always easy.&nbsp; BlackBerry Security Services can offer a tailored staff augmentation, with the goal of becoming an extension of your information security team. &nbsp;Fill your gaps in staffing with subject matter experts in the following areas:
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="cylance-mod-headline-content col-sm-12 col-md-3 col-sm-12">
-                                            <div class="cylance-mod-it16__media-container">
-                                              <div class="cylance-mod-body-copy">
+                                        <div className="cylance-mod-headline-content col-sm-12 col-md-3 col-sm-12">
+                                            <div className="cylance-mod-it16__media-container">
+                                              <div className="cylance-mod-body-copy">
                                                 <ul>
                                                     <li>Digital Forensics</li>
                                                     <li>Incident Response (IR)</li>
@@ -156,14 +286,14 @@ export default class SOC extends Component {
                                             </div>   
                                         </div>
                                     </div>
-                                    <div class="cylance-mod-headline-content col-xs-12 col-md-3 col-sm-12">
-                                        <div class="cylance-mod-it16__media-container">      
-                                            <div class="cylance-mod-body-copy">
+                                    <div className="cylance-mod-headline-content col-xs-12 col-md-3 col-sm-12">
+                                        <div className="cylance-mod-it16__media-container">      
+                                            <div className="cylance-mod-body-copy">
                                                 <ul>
                                                     <li>Red Team Analyst</li>
                                                     <li>ThreatZero® &nbsp;(For CylancePROTECT®/CylanceOPTICS® clients)</li>
                                                 </ul>
-                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -172,23 +302,29 @@ export default class SOC extends Component {
                     </div>
                 </section> 
                 <section className='threat'>
-                    <div class="cylance-mod-t8 content--dark">
-                        <div class="cylance-mod-container-headline vCISO-con">
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <h2 class="cylance-mod-headline">Can your security stack hold up to malicious threat actors without the necessary people, process and technology? Contact BlackBerry Security Services for a consultation and we will help you to uplift your Security!</h2>
+                    <div className="cylance-mod-t8 content--dark">
+                        <div className="cylance-mod-container-headline vCISO-con">
+                            <div className="row">
+                                <div className="col-sm-12">
+                                    <h2 className="cylance-mod-headline">Can your security stack hold up to malicious threat actors without the necessary people, process and technology? Contact BlackBerry Security Services for a consultation and we will help you to uplift your Security!</h2>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-12 col-md-12 col-lg-12">
-                                    <a data-componentmodid="t8" data-ctahhierarchy="primary" class="cta cta-primary no-margin-top" href="/us/en/forms/cylance/handraiser/request-a-consultation" target="_blank">
-                                        Contact Us<span class="cta__arrow-icon"></span>
+                            <div className="row">
+                                <div className="col-sm-12 col-md-12 col-lg-12">
+                                    <a data-componentmodid="t8" data-ctahhierarchy="primary" className="cta cta-primary no-margin-top" href="/us/en/forms/cylance/handraiser/request-a-consultation" target="_blank">
+                                        Contact Us<span className="cta__arrow-icon"></span>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>          
+                </section>    
+                
+                
+                
+
+
+
         </div>
     )
   }
