@@ -83,7 +83,7 @@ export default class SOC extends Component {
                         <div className="row vCISO-row">
                             <div className="col-12 col-sm-12">
                                 <a className="cta cta-primary cta-big" href="/contact" target="_blank">
-                                    <span className="cta__bullet-icon"></span>Contact Us
+                                    Contact Us
                                 </a>
                             </div>
                         </div>
@@ -98,7 +98,7 @@ export default class SOC extends Component {
                                     <h6>Why Every Security Strategy Needs IR — and Vice-Versa</h6>    
                                     <p className='text-justify'>Prevent, Detect, Respond. These are the cornerstones of information security—and they must work in tandem. Yet many organizations treat incident management as separate from their SOC. Learn why that's an issue—and what you should do instead.</p>   
                                     <a className="cta cta-primary cta-big" href="/contact" target="_blank">
-                                        <span className="cta__bullet-icon"></span>Our Blog
+                                        Our Blog
                                     </a>  
                                 </div>            
                             </div>
@@ -123,8 +123,7 @@ export default class SOC extends Component {
                                         <li>Get a roadmap for where you need to be (relative to established security frameworks)</li>
                                         <li>Receive an executive-ready report and plan for uplift, including opportunities for efficiency improvement</li>
                                     </ul> 
-                                    <a className="cta cta-primary cta-big" href="/contact" target="_blank">
-                                        <span className="cta__bullet-icon"></span>Our Blog
+                                    <a className="cta cta-primary cta-big" href="/contact" target="_blank">Our Blog
                                     </a>    
                                 </div>            
                             </div>
