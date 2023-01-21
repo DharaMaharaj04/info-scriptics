@@ -320,7 +320,28 @@ export default class SOC extends Component {
                 
                 
 
-
+                <section className='srv-main-mob'>
+                    <OwlCarousel className="owl-theme" {...options} >
+                        <div className='slide-1'>  
+                            <div className='slide-img'>
+                                <img src='/assets/img/strategicservices-h8-768.jpg' alt='SOC' />   
+                                <div className='slider-overlay-amethyst'></div>  
+                            </div>
+                            <div className='caption'>
+                                <div className='container'>
+                                    <div className='row'>
+                                        <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                            <div className='slide_content'>
+                                                <h2>Force-Multiply Your Security</h2>
+                                                <p className='text-justify'>Scriptics Strategic Services can help you understand precisely where your organization’s risks lie and support your organization in maximizing the impact of your security investments and strategy</p>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>     
+                            </div>      
+                        </div>
+                    </OwlCarousel>
+                </section>
                 <section className='strategicservices-mob'>
                     <div className='container-fuild'>
                         <div className='row'>
