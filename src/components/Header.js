@@ -42,7 +42,7 @@ function Header() {
                                                 
                                                 <div className="col-12 col-sm-12 col-md-3">
                                                     <ul className="nav flex-column">
-                                                        <li className="nav-item"><a className="nav-link" href="/cybersecurity"> BlackBerry Cyber Security</a></li>
+                                                        <li className="nav-item"><a className="nav-link" href="/blackberry_cybersecurity"> BlackBerry Cyber Security</a></li>
                                                         <li className="nav-item"><a className="nav-link" href="/soc">SOC</a></li>
                                                     </ul>
                                                 </div>  

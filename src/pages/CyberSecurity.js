@@ -59,8 +59,8 @@ export default class CyberSecurity extends Component {
     return (
         <div>
             <Helmet>
-                <title>Scritpics | CyberSecurity</title>
-                <meta name="description" content="CyberSecurity" />
+                <title>Scritpics |Blackberry CyberSecurity</title>
+                <meta name="description" content="Blackberry_CyberSecurity" />
                 <body id="page-service" />
             </Helmet>
             <div className='cysec-overlay'>

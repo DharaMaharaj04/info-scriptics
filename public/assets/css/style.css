@@ -376,7 +376,7 @@ button.close{ color: #fff; background-color: #000; border-radius: 20%; border: 2
 .future-tech{background-image: url(/assets/img/future_tech_banner.png); background-position: center center; background-size: cover;}
 .future-of-technology{ height: 350px;}
 
-
+/*** blackberry cyber security ***/
 .cyber_head h3{ padding-top: 50px; }
 .cyber-title{padding-top: 40px;}
 .cyber_head img{padding-top: 20px; width: 50%; height: auto;}
@@ -428,7 +428,7 @@ input {width: 100%;height: 40px;background-color: #eee;border: none;padding-left
 .vCISO-row{margin-right: -10px; margin-left: -10px;}
 .vCISO.vCISO-con.vCISO-row.col-12 a{margin-top: 30px !important;}
 .cta.cta-primary {background-color: #1475dc;margin-top: 30px !important; color: #fff !important; min-width: 160px; margin-right: 37px; margin-bottom: 0; text-align: center; -webkit-transition: all .5s ease-in-out; transition: all .5s ease-in-out; padding: 6px 15px 4px; font-weight: 800; font-size: 18px; line-height: 24px; border-radius: 32px;}
-.cta__bullet-icon{background-size: contain; margin-right: 10px; height: 13px; background-position: 50%; background-repeat: no-repeat; display: inline-block; width: 18px;margin-bottom: -1px;}
+
 
 /*** ss-Assessment ***/
 .ss-Assessment img{width: 100%;}
@@ -444,7 +444,7 @@ input {width: 100%;height: 40px;background-color: #eee;border: none;padding-left
 .Custom-con{}
 
 /*** ***/
-.threat{background-color: #0d0e12;}
+.threat{background-color: #00033e;}
 .threat h2{color: #fff;}
 .ss-Assessment img, .ss-IR img{width: 100%;}
 
