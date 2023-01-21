@@ -132,7 +132,7 @@
     .Custom-Staff-mob{margin-top: 50px;}
     .ss-Assessment-right{top: 2%;}
     .threat-mob{background-color: #00033e; padding-bottom: 30px;}
-    .threat-mob h2{color: #fff; margin: 0 50px 20px; font-size: 24px;}
+    .threat-mob h2{color: #fff; margin: 50px 20px; font-size: 24px;}
     .cta.cta-primary{margin-left:30px ;}
 }    
 @media screen and (min-width: 768px) {
