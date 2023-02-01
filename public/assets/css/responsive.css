@@ -22,6 +22,7 @@
     .navbar-nav .nav-item:last-child .nav-link.dropdown-toggle{ border-bottom: none; }
     .navbar-brand img{ padding-left: 20px; }
     .navbar-light .navbar-toggler{ border: none; padding-right: 20px; }
+    .navbar-collapse .navbar-nav .nav-item a{ color: #000 !important;}
     .navbar-toggler{ padding: 0; float: right; }
     .navbar-toggler-icon{ height: 2.5em; }
     button:focus{ outline: none; }
@@ -39,6 +40,8 @@
     .navbar-nav .show .dropdown-toggle::after{ width: 38px; height: 0; float: right; vertical-align: top; content: url('/assets/img/arrow_up.svg') !important; border: none; }
     .header-social{ display: block; }
     .header-social .social-icon a{ color: #212121; }
+    .list-inline a{ padding-left: 15px; }
+    .service-row h3{padding-left: 15px;}
     .header-social .social-icon li{ margin-top: 2em; margin-right: 3.0em; list-style: none; display: inline-flex;}
     .slider-arrow-header{ margin-left: -71px; vertical-align: top; }
     .abt-menu-head{ padding-right: 0; }
@@ -135,8 +138,11 @@
     .threat-mob h2{color: #fff; margin: 50px 20px; font-size: 24px;}
     .cta.cta-primary{margin-left:30px ;}
     .ss-Assessment-right, .ss-IR-left, .strategicservices_over{margin-top: 30px; }
+    .submenu-portion img {display: none;}
 }    
 @media screen and (min-width: 768px) {
+    /**** Header ***/
+    .list-inline a{ padding: 0px !important; }
      /*** logo **/
      .future_technology{background-image: url(/assets/img/future_tech-mob.png); background-size: 50%;}
     .digital_dentistry{ background-image: url(/assets/img/indus_content.png); background-position: center left;}
@@ -154,7 +160,7 @@
      h2-slide{ }
      .esg .col-lg-4{ display: inline-block;}
      .vCISO {background-image: url(/assets/img/strategicservices-it1-vciso-768.jpg);}
-     srv-main-mob, .strategicservices-mob, .vCISO-mob, .ss-Assessment-mob, .ss-IR-mob, .Custom-Staff-mob, .timeline_sec-mob, .threat-mob{display: none;}
+     .srv-main-mob, .strategicservices-mob, .vCISO-mob, .ss-Assessment-mob, .ss-IR-mob, .Custom-Staff-mob, .timeline_sec-mob, .threat-mob{display: none;}
      
 }
 @media screen and (max-width: 992px) {
@@ -179,6 +185,8 @@
     .navbar .nav-item:hover .dropdown-menu{ display: block; box-shadow: 0 15px 25px #00000026; }
     .navbar .nav-item .dropdown-menu{ margin-top: 0; top: 40px; }
     .dropdown-toggle::after{ color: transparent; margin-left: .1em; border: none; }
+    .submenu-portion{margin-left: 50px;}
+    .service-row h3{ margin-right: 10px; margin-top: 10px;}
     .item{ height: 100vh; width: 100%; }
     .h2-heading { font-size: 42px; font-weight: 900; line-height: 50px; padding-bottom: 15px }
     .sec {padding: 100px 0;}

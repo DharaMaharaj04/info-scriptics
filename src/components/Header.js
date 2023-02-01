@@ -13,40 +13,161 @@ function Header() {
                                 <li className="nav-item drop-down">
                                     <a id="he_services" className="nav-link dropdown-toggle header-link" href="/" data-toggle="dropdown" aria-expanded="false">Services</a>
                                     <div className="dropdown-menu dp-block" aria-labelledby="navbarDropdown"> 
-                                        <div className="container">
-                                            <div className="row">
-                                                <div className="col-12 col-sm-12 col-md-3">
-                                                    <ul className="nav flex-column">
-                                                        <li className="nav-item"><a className="nav-link" href="/ai_automation">Ai & Automation</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/statistical_data_analysis">Statistical Data Analytics</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/business_intelligence">Business Intelligence</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/"></a></li>
-                                                    </ul> 
-                                                </div>
-                                                <div className="col-12 col-sm-12 col-md-3">
-                                                    <ul className="nav flex-column">
-                                                        <li className="nav-item"><a className="nav-link" href="/computer_vision">Computer vision</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/big_data_analysis">Big data analytics</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/natural_language_processing">Natural Language processing</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/"></a></li>
-                                                    </ul>
-                                                </div>
-                                                <div className="col-12 col-sm-12 col-md-3">
-                                                    <ul className="nav flex-column">
-                                                        <li className="nav-item"><a className="nav-link" href="/deep_learning">Deep learning</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/scriptics_ai_gaming">Ai for Gaming</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/signal_processing">Digital Signal Processing </a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/"></a></li>
-                                                    </ul>
-                                                </div>
-                                                
-                                                <div className="col-12 col-sm-12 col-md-3">
-                                                    <ul className="nav flex-column">
-                                                        <li className="nav-item"><a className="nav-link" href="/blackberry_cybersecurity"> BlackBerry Cyber Security</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/soc">SOC</a></li>
-                                                    </ul>
-                                                </div>  
-                                            </div>
+                                        <div className="container-fuild">
+                                            <div className="row"> 
+                                            
+                                            
+
+
+
+                                                <div className="submenu-portion">
+                                                    <div className="col-md-12 col-sm-12 col-xs-12">
+                                                        <div className="row service-row">
+                                                            <div className="col-md-3 col-sm-3 col-xs-12"> <img src="/assets/img/application.svg" alt="Development & Maintenance" className="" />
+                                                                <h3 className="hear-txt-sub">Development & Maintenance</h3>
+                                                            </div>
+                                                            <div className="col-md-9 col-sm-9 col-xs-12">
+                                                                <div className="row service-row">
+                                                                    <div className="col-md-4 col-sm-4 col-xs-12 align-list">
+                                                                        <ul className="list-inline mb-xs-0">
+                                                                            <li> <a aria-label="Go to Blockchain Page" href="" title="Blockchain">Mobile app development &
+                                                                            maintenance</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div className="col-md-4 col-sm-4 col-xs-12 align-list">
+                                                                        <ul className="list-inline mb-xs-0">
+                                                                            <li> <a aria-label="Go to Engineering Services Page" href="" title="Engineering Services">Web app development &
+                                                                            maintenance</a> </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div className="col-md-4 col-sm-4 col-xs-12 align-list">
+                                                                        <ul className="list-inline">
+                                                                            <li> <a aria-label="Go to Internet of Things (IoT) Page" href="" title="Internet of Things (IoT)">UI/UX Design</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="menu-seprator"></div>
+                                                    </div>
+
+
+                                                    <div className="col-md-12 col-sm-12 col-xs-12">
+                                                        <div className="row service-row">
+                                                            <div className="col-md-3 col-sm-3 col-xs-12"> <img src="/assets/img/accelerate.svg" alt="Accelerate" className="" />
+                                                                <h3 className="hear-txt-sub">Accelerate</h3>
+                                                            </div>
+                                                            <div className="col-md-9 col-sm-9 col-xs-12">
+                                                                <div className="row service-row">
+                                                                    <div className="col-md-4 col-sm-4 col-xs-12 align-list">
+                                                                        <ul className="list-inline mb0">
+                                                                            <li> <a aria-label="Go to Agile DevOps Page" href="/services/agile-devops.html" title="Enterprise Agile DevOps">Salesforce</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div className="col-md-4 col-sm-4 col-xs-12 align-list">
+                                                                        <ul className="list-inline mb0">
+                                                                                    <li> <a aria-label="Go to API Economy &amp; Microservices Page" href="/services/api-economy.html" title="API Economy &amp; Microservices">
+                                                                                    Cloud Digital Transfomation  </a> </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div className="menu-seprator"></div>
+                                                            </div>
+                                                    
+                                                            <div className="col-md-12 col-sm-12 col-xs-12">
+                                                                <div className="row service-row">
+                                                                    <div className="col-md-3 col-sm-3 col-xs-12"> <img src="/assets/img/insight.svg" alt="Insight" className="" />
+                                                                        <h3 className="hear-txt-sub">Insight</h3>
+                                                                    </div>
+                                                                    <div className="col-md-9 col-sm-9 col-xs-12 align-list">
+                                                                        <div className="row service-row">
+                                                                            <div className="col-md-4 col-sm-4 col-xs-12 align-list">
+                                                                                <ul className="list-inline mb-xs-0">
+                                                                                    <li> <a aria-label="Go to Applied AI Page" href="" title="Applied AI">Ai & Automation</a> </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <div className="col-md-4 col-sm-4 col-xs-12 align-list">
+                                                                                <ul className="list-inline">
+                                                                                    <li> <a aria-label="Go to Data Analytics Page" href="" title="Data Analytics">Statistical Data Analhtic</a> </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <div className="col-md-4 col-sm-4 col-xs-12 align-list">
+                                                                                <ul className="list-inline">
+                                                                                    <li> <a aria-label="Go to Data Analytics Page" href="" title="Data Analytics">Business Intelligence</a> </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <div className="clearfix visible-sm hidden-xs"></div>
+                                                                            <div className="col-md-4 col-sm-4 col-xs-12 align-list">
+                                                                                <ul className="list-inline mb-xs-0">
+                                                                                    <li> <a aria-label="Go to Applied AI Page" href="" title="Applied AI"> Computer vision</a> </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <div className="col-md-4 col-sm-4 col-xs-12 align-list">
+                                                                                <ul className="list-inline">
+                                                                                    <li> <a aria-label="Go to Data Analytics Page" href="" title="Data Analytics">Big data analhtics</a> </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <div className="col-md-4 col-sm-4 col-xs-12 align-list">
+                                                                                <ul className="list-inline">
+                                                                                    <li> <a aria-label="Go to Data Analytics Page" href="" title="Data Analytics">Digital Signal Processing</a> </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <div className="clearfix visible-sm hidden-xs"></div>
+                                                                            <div className="col-md-4 col-sm-4 col-xs-12 align-list">
+                                                                                <ul className="list-inline mb-xs-0">
+                                                                                    <li> <a aria-label="Go to Applied AI Page" href="" title="Applied AI"> Natural Language processing</a> </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <div className="col-md-4 col-sm-4 col-xs-12 align-list">
+                                                                                <ul className="list-inline">
+                                                                                    <li> <a aria-label="Go to Data Analytics Page" href="" title="Data Analytics">Deep learning</a> </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <div className="col-md-4 col-sm-4 col-xs-12 align-list">
+                                                                                <ul className="list-inline">
+                                                                                    <li> <a aria-label="Go to Data Analytics Page" href="" title="Data Analytics">AI & Gaming</a> </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div className="menu-seprator"></div>
+                                                            </div>
+                                                            
+                                                            
+                                                            <div className="col-md-12 col-sm-12 col-xs-12">
+                                                                <div className="row service-row">
+                                                                    <div className="col-md-3 col-sm-3 col-xs-12"> <img src="/assets/img/experience.svg" alt="Experience" className="" />
+                                                                        <h3 className="hear-txt-sub">Experience</h3>
+                                                                    </div>
+                                                                    <div className="col-md-9 col-sm-9 col-xs-12">
+                                                                        <div className="row service-row">
+                                                                            <div className="col-md-4 col-sm-4 col-xs-12 align-list">
+                                                                                <ul className="list-inline mb0">
+                                                                                    <li> <a aria-label="Go to Digital Marketing Page" href="/blackberry_cybersecurity" title="Digital Marketing">BlackBerry Cyber Security</a> </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <div className="col-md-4 col-sm-4 col-xs-12 align-list">
+                                                                                <ul className="list-inline mb0">
+                                                                                    <li> <a aria-label="Go to Digital Commerce Page" href="/soc" title="Digital Commerce">SOC</a> </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>    
+                                                                    </div>
+                                                                </div>
+                                                                <div className="menu-seprator"></div>
+                                                            </div>
+                                                        </div>
+
+
+
+
+
+                                                    </div>
                                         </div>
                                     </div>    
                                 </li>
@@ -169,47 +290,7 @@ function Header() {
                                         </div>
                                     </div>
                                 </li>
-                                <li className="nav-item drop-down">
-                                    <a id="he_services" className="nav-link dropdown-toggle header-link" href="/" data-toggle="dropdown" aria-expanded="false">Cloud Services</a>
-                                    <div className="dropdown-menu dp-block" aria-labelledby="navbarDropdown"> 
-                                        <div className="container">
-                                            <div className="row">
-                                                <div className="col-12 col-sm-12 col-md-3">
-                                                    <ul className="nav flex-column">
-                                                        <li className="nav-item"><a className="nav-link" href="/thinkbox_studio">Thinkbox Studio</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/devops">DevOps</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/data_engineering_and_analytics">Data Engineering & Analytics</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/"></a></li>
-                                                    </ul> 
-                                                </div>
-                                                <div className="col-12 col-sm-12 col-md-3">
-                                                    <ul className="nav flex-column">
-                                                        <li className="nav-item"><a className="nav-link" href="/aws_elemental">AWS Elemental</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/amazon_elastic_kubernetes_service">Amazon EKS</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/amazon_relational_database_service">Amazon Relational Database Service</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/"></a></li>
-                                                    </ul>
-                                                </div>
-                                                <div className="col-12 col-sm-12 col-md-3">
-                                                    <ul className="nav flex-column">
-                                                        <li className="nav-item"><a className="nav-link" href="/migration">Migration</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/machine_learning">Machine Learning</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/amazon_quicksight">Amazon QuickSight</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/"></a></li>
-                                                    </ul>
-                                                </div>
-                                                <div className="col-12 col-sm-12 col-md-3">
-                                                    <ul className="nav flex-column">
-                                                        <li className="nav-item"><a className="nav-link" href="/aws_control_tower">AWS Control Tower</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/microsoft_on_aws">Microsoft Workloads</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/application_modernization">Application Modernization</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/"></a></li>
-                                                    </ul>
-                                                </div>  
-                                            </div>
-                                        </div>
-                                    </div>    
-                                </li>
+                                
                                 <li className=''>
                                     <div className="box ">
                                         <form name="search"><input type="text"  name="txt" className='input'/></form>

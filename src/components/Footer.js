@@ -24,7 +24,7 @@ function Footer() {
                                 <h3 className="ftr-head mt-xs-20">Company</h3>
                                 <ul className="list-unstyled footer-txt">
                                     <li><a aria-label="Go to Navigate your next Page" href="/works" title="Navigate your next">Future Technology</a></li>
-                                    <li><a aria-label="Go to About Infosys Page" href="/about-us" title="About Infosys">AboutUs</a></li>
+                                    <li><a aria-label="Go to About Scriptics Page" href="/about-us" title="About Scriptics">AboutUs</a></li>
                                     <li><a aria-label="Go to Careers Page" href="/contact/#contact-us" title="Careers">Careers</a></li>
                                     <li><a aria-label="Go to ESG Page" href="/about-us/#technology-we-follow" title="ESG">CustomerService</a></li>
                                 </ul>
@@ -42,22 +42,22 @@ function Footer() {
                                 <h3 className="ftr-head mt-sm-20">Connect with us</h3>
                                 <ul className="list-inline footer-txt">
                                     <li className="list-inline-item">
-                                        <a aria-label="Follow us on Twitter" title="Follow us on Twitter" target="_blank" href="" rel="noopener noreferrer">
+                                        <a aria-label="Follow us on Twitter" title="Follow us on Twitter" target="_blank" href="https://twitter.com/scripticstech" rel="noopener noreferrer">
                                             <img src="/assets/img/twitter.svg" width="20" height="20" alt="Twitter" />
                                         </a>
                                     </li>
                                     <li className="list-inline-item">
-                                        <a aria-label="Follow us on Facebook" title="Follow us on Facebook" target="_blank" href="" rel="noopener noreferrer"> 
+                                        <a aria-label="Follow us on Facebook" title="Follow us on Facebook" target="_blank" href="https://www.facebook.com/scripticsinc/" rel="noopener noreferrer"> 
                                             <img src="/assets/img/facebook.svg" width="20" height="20" alt="Facebook" />
                                         </a>
                                     </li>
                                     <li className="list-inline-item">
-                                        <a aria-label="Follow us on LinkedIn" title="Follow us on LinkedIn" target="_blank" href="" rel="noopener noreferrer"> 
+                                        <a aria-label="Follow us on LinkedIn" title="Follow us on LinkedIn" target="_blank" href="https://www.linkedin.com/company/scripticstechs/" rel="noopener noreferrer"> 
                                             <img src="/assets/img/linkedin.svg" width="20" height="20" alt="LinkedIn" />
                                         </a>
                                     </li>
                                     <li className="list-inline-item">
-                                        <a aria-label="Follow us on YouTube" title="Follow us on YouTube" target="_blank" href="" rel="noopener noreferrer">
+                                        <a aria-label="Follow us on YouTube" title="Follow us on YouTube" target="_blank" href="https://www.youtube.com/@scripticstechnologies6312/" rel="noopener noreferrer">
                                             <img src="/assets/img/youtube.svg" width="20" height="20" alt="Youtube" />
                                         </a>
                                     </li>
