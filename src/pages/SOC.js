@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -26,6 +27,42 @@ export default class SOC extends Component {
                 <meta name="description" content="SOC" />
                 <body id="page-service" />
             </Helmet>
+            <div className="spacer"></div>
+                <section className='ser-link'>
+                    <div className="">
+	                    <div className="container">
+		                    <ol className=" nav-links">
+			                    <li className="dropdown relative drop-container">
+                                    <a href="#" className='serverice_menu'>service<i className="text-uppercase " aria-hidden="true"></i></a>
+                                    <div className="bg-white">
+                                        <ul className="list dropdown-content list-inline">
+                                            <li className=''>
+                                                <Link to='/development-maintance'>Development & Maintenance</Link></li>
+                                            <li className=''>Accelerate</li>
+                                            <li className=''>Insight</li>
+                                            <li className=''>Experience</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li className="active dropdown relative drop-container">
+                                    <a href="#" className='serverice_menu'><span >Experience</span><i className="text-uppercase " aria-hidden="true"></i></a>
+                                    <div className="bg-white">
+                                        <ul className="list dropdown-content list-inline">
+                                            <li className='ser-sub-lin'>
+                                                <Link to='/blackberry_cybersecurity'>BlackBerry Cyber Security</Link>
+                                            </li>
+                                            <li className='ser-sub-lin'>
+                                                <Link to='/soc'>SOC</Link>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                
+                                <li className='serverice_menu_last dropdown relative drop-container'><span>SOC</span></li>
+		                    </ol>
+	                    </div>
+                    </div>
+                </section>
                 <section className='srv-main'>
                     <OwlCarousel className="owl-theme" {...options} >
                         <div className='slide-1'>  
@@ -149,8 +186,8 @@ export default class SOC extends Component {
                             <div className="timeline-item-container">
                                 <div className="timeline-item-icon item-toggler">
                                     <div>
-                                            <img className="default" src="/assets/img/strategicservices-ia1-icon1.svg" alt="Interviews" />
-                                            <img className="selected" src="/assets/img/strategicservices-ia1-icon1-blue.svg" alt="Interviews" />    
+                                        <img className="default" src="/assets/img/strategicservices-ia1-icon1.svg" alt="Interviews" />
+                                        <img className="selected" src="/assets/img/strategicservices-ia1-icon1-blue.svg" alt="Interviews" />    
                                     </div>
                                     <p className="timeline-item-header" tabIndex="0">Interviews</p>
                                     <div className="timeline-item-header-dot"></div>
@@ -170,8 +207,8 @@ export default class SOC extends Component {
                             <div className="timeline-item-container">
                                 <div className="timeline-item-icon item-toggler">
                                     <div>
-                                            <img className="default" src="/assets/img/strategicservices-ia1-icon2.svg" alt="Documentation" />
-                                            <img className="selected" src="/assets/img/strategicservices-ia1-icon2-blue.svg" alt="Documentation" />
+                                        <img className="default" src="/assets/img/strategicservices-ia1-icon2.svg" alt="Documentation" />
+                                        <img className="selected" src="/assets/img/strategicservices-ia1-icon2-blue.svg" alt="Documentation" />
                                     </div>
                                     <p className="timeline-item-header" tabIndex="0">Documentation</p>
                                     <div className="timeline-item-header-dot"></div>

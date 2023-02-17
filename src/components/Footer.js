@@ -23,18 +23,18 @@ function Footer() {
                             <div className="col-lg-3 col-md-3 col-sm-4 col-12 col-xs-12">
                                 <h3 className="ftr-head mt-xs-20">Company</h3>
                                 <ul className="list-unstyled footer-txt">
-                                    <li><a aria-label="Go to Navigate your next Page" href="/works" title="Navigate your next">Future Technology</a></li>
+                                    <li><a aria-label="Go to Navigate your next Page" href="/works" title="Future Technology">Future Technology</a></li>
                                     <li><a aria-label="Go to About Scriptics Page" href="/about-us" title="About Scriptics">AboutUs</a></li>
                                     <li><a aria-label="Go to Careers Page" href="/contact/#contact-us" title="Careers">Careers</a></li>
-                                    <li><a aria-label="Go to ESG Page" href="/about-us/#technology-we-follow" title="ESG">CustomerService</a></li>
+                                    <li><a aria-label="Go to ESG Page" href="/about-us/#technology-we-follow" title="CustomerService">CustomerService</a></li>
                                 </ul>
                             </div>
                             <div className="col-lg-3 col-md-3 col-sm-4 col-12 col-xs-12">
                                 <h3 className="ftr-head mt-xs-20">Discover</h3>
                                 <ul className="list-unstyled footer-txt">
                                     <li><a aria-label="Go to Navigate your next Page" href="/#he_service" title="Service">Services</a></li>
-                                    <li><a aria-label="Go to ESG Page" href="/#he_industries" title="ESG">Industries</a></li>
-                                    <li><a aria-label="Go to Investors Page" href="/#he_cloud" title="Investors">Cloud services</a></li>
+                                    <li><a aria-label="Go to ESG Page" href="/#he_industries" title="Industries">Industries</a></li>
+                                    <li><a aria-label="Go to Investors Page" href="/#he_cloud" title="Cloud services">Cloud services</a></li>
                                 </ul>
                             </div>
                             <div className="clearfix visible-sm"></div>

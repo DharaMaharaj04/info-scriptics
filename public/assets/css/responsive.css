@@ -139,6 +139,7 @@
     .cta.cta-primary{margin-left:30px ;}
     .ss-Assessment-right, .ss-IR-left, .strategicservices_over{margin-top: 30px; }
     .submenu-portion img {display: none;}
+    .ser-link{display: none;}
 }    
 @media screen and (min-width: 768px) {
     /**** Header ***/

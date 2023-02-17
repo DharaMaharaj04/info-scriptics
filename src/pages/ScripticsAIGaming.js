@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -26,6 +27,78 @@ export default class ScripticsAIGaming extends Component {
                 <body id="page-service" />
             </Helmet>
             <div className="spacer"></div>
+            <section className='ser-link'>
+                    <div className="">
+	                    <div className="container">
+		                    <ol className=" nav-links">
+			                    <li className="dropdown relative drop-container">
+                                    <a href="#" className='serverice_menu'>service<i className="text-uppercase " aria-hidden="true"></i></a>
+                                    <div className="bg-white">
+                                        <ul className="list dropdown-content list-inline ">
+                                            <li className='ser-sub-lin'>
+                                                <Link to='/development-maintance'>Development & Maintenance</Link></li>
+                                            <li className='ser-sub-lin'>Accelerate</li>
+                                            <li className='ser-sub-lin'>Insight</li>
+                                            <li className='ser-sub-lin'>Experience</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li className="active dropdown relative drop-container ">
+                                    <a href="#" className='serverice_menu'><span >Insight</span><i className="text-uppercase " aria-hidden="true"></i></a>
+                                    <div className="bg-white ">
+                                        <ul className="list row dropdown-content">
+                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
+                                                <ul className='list-inline px-0'>
+                                                    <li className='ser-sub-lin'>
+                                                        <Link to='/ai_automation'>Ai & Automation</Link></li>
+                                                    <li className='ser-sub-lin'>
+                                                        <Link to='/statistical_data_analysis'>Statistical Data Analytics</Link>
+                                                    </li>
+                                                    <li className='ser-sub-lin'>
+                                                        <Link to='/business_intelligence'>Business Intelligence</Link>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            
+                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
+                                                <ul className='list-inline px-0'>
+                                                    <li className='ser-sub-lin'>
+                                                        <Link to='/computer_vision'>Computer Vision</Link>
+                                                    </li>
+                                                    
+                                                    <li className='ser-sub-lin'>
+                                                        <Link to='/big_data_analysis'>Big data analytics</Link>
+                                                    </li>
+                                                    
+                                                    <li className='ser-sub-lin'>
+                                                        <Link to='/signal_processing'>Digital Signal Processing</Link>
+                                                    </li>
+                                                    
+                                                    
+                                                </ul>
+                                            </li>
+                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
+                                                <ul className='list-inline px-0'>
+                                                    <li className='ser-sub-lin'>
+                                                        <Link to='/natural_language_processing'>Natural Language processing</Link>
+                                                    </li>
+                                                    <li className='ser-sub-lin'>
+                                                        <Link to='/deep_learning'>Deep learning</Link>
+                                                    </li>
+                                                    <li className='ser-sub-lin'>
+                                                        <Link to='/scriptics_ai_gaming'>AI & Gaming</Link>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                
+                                <li className='serverice_menu_last dropdown relative drop-container'><span>AI Gaming</span></li>
+		                    </ol>
+	                    </div>
+                    </div>
+                </section>
             <section className='srv-main'>
             <OwlCarousel className="owl-theme" {...options} >
                 <div className='slide-1'>  

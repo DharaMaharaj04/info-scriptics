@@ -30,19 +30,19 @@ function Header() {
                                                                 <div className="row service-row">
                                                                     <div className="col-md-4 col-sm-4 col-xs-12 align-list">
                                                                         <ul className="list-inline mb-xs-0">
-                                                                            <li> <a aria-label="Go to Blockchain Page" href="" title="Blockchain">Mobile app development &
-                                                                            maintenance</a></li>
+                                                                            <li> <a aria-label="Go to Blockchain Page" href="/development-maintance" title="Mobile app development &
+                                                                            maintenance">Mobile app development & maintenance</a></li>
                                                                         </ul>
                                                                     </div>
                                                                     <div className="col-md-4 col-sm-4 col-xs-12 align-list">
                                                                         <ul className="list-inline mb-xs-0">
-                                                                            <li> <a aria-label="Go to Engineering Services Page" href="" title="Engineering Services">Web app development &
-                                                                            maintenance</a> </li>
+                                                                            <li> <a aria-label="Go to Engineering Services Page" href="/development-maintance" title="Web app development &
+                                                                            maintenance">Web app development & maintenance</a> </li>
                                                                         </ul>
                                                                     </div>
                                                                     <div className="col-md-4 col-sm-4 col-xs-12 align-list">
                                                                         <ul className="list-inline">
-                                                                            <li> <a aria-label="Go to Internet of Things (IoT) Page" href="" title="Internet of Things (IoT)">UI/UX Design</a>
+                                                                            <li> <a aria-label="Go to Internet of Things (IoT) Page" href="/development-maintance" title="UI/UX Design">UI/UX Design</a>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
@@ -87,49 +87,49 @@ function Header() {
                                                                         <div className="row service-row">
                                                                             <div className="col-md-4 col-sm-4 col-xs-12 align-list">
                                                                                 <ul className="list-inline mb-xs-0">
-                                                                                    <li> <a aria-label="Go to Applied AI Page" href="" title="Applied AI">Ai & Automation</a> </li>
+                                                                                    <li> <a aria-label="Go to Applied AI Page" href="/ai_automation" title="Applied AI">Ai & Automation</a> </li>
                                                                                 </ul>
                                                                             </div>
                                                                             <div className="col-md-4 col-sm-4 col-xs-12 align-list">
                                                                                 <ul className="list-inline">
-                                                                                    <li> <a aria-label="Go to Data Analytics Page" href="" title="Data Analytics">Statistical Data Analhtic</a> </li>
+                                                                                    <li> <a aria-label="Go to Data Analytics Page" href="/statistical_data_analysis" title="Data Analytics">Statistical Data Analytics</a> </li>
                                                                                 </ul>
                                                                             </div>
                                                                             <div className="col-md-4 col-sm-4 col-xs-12 align-list">
                                                                                 <ul className="list-inline">
-                                                                                    <li> <a aria-label="Go to Data Analytics Page" href="" title="Data Analytics">Business Intelligence</a> </li>
+                                                                                    <li> <a aria-label="Go to Data Analytics Page" href="/business_intelligence" title="Data Analytics">Business Intelligence</a> </li>
                                                                                 </ul>
                                                                             </div>
                                                                             <div className="clearfix visible-sm hidden-xs"></div>
                                                                             <div className="col-md-4 col-sm-4 col-xs-12 align-list">
                                                                                 <ul className="list-inline mb-xs-0">
-                                                                                    <li> <a aria-label="Go to Applied AI Page" href="" title="Applied AI"> Computer vision</a> </li>
+                                                                                    <li> <a aria-label="Go to Applied AI Page" href="/computer_vision" title="Applied AI"> Computer vision</a> </li>
                                                                                 </ul>
                                                                             </div>
                                                                             <div className="col-md-4 col-sm-4 col-xs-12 align-list">
                                                                                 <ul className="list-inline">
-                                                                                    <li> <a aria-label="Go to Data Analytics Page" href="" title="Data Analytics">Big data analhtics</a> </li>
+                                                                                    <li> <a aria-label="Go to Data Analytics Page" href="/big_data_analysis" title="Data Analytics">Big data analytics</a> </li>
                                                                                 </ul>
                                                                             </div>
                                                                             <div className="col-md-4 col-sm-4 col-xs-12 align-list">
                                                                                 <ul className="list-inline">
-                                                                                    <li> <a aria-label="Go to Data Analytics Page" href="" title="Data Analytics">Digital Signal Processing</a> </li>
+                                                                                    <li> <a aria-label="Go to Data Analytics Page" href="/signal_processing" title="Data Analytics">Digital Signal Processing</a> </li>
                                                                                 </ul>
                                                                             </div>
                                                                             <div className="clearfix visible-sm hidden-xs"></div>
                                                                             <div className="col-md-4 col-sm-4 col-xs-12 align-list">
                                                                                 <ul className="list-inline mb-xs-0">
-                                                                                    <li> <a aria-label="Go to Applied AI Page" href="" title="Applied AI"> Natural Language processing</a> </li>
+                                                                                    <li> <a aria-label="Go to Applied AI Page" href="/natural_language_processing" title="Applied AI"> Natural Language processing</a> </li>
                                                                                 </ul>
                                                                             </div>
                                                                             <div className="col-md-4 col-sm-4 col-xs-12 align-list">
                                                                                 <ul className="list-inline">
-                                                                                    <li> <a aria-label="Go to Data Analytics Page" href="" title="Data Analytics">Deep learning</a> </li>
+                                                                                    <li> <a aria-label="Go to Data Analytics Page" href="/deep_learning" title="Data Analytics">Deep learning</a> </li>
                                                                                 </ul>
                                                                             </div>
                                                                             <div className="col-md-4 col-sm-4 col-xs-12 align-list">
                                                                                 <ul className="list-inline">
-                                                                                    <li> <a aria-label="Go to Data Analytics Page" href="" title="Data Analytics">AI & Gaming</a> </li>
+                                                                                    <li> <a aria-label="Go to Data Analytics Page" href="/scriptics_ai_gaming" title="Data Analytics">AI & Gaming</a> </li>
                                                                                 </ul>
                                                                             </div>
                                                                         </div>

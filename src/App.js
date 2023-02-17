@@ -52,7 +52,7 @@ import ActionableInsight from './pages/ActionableInsight';
 import FutureTechnology from './pages/FutureTechnology';
 import CyberSecurity from './pages/CyberSecurity';
 import SOC from './pages/SOC';
-import Head from './pages/Head';
+import DevelopmentMaintance from './pages/DevelopmentMaintance';
 
 function App() {
   useEffect(() => {
@@ -117,8 +117,9 @@ function App() {
             <Route exact path='/future_technology' component={FutureTechnology} />
             <Route exact path='/blackberry_cybersecurity' component={CyberSecurity} />
             <Route exact path='/soc' component={SOC} />
+            <Route exact path='/development-maintance' component={DevelopmentMaintance} />
             <Route component={Page404} />
-            <Route exact path='/head' component={Head} />
+           
 
           </Switch>
         <Footer/>
