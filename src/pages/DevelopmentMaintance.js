@@ -1,9 +1,28 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 export default class DevelopmentMaintance extends Component {
     render() {
+
+
+        const options = {
+            loop: false,
+            margin: 0,
+            items: 1,
+            autoplay: true,
+            dots: false,
+            autoplay: false,
+            dots: false
+        };
+    
+
+
+
+
         return (
             <div>
                 <Helmet>
@@ -11,46 +30,53 @@ export default class DevelopmentMaintance extends Component {
                     <meta name="description" content="Development_maintance" />
                     <body id="page-service" />
                 </Helmet>
-                <div className="spacer"></div>
-                <section className='ser-link'>
-                    <div className="">
-	                    <div className="container">
-		                    <ol className=" nav-links">
-			                    <li className="active dropdown relative  drop-container">
-                                    <a href="#" className='serverice_menu'>service<i className="" aria-hidden="true"></i></a>
-                                    <div className="bg-white">
-                                        <ul className="list pl0 dropdown-content list-inline">
-                                            <li className=''>Development & Maintenance</li>
-                                            <li className=''>Accelerate</li>
-                                            <li className=''>Insight</li>
-                                            <li className=''>Experience</li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li className="dropdown relative drop-container">
-                                    <a href="#" className='serverice_menu'><span >Development & Maintenance</span><i className="" aria-hidden="true"></i></a>
-                                    <div className="bg-white">
-                                        <ul className="list pl0 dropdown-content list-inline">
-                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12'>
-                                                Mobile app development & maintenance</li>
-                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12'>Mobile app development & maintenance</li>
-                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12'>UI/UX Design</li>
-                                        </ul>
-                                    </div>
-                                </li>
-		                    </ol>
-	                    </div>
-                    </div>
-                </section>
-                <section className='develo-main'>
-                    <div className='container'>
-                        <div className='row'>
-                            <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12'>
-                              <img src='/assets/img/develop-main.jpg' alt='development' />  
+                
+
+                <section className='srv-main'>
+                    
+                    <OwlCarousel className="owl-theme" {...options} >
+                    
+                        <div className='slide-1'>  
+                            <div className='slide-img'>
+                                <img src='/assets/img/develop-main.png' alt='development' />   
+                                <div className='slider-overlay-amethyst'></div>  
                             </div>
+                            <div className='caption'>
+                                <div className='container'>
+                                    <div className='row'>
+                                        <div className='serv-link col-12'>
+                                            <ol className=" nav-links">
+                                                <li className="active dropdown relative  drop-container">
+                                                    <a href="#" className='serverice_menu textwh'>service<i className="" aria-hidden="true"></i></a>
+                                                    <div className="bg-white">
+                                                        <ul className="list pl0 dropdown-content list-inline">
+                                                            <li className=''>Development & Maintenance</li>
+                                                            <li className=''>Accelerate</li>
+                                                            <li className=''>Insight</li>
+                                                            <li className=''>Experience</li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li className="dropdown relative drop-container">
+                                                    <a href="#" className='serverice_menu textwh'><span >Development & Maintenance</span><i className="" aria-hidden="true"></i></a>
+                                                    <div className="bg-white">
+                                                        <ul className="list pl0 dropdown-content list-inline">
+                                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12'>
+                                                                Mobile app development & maintenance</li>
+                                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12'>Mobile app development & maintenance</li>
+                                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12'>UI/UX Design</li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ol>
+                                        </div>
+                                           
+                                    </div> 
+                                </div>     
+                            </div>      
                         </div>
-                    </div>
-                </section>  
+                    </OwlCarousel>
+                </section>
                 <section className='devmain'>
                     <div className='container'>
                         <div className='row'>
@@ -82,7 +108,7 @@ export default class DevelopmentMaintance extends Component {
                                 <div className='column col-lg-4 col-md-4 col-sm-12 col-xs-12'>
                                     <div className="card">
                                         <div className='devmain-img'>
-                                            <img src='/assets/img/ios-app.jpeg' alt="ios-app" />
+                                            <img src='/assets/img/ios-apps.jpg' alt="ios-app" />
                                         </div>
                                         <div className='devemain-exp'>
                                             <h3>IOS App</h3>
@@ -106,7 +132,7 @@ export default class DevelopmentMaintance extends Component {
                                 <div className='column col-lg-4 col-md-4 col-sm-12 col-xs-12'>
                                     <div className="card">
                                         <div className='devmain-img'>
-                                            <img src='/assets/img/restaurant.jpeg' alt="jpeg-app" />
+                                            <img src='/assets/img/restaurant.jpg' alt="restaurant-app" />
                                         </div>
                                         <div className='devemain-exp'>
                                             <h3>Restaurant app</h3>
@@ -155,7 +181,7 @@ export default class DevelopmentMaintance extends Component {
                                 <div className='column col-lg-4 col-md-4 col-sm-12 col-xs-12'>
                                     <div className="card">
                                         <div className='devmain-img'>
-                                            <img src='/assets/img/payment.jpeg' alt="payment app" />
+                                            <img src='/assets/img/payment.jpg' alt="payment app" />
                                         </div>
                                         <div className='devemain-exp'>
                                             <h3>Payment app</h3>
@@ -166,7 +192,7 @@ export default class DevelopmentMaintance extends Component {
                                 <div className='column col-lg-4 col-md-4 col-sm-12 col-xs-12'>
                                     <div className="card">
                                         <div className='devmain-img'>
-                                            <img src='/assets/img/cust-exper.jpeg' alt="customer experience-app" />
+                                            <img src='/assets/img/cust-exper.jpg' alt="customer experience-app" />
                                         </div>
                                         <div className='devemain-exp'>
                                             <h3>Improve Customer Experience</h3>

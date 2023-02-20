@@ -53,6 +53,7 @@ import FutureTechnology from './pages/FutureTechnology';
 import CyberSecurity from './pages/CyberSecurity';
 import SOC from './pages/SOC';
 import DevelopmentMaintance from './pages/DevelopmentMaintance';
+import SalesForce from './pages/SalesForce';
 
 function App() {
   useEffect(() => {
@@ -118,9 +119,9 @@ function App() {
             <Route exact path='/blackberry_cybersecurity' component={CyberSecurity} />
             <Route exact path='/soc' component={SOC} />
             <Route exact path='/development-maintance' component={DevelopmentMaintance} />
+            <Route exact path='/sales_force' component={SalesForce} />
             <Route component={Page404} />
            
-
           </Switch>
         <Footer/>
       </Router>

@@ -468,13 +468,14 @@ input {width: 100%;height: 40px;background-color: #eee;border: none;padding-left
 .serverice_menu:hover{color:rgb(225, 179, 72);border-color: rgb(225, 179, 72);}
 .serverice_menu:hover:after{transform: rotate(180deg);}
 .serverice_menu_last{padding-top: 2.6em !important; padding-left: 20px !important;}
+.textwh{border-color: #fff; color: #fff;}
 
 
-.nav-links {width: 100%;display: flex;font-size: 1rem;}
+.nav-links {width: 100%;display: flex;font-size: 1rem; bottom: 150px; position: relative;}
 .nav-links .list-inline li { margin-bottom: 20px !important;padding-top: 0px;padding-left: 20px;padding-right: 15px;height: 40px;}
 .dropdown {padding: 15px 0px;display: flex;gap:20px;}
 .dropdown-content {display: none;position: absolute;top: 70px;left: 10px;border: 1px solid #efefef;border-radius: 0.4em;min-width: max-content;box-shadow: 0px 4px 12px rgb(0 0 0 / 10%);z-index: 1;margin-right: 50px;}
-.dropdown:hover .dropdown-content {display: flex;z-index: 9999999;background: aliceblue;width: 100%;list-style: none;padding: 30px 15px 10px 15px;color: #000;}
+.dropdown:hover .dropdown-content {display: flex;z-index: 9999999;background: #fff;width: 100%;list-style: none;padding: 30px 15px 10px 15px;color: #000;}
 .ser-sub-lin :link{font-family: sans-serif !important}
 .nav-links .list-inline a:hover {color:rgb(225, 179, 72); text-decoration: underline;}
 
