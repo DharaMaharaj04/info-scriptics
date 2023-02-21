@@ -140,6 +140,12 @@
     .ss-Assessment-right, .ss-IR-left, .strategicservices_over{margin-top: 30px; }
     .submenu-portion img {display: none;}
     .ser-link{display: none;}
+    .clo-meth{margin-top:20px ; margin-bottom: 10px;}
+    .clo-meth h2{padding-bottom: 30px;}
+     .clo-meth h3{font-size: 14px;}
+     .clo-meth img{width: 40%; height: auto;}
+     .clo-meth .col-lg-4{ margin-bottom: 10px;}
+    .clo-meth .card{display: flex;flex-direction: column;background: #FFFFFF;padding: 20px 20px 30px;border: 1px solid #F0F0F0;box-shadow: 0px 3px 12px rgb(0 0 0 / 8%);-webkit-border-radius: 16px;-moz-border-radius: 16px;border-radius: 16px;position: relative;overflow: hidden;z-index: 1; height: 100%;}
 }    
 @media screen and (min-width: 768px) {
     /**** Header ***/
@@ -162,7 +168,16 @@
      .esg .col-lg-4{ display: inline-block;}
      .vCISO {background-image: url(/assets/img/strategicservices-it1-vciso-768.jpg);}
      .srv-main-mob, .strategicservices-mob, .vCISO-mob, .ss-Assessment-mob, .ss-IR-mob, .Custom-Staff-mob, .timeline_sec-mob, .threat-mob{display: none;}
-     
+     .clo-meth{margin-top: 70px; margin-bottom: 20px;}
+     .clo-meth h2{padding-bottom: 30px;}
+     .clo-meth h3{font-size: 22px;}
+     .clo-meth img{width: 20%; height: auto;}
+     .clo-meth .col-lg-4{ margin-bottom: 40px;}
+     .clo-meth .card{display: flex;flex-direction: column;background: #FFFFFF;padding: 20px 20px 30px;border: 1px solid #F0F0F0;box-shadow: 0px 3px 12px rgb(0 0 0 / 8%);-webkit-border-radius: 16px;-moz-border-radius: 16px;border-radius: 16px;position: relative;overflow: hidden;z-index: 1; height: 100%;}
+     .clo-indus {margin-top:40px ;}
+    .clo-indus h2{padding: 40px;}
+     .clo-indu{margin-top: 40px;}
+     .clo-indus img{border-radius: 16px; vertical-align: middle;}
 }
 @media screen and (max-width: 992px) {
     .navbar {padding-top: 10px !important;}

@@ -21,8 +21,7 @@ export default class SalesForce extends Component {
                                 <a href="#" className='serverice_menu'>service<i className="text-uppercase " aria-hidden="true"></i></a>
                                 <div className="bg-white">
                                     <ul className="list dropdown-content list-inline ">
-                                        <li className='ser-sub-lin'>
-                                            <Link to='/development-maintance'>Development & Maintenance</Link></li>
+                                        <li className='ser-sub-lin'>Development & Maintenance</li>
                                         <li className='ser-sub-lin'>Accelerate</li>
                                         <li className='ser-sub-lin'>Insight</li>
                                         <li className='ser-sub-lin'>Experience</li>

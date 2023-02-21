@@ -54,6 +54,18 @@ import CyberSecurity from './pages/CyberSecurity';
 import SOC from './pages/SOC';
 import DevelopmentMaintance from './pages/DevelopmentMaintance';
 import SalesForce from './pages/SalesForce';
+import MobileDevelopment from './pages/MobileDevelopment';
+import ScriptisCloud from './pages/ScriptisCloud';
+import UI_UX from './pages/UI_UX';
+import DevSecops from './pages/DevSecops';
+import CloudSecurityEngineering from './pages/CloudSecurityEngineering';
+import ApplicationAssessment from './pages/ApplicationAssessment';
+import CloudNativeApplicationDevelopment from './pages/CloudNativeApplicationDevelopment';
+import SaaSProduct from './pages/SaaSProduct';
+import DataStrategy from './pages/DataStrategy';
+import DataGovernanceEngineering from './pages/DataGovernanceEngineering';
+import AdvancedAnalytics from './pages/AdvancedAnalytics';
+import CloudGovernanceReporting from './pages/CloudGovernanceReporting';
 
 function App() {
   useEffect(() => {
@@ -120,6 +132,18 @@ function App() {
             <Route exact path='/soc' component={SOC} />
             <Route exact path='/development-maintance' component={DevelopmentMaintance} />
             <Route exact path='/sales_force' component={SalesForce} />
+            <Route exact path='/mobile_development' component={MobileDevelopment} />
+            <Route exact path='/ui-ux' component={UI_UX} />
+            <Route exact path='/cloud_digital_transfomation' component={ScriptisCloud} />
+            <Route exact path='/devsecops' component={DevSecops} />
+            <Route exact path='/cloud-sec-eng' component={CloudSecurityEngineering} />
+            <Route exact path='/application-asses' component={ApplicationAssessment} />
+            <Route exact path='/cloud_naive_app' component={CloudNativeApplicationDevelopment} />
+            <Route exact path='/saas_product' component={SaaSProduct} />
+            <Route exact path='/data_strategy' component={DataStrategy} />
+            <Route exact path='/data_govern_eng' component={DataGovernanceEngineering} />
+            <Route exact path='/advanced_analy' component={AdvancedAnalytics} />
+            <Route exact path='/automation_reporting' component={CloudGovernanceReporting} />
             <Route component={Page404} />
            
           </Switch>

@@ -30,7 +30,7 @@ function Header() {
                                                                 <div className="row service-row">
                                                                     <div className="col-md-4 col-sm-4 col-xs-12 align-list">
                                                                         <ul className="list-inline mb-xs-0">
-                                                                            <li> <a href="/development-maintance" title="Mobile app development &
+                                                                            <li> <a href="/mobile_development" title="Mobile app development &
                                                                             maintenance">Mobile app development & maintenance</a></li>
                                                                         </ul>
                                                                     </div>
@@ -42,7 +42,7 @@ function Header() {
                                                                     </div>
                                                                     <div className="col-md-4 col-sm-4 col-xs-12 align-list">
                                                                         <ul className="list-inline">
-                                                                            <li> <a href="/development-maintance" title="UI/UX Design">UI/UX Design</a>
+                                                                            <li> <a href="/ui-ux" title="UI/UX Design">UI/UX Design</a>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
@@ -67,7 +67,7 @@ function Header() {
                                                                     </div>
                                                                     <div className="col-md-4 col-sm-4 col-xs-12 align-list">
                                                                         <ul className="list-inline mb0">
-                                                                                    <li> <a  href="/" title="Cloud Digital Transfomation">
+                                                                                    <li> <a  href="/cloud_digital_transfomation" title="Cloud Digital Transfomation">
                                                                                     Cloud Digital Transfomation  </a> </li>
                                                                                 </ul>
                                                                             </div>

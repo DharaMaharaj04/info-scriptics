@@ -64,41 +64,6 @@ export default class CyberSecurity extends Component {
                 <meta name="description" content="Blackberry_CyberSecurity" />
                 <body id="page-service" />
             </Helmet>
-            <div className="spacer"></div>
-                <section className='ser-link'>
-                    <div className="">
-	                    <div className="container">
-		                    <ol className=" nav-links">
-			                    <li className="dropdown relative drop-container">
-                                    <a href="#" className='serverice_menu'>service<i className="text-uppercase " aria-hidden="true"></i></a>
-                                    <div className="bg-white">
-                                        <ul className="list dropdown-content list-inline">
-                                            <li className=''>Development & Maintenance</li>
-                                            <li className=''>Accelerate</li>
-                                            <li className=''>Insight</li>
-                                            <li className=''>Experience</li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li className="active dropdown relative drop-container">
-                                    <a href="#" className='serverice_menu'><span >Experience</span><i className="text-uppercase " aria-hidden="true"></i></a>
-                                    <div className="bg-white">
-                                        <ul className="list dropdown-content list-inline">
-                                            <li className='ser-sub-lin'>
-                                                <Link to='/blackberry_cybersecurity'>BlackBerry Cyber Security</Link>
-                                            </li>
-                                            <li className='ser-sub-lin'>
-                                                <Link to='/soc'>SOC</Link>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                
-                                <li className='serverice_menu_last dropdown relative drop-container'><span>BlackBerry Cyber Security</span></li>
-		                    </ol>
-	                    </div>
-                    </div>
-                </section>
             <div className='cysec-overlay'>
                 <section className='srv-main'>
                         <OwlCarousel className="owl-theme" {...options} >
@@ -110,6 +75,35 @@ export default class CyberSecurity extends Component {
                                 <div className='caption'>
                                     <div className='container'>
                                         <div className='row'>
+                                            <div className='serv-link col-12'>
+                                                <ol className=" nav-links">
+                                                    <li className="dropdown relative drop-container">
+                                                        <a href="#" className='serverice_menu textwh'>service<i className="text-uppercase " aria-hidden="true"></i></a>
+                                                        <div className="bg-white">
+                                                            <ul className="list dropdown-content list-inline">
+                                                                <li className=''>Development & Maintenance</li>
+                                                                <li className=''>Accelerate</li>
+                                                                <li className=''>Insight</li>
+                                                                <li className=''>Experience</li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className="active dropdown relative drop-container">
+                                                        <a href="#" className='serverice_menu textwh'><span >Experience</span><i className="text-uppercase " aria-hidden="true"></i></a>
+                                                        <div className="bg-white">
+                                                            <ul className="list dropdown-content list-inline">
+                                                                <li className='ser-sub-lin'>
+                                                                    <Link to='/blackberry_cybersecurity'>BlackBerry Cyber Security</Link>
+                                                                </li>
+                                                                <li className='ser-sub-lin'>
+                                                                    <Link to='/soc'>SOC</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className='serverice_menu_last dropdown relative drop-container textwh'><span>BlackBerry Cyber Security</span></li>
+                                                </ol>
+                                            </div>  
                                             <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                                 <div className='slide_content'>
                                                     <img src='/assets/img/Cybersecurity logo_white.png' alt='scriptics_blackberry' className='video_logo' />

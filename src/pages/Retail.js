@@ -57,7 +57,6 @@ export default class Retail extends Component {
                                             <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                                 <div className='slide_content'>
                                                     <h2 className="h2-slide white-color mb-xs-10">INITIAL DESIGN WITH INTERACTIVE TECHNOLOGY</h2>
-                                                    
                                                 </div>
                                             </div>
                                         </div>  
