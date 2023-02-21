@@ -179,7 +179,7 @@ export default class AdvancedAnalytics extends Component {
                             </div>
                         
                         </section>
-                        <section id='2' className=''>
+                        <section id='2' className='clo-framework'>
                             <div className='continer'>
                                 <div className='row'>
                                     <div className='col-12 text-center'>

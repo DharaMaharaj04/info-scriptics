@@ -146,6 +146,7 @@
      .clo-meth img{width: 40%; height: auto;}
      .clo-meth .col-lg-4{ margin-bottom: 10px;}
     .clo-meth .card{display: flex;flex-direction: column;background: #FFFFFF;padding: 20px 20px 30px;border: 1px solid #F0F0F0;box-shadow: 0px 3px 12px rgb(0 0 0 / 8%);-webkit-border-radius: 16px;-moz-border-radius: 16px;border-radius: 16px;position: relative;overflow: hidden;z-index: 1; height: 100%;}
+    .Scr-cld-nav nav { top: 10px; padding: 30px 15px;}
 }    
 @media screen and (min-width: 768px) {
     /**** Header ***/

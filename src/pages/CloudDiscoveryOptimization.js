@@ -81,8 +81,8 @@ export default class CloudDiscoveryOptimization extends Component {
       <section className='Scr-cld-nav'>
           <div className=''>
               <nav>
-                  <a href="#1">Solutions</a>
-                  <a href="#2">Industries</a>
+                  <li><a href="#1">Solutions</a></li>
+                  <li><a href="#2">Industries</a></li>
               </nav>
           
               <div className="scrolling-box">

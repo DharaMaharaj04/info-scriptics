@@ -80,8 +80,8 @@ export default class CloudSecurityEngineering extends Component {
         <section className='Scr-cld-nav'>
             <div className=''>
                 <nav>
-                    <a href="#1">Methodology</a>
-                    <a href="#2">Industries</a>
+                    <li><a href="#1">Methodology</a></li>
+                    <li><a href="#2">Industries</a></li>
                 </nav>
           
                 <div className="scrolling-box">

@@ -80,9 +80,9 @@ export default class DevSecops extends Component {
         <section className='Scr-cld-nav'>
             <div className=''>
                 <nav>
-                    <a href="#1">Methodology</a>
-                    <a href="#2">Framework</a>
-                    <a href="#3">Industries</a>
+                    <li><a href="#1">Methodology</a></li>
+                    <li><a href="#2">Framework</a></li>
+                    <li><a href="#3">Industries</a></li>
                 </nav>
           
                 <div className="scrolling-box">
@@ -141,7 +141,7 @@ export default class DevSecops extends Component {
                         </div>
                     
                     </section>
-                    <section id='2'>
+                    <section id='2' className='clo-framework'>
                         <div className='container'>
                             <div className='row'>
                                 <div className='col-12'>

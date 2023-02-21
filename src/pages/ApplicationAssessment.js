@@ -82,9 +82,9 @@ export default class ApplicationAssessment extends Component {
         <section className='Scr-cld-nav'>
             <div className=''>
                 <nav>
-                    <a href="#1">Methodology</a>
-                    <a href='#2'>Our Offering</a>
-                    <a href="#3">Industries</a>
+                    <li><a href="#1">Methodology</a></li>
+                    <li><a href='#2'>Our Offering</a></li>
+                    <li><a href="#3">Industries</a></li>
                 </nav>
           
                 <div className="scrolling-box">
@@ -142,7 +142,7 @@ export default class ApplicationAssessment extends Component {
                         </div>
                     
                     </section>
-                    <section id='2' className='our-off'>
+                    <section id='2' className='our-off clo-framework'>
                         <div className='container'>
                             <div className='row'>
                                 <div className='col-12'>

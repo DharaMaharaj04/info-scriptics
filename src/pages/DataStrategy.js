@@ -82,9 +82,9 @@ export default class DataStrategy extends Component {
             <section className='Scr-cld-nav'>
                 <div className=''>
                     <nav>
-                        <a href="#1">Solutions</a>
-                        <a href='#2'>Framework</a>
-                        <a href="#3">Industries</a>
+                       <li> <a href="#1">Solutions</a></li>
+                        <li><a href='#2'>Framework</a></li>
+                        <li><a href="#3">Industries</a></li>
                     </nav>
                 
                     <div className="scrolling-box">
@@ -142,7 +142,7 @@ export default class DataStrategy extends Component {
                             </div>
                         
                         </section>
-                        <section id='2' className=''>
+                        <section id='2' className='clo-framework'>
                             <div className='continer'>
                                 <div className='row'>
                                     <div className='col-12 text-center'>

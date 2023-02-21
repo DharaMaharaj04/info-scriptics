@@ -82,10 +82,10 @@ export default class CloudNativeApplicationDevelopment extends Component {
         <section className='Scr-cld-nav'>
             <div className=''>
                 <nav>
-                    <a href="#1">Methodology</a>
-                    <a href='#2'>CNAD Framework</a>
-                    <a href='#3'>Testing & QA Framework</a>
-                    <a href="#4">Industries</a>
+                    <li><a href="#1">Methodology</a></li>
+                    <li><a href='#2'>CNAD Framework</a></li>
+                    <li><a href='#3'>Testing & QA Framework</a></li>
+                    <li><a href="#4">Industries</a></li>
                 </nav>
           
                 <div className="scrolling-box">
@@ -155,7 +155,7 @@ export default class CloudNativeApplicationDevelopment extends Component {
                         </div>
                     
                     </section>
-                    <section id='2' className=''>
+                    <section id='2' className='clo-framework'>
                         <div className='container'>
                             <div className='row'>
                                 <div className='col-12'>
@@ -165,7 +165,7 @@ export default class CloudNativeApplicationDevelopment extends Component {
                             </div>
                         </div>
                     </section>
-                    <section id='3' className=''>
+                    <section id='3' className='clo-framework'>
                         <div className='container'>
                             <div className='row'>
                                 <div className='col-12'>
