@@ -31,7 +31,7 @@ export default class SaaSProduct extends Component {
         <section className='srv-main'>
             <OwlCarousel className="owl-theme" {...options} >
             
-                <div className='slide-1'>  
+                <div className='clo-ser'>  
                     <div className='slide-img'>
                         <img src='/assets/img/SaaS-Product-Platform-Development.jpg' alt='SaaS-Product-Platform-Development' />   
                         <div className='slider-overlay-amethyst'></div>  
@@ -83,7 +83,7 @@ export default class SaaSProduct extends Component {
         <section className='Scr-cld-nav'>
             <div className=''>
                 <nav>
-                    <li><a href="#1">Solutions</a></li>
+                    <li className='active'><a href="#1">Solutions</a></li>
                     <li><a href="#2">Industries</a></li>
                 </nav>
           

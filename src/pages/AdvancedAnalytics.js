@@ -30,7 +30,7 @@ export default class AdvancedAnalytics extends Component {
             <section className='srv-main'>
                 <OwlCarousel className="owl-theme" {...options} >
                 
-                    <div className='slide-1'>  
+                    <div className='clo-ser'>  
                         <div className='slide-img'>
                             <img src='/assets/img/Advanced-Analytics.jpg' alt='Advanced-Analytics' />   
                             <div className='slider-overlay-amethyst'></div>  

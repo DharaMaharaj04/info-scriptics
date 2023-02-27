@@ -37,7 +37,7 @@ export default class NaturalLanguageProcessing extends Component {
                     <OwlCarousel className="owl-theme" {...options} >
                         <div className='slide-1'>  
                             <div className='slide-img'>
-                                <img src="/assets/img/employee-experience-lead.png" />
+                                <img src="/assets/img/NaturalLanguageProcessing/Banner/AI for gmaing.jpg" alt='AI for Gaming' />
                                 <div className='slider-overlay-amethyst'></div>
                             </div>
                             <div className='caption'>
@@ -46,7 +46,7 @@ export default class NaturalLanguageProcessing extends Component {
                                         <div className='serv-link col-12'>
                                             <ol className=" nav-links">
                                                 <li className="dropdown relative drop-container">
-                                                    <a href="#" className='serverice_menu'>service<i className="text-uppercase " aria-hidden="true"></i></a>
+                                                    <a href="#" className='serverice_menu textwh'>service<i className="text-uppercase " aria-hidden="true"></i></a>
                                                     <div className="bg-white">
                                                         <ul className="list dropdown-content list-inline ">
                                                             <li className='ser-sub-lin'>Development & Maintenance</li>
@@ -57,7 +57,7 @@ export default class NaturalLanguageProcessing extends Component {
                                                     </div>
                                                 </li>
                                                 <li className="active dropdown relative drop-container ">
-                                                    <a href="#" className='serverice_menu'><span >Insight</span><i className="text-uppercase " aria-hidden="true"></i></a>
+                                                    <a href="#" className='serverice_menu textwh'><span >Insight</span><i className="text-uppercase " aria-hidden="true"></i></a>
                                                     <div className="bg-white ">
                                                         <ul className="list row dropdown-content">
                                                             <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
@@ -107,7 +107,7 @@ export default class NaturalLanguageProcessing extends Component {
                                                     </div>
                                                 </li>
                                                 
-                                                <li className='serverice_menu_last dropdown relative drop-container'><span>Natural Language processing</span></li>
+                                                <li className='serverice_menu_last dropdown relative drop-container textwh'><span>Natural Language processing</span></li>
                                             </ol>
                                         </div>
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
@@ -122,7 +122,7 @@ export default class NaturalLanguageProcessing extends Component {
                         </div>
                         <div className='slide-2'>
                             <div className='slide-img'>
-                                <img src="/assets/img/cloud-data-cultivates-cs-lead.png" />
+                                <img src="/assets/img/NaturalLanguageProcessing/Banner/Design and interactive.jpg" alt='Design and Interaction' />
                                 <div className='slider-overlay-amethyst'></div>
                             </div>
                             <div className='caption'>
@@ -131,7 +131,7 @@ export default class NaturalLanguageProcessing extends Component {
                                         <div className='serv-link col-12'>
                                             <ol className=" nav-links">
                                                 <li className="dropdown relative drop-container">
-                                                    <a href="#" className='serverice_menu'>service<i className="text-uppercase " aria-hidden="true"></i></a>
+                                                    <a href="#" className='serverice_menu textwh'>service<i className="text-uppercase " aria-hidden="true"></i></a>
                                                     <div className="bg-white">
                                                         <ul className="list dropdown-content list-inline ">
                                                             <li className='ser-sub-lin'>Development & Maintenance</li>
@@ -142,7 +142,7 @@ export default class NaturalLanguageProcessing extends Component {
                                                     </div>
                                                 </li>
                                                 <li className="active dropdown relative drop-container ">
-                                                    <a href="#" className='serverice_menu'><span >Insight</span><i className="text-uppercase " aria-hidden="true"></i></a>
+                                                    <a href="#" className='serverice_menu textwh'><span >Insight</span><i className="text-uppercase " aria-hidden="true"></i></a>
                                                     <div className="bg-white ">
                                                         <ul className="list row dropdown-content">
                                                             <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
@@ -192,7 +192,7 @@ export default class NaturalLanguageProcessing extends Component {
                                                     </div>
                                                 </li>
                                                 
-                                                <li className='serverice_menu_last dropdown relative drop-container'><span>Natural Language processing</span></li>
+                                                <li className='serverice_menu_last dropdown relative drop-container textwh'><span>Natural Language processing</span></li>
                                             </ol>
                                         </div>
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
@@ -207,7 +207,7 @@ export default class NaturalLanguageProcessing extends Component {
                         </div>
                         <div className='slide-3'>
                             <div className='slide-img'>
-                                <img src="/assets/img/enterprise-agility-lead-mob.jpg" />
+                                <img src="/assets/img/NaturalLanguageProcessing/Banner/Strategy and consulting.jpg"  alt='Strategy and consulting' />
                                 <div className='slider-overlay-amethyst'></div>
                             </div>
                             <div className='caption'>
@@ -282,7 +282,7 @@ export default class NaturalLanguageProcessing extends Component {
                                         </div> 
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                             <div className='slide_content'>
-                                                <h2 className="h2-slide white-color mb-xs-10">SCRIPTICS, AI FOR GAMING EXPERIENCE</h2>
+                                                <h2 className="h2-slide text-dark mb-xs-10">SCRIPTICS, AI FOR GAMING EXPERIENCE</h2>
                                                 
                                             </div>
                                         </div>

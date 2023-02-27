@@ -21,270 +21,270 @@ export default class ScripticsAIGaming extends Component {
 
         return (
             <div className="service-page">
-            <Helmet>
-                <title>Scritpics | Scriptics AI for Gaming</title>
-                <meta name="description" content= "Scriptics AI for Gaming" />
-                <body id="page-service" />
-            </Helmet>
-            <section className='srv-main'>
-            <OwlCarousel className="owl-theme" {...options} >
-                <div className='slide-1'>  
-                    <div className='slide-img'>
-                        <img src="/assets/img/employee-experience-lead.png" />
-                        <div className='slider-overlay-amethyst'></div>
-                    </div>
-                    <div className='caption'>
-                        <div className='container'>
-                            <div className='row'>
-                                <div className='serv-link col-12'>
-                                    <ol className=" nav-links">
-                                        <li className="dropdown relative drop-container">
-                                            <a href="#" className='serverice_menu'>service<i className="text-uppercase " aria-hidden="true"></i></a>
-                                            <div className="bg-white">
-                                                <ul className="list dropdown-content list-inline ">
-                                                    <li className='ser-sub-lin'>Development & Maintenance</li>
-                                                    <li className='ser-sub-lin'>Accelerate</li>
-                                                    <li className='ser-sub-lin'>Insight</li>
-                                                    <li className='ser-sub-lin'>Experience</li>
-                                                </ul>
+                <Helmet>
+                    <title>Scritpics | Scriptics AI for Gaming</title>
+                    <meta name="description" content= "Scriptics AI for Gaming" />
+                    <body id="page-service" />
+                </Helmet>
+                <section className='srv-main'>
+                    <OwlCarousel className="owl-theme" {...options} >
+                        <div className='slide-1'>  
+                            <div className='slide-img'>
+                                <img src="/assets/img/AIandGaming/banner/AIforgaming.jpg" alt='AIforgaming' />
+                                <div className='slider-overlay-amethyst'></div>
+                            </div>
+                            <div className='caption'>
+                                <div className='container'>
+                                    <div className='row'>
+                                        <div className='serv-link col-12'>
+                                            <ol className=" nav-links">
+                                                <li className="dropdown relative drop-container">
+                                                    <a href="#" className='serverice_menu textwh'>service<i className="text-uppercase " aria-hidden="true"></i></a>
+                                                    <div className="bg-white">
+                                                        <ul className="list dropdown-content list-inline ">
+                                                            <li className='ser-sub-lin'>Development & Maintenance</li>
+                                                            <li className='ser-sub-lin'>Accelerate</li>
+                                                            <li className='ser-sub-lin'>Insight</li>
+                                                            <li className='ser-sub-lin'>Experience</li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li className="active dropdown relative drop-container ">
+                                                    <a href="#" className='serverice_menu textwh'><span >Insight</span><i className="text-uppercase " aria-hidden="true"></i></a>
+                                                    <div className="bg-white ">
+                                                        <ul className="list row dropdown-content">
+                                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
+                                                                <ul className='list-inline px-0'>
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/ai_automation'>Ai & Automation</Link></li>
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/statistical_data_analysis'>Statistical Data Analytics</Link>
+                                                                    </li>
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/business_intelligence'>Business Intelligence</Link>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            
+                                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
+                                                                <ul className='list-inline px-0'>
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/computer_vision'>Computer Vision</Link>
+                                                                    </li>
+                                                                    
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/big_data_analysis'>Big data analytics</Link>
+                                                                    </li>
+                                                                    
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/signal_processing'>Digital Signal Processing</Link>
+                                                                    </li>
+                                                                    
+                                                                    
+                                                                </ul>
+                                                            </li>
+                                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
+                                                                <ul className='list-inline px-0'>
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/natural_language_processing'>Natural Language processing</Link>
+                                                                    </li>
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/deep_learning'>Deep learning</Link>
+                                                                    </li>
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/scriptics_ai_gaming'>AI & Gaming</Link>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li className='serverice_menu_last dropdown relative drop-container textwh'><span>AI Gaming</span></li>
+                                            </ol>
+                                        </div>
+                                        <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
+                                            <div className='slide_content'>
+                                                <h2 className="h2-slide white-color mb-xs-10">MAKE THE FIRST MOVE WITH STRATEGY & CONSULTING</h2>
+                                            
                                             </div>
-                                        </li>
-                                        <li className="active dropdown relative drop-container ">
-                                            <a href="#" className='serverice_menu'><span >Insight</span><i className="text-uppercase " aria-hidden="true"></i></a>
-                                            <div className="bg-white ">
-                                                <ul className="list row dropdown-content">
-                                                    <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
-                                                        <ul className='list-inline px-0'>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/ai_automation'>Ai & Automation</Link></li>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/statistical_data_analysis'>Statistical Data Analytics</Link>
-                                                            </li>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/business_intelligence'>Business Intelligence</Link>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    
-                                                    <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
-                                                        <ul className='list-inline px-0'>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/computer_vision'>Computer Vision</Link>
-                                                            </li>
-                                                            
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/big_data_analysis'>Big data analytics</Link>
-                                                            </li>
-                                                            
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/signal_processing'>Digital Signal Processing</Link>
-                                                            </li>
-                                                            
-                                                            
-                                                        </ul>
-                                                    </li>
-                                                    <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
-                                                        <ul className='list-inline px-0'>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/natural_language_processing'>Natural Language processing</Link>
-                                                            </li>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/deep_learning'>Deep learning</Link>
-                                                            </li>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/scriptics_ai_gaming'>AI & Gaming</Link>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        
-                                        <li className='serverice_menu_last dropdown relative drop-container'><span>AI Gaming</span></li>
-                                    </ol>
-                                </div>
-                                <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
-                                    <div className='slide_content'>
-                                        <h2 className="h2-slide white-color mb-xs-10">MAKE THE FIRST MOVE WITH STRATEGY & CONSULTING</h2>
-                                       
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>     
-                    </div>      
-                </div>
-                <div className='slide-2'>
-                    <div className='slide-img'>
-                        <img src="/assets/img/cloud-data-cultivates-cs-lead.png" />
-                        <div className='slider-overlay-amethyst'></div>
-                    </div>
-                    <div className='caption'>
-                        <div className='container'>
-                            <div className='row'>
-                                <div className='serv-link col-12'>
-                                    <ol className=" nav-links">
-                                        <li className="dropdown relative drop-container">
-                                            <a href="#" className='serverice_menu'>service<i className="text-uppercase " aria-hidden="true"></i></a>
-                                            <div className="bg-white">
-                                                <ul className="list dropdown-content list-inline ">
-                                                    <li className='ser-sub-lin'>Development & Maintenance</li>
-                                                    <li className='ser-sub-lin'>Accelerate</li>
-                                                    <li className='ser-sub-lin'>Insight</li>
-                                                    <li className='ser-sub-lin'>Experience</li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li className="active dropdown relative drop-container ">
-                                            <a href="#" className='serverice_menu'><span >Insight</span><i className="text-uppercase " aria-hidden="true"></i></a>
-                                            <div className="bg-white ">
-                                                <ul className="list row dropdown-content">
-                                                    <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
-                                                        <ul className='list-inline px-0'>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/ai_automation'>Ai & Automation</Link></li>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/statistical_data_analysis'>Statistical Data Analytics</Link>
-                                                            </li>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/business_intelligence'>Business Intelligence</Link>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    
-                                                    <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
-                                                        <ul className='list-inline px-0'>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/computer_vision'>Computer Vision</Link>
-                                                            </li>
-                                                            
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/big_data_analysis'>Big data analytics</Link>
-                                                            </li>
-                                                            
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/signal_processing'>Digital Signal Processing</Link>
-                                                            </li>
-                                                            
-                                                            
-                                                        </ul>
-                                                    </li>
-                                                    <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
-                                                        <ul className='list-inline px-0'>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/natural_language_processing'>Natural Language processing</Link>
-                                                            </li>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/deep_learning'>Deep learning</Link>
-                                                            </li>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/scriptics_ai_gaming'>AI & Gaming</Link>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        
-                                        <li className='serverice_menu_last dropdown relative drop-container'><span>AI Gaming</span></li>
-                                    </ol>
-                                </div>
-                                <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
-                                    <div className='slide_content'>
-                                        <h2 className="h2-slide white-color mb-xs-10">INITIAL DESIGN WITH INTERACTIVE TECHNOLOGY</h2>
-                                        
-                                    </div>
-                                </div>
-                            </div>  
+                                        </div>
+                                    </div> 
+                                </div>     
+                            </div>      
                         </div>
-                    </div>    
-                </div>
-                <div className='slide-3'>
-                    <div className='slide-img'>
-                        <img src="/assets/img/enterprise-agility-lead-mob.jpg" />
-                        <div className='slider-overlay-amethyst'></div>
-                    </div>
-                    <div className='caption'>
-                        <div className='container'>
-                            <div className='row'>
-                                <div className='serv-link col-12'>
-                                    <ol className=" nav-links">
-                                        <li className="dropdown relative drop-container">
-                                            <a href="#" className='serverice_menu'>service<i className="text-uppercase " aria-hidden="true"></i></a>
-                                            <div className="bg-white">
-                                                <ul className="list dropdown-content list-inline ">
-                                                    <li className='ser-sub-lin'>Development & Maintenance</li>
-                                                    <li className='ser-sub-lin'>Accelerate</li>
-                                                    <li className='ser-sub-lin'>Insight</li>
-                                                    <li className='ser-sub-lin'>Experience</li>
-                                                </ul>
+                        <div className='slide-2'>
+                            <div className='slide-img'>
+                                <img src="/assets/img/AIandGaming/banner/DesignInterctiveTech.jpg" alt='DesignInterctiveTech' />
+                                <div className='slider-overlay-amethyst'></div>
+                            </div>
+                            <div className='caption'>
+                                <div className='container'>
+                                    <div className='row'>
+                                        <div className='serv-link col-12'>
+                                            <ol className=" nav-links">
+                                                <li className="dropdown relative drop-container">
+                                                    <a href="#" className='serverice_menu'>service<i className="text-uppercase " aria-hidden="true"></i></a>
+                                                    <div className="bg-white">
+                                                        <ul className="list dropdown-content list-inline ">
+                                                            <li className='ser-sub-lin'>Development & Maintenance</li>
+                                                            <li className='ser-sub-lin'>Accelerate</li>
+                                                            <li className='ser-sub-lin'>Insight</li>
+                                                            <li className='ser-sub-lin'>Experience</li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li className="active dropdown relative drop-container ">
+                                                    <a href="#" className='serverice_menu'><span >Insight</span><i className="text-uppercase " aria-hidden="true"></i></a>
+                                                    <div className="bg-white ">
+                                                        <ul className="list row dropdown-content">
+                                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
+                                                                <ul className='list-inline px-0'>
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/ai_automation'>Ai & Automation</Link></li>
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/statistical_data_analysis'>Statistical Data Analytics</Link>
+                                                                    </li>
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/business_intelligence'>Business Intelligence</Link>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            
+                                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
+                                                                <ul className='list-inline px-0'>
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/computer_vision'>Computer Vision</Link>
+                                                                    </li>
+                                                                    
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/big_data_analysis'>Big data analytics</Link>
+                                                                    </li>
+                                                                    
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/signal_processing'>Digital Signal Processing</Link>
+                                                                    </li>
+                                                                    
+                                                                    
+                                                                </ul>
+                                                            </li>
+                                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
+                                                                <ul className='list-inline px-0'>
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/natural_language_processing'>Natural Language processing</Link>
+                                                                    </li>
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/deep_learning'>Deep learning</Link>
+                                                                    </li>
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/scriptics_ai_gaming'>AI & Gaming</Link>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li className='serverice_menu_last dropdown relative drop-container'><span>AI Gaming</span></li>
+                                            </ol>
+                                        </div>
+                                        <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
+                                            <div className='slide_content'>
+                                                <h2 className="h2-slide text-dark mb-xs-10">INITIAL DESIGN WITH INTERACTIVE TECHNOLOGY</h2>
+                                                
                                             </div>
-                                        </li>
-                                        <li className="active dropdown relative drop-container ">
-                                            <a href="#" className='serverice_menu'><span >Insight</span><i className="text-uppercase " aria-hidden="true"></i></a>
-                                            <div className="bg-white ">
-                                                <ul className="list row dropdown-content">
-                                                    <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
-                                                        <ul className='list-inline px-0'>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/ai_automation'>Ai & Automation</Link></li>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/statistical_data_analysis'>Statistical Data Analytics</Link>
-                                                            </li>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/business_intelligence'>Business Intelligence</Link>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    
-                                                    <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
-                                                        <ul className='list-inline px-0'>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/computer_vision'>Computer Vision</Link>
-                                                            </li>
-                                                            
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/big_data_analysis'>Big data analytics</Link>
-                                                            </li>
-                                                            
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/signal_processing'>Digital Signal Processing</Link>
-                                                            </li>
-                                                            
-                                                            
-                                                        </ul>
-                                                    </li>
-                                                    <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
-                                                        <ul className='list-inline px-0'>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/natural_language_processing'>Natural Language processing</Link>
-                                                            </li>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/deep_learning'>Deep learning</Link>
-                                                            </li>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/scriptics_ai_gaming'>AI & Gaming</Link>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        
-                                        <li className='serverice_menu_last dropdown relative drop-container'><span>AI Gaming</span></li>
-                                    </ol>
-                                </div> 
-                                <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12 fadeInUp  Wow from-bottom'>
-                                    <div className='slide_content'>
-                                        <h2 className="h2-slide white-color mb-xs-10">SCRIPTICS, AI FOR GAMING EXPERIENCE</h2>
-                                        
-                                    </div>
+                                        </div>
+                                    </div>  
                                 </div>
-                            </div> 
-                        </div>    
-                    </div>
-                </div>
-            </OwlCarousel>
-        </section>
+                            </div>    
+                        </div>
+                        <div className='slide-3'>
+                            <div className='slide-img'>
+                                <img src="/assets/img/AIandGaming/banner/Strategyandconsultation.jpg" alt='Strategyandconsultation' />
+                                <div className='slider-overlay-amethyst'></div>
+                            </div>
+                            <div className='caption'>
+                                <div className='container'>
+                                    <div className='row'>
+                                        <div className='serv-link col-12'>
+                                            <ol className=" nav-links">
+                                                <li className="dropdown relative drop-container">
+                                                    <a href="#" className='serverice_menu textwh'>service<i className="text-uppercase " aria-hidden="true"></i></a>
+                                                    <div className="bg-white">
+                                                        <ul className="list dropdown-content list-inline ">
+                                                            <li className='ser-sub-lin'>Development & Maintenance</li>
+                                                            <li className='ser-sub-lin'>Accelerate</li>
+                                                            <li className='ser-sub-lin'>Insight</li>
+                                                            <li className='ser-sub-lin'>Experience</li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li className="active dropdown relative drop-container ">
+                                                    <a href="#" className='serverice_menu textwh'><span >Insight</span><i className="text-uppercase " aria-hidden="true"></i></a>
+                                                    <div className="bg-white ">
+                                                        <ul className="list row dropdown-content">
+                                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
+                                                                <ul className='list-inline px-0'>
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/ai_automation'>Ai & Automation</Link></li>
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/statistical_data_analysis'>Statistical Data Analytics</Link>
+                                                                    </li>
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/business_intelligence'>Business Intelligence</Link>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            
+                                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
+                                                                <ul className='list-inline px-0'>
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/computer_vision'>Computer Vision</Link>
+                                                                    </li>
+                                                                    
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/big_data_analysis'>Big data analytics</Link>
+                                                                    </li>
+                                                                    
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/signal_processing'>Digital Signal Processing</Link>
+                                                                    </li>
+                                                                    
+                                                                    
+                                                                </ul>
+                                                            </li>
+                                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
+                                                                <ul className='list-inline px-0'>
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/natural_language_processing'>Natural Language processing</Link>
+                                                                    </li>
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/deep_learning'>Deep learning</Link>
+                                                                    </li>
+                                                                    <li className='ser-sub-lin'>
+                                                                        <Link to='/scriptics_ai_gaming'>AI & Gaming</Link>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li className='serverice_menu_last dropdown relative drop-container textwh'><span>AI Gaming</span></li>
+                                            </ol>
+                                        </div> 
+                                        <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12 fadeInUp  Wow from-bottom'>
+                                            <div className='slide_content'>
+                                                <h2 className="h2-slide white-color mb-xs-10">SCRIPTICS, AI FOR GAMING EXPERIENCE</h2>
+                                                
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>    
+                            </div>
+                        </div>
+                    </OwlCarousel>
+                </section>
                 <section className="srv-content">
                     <div className="container">
                         <div className="row">

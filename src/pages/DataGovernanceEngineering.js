@@ -30,7 +30,7 @@ export default class DataGovernanceEngineering extends Component {
             <section className='srv-main'>
                 <OwlCarousel className="owl-theme" {...options} >
                 
-                    <div className='slide-1'>  
+                    <div className='clo-ser'>  
                         <div className='slide-img'>
                             <img src='/assets/img/Data-Governance-and-Engineering.jpg' alt='Data-Governance-and-Engineering' />   
                             <div className='slider-overlay-amethyst'></div>  
@@ -82,10 +82,10 @@ export default class DataGovernanceEngineering extends Component {
             <section className='Scr-cld-nav'>
                 <div className=''>
                     <nav>
-                        <a href="#1">Solutions</a>
-                        <a href='#2'> Governance Framework</a>
-                        <a href='#3'>Engineeering Framework</a>
-                        <a href="#3">Industries</a>
+                        <li className='active'><a href="#1">Solutions</a></li>
+                        <li><a href='#2'> Governance Framework</a></li>
+                        <li><a href='#3'>Engineeering Framework</a></li>
+                        <li><a href="#3">Industries</a></li>
                     </nav>
                 
                     <div className="scrolling-box">

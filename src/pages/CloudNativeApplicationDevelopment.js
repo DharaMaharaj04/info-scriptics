@@ -30,7 +30,7 @@ export default class CloudNativeApplicationDevelopment extends Component {
         <section className='srv-main'>
             <OwlCarousel className="owl-theme" {...options} >
             
-                <div className='slide-1'>  
+                <div className=' clo-ser'>  
                     <div className='slide-img'>
                         <img src='/assets/img/Cloud-Native-Application-Development-Testing.jpg' alt='Cloud-Native-Application-Development-Testing' />   
                         <div className='slider-overlay-amethyst'></div>  
@@ -82,7 +82,7 @@ export default class CloudNativeApplicationDevelopment extends Component {
         <section className='Scr-cld-nav'>
             <div className=''>
                 <nav>
-                    <li><a href="#1">Methodology</a></li>
+                    <li className='active'><a href="#1">Methodology</a></li>
                     <li><a href='#2'>CNAD Framework</a></li>
                     <li><a href='#3'>Testing & QA Framework</a></li>
                     <li><a href="#4">Industries</a></li>

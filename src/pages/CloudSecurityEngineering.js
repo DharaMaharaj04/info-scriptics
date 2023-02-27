@@ -28,7 +28,7 @@ export default class CloudSecurityEngineering extends Component {
         <section className='srv-main'>
             <OwlCarousel className="owl-theme" {...options} >
             
-                <div className='slide-1'>  
+                <div className='clo-ser'>  
                     <div className='slide-img'>
                         <img src='/assets/img/cloud-security-engineering.jpg' alt='cloud-security-engineering' />   
                         <div className='slider-overlay-amethyst'></div>  
@@ -80,7 +80,7 @@ export default class CloudSecurityEngineering extends Component {
         <section className='Scr-cld-nav'>
             <div className=''>
                 <nav>
-                    <li><a href="#1">Methodology</a></li>
+                    <li className='active'><a href="#1">Methodology</a></li>
                     <li><a href="#2">Industries</a></li>
                 </nav>
           
