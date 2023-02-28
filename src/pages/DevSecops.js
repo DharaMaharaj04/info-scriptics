@@ -165,7 +165,9 @@ export default class DevSecops extends Component {
                                         <p>48 prestigious financial services companies have put their trust in Scriptics to manage a cloud-led, agile-first digital transformation. Utilizing strategic roadmaps for infrastructure modernization and security, they have reduced overall expenditures by 50% while achieving over 60% better time-to-delivery.</p>
                                     </div>
                                 </div>
-                                
+                            </div>
+                            <div className='row cfcr'>
+                            
                                 <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                     <div className='clo-indu'>
                                         <h3>Banking & Insurance </h3>
@@ -180,6 +182,8 @@ export default class DevSecops extends Component {
                                 <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                     <img src='/assets/img/banking-insurance.jpg'  alt='banking-insurance' />
                                 </div>
+                            </div>
+                            <div className='row'>    
                                 <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                     <img src='/assets/img/media-entertainment.jpg'  alt='media-entertainment' />
                                 </div>
@@ -193,7 +197,8 @@ export default class DevSecops extends Component {
                                         </p>
                                     </div>
                                 </div>
-                                
+                            </div>
+                            <div className='row cfcr'>    
                                 <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                     <div className='clo-indu'>
                                         <h3>Telecom</h3>
@@ -207,6 +212,8 @@ export default class DevSecops extends Component {
                                 <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                     <img src='/assets/img/Telecommunication-1.jpg'  alt='Telecommunication' />
                                 </div>
+                            </div>
+                            <div className='row'>    
                                 <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                     <img src='/assets/img/technology.jpg'  alt='technology' />
                                 </div>
@@ -223,7 +230,7 @@ export default class DevSecops extends Component {
                             </div>
                         </div>
                     </section>
-                </div>
+                </div>    
             </div>
         </section>
       

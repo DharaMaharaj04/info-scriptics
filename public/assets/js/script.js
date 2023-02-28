@@ -93,16 +93,17 @@ $(document).ready(function(){
         }
       }
     });
+
+  });
     
-  }); 
-  
 });
+
+
 
 
 /** check_footer */
 function checkOffset() {
-  if($('.front_slider').offset().top + $('.front_slider').height() 
-                                         >= $('#footer').offset().top - 1)
+  if($('.front_slider').offset().top + $('.front_slider').height() >= $('#footer').offset().top - 1)
       $('.front_slider').css('position', 'absolute');
   if($(document).scrollTop() + window.innerHeight < $('#footer').offset().top)
       $('.front_slider').css('position', 'fixed'); // restore when you scroll up

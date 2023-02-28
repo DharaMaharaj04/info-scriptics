@@ -12,7 +12,6 @@ import AwsElemental from './pages/AwsElemental';
 import BFSI from './pages/BFSI';
 import BigDataAnalysis from './pages/BigDataAnalysis';
 import Blog from './pages/Blog';
-import BlogPage from './pages/BlogPage';
 import BPO from './pages/BPO';
 import BusinessIntelligence from './pages/BusinessIntelligence';
 import CapitalMarket from './pages/CapitalMarket';
@@ -66,6 +65,7 @@ import DataStrategy from './pages/DataStrategy';
 import DataGovernanceEngineering from './pages/DataGovernanceEngineering';
 import AdvancedAnalytics from './pages/AdvancedAnalytics';
 import CloudGovernanceReporting from './pages/CloudGovernanceReporting';
+import CloudDiscoveryOptimization from './pages/CloudDiscoveryOptimization';
 
 function App() {
   useEffect(() => {
@@ -96,7 +96,6 @@ function App() {
             <Route exact path='/industry_bfsi' component={BFSI} />
             <Route exact path='/big_data_analysis' component={BigDataAnalysis} />
             <Route exact path='/case-studies' component={Blog}/>
-            <Route exact path='/case-study/:id' component={BlogPage} />
             <Route exact path='/case_study_bpo' component={BPO} />
             <Route exact path='/business_intelligence' component={BusinessIntelligence} />
             <Route exact path='/industry_capital_market' component={CapitalMarket} />
@@ -144,6 +143,7 @@ function App() {
             <Route exact path='/data_govern_eng' component={DataGovernanceEngineering} />
             <Route exact path='/advanced_analy' component={AdvancedAnalytics} />
             <Route exact path='/automation_reporting' component={CloudGovernanceReporting} />
+            <Route exact path='/discovery_optim' component={CloudDiscoveryOptimization} />
             <Route component={Page404} />
            
           </Switch>

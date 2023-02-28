@@ -71,7 +71,7 @@ export default class SaaSProduct extends Component {
                                 </div>
                                 <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                                     <div className='slide_content'>
-                                        <h2 className='text-dark'>SaaS Product and Platform Development</h2>
+                                        <h2 className='white-color'>SaaS Product and Platform Development</h2>
                                     </div>
                                 </div>    
                             </div>
@@ -156,7 +156,9 @@ export default class SaaSProduct extends Component {
                                         <p>48 prestigious financial services companies have put their trust in Scriptics to manage a cloud-led, agile-first digital transformation. Utilizing strategic roadmaps for infrastructure modernization and security, they have reduced overall expenditures by 50% while achieving over 60% better time-to-delivery.</p>
                                     </div>
                                 </div>
-                                
+                            </div>
+                            <div className='row cfcr'>
+                            
                                 <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                     <div className='clo-indu'>
                                         <h3>Banking & Insurance </h3>
@@ -171,6 +173,8 @@ export default class SaaSProduct extends Component {
                                 <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                     <img src='/assets/img/banking-insurance.jpg'  alt='banking-insurance' />
                                 </div>
+                            </div>
+                            <div className='row'>    
                                 <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                     <img src='/assets/img/media-entertainment.jpg'  alt='media-entertainment' />
                                 </div>
@@ -184,7 +188,8 @@ export default class SaaSProduct extends Component {
                                         </p>
                                     </div>
                                 </div>
-                                
+                            </div>
+                            <div className='row cfcr'>    
                                 <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                     <div className='clo-indu'>
                                         <h3>Telecom</h3>
@@ -198,6 +203,8 @@ export default class SaaSProduct extends Component {
                                 <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                     <img src='/assets/img/Telecommunication-1.jpg'  alt='Telecommunication' />
                                 </div>
+                            </div>
+                            <div className='row'>    
                                 <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                                     <img src='/assets/img/technology.jpg'  alt='technology' />
                                 </div>

@@ -27,271 +27,101 @@ export default class SalesForce extends Component {
             <meta name="description" content= "Sales Force" />
             <body id="page-service" />
         </Helmet>
-            <section className='ser-link'>
-                <div className="">
-                    <div className="container">
+            <section className='srv-main'>
+                <OwlCarousel className="owl-theme" {...options} >
+                     <div className='clo-ser'>  
+                        <div className='slide-img'>
+                            <img src='/assets/img/banner-revenue-operations.jpg' alt='banner-revenue-operations' />   
+                            <div className='slider-overlay-amethyst'></div>  
+                        </div>
+                        <div className='caption'>
+                            <div className='container'>
+                                <div className='row'>
+                                    <div className='serv-link col-12'>
+                                        <ol className=" nav-links">
+                                            <li className="dropdown relative drop-container">
+                                                <a href="#" className='serverice_menu textwh'>service<i className="text-uppercase" aria-hidden="true"></i></a>
+                                                <div className="bg-white">
+                                                    <ul className="list dropdown-content list-inline">
+                                                        <li className='ser-sub-lin'>Development & Maintenance</li>
+                                                        <li className=''>Accelerate</li>
+                                                        <li className=''>Insight</li>
+                                                        <li className=''>Experience</li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li className="active dropdown relative drop-container">
+                                                <a href="#" className='serverice_menu textwh'><span >Accelerate</span><i className="text-uppercase " aria-hidden="true"></i></a>
+                                                <div className="bg-white">
+                                                    <ul className="list dropdown-content list-inline">
+                                                        <li className='ser-sub-lin'>
+                                                            <Link to='/sales_force'>Sales Force</Link>
+                                                        </li>
+                                                        <li className='ser-sub-lin'>
+                                                            <Link to='/cloud_digital_transfomation'>Cloud Digital Transfomation</Link>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                                
+                                            <li className='serverice_menu_last dropdown relative drop-container textwh'><span>Sales Force</span></li>
+                                        </ol>
+                                    </div>
+                                    <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+                                        <div className='slide_content'>
+                                            <span className='sale-title white-color'>Revenue Operations & CRM Audits</span>
+                                            <h2 className='white-color'>We optimize the people, processes, and technology behind sales and marketing teams.</h2>
+                                        </div>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    
+                </OwlCarousel>
+            </section>
+            <section className="sale-info">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 col-sm-12 col-md-6 col-lg-6 fadeInUp  Wow from-right">
+                            <div className="sale-info-cont">
+                                <h4 className="indus-title_1">We start every client engagement with a revenue performance audit.</h4>
+                                <p>The testing process took about a month, including time for key stakeholders and team members responsible for daily deliveries. The result is a final document outlining our findings, including an executive summary that provides recommendations and prioritization of what needs to be done in the short, medium and long term. based on the client's stated business goals.</p>
+                            </div>
+                        </div>
+                        <div className="col-12 col-sm-12 col-md-6 col-1g-6 fadeInUp  Wow from-right">
+                            <div className="sale-info-img">
+                                <img src='/assets/img/revenue-operations-1.png' alt='revenue-operations-1' />
+                            </div>
+                        </div>
                         
                     </div>
                 </div>
             </section>
-            <section className='srv-main'>
-                <OwlCarousel className="owl-theme" {...options} >
-                    <div className='slide-1'>  
-                        <div className='slide-img'>
-                            <img src="/assets/img/employee-experience-lead.png" />
-                            <div className='slider-overlay-amethyst'></div>
-                        </div>
-                        <div className='caption'>
-                            <div className='container'>
-                                <div className='row'>
-                                    <div className='serv-link col-12'>
-                                        <ol className=" nav-links">
-                                            <li className="dropdown relative drop-container">
-                                                <a href="#" className='serverice_menu'>service<i className="text-uppercase " aria-hidden="true"></i></a>
-                                                <div className="bg-white">
-                                                    <ul className="list dropdown-content list-inline ">
-                                                        <li className='ser-sub-lin'>Development & Maintenance</li>
-                                                        <li className='ser-sub-lin'>Accelerate</li>
-                                                        <li className='ser-sub-lin'>Insight</li>
-                                                        <li className='ser-sub-lin'>Experience</li>
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                            <li className="active dropdown relative drop-container">
-                                                    <a href="#" className='serverice_menu'><span >Experience</span><i className="text-uppercase " aria-hidden="true"></i></a>
-                                                    <div className="bg-white">
-                                                        <ul className="list dropdown-content list-inline">
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/sales_force'>Sales Force</Link>
-                                                            </li>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/cloud_digital_transfomation'>Cloud Digital Transfomation</Link>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                            
-                                            <li className='serverice_menu_last dropdown relative drop-container'><span>Sales Force</span></li>
-                                        </ol>
-                                    </div>
-                                    <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
-                                        <div className='slide_content'>
-                                            <h2 className="h2-slide white-color mb-xs-10">MAKE THE FIRST MOVE WITH STRATEGY & CONSULTING</h2>
-                                        
-                                        </div>
-                                    </div>
-                                </div> 
-                            </div>     
-                        </div>      
-                    </div>
-                    <div className='slide-2'>
-                        <div className='slide-img'>
-                            <img src="/assets/img/cloud-data-cultivates-cs-lead.png" />
-                            <div className='slider-overlay-amethyst'></div>
-                        </div>
-                        <div className='caption'>
-                            <div className='container'>
-                                <div className='row'>
-                                    <div className='serv-link col-12'>
-                                        <ol className=" nav-links">
-                                            <li className="dropdown relative drop-container">
-                                                <a href="#" className='serverice_menu'>service<i className="text-uppercase " aria-hidden="true"></i></a>
-                                                <div className="bg-white">
-                                                    <ul className="list dropdown-content list-inline ">
-                                                        <li className='ser-sub-lin'>Development & Maintenance</li>
-                                                        <li className='ser-sub-lin'>Accelerate</li>
-                                                        <li className='ser-sub-lin'>Insight</li>
-                                                        <li className='ser-sub-lin'>Experience</li>
-                                                    </ul>
-                                                </div>
-                                            </li>
-                                            <li className="active dropdown relative drop-container">
-                                                    <a href="#" className='serverice_menu'><span >Experience</span><i className="text-uppercase " aria-hidden="true"></i></a>
-                                                    <div className="bg-white">
-                                                        <ul className="list dropdown-content list-inline">
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/sales_force'>Sales Force</Link>
-                                                            </li>
-                                                            <li className='ser-sub-lin'>
-                                                                <Link to='/cloud_digital_transfomation'>Cloud Digital Transfomation</Link>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                            
-                                            <li className='serverice_menu_last dropdown relative drop-container'><span>Sales Force</span></li>
-                                        </ol>
-                                    </div>
-                                    <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
-                                        <div className='slide_content'>
-                                            <h2 className="h2-slide white-color mb-xs-10">INITIAL DESIGN WITH INTERACTIVE TECHNOLOGY</h2>
-                                        </div>
-                                    </div>
-                                </div>  
-                            </div>
-                        </div>    
-                    </div>
-                    <div className='slide-3'>
-                        <div className='slide-img'>
-                            <img src="/assets/img/enterprise-agility-lead-mob.jpg" />
-                            <div className='slider-overlay-amethyst'></div>
-                        </div>
-                        <div className='caption'>
-                            <div className='container'>
-                                <div className='row'>
-                                    <div className='serv-link col-12'>
-                                    <ol className=" nav-links">
-                                    <li className="dropdown relative drop-container">
-                                        <a href="#" className='serverice_menu'>service<i className="text-uppercase " aria-hidden="true"></i></a>
-                                        <div className="bg-white">
-                                            <ul className="list dropdown-content list-inline ">
-                                                <li className='ser-sub-lin'>Development & Maintenance</li>
-                                                <li className='ser-sub-lin'>Accelerate</li>
-                                                <li className='ser-sub-lin'>Insight</li>
-                                                <li className='ser-sub-lin'>Experience</li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li className="active dropdown relative drop-container">
-                                            <a href="#" className='serverice_menu'><span >Experience</span><i className="text-uppercase " aria-hidden="true"></i></a>
-                                            <div className="bg-white">
-                                                <ul className="list dropdown-content list-inline">
-                                                    <li className='ser-sub-lin'>
-                                                        <Link to='/sales_force'>Sales Force</Link>
-                                                    </li>
-                                                    <li className='ser-sub-lin'>
-                                                        <Link to='/cloud_digital_transfomation'>Cloud Digital Transfomation</Link>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                    
-                                    <li className='serverice_menu_last dropdown relative drop-container'><span>Sales Force</span></li>
-                                </ol>
-                                    </div> 
-                                    <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12 fadeInUp  Wow from-bottom'>
-                                        <div className='slide_content'>
-                                            <h2 className="h2-slide white-color mb-xs-10">SCRIPTICS, AI FOR GAMING EXPERIENCE</h2>
-                                            
-                                        </div>
-                                    </div>
-                                </div> 
-                            </div>    
-                        </div>
-                    </div>
-                </OwlCarousel>
-            </section>
-            <section className="srv-content">
-                <div className="container">
-                    <div className="row">
-                        <div className='col-12 col-sm-12 col-md-12 col-lg-12'>
-                            <div className="col-12 col-sm-12 col-md-6 col-lg-6 fadeInUp  Wow from-right">
-                                <div className="indus-info">
-                                    <h2 className="indus-title_1">Transform your vision into cutting-edge applications that gather insights.</h2>
-                                </div>
+            <section className='sale-info sale-info-2'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className="col-12 col-sm-12 col-md-6 col-lg-6 fadeInUp  Wow from-right">
+                            <div className="sale-info-cont">
+                                <p className="font-s">Following the audit, we work with the client, in accordance with the terms of reference, to implement the recommendations outlined in the final report The scope of work we support is tailored to each client</p>
+                                <h6>Here are a few ways we help:</h6>
+                                <ul>
+                                    <li>Practical advice on processes and best practices for fast-growing businesses</li>
+                                    <li>Strategy dashboards and analytics monitoring to enable on-demand customer analytics</li>
+                                    <li>User-Centered SalesForce Solution in Sales, Service, and Marketing Cloud</li>
+                                    <li>Powerful integration projects, such as implementing Salesforce Google Analytics 360</li>
+                                </ul>
                             </div>
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-1g-6 fadeInUp  Wow from-right">
-                            <div className="srv-info">
-                                <p className="srv-info">Over the past few decades, the evolution in technology has disrupted businesses in several ways. It has all been possible because of the cutting-edge technologies - Artificial learning and Machine learning. These technologies power applications to gather deep insights with every possible interaction and redefine the ecosystem with transformative solutions.</p>
-                                <p>At Scriptics, our real-world and advanced quality solutions will help you power your digitalization with comprehensive digital asset management.</p>
-                                <p>We create solutions that run on advanced algorithms to process images and videos and return actionable insights and information. Right from the identification of images based on their features, colours, objects, logos, and more to image and video analysis, our services guarantee customer satisfaction like no other. Our expert team of Machine Learning and Artificial Intelligence leverages the best tools and learnings to transform your customer experience into an innovative digital experience.</p>
-                            </div>
-                        </div>
-                        <div className="col-12 col-sm-12 col-md-6 col-1g-6 fadeInUp  Wow from-left">
-                            <img className="srv-con-img" src="/assets/img/ai_ (1).png" alt="AI & Automation icon" style={{height:300,width:'100%'}}/>
-                        </div>
-                        <div className="srv-con col-12 col-sm-12 col-md-12 col-lg-12" style={{paddingTop:50}}>
-                            <div className="srv-info">
-                                <h4 className="srv-info">Our team will help you capitalize the visual data and information with the help of comprehensive computer vision solutions through streamlined processes such as:</h4>
+                            <div className="sale-info-img">
+                                <img src='/assets/img/revenue-operations-2.png' alt='revenue-operations-1' />
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>        
             </section>
-            <section className="srv-level">
-                <div className="container">
-                    <div className="row">
-                        <div className="srv-box col-12 col-sm-12 col-md-6 col-lg-6 fadeInUp  Wow from-bottom">
-                            <div className="image_with_text">
-                                <img src="/assets/img/choice.svg" alt="service level icon 1"/>
-                                <p>We conduct thorough evaluation and assess the organization on AI maturity</p>
-                            </div>
-                        </div>
-                        <div className="srv-box col-12 col-sm-12 col-md-12 col-lg-6 fadeInUp  Wow from-bottom">
-                            <div className="image_with_text">
-                                <img src="/assets/img/discover (1).svg" alt="service level icon 2"/>
-                                <p>Our use case discovery process ensures that the client’s business operations are aligned with prompt change management methods.</p>
-                            </div>
-                        </div>
-                        <div className="srv-box col-12 col-sm-12 col-md-12 col-lg-6 fadeInUp  Wow from-bottom">
-                            <div className="image_with_text">
-                                <img src="/assets/img/development.svg" alt="service level icon 3"/>
-                                <p>We develop and deliver a comprehensive automation ecosystem, pooling the best experts and resources to promote organization-wide operational excellence.</p>
-                            </div>
-                        </div>
-                        <div className="srv-box col-12 col-sm-12 col-md-12 col-lg-6 ">
-                            <div className="image_with_text">
-                                <img src="/assets/img/automation (1).svg" alt="service level icon 4"/>
-                                <p>Our robotic process automation (RPA) capabilities and chatbot development services ensure their swift and streamlined utility in ideal use cases that demand automation.</p>
-                            </div>
-                        </div>
-                        <div className="srv-box col-12 col-sm-12 col-md-12 col-lg-6 fadeInUp  Wow from-bottom">
-                            <div className="image_with_text">
-                                <img src="/assets/img/innovation.svg" alt="service level icon 5"/>
-                                <p>Our custom solutions enable democratization of artificial intelligence and drives hassle-free adoption across the enterprise.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section className="capability">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12 col-sm-12 col-md-12 col-lg-12">
-                            <h2>CAPABILITIES</h2>
-                        </div>
-                        <div className="srv-capability-box col-12 col-lg-4 fadeInUp  Wow from-bottom">
-                            <div className="capa_image_with_text">
-                                <img src="/assets/img/robotic.svg" alt="capabilities"/>
-                                <p>Enable enterprises to extract and obtain actionable insights from videos and images</p>
-                            </div>
-                        </div>
-                        <div className="srv-capability-box col-12 col-lg-4 fadeInUp  Wow from-bottom">
-                            <div className="capa_image_with_text">
-                                <div className="capa_img">
-                                    <img src="/assets/img/Mask Group 2.svg" alt="capabilities"/>
-                                </div>
-                                <p>Generate actionable insights to capture the real-time image and video analytics to enable behavior detection and image tracking.</p>
-                            </div>
-                        </div>
-                        <div className="srv-capability-box col-12 col-lg-4 fadeInUp  Wow from-bottom">
-                            <div className="capa_image_with_text">
-                                <div className="capa_img">
-                                    <img src="/assets/img/Mask Group 3.svg" alt="capabilities"/>
-                                </div>
-                                <p>An amalgamation of business intelligence, artificial intelligence, and cutting-edge technologies to automate routine processes.</p>
-                            </div>
-                        </div>
-                        <div className="srv-capability-box col-12 col-lg-4 fadeInUp  Wow from-bottom">
-                            <div className="capa_image_with_text">
-                                <div className="capa_img">
-                                    <img src="/assets/img/Mask Group 4.svg" alt="capabilities"/>
-                                </div>
-                                <p>Refine the ongoing processes across the organization for better streamlined operations.</p>
-                            </div>
-                        </div>
-                        <div className="srv-capability-box col-12 col-lg-4 fadeInUp  Wow from-bottom">
-                            <div className="capa_image_with_text">
-                                <div className="capa_img">
-                                    <img src="/assets/img/Mask Group 5.svg" alt="capabilities"/>
-                                </div>
-                                <p>Streamline business processes across diverse departments including sales, department, marketing, etc.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            
         </div>
     )
   }

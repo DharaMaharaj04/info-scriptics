@@ -79,12 +79,11 @@ export default class CloudDiscoveryOptimization extends Component {
           </OwlCarousel>
       </section> 
       <section className='Scr-cld-nav'>
-          <div className=''>
-              <nav>
-                  <li><a href="#1">Solutions</a></li>
-                  <li><a href="#2">Industries</a></li>
-              </nav>
-          
+            <div className='scroll-wrap'>
+                <nav>
+                    <li className='active cloudlink'><a href="#1">Solutions</a></li>
+                    <li className='cloudlink'><a href="#2">Industries</a></li>
+                </nav>
               <div className="scrolling-box">
                   <section id="1" className='clo-meth'>
                       <div className='container'>
@@ -125,79 +124,85 @@ export default class CloudDiscoveryOptimization extends Component {
                       </div>
                   
                   </section>
-                  
                   <section id="2" className='clo-indus'>
-                      <div className='container'>
-                          <div className='row'>
-                              <div className='col-12'>
-                                  <h2 className='text-center'>Industries</h2>
-                              </div>
-                              <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                                  <img src='/assets/img/financial-services.jpg'  alt='financial-services' />
-                              </div>
-                              <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                                  <div className='clo-indu'>
-                                      <h3>Financial Industries</h3>
-                                      <p>48 prestigious financial services companies have put their trust in Scriptics to manage a cloud-led, agile-first digital transformation. Utilizing strategic roadmaps for infrastructure modernization and security, they have reduced overall expenditures by 50% while achieving over 60% better time-to-delivery.</p>
-                                  </div>
-                              </div>
-                              
-                              <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                                  <div className='clo-indu'>
-                                      <h3>Banking & Insurance </h3>
-                                      <p>In order to close their data centers ahead of schedule, Scriptics has
-                                      provided native cloud solutions and cloud migration services to 28 international banks
-                                      and insurance companies. Scriptics's advanced analytics models, SecOps, cloud banking
-                                      solutions, and modernization plans enable them to save 70% of their time while saving
-                                      60% of their money.
-                                      </p>
-                                  </div>
-                              </div>
-                              <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                                  <img src='/assets/img/banking-insurance.jpg'  alt='banking-insurance' />
-                              </div>
-                              <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                                  <img src='/assets/img/media-entertainment.jpg'  alt='media-entertainment' />
-                              </div>
-                              <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                                  <div className='clo-indu'>
-                                      <h3>Media & Entertainment</h3>
-                                      <p>22 M&E firms around the world have delegated Scriptics to
-                                      modernize and scale out their media platforms so that millions of consumers can access
-                                      them easily. They've secured their applications with agility and deployed them on the
-                                      public cloud to meet regulatory obligations while saving money.
-                                      </p>
-                                  </div>
-                              </div>
-                              
-                              <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                                  <div className='clo-indu'>
-                                      <h3>Telecom</h3>
-                                      <p>The analytics, modernisation, and ML/AI solutions provided by Scriptics have
-                                      simplified the digitization and modernization projects of ten telecom players. It has
-                                      enabled them to establish fully automated workflows, increase user involvement by more
-                                      than 50%, and speed insights delivery while maintaining 99% process correctness.
-                                      </p>
-                                  </div>
-                              </div>
-                              <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                                  <img src='/assets/img/Telecommunication-1.jpg'  alt='Telecommunication' />
-                              </div>
-                              <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                                  <img src='/assets/img/technology.jpg'  alt='technology' />
-                              </div>
-                              <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                                  <div className='clo-indu'>
-                                      <h3>Technology</h3>
-                                      <p>Scriptics has vast experience providing cloud migration, managed services,
-                                      advanced analytics, and business insight to 75 technology firms. This not only increased
-                                      their business performance by more than 60% on average, but also enabled on-demand
-                                      scalability with over 30% cost savings.
-                                      </p>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
+                    <div className='container'>
+                        <div className='row'>
+                            <div className='col-12'>
+                                <h2 className='text-center'>Industries</h2>
+                            </div>
+                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <img src='/assets/img/financial-services.jpg'  alt='financial-services' />
+                            </div>
+                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <div className='clo-indu'>
+                                    <h3>Financial Industries</h3>
+                                    <p>48 prestigious financial services companies have put their trust in Scriptics to manage a cloud-led, agile-first digital transformation. Utilizing strategic roadmaps for infrastructure modernization and security, they have reduced overall expenditures by 50% while achieving over 60% better time-to-delivery.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='row cfcr'>
+                            
+                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <div className='clo-indu'>
+                                    <h3>Banking & Insurance </h3>
+                                    <p>In order to close their data centers ahead of schedule, Scriptics has
+                                    provided native cloud solutions and cloud migration services to 28 international banks
+                                    and insurance companies. Scriptics's advanced analytics models, SecOps, cloud banking
+                                    solutions, and modernization plans enable them to save 70% of their time while saving
+                                    60% of their money.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <img src='/assets/img/banking-insurance.jpg'  alt='banking-insurance' />
+                            </div>
+                        </div>
+                        <div className='row'>    
+                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <img src='/assets/img/media-entertainment.jpg'  alt='media-entertainment' />
+                            </div>
+                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <div className='clo-indu'>
+                                    <h3>Media & Entertainment</h3>
+                                    <p>22 M&E firms around the world have delegated Scriptics to
+                                    modernize and scale out their media platforms so that millions of consumers can access
+                                    them easily. They've secured their applications with agility and deployed them on the
+                                    public cloud to meet regulatory obligations while saving money.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='row cfcr'>    
+                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <div className='clo-indu'>
+                                    <h3>Telecom</h3>
+                                    <p>The analytics, modernisation, and ML/AI solutions provided by Scriptics have
+                                    simplified the digitization and modernization projects of ten telecom players. It has
+                                    enabled them to establish fully automated workflows, increase user involvement by more
+                                    than 50%, and speed insights delivery while maintaining 99% process correctness.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <img src='/assets/img/Telecommunication-1.jpg'  alt='Telecommunication' />
+                            </div>
+                        </div>
+                        <div className='row'>    
+                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <img src='/assets/img/technology.jpg'  alt='technology' />
+                            </div>
+                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <div className='clo-indu'>
+                                    <h3>Technology</h3>
+                                    <p>Scriptics has vast experience providing cloud migration, managed services,
+                                    advanced analytics, and business insight to 75 technology firms. This not only increased
+                                    their business performance by more than 60% on average, but also enabled on-demand
+                                    scalability with over 30% cost savings.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                   </section>
               </div>
           </div>
