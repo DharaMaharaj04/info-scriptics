@@ -31,7 +31,7 @@ export default class SalesForce extends Component {
                 <OwlCarousel className="owl-theme" {...options} >
                      <div className='clo-ser'>  
                         <div className='slide-img'>
-                            <img src='/assets/img/Cloud Service/salesforce.jpg' alt='salesforce.jpg' />   
+                            <img src='/assets/img/banner-revenue-operations.jpg' alt='banner-revenue-operations' />   
                             <div className='slider-overlay-amethyst'></div>  
                         </div>
                         <div className='caption'>
