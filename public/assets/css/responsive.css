@@ -165,9 +165,17 @@
     
     /*** sale-force pages***/
     .sale-info .col-12 {margin-top: 20px;}
-    .sale-info-img img{width: 100%;}
+    .sale-info-img{padding-left: 0rem; padding-right: 0rem; }
+    .sale-info-img img{width: 70%;}
     .font-s {font-size: 14px;}
     .sale-info-2 .sale-info-cont{ margin-top: 0px;}
+    .blue-dark { padding-bottom: 20px;}
+    .sale-marketing{ margin-top: 20px; margin-bottom: 30px;}
+    .sale-market-cont{padding-bottom: 50px;}
+    .sale-market-img img{padding-bottom: 20px; padding-top: 15px; width: 100%;}
+    .sale-market-img h5{padding-bottom: 10px; padding-top: 25px; }
+    .sale-market {margin-top: 20px; margin-bottom: 10px; }
+    .sale-buss h2{ padding-top: 30px; padding-bottom: 20px;}
 }    
 @media screen and (min-width: 768px) {
     /**** Header ***/

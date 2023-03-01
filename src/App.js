@@ -66,6 +66,13 @@ import DataGovernanceEngineering from './pages/DataGovernanceEngineering';
 import AdvancedAnalytics from './pages/AdvancedAnalytics';
 import CloudGovernanceReporting from './pages/CloudGovernanceReporting';
 import CloudDiscoveryOptimization from './pages/CloudDiscoveryOptimization';
+import SalesforceSalesCloud from './pages/SalesforceSalesCloud';
+import SalesforceCPQ from './pages/SalesforceCPQ';
+import SalesforceIndustries from './pages/SalesforceIndustries';
+import SalesforceMarketingCloud from './pages/SalesforceMarketingCloud';
+import SalesforceInteractionStudio from './pages/SalesforceInteractionStudio';
+import SalesforceServiceCloud from './pages/SalesforceServiceCloud';
+import SaleforceBusinessIntelligence from './pages/SaleforceBusinessIntelligence';
 
 function App() {
   useEffect(() => {
@@ -130,7 +137,6 @@ function App() {
             <Route exact path='/blackberry_cybersecurity' component={CyberSecurity} />
             <Route exact path='/soc' component={SOC} />
             <Route exact path='/development-maintance' component={DevelopmentMaintance} />
-            <Route exact path='/sales_force' component={SalesForce} />
             <Route exact path='/mobile_development' component={MobileDevelopment} />
             <Route exact path='/ui-ux' component={UI_UX} />
             <Route exact path='/cloud_digital_transfomation' component={ScriptisCloud} />
@@ -144,6 +150,14 @@ function App() {
             <Route exact path='/advanced_analy' component={AdvancedAnalytics} />
             <Route exact path='/automation_reporting' component={CloudGovernanceReporting} />
             <Route exact path='/discovery_optim' component={CloudDiscoveryOptimization} />
+            <Route exact path='/sales_force' component={SalesForce} />
+            <Route exact path='/saleforce_salecloud' component={SalesforceSalesCloud} />
+            <Route exact path='/saleforce_cpq' component={SalesforceCPQ} />
+            <Route exact path='/saleforce_industry' component={SalesforceIndustries} />
+            <Route exact path='/saleforce_marketing' component={SalesforceMarketingCloud} />
+            <Route exact path='/saleforce_studio' component={SalesforceInteractionStudio} />
+            <Route exact path='/saleforce_service' component={SalesforceServiceCloud} />
+            <Route exact path='/saleforce-bussinte' component={SaleforceBusinessIntelligence} />
             <Route component={Page404} />
            
           </Switch>

@@ -491,12 +491,24 @@ input {width: 100%;height: 40px;background-color: #eee;border: none;padding-left
 
 /*** sale-force pages***/
 .sale-info .col-12 {margin-top: 120px;}
+.sale-info-img{padding-left: 3rem; padding-right: 3rem; text-align: center;}
+.sale-info-img img{width: auto;}
 .font-s {font-size: 20px;}
+.per100 img{width: 100%;}
 .sale-info-2 .sale-info-cont{ margin-top: -60px;}
 
-
-
-
+.blue-light{background-color: #f7fcff; color: #000 !important; padding-top: 80px; padding-bottom: 50px; margin-top: 50px; margin-bottom: 50px;}
+.blue-light h3{ padding-bottom: 30px;}
+.blue-dark {background-color: #021c3b; padding-bottom: 80px;}
+.blue-dark P{color: #FFF; }
+.sale-marketing{ margin-top: 100px;}
+.sale-market-img img{padding-bottom: 30px; }
+.sale-market-img h5{padding-bottom: 30px; }
+.sale-market {margin-top: 80px; margin-bottom: 20px; }
+.salefor-serclo strong{ padding-bottom: 20px;}
+.sale-buss img{width: 100%; }
+.sale-buss h4{color: #fff; padding-top: 30px;}
+.sale-buss h2{color: #fff; text-align: center; padding-top: 80px; padding-bottom: 20px;}
 
 
 

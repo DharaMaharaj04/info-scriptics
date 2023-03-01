@@ -5,8 +5,7 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
-
-export default class SalesForce extends Component {
+export default class SalesforceIndustries extends Component {
   render() {
 
     const options = {
@@ -19,19 +18,19 @@ export default class SalesForce extends Component {
         dots: false
     }; 
 
-
     return (
-        <div className="service-page">
-        <Helmet>
-            <title>Scritpics | Sales Force</title>
-            <meta name="description" content= "Sales Force" />
-            <body id="page-service" />
-        </Helmet>
+      <div>
+      <div className="service-page">
+            <Helmet>
+                <title>Scritpics | SalesforceIndustries</title>
+                <meta name="description" content= "SalesforceIndustries" />
+                <body id="page-service" />
+            </Helmet>
             <section className='srv-main'>
                 <OwlCarousel className="owl-theme" {...options} >
-                     <div className='clo-ser'>  
+                    <div className='clo-ser'>  
                         <div className='slide-img'>
-                            <img src='/assets/img/banner-revenue-operations.jpg' alt='banner-revenue-operations' />   
+                            <img src='/assets/img/banner-salesforce-sales-cloud.jpg' alt='banner-salesforce-sales-cloud' />   
                             <div className='slider-overlay-amethyst'></div>  
                         </div>
                         <div className='caption'>
@@ -69,8 +68,7 @@ export default class SalesForce extends Component {
                                     </div>
                                     <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                                         <div className='slide_content'>
-                                            <span className='sale-title white-color'>Revenue Operations & CRM Audits</span>
-                                            <h2 className='white-color'>We optimize the people, processes, and technology behind sales and marketing teams.</h2>
+                                            <span className='sale-title white-color'>Salesforce Industries/Vlocity</span>
                                         </div>
                                     </div>    
                                 </div>
@@ -80,49 +78,39 @@ export default class SalesForce extends Component {
                     
                 </OwlCarousel>
             </section>
-            <section className="sale-info">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12 col-sm-12 col-md-6 col-lg-6 fadeInUp  Wow from-right">
-                            <div className="sale-info-cont">
-                                <h4 className="indus-title_1">We start every client engagement with a revenue performance audit.</h4>
-                                <p>The testing process took about a month, including time for key stakeholders and team members responsible for daily deliveries. The result is a final document outlining our findings, including an executive summary that provides recommendations and prioritization of what needs to be done in the short, medium and long term. based on the client's stated business goals.</p>
-                            </div>
+            <section className='blue-dark sale-info'>
+                <div className='container'>
+                    <div className='row cfcr'>
+                        <div className='col-12 col-lg-7 col-md-7 col-sm-12 col-xs-12' >
+                            <p>Scriptics is happy to provide customized services for Salesforce Industries (formerly known as Vlocity) deployment and consulting. Salesforce Industries offers pre-built solutions such as the Communications Cloud, Energy and Utilities Cloud, and Financial Services Cloud, built on proven foundations that help organizations accelerate business processes business and increase customer engagement.</p>
+                            <p>These pre-built solutions in the Salesforce Platform can help address your specific industry-specific needs by taking common requirements and packaging them for easier deployment for your organization.</p>
                         </div>
-                        <div className="col-12 col-sm-12 col-md-6 col-1g-6 fadeInUp Wow from-right">
-                            <div className="sale-info-img">
-                                <img src='/assets/img/revenue-operations-1.png' alt='revenue-operations-1' />
-                            </div>
+                        <div className='col-12 col-lg-5 col-md-5 col-sm-12 col-xs-12 per100' >
+                           <img src='/assets/img/Telco-09-cropped-1.png' alt='Telco-09' />
                         </div>
-                        
                     </div>
                 </div>
             </section>
-            <section className='sale-info sale-info-2'>
-                <div className='container'>
-                    <div className='row cfcr'>
-                        <div className="col-12 col-sm-12 col-md-6 col-lg-6 fadeInUp  Wow from-right">
-                            <div className="sale-info-cont">
-                                <p className="font-s">Following the audit, we work with the client, in accordance with the terms of reference, to implement the recommendations outlined in the final report The scope of work we support is tailored to each client</p>
-                                <h6>Here are a few ways we help:</h6>
-                                <ul>
-                                    <li>Practical advice on processes and best practices for fast-growing businesses</li>
-                                    <li>Strategy dashboards and analytics monitoring to enable on-demand customer analytics</li>
-                                    <li>User-Centered SalesForce Solution in Sales, Service, and Marketing Cloud</li>
-                                    <li>Powerful integration projects, such as implementing Salesforce Google Analytics 360</li>
-                                </ul>
+                <section className='sale-info'>
+                    <div className='container'>
+                        <div className='row'>
+                            <div className="col-12 col-sm-12 col-md-6 col-lg-6 fadeInUp  Wow from-right">
+                                <div className="sale-info-cont">
+                                    <p>Our team of Salesforce Industries experts provide the expertise and guidance you need to leverage the powerful capabilities of the Salesforce Platform. With our experience in Salesforce Industries (Vlocity and Omnistudio) and pre-configured accelerators, we can significantly reduce deployment time and costs, while providing you with a data model. Proven data, with the industry-specific fields, automation and security you need, included</p>
+                                    <p>Scriptics understands that even with industrial clouds, every business has unique needs and goals Our consultants provide tailored solutions that meet your specific needs. With our expertise across multiple Salesforce Industrial Clouds, we strive to deliver the best service possible and deliver results that exceed expectations.</p>
+                                </div>
+                            </div>
+                            <div className="col-12 col-sm-12 col-md-6 col-1g-6 fadeInUp  Wow from-right">
+                                <div className="sale-info-img per100">
+                                    <img src='/assets/img/Marketo-integration.png' alt='Marketo-integration' />
+                                </div>
                             </div>
                         </div>
-                        <div className="col-12 col-sm-12 col-md-6 col-1g-6 fadeInUp Wow from-right">
-                            <div className="sale-info-img">
-                                <img src='/assets/img/revenue-operations-2.png' alt='revenue-operations-1' />
-                            </div>
-                        </div>
-                    </div>
-                </div>        
-            </section>
-            
-        </div>
+                    </div>        
+                </section>
+            </div>
+      
+      </div>
     )
   }
 }
