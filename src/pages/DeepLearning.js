@@ -29,7 +29,7 @@ export default class DeepLearning extends Component {
                     <OwlCarousel className="owl-theme" {...options} >
                         <div className='slide-1'>  
                             <div className='slide-img'>
-                                <img src="/assets/img/DeepLearning/Banner/AI for gmaing.jpg" alt='AI for Gaming' />
+                                <img  src="/assets/img/DeepLearning/Banner/Design and Interaction.jpg"/>
                                 <div className='slider-overlay-amethyst'></div>
                             </div>
                             <div className='caption'>
@@ -114,7 +114,7 @@ export default class DeepLearning extends Component {
                         </div>
                         <div className='slide-2'>
                             <div className='slide-img'>
-                                <img src="/assets/img/DeepLearning/Banner/Design and Interaction.jpg" alt='Design and Interaction' />
+                                <img src="/assets/img/DeepLearning/Banner/consulting.jpg" alt='AI for Gaming' />
                                 <div className='slider-overlay-amethyst'></div>
                             </div>
                             <div className='caption'>
@@ -199,7 +199,7 @@ export default class DeepLearning extends Component {
                         </div>
                         <div className='slide-3'>
                             <div className='slide-img'>
-                                <img src="/assets/img/DeepLearning/strategy.jpg" />
+                                <img src="/assets/img/DeepLearning/Banner/AI for gmaing.jpg" alt='AI for Gaming' />
                                 <div className='slider-overlay-amethyst'></div>
                             </div>
                             <div className='caption'>
