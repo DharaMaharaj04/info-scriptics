@@ -34,7 +34,7 @@ export default class mobileDevelopment extends Component {
                     
                         <div className='slide-1'>  
                             <div className='slide-img'>
-                                <img src='/assets/img/develop-main.png' alt='development' />   
+                                <img src='/assets/img/Cloud Service/mobile development.jpg' alt='mobile development' />   
                                 <div className='slider-overlay-amethyst'></div>  
                             </div>
                             <div className='caption'>

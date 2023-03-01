@@ -32,7 +32,7 @@ export default class ScriptisCloud extends Component {
             
                 <div className='clo-ser'>  
                     <div className='slide-img'>
-                        <img src='/assets/img/cloud-con.jpg' alt='digit-alcloud' />   
+                        <img src='/assets/img/Cloud Service/Cloud digital transformation.jpg' alt='Cloud digital transformation.jpg' />   
                         <div className='slider-overlay-amethyst'></div>  
                     </div>
                     <div className='caption'>

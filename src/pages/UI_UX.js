@@ -32,7 +32,7 @@ export default class UI_UX extends Component {
                     
                         <div className='slide-1'>  
                             <div className='slide-img'>
-                                <img src='/assets/img/develop-main.png' alt='development' />   
+                                <img src='/assets/img/Cloud Service/UI.jpg' alt='UI' />   
                                 <div className='slider-overlay-amethyst'></div>  
                             </div>
                             <div className='caption'>

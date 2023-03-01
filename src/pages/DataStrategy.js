@@ -32,7 +32,7 @@ export default class DataStrategy extends Component {
                 
                     <div className='clo-ser'>  
                         <div className='slide-img'>
-                            <img src='/assets/img/Data-Strategy.jpg' alt='Data-Strategy' />   
+                            <img src='/assets/img/Cloud Service/data strategy.jpg' alt='data strategy' />   
                             <div className='slider-overlay-amethyst'></div>  
                         </div>
                         <div className='caption'>

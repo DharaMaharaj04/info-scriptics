@@ -33,7 +33,7 @@ export default class SaaSProduct extends Component {
             
                 <div className='clo-ser'>  
                     <div className='slide-img'>
-                        <img src='/assets/img/SaaS-Product-Platform-Development.jpg' alt='SaaS-Product-Platform-Development' />   
+                        <img src='/assets/img/Cloud Service/SAAS product.jpg' alt='SAAS product' />   
                         <div className='slider-overlay-amethyst'></div>  
                     </div>
                     <div className='caption'>

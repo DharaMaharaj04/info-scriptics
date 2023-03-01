@@ -32,7 +32,7 @@ export default class CloudNativeApplicationDevelopment extends Component {
             
                 <div className=' clo-ser'>  
                     <div className='slide-img'>
-                        <img src='/assets/img/Cloud-Native-Application-Development-Testing.jpg' alt='Cloud-Native-Application-Development-Testing' />   
+                        <img src='/assets/img/Cloud Service/cloud naive app.jpg' alt='cloud naive app.jpg' />   
                         <div className='slider-overlay-amethyst'></div>  
                     </div>
                     <div className='caption'>

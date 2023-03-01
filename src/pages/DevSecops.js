@@ -30,7 +30,7 @@ export default class DevSecops extends Component {
             
                 <div className='clo-ser'>  
                     <div className='slide-img'>
-                        <img src='/assets/img/devsecops.jpg' alt='devsecops-banner' />   
+                        <img src='/assets/img/Cloud Service/devsecops.jpg' alt='devsecops' />   
                         <div className='slider-overlay-amethyst'></div>  
                     </div>
                     <div className='caption'>

@@ -30,7 +30,7 @@ export default class CloudSecurityEngineering extends Component {
             
                 <div className='clo-ser'>  
                     <div className='slide-img'>
-                        <img src='/assets/img/cloud-security-engineering.jpg' alt='cloud-security-engineering' />   
+                        <img src='/assets/img/Cloud Service/cloud sec eng.jpg' alt='cloud sec eng' />   
                         <div className='slider-overlay-amethyst'></div>  
                     </div>
                     <div className='caption'>

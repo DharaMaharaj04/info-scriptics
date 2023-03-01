@@ -29,9 +29,9 @@ p{ font-family: HNB; font-size: 14px; color: #212121; line-height: 25px;}
 .fixed-top .navbar-brand h1{ color: #ffffff; font-family: HNC!important; }
 .navbar-brand{ margin: 0 9.3%; }
 .nav-link.dropdown-toggle.header-link{ font-size: 16px;}
-.navbar-collapse .navbar-nav .nav-item a{ }
+/* .navbar-collapse .navbar-nav .nav-item a{ } */
 .bg-white .navbar-collapse .navbar-nav .nav-item a{font-size: 14px; padding: 0 1em;}
-.show .navbar-nav .nav-item a {}
+/* .show .navbar-nav .nav-item a {} */
 .black{color: #2f3640 !important;}
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover { color: #212121; font-weight: bold;}
 .navbar .dropdown-menu { width:99.99%; left:0; right:0; }
@@ -144,7 +144,7 @@ ul.footer-txt > li > a:hover{color: #bcb8b8;text-decoration: none;}
 /**--------------- digital_cap ---------------**/
 .digital_dentistry{background-color: #f69696 !important;}
 /***------------- digital_operate ---------***/
-.customer_service{}
+/* .customer_service{} */
 .btn-shutter-more:hover {border: 1px solid #000;color: #fff;background-position: left bottom;}
 .btn-shutter-more{border: 1px solid #fff;border-radius: 3px;padding: 15px 30px;width: 155px;height: 47px;color: #fff;display: block;letter-spacing: 1.5px;  margin-top: 20px;  font-weight: 700;  font-size: 14px; background: linear-gradient(to right, black 50%, transparent 50%);background-size: 200% 100%;background-position: right bottom;transition: all .2s ease-out;}
 .btn { font-size: 14px; font-weight: 400;  text-align: center; white-space: nowrap;  vertical-align: middle;  text-transform: uppercase;}
@@ -256,8 +256,9 @@ button.close{ color: #fff; background-color: #000; border-radius: 20%; border: 2
 .slide-4 img{background-color: darkseagreen;}
 .srv-main .owl-nav{display: none;}
 .owl-dots{position: relative; bottom: 50px;}
+.owl-carousel .owl-item img{ object-fit: cover;}
 .slide-img>img{height: 100%; min-height: 100%; min-width: 100%;position: absolute; right: 0; width: 100%;}
-.slide_content{ }
+/* .slide_content{ } */
 /*** srv-content ***/
 .srv-content img {width: 100%; background-color: #a9a9a94a;}
 .indus-info p{text-align: justify; padding-top: 40px;}
@@ -439,7 +440,7 @@ input {width: 100%;height: 40px;background-color: #eee;border: none;padding-left
 .ss-Assessment img, .ss-IR img{width: 100%;}
 
 .content--grey {background-color: #f9f9fa;color: #000;}
-.Custom-con{}
+/* .Custom-con{} */
 
 /*** threat ***/
 .threat{background-color: #00033e;}
@@ -509,6 +510,9 @@ input {width: 100%;height: 40px;background-color: #eee;border: none;padding-left
 .sale-buss img{width: 100%; }
 .sale-buss h4{color: #fff; padding-top: 30px;}
 .sale-buss h2{color: #fff; text-align: center; padding-top: 80px; padding-bottom: 20px;}
+.sale-info {
+  margin-bottom: 5px;
+}
 
 
 

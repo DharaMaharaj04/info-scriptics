@@ -32,7 +32,7 @@ export default class CloudGovernanceReporting extends Component {
                 
                     <div className=' clo-ser'>  
                         <div className='slide-img'>
-                            <img src='/assets/img/Cloud-Governance-Reporting.jpg' alt='Cloud-Governance-Reporting' />   
+                            <img src='/assets/img/Cloud Service/automaation eng.jpg' alt='atomation' />   
                             <div className='slider-overlay-amethyst'></div>  
                         </div>
                         <div className='caption'>

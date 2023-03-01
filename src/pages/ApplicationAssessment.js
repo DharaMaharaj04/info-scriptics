@@ -32,7 +32,7 @@ export default class ApplicationAssessment extends Component {
             
                 <div className='clo-ser'>  
                     <div className='slide-img'>
-                        <img src='/assets/img/cloud-con.jpg' alt='digit-alcloud' />   
+                        <img src='/assets/img/Cloud Service/app assess.jpg' alt='Application Assessment' />   
                         <div className='slider-overlay-amethyst'></div>  
                     </div>
                     <div className='caption'>

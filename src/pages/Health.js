@@ -23,7 +23,7 @@ export class Health extends Component{
                 <OwlCarousel className="owl-theme" {...options} >
                     <div className='slide-1'>  
                         <div className='slide-img'>
-                            <img src="/assets/img/employee-experience-lead.png" />
+                            <img src="/assets/img/Health/AI.jpg" />
                             <div className='slider-overlay-amethyst'></div>
                         </div>
                         <div className='caption'>
@@ -41,7 +41,7 @@ export class Health extends Component{
                     </div>
                     <div className='slide-2'>
                         <div className='slide-img'>
-                            <img src="/assets/img/cloud-data-cultivates-cs-lead.png" />
+                            <img src="/assets/img/Health/Initial Design.jpg" />
                             <div className='slider-overlay-amethyst'></div>
                         </div>
                         <div className='caption'>
@@ -59,7 +59,7 @@ export class Health extends Component{
                     </div>
                     <div className='slide-3'>
                         <div className='slide-img'>
-                            <img src="/assets/img/enterprise-agility-lead-mob.jpg" />
+                            <img src="/assets/img/Health/Strategy and consulting.jpg" />
                             <div className='slider-overlay-amethyst'></div>
                         </div>
                         <div className='caption'>

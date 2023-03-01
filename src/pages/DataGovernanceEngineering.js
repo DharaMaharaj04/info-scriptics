@@ -32,7 +32,7 @@ export default class DataGovernanceEngineering extends Component {
                 
                     <div className='clo-ser'>  
                         <div className='slide-img'>
-                            <img src='/assets/img/Data-Governance-and-Engineering.jpg' alt='Data-Governance-and-Engineering' />   
+                            <img src='/assets/img/Cloud Service/data govern.jpg' alt='data govern' />   
                             <div className='slider-overlay-amethyst'></div>  
                         </div>
                         <div className='caption'>
