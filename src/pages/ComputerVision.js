@@ -36,7 +36,7 @@ export default class ComputerVision extends Component {
                     <OwlCarousel className="owl-theme" {...options} >
                         <div className='slide-1'>  
                             <div className='slide-img'>
-                                <img src="/assets/img/ComputerVision/Banner/AI for Gaming.jpg" alt='AI for Gaming.jpg' />
+                                <img src="/assets/img/ComputerVision/Banner/AI for Gaming.jpg" alt='AI for Gaming' />
                                 <div className='slider-overlay-amethyst'></div>
                             </div>
                             <div className='caption'>

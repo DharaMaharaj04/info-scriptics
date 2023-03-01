@@ -30,7 +30,7 @@ export default class StatisticalDataAnalysis extends Component {
             <OwlCarousel className="owl-theme" {...options} >
                 <div className='slide-1'>  
                     <div className='slide-img'>
-                        <img src="/assets/img/StatisticalDataAnalysis/Banner/AI for Gaming.jpg" alt='AI for Gaming' />
+                        <img src="/assets/img/StatisticalDataAnalysis/Banner/AI_for_gaming.jpg" alt='AI_for_gaming' />
                         <div className='slider-overlay-amethyst'></div>
                     </div>
                     <div className='caption'>

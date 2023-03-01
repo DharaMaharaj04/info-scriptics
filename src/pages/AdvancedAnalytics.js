@@ -32,7 +32,7 @@ export default class AdvancedAnalytics extends Component {
                 
                     <div className='clo-ser'>  
                         <div className='slide-img'>
-                            <img src='/assets/img/Advanced-Analytics.jpg' alt='Advanced-Analytics' />   
+                            <img src='/assets/img/Cloud Service/advance analysis.jpg' alt='advance analysis.jpg' />   
                             <div className='slider-overlay-amethyst'></div>  
                         </div>
                         <div className='caption'>
