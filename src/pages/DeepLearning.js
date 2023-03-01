@@ -199,7 +199,7 @@ export default class DeepLearning extends Component {
                         </div>
                         <div className='slide-3'>
                             <div className='slide-img'>
-                                <img src="/assets/img/DeepLearning/Banner/strategy_and_consulting.jpg" />
+                                <img src="/assets/img/DeepLearning/strategy.jpg" />
                                 <div className='slider-overlay-amethyst'></div>
                             </div>
                             <div className='caption'>

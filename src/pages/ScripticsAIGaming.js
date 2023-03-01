@@ -30,7 +30,7 @@ export default class ScripticsAIGaming extends Component {
                     <OwlCarousel className="owl-theme" {...options} >
                         <div className='slide-1'>  
                             <div className='slide-img'>
-                                <img src="/assets/img/AIandGaming/AI-gaming.jpg" />
+                                <img src="/assets/img/AIandGaming/scritpics-ai.jpg" />
                                 <div className='slider-overlay-amethyst'></div>
                             </div>
                             <div className='caption'>
@@ -115,7 +115,7 @@ export default class ScripticsAIGaming extends Component {
                         </div>
                         <div className='slide-2'>
                             <div className='slide-img'>
-                                <img src="/assets/img/AIandGaming/Design-Interctive-Tech.jpg" />
+                                <img src="/assets/img/AIandGaming/scriptics-tech.jpg" />
                                 <div className='slider-overlay-amethyst'></div>
                             </div>
                             <div className='caption'>
@@ -200,7 +200,7 @@ export default class ScripticsAIGaming extends Component {
                         </div>
                         <div className='slide-3'>
                             <div className='slide-img'>
-                                <img src="/assets/img/AIandGaming/Strategy-consultation.jpg" />
+                                <img src="/assets/img/AIandGaming/scritpics-Strategy-consultation.jpg" />
                                 <div className='slider-overlay-amethyst'></div>
                             </div>
                             <div className='caption'>

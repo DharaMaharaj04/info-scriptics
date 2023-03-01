@@ -32,7 +32,7 @@ export class SignalProcessing extends Component {
                 <OwlCarousel className="owl-theme" {...options} >
                     <div className='slide-1'>  
                         <div className='slide-img'>
-                            <img src="/assets/img/DigitalSignalProcessing/Banner/AIforgaming.jpg" />
+                            <img src="/assets/img/DigitalSignalProcessing/gaming.jpg" />
                             <div className='slider-overlay-amethyst'></div>
                         </div>
                         <div className='caption'>
@@ -117,7 +117,7 @@ export class SignalProcessing extends Component {
                     </div>
                     <div className='slide-2'>
                         <div className='slide-img'>
-                            <img src="/assets/img/DigitalSignalProcessing/Banner/Designandinteraction.jpg" />
+                            <img src="/assets/img/DigitalSignalProcessing/Design.jpg" />
                             <div className='slider-overlay-amethyst'></div>
                         </div>
                         <div className='caption'>
