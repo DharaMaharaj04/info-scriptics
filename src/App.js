@@ -151,13 +151,13 @@ function App() {
             <Route exact path='/automation_reporting' component={CloudGovernanceReporting} />
             <Route exact path='/discovery_optim' component={CloudDiscoveryOptimization} />
             <Route exact path='/sales_force' component={SalesForce} />
-            <Route exact path='/saleforce_salecloud' component={SalesforceSalesCloud} />
-            <Route exact path='/saleforce_cpq' component={SalesforceCPQ} />
-            <Route exact path='/saleforce_industry' component={SalesforceIndustries} />
-            <Route exact path='/saleforce_marketing' component={SalesforceMarketingCloud} />
-            <Route exact path='/saleforce_studio' component={SalesforceInteractionStudio} />
-            <Route exact path='/saleforce_service' component={SalesforceServiceCloud} />
-            <Route exact path='/saleforce-bussinte' component={SaleforceBusinessIntelligence} />
+            <Route exact path='/salesforce_salecloud' component={SalesforceSalesCloud} />
+            <Route exact path='/salesforce_cpq' component={SalesforceCPQ} />
+            <Route exact path='/salesforce_industry' component={SalesforceIndustries} />
+            <Route exact path='/salesforce_marketing' component={SalesforceMarketingCloud} />
+            <Route exact path='/salesforce_studio' component={SalesforceInteractionStudio} />
+            <Route exact path='/salesforce_service' component={SalesforceServiceCloud} />
+            <Route exact path='/salesforce-bussinte' component={SaleforceBusinessIntelligence} />
             <Route component={Page404} />
            
           </Switch>

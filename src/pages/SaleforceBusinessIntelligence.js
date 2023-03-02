@@ -31,7 +31,7 @@ export default class SaleforceBusinessIntelligence extends Component {
             <OwlCarousel className="owl-theme" {...options} >
                 <div className='clo-ser'>  
                     <div className='slide-img'>
-                        <img src='/assets/img/banner-bi.jpg' alt='banner-bi' />   
+                        <img src='/assets/img/Sales force/salesforce-business.jpg' alt='salesforce-business.jpg' />   
                         <div className='slider-overlay-amethyst'></div>  
                     </div>
                     <div className='caption'>

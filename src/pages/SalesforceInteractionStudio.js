@@ -30,7 +30,7 @@ export default class SalesforceInteractionStudio extends Component {
           <OwlCarousel className="owl-theme" {...options} >
               <div className='clo-ser'>  
                   <div className='slide-img'>
-                      <img src='/assets/img/banner-salesforce-sales-cloud.jpg' alt='banner-salesforce-sales-cloud' />   
+                      <img src='/assets/img/Sales force/salesforce studio.jpg' alt='salesforce studio.jpg' />   
                       <div className='slider-overlay-amethyst'></div>  
                   </div>
                   <div className='caption'>

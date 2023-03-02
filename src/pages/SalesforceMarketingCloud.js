@@ -30,7 +30,7 @@ export default class SalesforceMarketingCloud extends Component {
             <OwlCarousel className="owl-theme" {...options} >
                 <div className='clo-ser'>  
                     <div className='slide-img'>
-                        <img src='/assets/img/banner-salesforce-marketing-cloud.jpg' alt='banner-salesforce-marketing-cloud' />   
+                        <img src='/assets/img/Sales force/salesforce marketing.jpg' alt='salesforce marketing.jpg' />   
                         <div className='slider-overlay-amethyst'></div>  
                     </div>
                     <div className='caption'>

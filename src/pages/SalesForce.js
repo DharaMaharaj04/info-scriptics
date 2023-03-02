@@ -31,7 +31,7 @@ export default class SalesForce extends Component {
                 <OwlCarousel className="owl-theme" {...options} >
                      <div className='clo-ser'>  
                         <div className='slide-img'>
-                            <img src='/assets/img/banner-revenue-operations.jpg' alt='banner-revenue-operations' />   
+                            <img src='/assets/img/Sales force/Sales_force.jpg' alt='Sales_force.jpg' />   
                             <div className='slider-overlay-amethyst'></div>  
                         </div>
                         <div className='caption'>
@@ -50,12 +50,12 @@ export default class SalesForce extends Component {
                                                     </ul>
                                                 </div>
                                             </li>
-                                            <li className="active dropdown relative drop-container">
+                                            <li className="dropdown relative drop-container">
                                                 <a href="#" className='serverice_menu textwh'><span >Accelerate</span><i className="text-uppercase " aria-hidden="true"></i></a>
                                                 <div className="bg-white">
                                                     <ul className="list dropdown-content list-inline">
                                                         <li className='ser-sub-lin'>
-                                                            <Link to='/sales_force'>Sales Force</Link>
+                                                            <Link to='/sales_force'>SalesForce</Link>
                                                         </li>
                                                         <li className='ser-sub-lin'>
                                                             <Link to='/cloud_digital_transfomation'>Cloud Digital Transfomation</Link>
@@ -63,8 +63,34 @@ export default class SalesForce extends Component {
                                                     </ul>
                                                 </div>
                                             </li>
-                                                
-                                            <li className='serverice_menu_last dropdown relative drop-container textwh'><span>Sales Force</span></li>
+                                            <li className="dropdown relative drop-container">
+                                                <a href="#" className='serverice_menu textwh'><span >Salesforce</span><i className="text-uppercase " aria-hidden="true"></i></a>
+                                                <div className="bg-white salesforce">
+                                                    <ul className="list dropdown-content list-inline">
+                                                        <li className='ser-sub-lin'>
+                                                            <Link to='/salesforce_salecloud'>Salesforce Sales Cloud</Link>
+                                                        </li>
+                                                        <li className='ser-sub-lin'>
+                                                            <Link to='/salesforce_cpq'>Salseforce CPQ</Link>
+                                                        </li>
+                                                        <li className='ser-sub-lin'>
+                                                            <Link to='/salesforce_industry'>Salesforce Industry</Link>
+                                                        </li>
+                                                        <li className='ser-sub-lin'>
+                                                            <Link to='/salesforce_marketing'>Salesforce Marketing</Link>
+                                                        </li>
+                                                        <li className='ser-sub-lin'>
+                                                            <Link to='/salesforce_studio'>Salesforce Studio</Link>
+                                                        </li>
+                                                        <li className='ser-sub-lin'>
+                                                            <Link to='/salesforce_service'>Salesforce Service</Link>
+                                                        </li>
+                                                        <li className='ser-sub-lin'>
+                                                            <Link to='/salesforce-bussinte'>Salesforce Bussiness Intelligence</Link>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
                                         </ol>
                                     </div>
                                     <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
