@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-
-
 export default class SalesForce extends Component {
   render() {
 
@@ -65,29 +63,51 @@ export default class SalesForce extends Component {
                                             </li>
                                             <li className="dropdown relative drop-container">
                                                 <a href="#" className='serverice_menu textwh'><span >Salesforce</span><i className="text-uppercase " aria-hidden="true"></i></a>
-                                                <div className="bg-white salesforce">
-                                                    <ul className="list dropdown-content list-inline">
-                                                        <li className='ser-sub-lin'>
-                                                            <Link to='/salesforce_salecloud'>Salesforce Sales Cloud</Link>
-                                                        </li>
-                                                        <li className='ser-sub-lin'>
-                                                            <Link to='/salesforce_cpq'>Salseforce CPQ</Link>
-                                                        </li>
-                                                        <li className='ser-sub-lin'>
-                                                            <Link to='/salesforce_industry'>Salesforce Industry</Link>
-                                                        </li>
-                                                        <li className='ser-sub-lin'>
-                                                            <Link to='/salesforce_marketing'>Salesforce Marketing</Link>
-                                                        </li>
-                                                        <li className='ser-sub-lin'>
-                                                            <Link to='/salesforce_studio'>Salesforce Studio</Link>
-                                                        </li>
-                                                        <li className='ser-sub-lin'>
-                                                            <Link to='/salesforce_service'>Salesforce Service</Link>
-                                                        </li>
-                                                        <li className='ser-sub-lin'>
-                                                            <Link to='/salesforce-bussinte'>Salesforce Bussiness Intelligence</Link>
-                                                        </li>
+                                                <div className="bg-white">
+                                                    <ul className="list row dropdown-content">
+                                                    <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
+                                                        <ul className='list-inline px-0'>
+                                                            <li className='ser-sub-lin'>
+                                                                <Link to='/salesforce_salecloud'>Salesforce Sales Cloud</Link>
+                                                            </li>
+                                                            <li className='ser-sub-lin'>
+                                                                <Link to='/salesforce_cpq'>Salseforce CPQ</Link>
+                                                            </li>
+                                                            <li className='ser-sub-lin'>
+                                                                <Link to='/salesforce_industry'>Salesforce Industry</Link>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
+                                                        <ul className='list-inline px-0'>
+                                                            <li className='ser-sub-lin'>
+                                                                <Link to='/salesforce_marketing'>Salesforce Marketing</Link>
+                                                            </li>
+                                                            
+                                                            <li className='ser-sub-lin'>
+                                                                <Link to='/Salesforce Studio'>Salesforce Studio</Link>
+                                                            </li>
+                                                            
+                                                            <li className='ser-sub-lin'>
+                                                                <Link to='/Salesforce Service'>Salesforce Service</Link>
+                                                            </li>
+                                                            
+                                                            
+                                                        </ul>
+                                                    </li>
+                                                    <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
+                                                        <ul className='list-inline px-0'>
+                                                            <li className='ser-sub-lin'>
+                                                                <Link to='/salesforce-bussinte'>Salesforce Bussiness Intelligence</Link>
+                                                            </li>
+                                                            <li className='ser-sub-lin'>
+                                                                <Link to=''></Link>
+                                                            </li>
+                                                            <li className='ser-sub-lin'>
+                                                                <Link to=''></Link>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
                                                     </ul>
                                                 </div>
                                             </li>

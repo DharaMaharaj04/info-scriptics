@@ -15,11 +15,6 @@ function Header() {
                                     <div className="dropdown-menu dp-block" aria-labelledby="navbarDropdown"> 
                                         <div className="container-fuild">
                                             <div className="row"> 
-                                            
-                                            
-
-
-
                                                 <div className="submenu-portion">
                                                     <div className="col-md-12 col-sm-12 col-xs-12">
                                                         <div className="row service-row">
@@ -51,8 +46,6 @@ function Header() {
                                                         </div>
                                                         <div className="menu-seprator"></div>
                                                     </div>
-
-
                                                     <div className="col-md-12 col-sm-12 col-xs-12">
                                                         <div className="row service-row">
                                                             <div className="col-md-3 col-sm-3 col-xs-12"> <img src="/assets/img/accelerate.svg" alt="Accelerate" className="" />
@@ -77,7 +70,6 @@ function Header() {
                                                                 </div>
                                                                 <div className="menu-seprator"></div>
                                                             </div>
-                                                    
                                                             <div className="col-md-12 col-sm-12 col-xs-12">
                                                                 <div className="row service-row">
                                                                     <div className="col-md-3 col-sm-3 col-xs-12"> <img src="/assets/img/insight.svg" alt="Insight" className="" />
@@ -137,8 +129,6 @@ function Header() {
                                                                 </div>
                                                                 <div className="menu-seprator"></div>
                                                             </div>
-                                                            
-                                                            
                                                             <div className="col-md-12 col-sm-12 col-xs-12">
                                                                 <div className="row service-row">
                                                                     <div className="col-md-3 col-sm-3 col-xs-12"> <img src="/assets/img/experience.svg" alt="Experience" className="" />
@@ -162,11 +152,6 @@ function Header() {
                                                                 <div className="menu-seprator"></div>
                                                             </div>
                                                         </div>
-
-
-
-
-
                                                     </div>
                                         </div>
                                     </div>    
@@ -290,7 +275,9 @@ function Header() {
                                         </div>
                                     </div>
                                 </li>
-                                
+                                <li className="nav-item drop-down">
+                                    <a className="nav-link dropdown-toggle header-link" href="/blogs">Blogs</a>
+                                </li>
                                 <li className=''>
                                     <div className="box ">
                                         <form name="search"><input type="text"  name="txt" className='input'/></form>

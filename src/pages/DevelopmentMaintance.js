@@ -35,10 +35,9 @@ export default class DevelopmentMaintance extends Component {
                 <section className='srv-main'>
                     
                     <OwlCarousel className="owl-theme" {...options} >
-                    
                         <div className='slide-1'>  
                             <div className='slide-img'>
-                                <img src='/assets/img/Cloud Service/Development maintanance.jpg' alt='Development maintanance.jpg' />   
+                                <img src='/assets/img/Cloud Service/Development maintanance.jpg' alt='development' />   
                                 <div className='slider-overlay-amethyst'></div>  
                             </div>
                             <div className='caption'>
