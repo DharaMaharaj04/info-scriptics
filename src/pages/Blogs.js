@@ -89,7 +89,7 @@ export default class SalesForce extends Component {
                             <h2 className='h2-heading'>Overview</h2>
                         </div>
                         <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                            <p className='overview-para'>Infosys is a global leader in next-generation digital services and consulting. We enable clients in more than 50 countries to navigate their digital transformation.</p>
+                            <p className='overview-para'>Scriptics is a global leader in next-generation digital services and consulting. We enable clients in more than 50 countries to navigate their digital transformation.</p>
                         </div>
                         <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                             <div class="bg-vcard">
