@@ -176,6 +176,9 @@
     .sale-market-img h5{padding-bottom: 10px; padding-top: 25px; }
     .sale-market {margin-top: 20px; margin-bottom: 10px; }
     .sale-buss h2{ padding-top: 30px; padding-bottom: 20px;}
+    /*** Blog page ***/
+    .blog-para { margin-left: 0px;}
+    .blog-banner .h2-heading{ margin-left: 0;}
 }    
 @media screen and (min-width: 768px) {
     /**** Header ***/
