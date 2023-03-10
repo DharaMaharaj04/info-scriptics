@@ -35,7 +35,7 @@ export default class SalesForce extends Component {
                                 <div className='row'>
                                     <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                         <div className='slide_content'>
-                                            <p class="blogIndicator">Press Release</p>
+                                            <p className="blogIndicator">Press Release</p>
                                             <h2 className="h2-slide white-color mb-xs-10">Scriptics to Acquire Digital Experience and Marketing Agency, oddity</h2>
                                             <Link className="btn btn-shutter-more text-uppercase" to="/">Read More</Link>
                                         </div>
@@ -53,7 +53,7 @@ export default class SalesForce extends Component {
                                 <div className='row'>
                                     <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                         <div className='slide_content'>
-                                            <p class="blogIndicator">Press Release</p>
+                                            <p className="blogIndicator">Press Release</p>
                                             <h2 className="h2-slide white-color mb-xs-10">Scriptics Recognized as one of the 2022 World’s Most Ethical Companies for the Second Consecutive Year by Ethisphere</h2>
                                             <Link className="btn btn-shutter-more text-uppercase" to="/">Read More</Link>
                                         </div>
@@ -71,7 +71,7 @@ export default class SalesForce extends Component {
                                 <div className='row'>
                                     <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                         <div className='slide_content'>
-                                            <p class="blogIndicator">Press Release</p>
+                                            <p className="blogIndicator">Press Release</p>
                                             <h2 className="h2-slide white-color mb-xs-10">Scriptics to Acquire Digital Experience and Marketing Agency, oddity</h2>
                                             <Link className="btn btn-shutter-more text-uppercase" to="/">Read More</Link>
                                         </div>
@@ -92,14 +92,14 @@ export default class SalesForce extends Component {
                             <p className='overview-para'>Scriptics is a global leader in next-generation digital services and consulting. We enable clients in more than 50 countries to navigate their digital transformation.</p>
                         </div>
                         <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                            <div class="bg-vcard">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-4 col-xs-12">
-                                        <img src="/assets/img/investor-contacts.png" class="center-block" alt="contact" /> 
+                            <div className="bg-vcard">
+                                <div className="row">
+                                    <div className="col-md-4 col-sm-4 col-xs-12">
+                                        <img src="/assets/img/investor-contacts.png" className="center-block" alt="contact" /> 
                                     </div>
-                                    <div class="col-md-8 col-sm-8 col-xs-12">
-                                        <p class="name-text">Media Contact</p>
-                                        <p class="designation-text">Please drop a mail<span class="block inline-xs"> to the Global PR Team for your queries.</span></p>
+                                    <div className="col-md-8 col-sm-8 col-xs-12">
+                                        <p className="name-text">Media Contact</p>
+                                        <p className="designation-text">Please drop a mail<span className="block inline-xs"> to the Global PR Team for your queries.</span></p>
                                         <Link className="btn career_btn text-uppercase" to="/contact">Read More</Link>
                                     </div>
                                 </div>
@@ -190,6 +190,38 @@ export default class SalesForce extends Component {
                             </div>
                         </div>
                 </div> 
+            </section>
+            <section className='blog-card'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className="card-deck ext-center wow fadeInUp animated from-right appear">
+                            <div className="card career_opt">
+                                <img className="card-img-top" src="/assets/img/blogs/esg-campaign-mob.png"/>
+                                <div className="card-body">
+                                    <a href='/blog-inner'className="card-title">Scriptics Leads Global ESG Rankings</a>
+                                </div>
+                            </div>
+                            <div className="card career_opt">
+                                <img className="card-img-top" src="/assets/img/blogs/collaborates-foster-learning-healthcare-smll.png"/>
+                                <div className="card-body">
+                                    <a href='/blog-inner'><a className="card-title">Scritpics Collaborates with Motherhood Hospitals to Foster Learning in Healthcare through Infosys Springboard</a></a>
+                                </div>
+                            </div>
+                            <div className="card career_opt">
+                                <img className="card-img-top" src="/assets/img/blogs/home-banner-mob.png" alt="Card image cap"/>
+                                <div className="card-body">
+                                    <a href='/blog-inner' className="card-title">Nine Out of Ten Companies Lack the Culture and Organizational Structure to Unlock Digital Growth, Scriptics Report Finds</a>
+                                </div>
+                            </div>
+                            <div className="card career_opt">
+                                <img className="card-img-top" src="/assets/img/blogs/collaborates-bolster-women-empowerment-india-smll.png" alt="Card image cap"/>
+                                <div className="card-body">
+                                    <a href='/blog-inner' className="card-title">Scriptics Foundation Collaborates with Several Social Organizations to Bolster Women Empowerment in India</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
     )

@@ -74,6 +74,7 @@ import SalesforceInteractionStudio from './pages/SalesforceInteractionStudio';
 import SalesforceServiceCloud from './pages/SalesforceServiceCloud';
 import SaleforceBusinessIntelligence from './pages/SaleforceBusinessIntelligence';
 import Blogs from './pages/Blogs';
+import BlogInner from './pages/BlogInner';
 
 function App() {
   useEffect(() => {
@@ -160,6 +161,7 @@ function App() {
             <Route exact path='/salesforce_service' component={SalesforceServiceCloud} />
             <Route exact path='/salesforce-bussinte' component={SaleforceBusinessIntelligence} />
             <Route exact path='/blogs' component={Blogs} />
+            <Route exact path='/blog-inner' component={BlogInner} />
             <Route component={Page404} />
            
           </Switch>
