@@ -168,6 +168,9 @@
     .sale-info-img img{width: 100%;}
     .font-s {font-size: 14px;}
     .sale-info-2 .sale-info-cont{ margin-top: 0px;}
+    /*** blogs ***/
+    .blog-para { margin-left: 0px;}
+    .blog-banner .h2-heading { margin-left: 0px};
 }    
 @media screen and (min-width: 768px) {
     /**** Header ***/
