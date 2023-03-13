@@ -11,7 +11,7 @@
     /*** Reponsive Header ***/
     .navbar-nav .col-sm-12{ padding-left: 20px!important; padding-right: 20px!important; }
     .fixed-top{ position: initial; }
-    /* #page-home .navbar-brand{} */
+    #page-home .navbar-brand{}
     #page-home .navbar-brand,#page-case-studies .navbar-brand,#page-case-study .navbar-brand,#page-industry .navbar-brand,#page-service .navbar-brand, #page-cloud .navbar-brand{padding-left: 20px;}
     .fixed-top .navbar-brand h1{ color: #212121; }
     header .container{ padding-right: 0; padding-left: 0; overflow: hidden; }.navbar{ padding: 0!important; }
@@ -165,20 +165,9 @@
     
     /*** sale-force pages***/
     .sale-info .col-12 {margin-top: 20px;}
-    .sale-info-img{padding-left: 0rem; padding-right: 0rem; }
-    .sale-info-img img{width: 70%;}
+    .sale-info-img img{width: 100%;}
     .font-s {font-size: 14px;}
     .sale-info-2 .sale-info-cont{ margin-top: 0px;}
-    .blue-dark { padding-bottom: 20px;}
-    .sale-marketing{ margin-top: 20px; margin-bottom: 30px;}
-    .sale-market-cont{padding-bottom: 50px;}
-    .sale-market-img img{padding-bottom: 20px; padding-top: 15px; width: 100%;}
-    .sale-market-img h5{padding-bottom: 10px; padding-top: 25px; }
-    .sale-market {margin-top: 20px; margin-bottom: 10px; }
-    .sale-buss h2{ padding-top: 30px; padding-bottom: 20px;}
-    /*** Blog page ***/
-    .blog-para { margin-left: 0px;}
-    .blog-banner .h2-heading{ margin-left: 0;}
 }    
 @media screen and (min-width: 768px) {
     /**** Header ***/
@@ -198,7 +187,7 @@
     .about_us p {margin-bottom: 60px;}
      /*** slider **/
      .slide-1, .slide-2, .slide-3, .slide-4, .slide-5{height: 600px !important;}
-     /* h2-slide{ } */
+     h2-slide{ }
      .esg .col-lg-4{ display: inline-block;}
      .vCISO {background-image: url(/assets/img/strategicservices-it1-vciso-768.jpg);}
      .srv-main-mob, .strategicservices-mob, .vCISO-mob, .ss-Assessment-mob, .ss-IR-mob, .Custom-Staff-mob, .timeline_sec-mob, .threat-mob{display: none;}
