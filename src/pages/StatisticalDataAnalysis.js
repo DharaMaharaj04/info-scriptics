@@ -288,7 +288,7 @@ export default class StatisticalDataAnalysis extends Component {
                 <section className="srv-content">
                     <div className="container">
                         <div className="row">
-                        <div className='col-12 col-sm-12 col-md-12 col-lg-12'>
+                        <div className='col-12 col-sm-12 col-md-12 col-lg-12' style={{padding: 0}}>
                                 <div className="col-12 col-sm-12 col-md-6 col-lg-6 fadeInUp  Wow from-right">
                                     <div className="indus-info">
                                         <h2 className="indus-title_1">Quantifying the unquantifiable.</h2>
@@ -302,7 +302,7 @@ export default class StatisticalDataAnalysis extends Component {
                                 </div>
                             </div>
                             <div className="col-12 col-sm-12 col-md-6 col-1g-6  fadeInUp  Wow from-left">
-                                <img className="srv-con-img" src="/assets/img/ai_ (1).png" alt="AI & Automation icon" style={{height:300,width:'100%'}}/>
+                                <img className="srv-con-img" src="/assets/img/Inner Images/statistical data analysis.jpg" />
                             </div>
                             <div className="srv-con col-12 col-sm-12 col-md-12 col-lg-12" style={{paddingTop:50}}>
                                 <div className="srv-info">

@@ -59,7 +59,7 @@ export default class DevelopmentMaintance extends Component {
                                                 <li className="dropdown relative drop-container">
                                                     <a href="#" className='serverice_menu textwh'><span >Development & Maintenance</span><i className="" aria-hidden="true"></i></a>
                                                     <div className="bg-white">
-                                                        <ul className="list pl0 dropdown-content list-inline">
+                                                        <ul className="list dropdown-content list-inline">
                                                             <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 ser-sub-lin'>
                                                                 <Link to='/development-maintance'>Web app development & maintenance</Link>
                                                             </li>

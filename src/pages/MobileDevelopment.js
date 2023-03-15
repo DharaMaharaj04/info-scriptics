@@ -43,7 +43,7 @@ export default class mobileDevelopment extends Component {
                                         <div className='serv-link col-12'>
                                             <ol className=" nav-links">
                                                 <li className="active dropdown relative  drop-container">
-                                                    <a href="#" className='serverice_menu textwh'>service<i className="" aria-hidden="true"></i></a>
+                                                    <a href="#" className='serverice_menu textwh'>Service<i className="" aria-hidden="true"></i></a>
                                                     <div className="bg-white">
                                                         <ul className="list pl0 dropdown-content list-inline">
                                                             <li className=''>Development & Maintenance</li>
@@ -54,16 +54,16 @@ export default class mobileDevelopment extends Component {
                                                     </div>
                                                 </li>
                                                 <li className="dropdown relative drop-container">
-                                                    <a href="#" className='serverice_menu textwh'><span >Development & Maintenance</span><i className="" aria-hidden="true"></i></a>
+                                                    <a href="#" className='serverice_menu textwh'><span >Development & Maintenance</span><i className="text-uppercase" aria-hidden="true"></i></a>
                                                     <div className="bg-white">
-                                                        <ul className="list pl0 dropdown-content list-inline">
-                                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12'>
+                                                        <ul className="list row dropdown-content">
+                                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list ser-sub-lin'>
                                                                 <Link to='/development-maintance'>Web app development & maintenance</Link>
                                                                 </li>
-                                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12'>
+                                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list ser-sub-lin'>
                                                                 <Link to='/mobile_development'>Mobile app development & maintenance</Link>
                                                             </li>
-                                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12'>
+                                                            <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list ser-sub-lin'>
                                                                 <Link to='/ui-ux'>UI/UX Design</Link>
                                                             </li>
                                                         </ul>

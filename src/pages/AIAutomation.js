@@ -286,19 +286,15 @@ export default class AIAutomation extends Component {
                 </section>
                 <section className='srv-content'>
                     <div className='container'>
-                        <div className='row'>
-                            <div className='col-12 col-lg-6 col-md-12 col-sm-12 col-xs-12 fadeInUp animated from-left'>
-                                <h3>Unleash Resilient and Intelligent Automation for Delivering Value at Scale.</h3>                    
-                            </div>
-                            <div className='col-12 col-lg-6 col-md-12 col-sm-12 col-xs-12'></div>
-                        </div>
+                        
                         <div className='row indus-info'> 
                             <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12 fadeInUp animated from-left'>
+                                <h3>Unleash Resilient and Intelligent Automation for Delivering Value at Scale.</h3>
                                 <p>As organizations across diverse domains and industries are trying to incorporate digital transformation as part of their processes, many of them are struggling to grab their opportunities at the same pace. They commit to the idea of digital change but seldom achieve the scale, precision, acknowledgement, and response to volatile market disruptions. After all, the real-world obstacles test their resilience to the tee.</p>
                                 <p>At Scriptics, we ensure that organizations are not swayed by digital disruption by empowering them with Artificial Intelligence (AI).</p>
                             </div>
                             <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12 indus-img-col fadeInUp animated from-right'>
-                                <img src="/assets/img/ambient-intelligence-lead-mob.png" />
+                                <img src="/assets/img/Inner Images/ai_automation.jpg" />
                             </div>
                         </div>    
                     </div> 

@@ -94,13 +94,13 @@ export default class Automative extends Component {
                                 </div>
                             </div>
                             <div className="col-12 col-sm-12 col-md-6 col-1g-6 fadeInUp  Wow from-right">
-                            <div className="indus-info p">
+                            <div className="indus-info p" style={{display:"block"}}>
                                 <p>You need to be increasingly agile to address disruptions such as inconsistent demand for vehicles and stringent emissions standards. Your automotive enterprise must be a safe place to work while your ecosystem must have a low carbon footprint. In addition, you need to build a responsive supply chain that adapts to the dynamics of procurement, distribution and logistics.</p>
                                 <p>The Scriptics Automotive practice partners with next-generation automobile manufacturers to apply predictive modeling-driven insights across business cycles. Our digital ecosystem embeds sustainability into your enterprise: lean operations, product innovation and business agility. Digital re-tooling of the assembly line and supply chain mitigates risks by addressing shifts in the mobility landscape.</p>
                             </div>
                             </div>
                             <div className="col-12 col-sm-12 col-md-6 col-1g-6 fadeInUp  Wow from-left">
-                                <img className="srv-con-img" src="/assets/img/indus_content.png" alt="AI & Automation icon" style={{height:300,width:'100%'}}/>
+                                <img className="srv-con-img" src="/assets/img/Inner Images/industry automative.jpg" />
                             </div>
                         </div>
                     </div>

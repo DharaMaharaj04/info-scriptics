@@ -91,13 +91,13 @@ export default class CapitalMarket extends Component {
                                 </div>
                             </div>
                             <div className="col-12 col-sm-12 col-md-6 col-1g-6">
-                            <div className="indus-info">
+                            <div className="indus-info" style={{display:"block"}}>
                                 <p>The financial services industry is witnessing a phase of rapid transformation driven by disruptive technologies such as Smart Contracts, Blockchain, Automation, and Artificial Intelligence. A number of factors including shrinking revenues, increasing costs, and capital market compliance add further to the challenges.</p>
-                            <p>Today’s customers demand a rich ecosystem of value-added services and a holistic capital and asset management solutions. This requires a complete reconfiguration of core systems, enabling a competitive advantage as well as sustenance in the long run. Globally, most companies are now embracing agile and experience-centric capital market and asset management solutions.</p>
+                                <p>Today’s customers demand a rich ecosystem of value-added services and a holistic capital and asset management solutions. This requires a complete reconfiguration of core systems, enabling a competitive advantage as well as sustenance in the long run. Globally, most companies are now embracing agile and experience-centric capital market and asset management solutions.</p>
                             </div>
                             </div>
                             <div className="col-12 col-sm-12 col-md-6 col-1g-6">
-                                <img className="srv-con-img" src="/assets/img/indus_content.png" alt="AI & Automation icon" style={{height:300,width:'100%'}}/>
+                                <img className="srv-con-img" src="/assets/img/Inner Images/Capital market.jpg"/>
                             </div>
                             <div className="srv-con col-12 col-sm-12 col-md-12 col-lg-12" style={{paddingTop:50}}>
                                 <div className="srv-info">

@@ -209,7 +209,7 @@ export default class BigDataAnalysis extends Component {
                                         <div className='serv-link col-12'>
                                             <ol className=" nav-links">
                                                 <li className="dropdown relative drop-container">
-                                                    <a href="#" className='serverice_menu'>service<i className="text-uppercase " aria-hidden="true"></i></a>
+                                                    <a href="#" className='serverice_menu textwh'>service<i className="text-uppercase " aria-hidden="true"></i></a>
                                                     <div className="bg-white">
                                                         <ul className="list dropdown-content list-inline ">
                                                             <li className='ser-sub-lin'>Development & Maintenance</li>
@@ -220,7 +220,7 @@ export default class BigDataAnalysis extends Component {
                                                     </div>
                                                 </li>
                                                 <li className="active dropdown relative drop-container ">
-                                                    <a href="#" className='serverice_menu '><span >Insight</span><i className="text-uppercase " aria-hidden="true"></i></a>
+                                                    <a href="#" className='serverice_menu textwh'><span >Insight</span><i className="text-uppercase " aria-hidden="true"></i></a>
                                                     <div className="bg-white ">
                                                         <ul className="list row dropdown-content">
                                                             <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
@@ -270,7 +270,7 @@ export default class BigDataAnalysis extends Component {
                                                     </div>
                                                 </li>
                                                 
-                                                <li className='serverice_menu_last dropdown relative drop-container '><span>Big Data Analysis</span></li>
+                                                <li className='serverice_menu_last dropdown relative drop-container textwh'><span>Big Data Analysis</span></li>
                                             </ol>
                                         </div>
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
@@ -288,7 +288,7 @@ export default class BigDataAnalysis extends Component {
                 <section className="srv-content">
                     <div className="container">
                         <div className="row">  
-                            <div className='col-12 col-sm-12 col-md-12 col-lg-12'>
+                            <div className='col-12 col-sm-12 col-md-12 col-lg-12' style={{padding: 0}}>
                                 <div className="col-12 col-sm-12 col-md-6 col-1g-6 fadeInUp  Wow from-right">
                                     <h3>Secure a competitive edge with our expertise in understanding and interpreting data.</h3>
                                 </div>
@@ -301,7 +301,7 @@ export default class BigDataAnalysis extends Component {
                                 </div>
                             </div>
                             <div className="col-12 col-sm-12 col-md-6 col-1g-6 fadeInUp  Wow from-left">
-                                <img className="srv-con-img" src="/assets/img/ai_ (1).png" alt="AI & Automation icon" style={{height:300,width:'100%'}}/>
+                                <img className="srv-con-img" src="/assets/img/Inner Images/big data analysis.jpg" />
                             </div>
                             <div className="srv-con col-12 col-sm-12 col-md-12 col-lg-12" style={{paddingTop:50}}>
                                 <div className="srv-info">

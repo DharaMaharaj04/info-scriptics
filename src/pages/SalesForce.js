@@ -62,7 +62,7 @@ export default class SalesForce extends Component {
                                                 </div>
                                             </li>
                                             <li className="dropdown relative drop-container">
-                                                <a href="#" className='serverice_menu textwh'><span >Salesforce</span><i className="text-uppercase " aria-hidden="true"></i></a>
+                                                <a href="/sales_force" className='serverice_menu textwh'><span >Salesforce</span><i className="text-uppercase " aria-hidden="true"></i></a>
                                                 <div className="bg-white">
                                                     <ul className="list row dropdown-content">
                                                     <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
@@ -85,11 +85,11 @@ export default class SalesForce extends Component {
                                                             </li>
                                                             
                                                             <li className='ser-sub-lin'>
-                                                                <Link to='/Salesforce Studio'>Salesforce Studio</Link>
+                                                                <Link to='/salesforce_studio'>Salesforce Studio</Link>
                                                             </li>
                                                             
                                                             <li className='ser-sub-lin'>
-                                                                <Link to='/Salesforce Service'>Salesforce Service</Link>
+                                                                <Link to='/salesforce_service'>Salesforce Service</Link>
                                                             </li>
                                                             
                                                             

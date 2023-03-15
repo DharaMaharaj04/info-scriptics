@@ -108,7 +108,7 @@ export default class Dental extends Component {
                             </div>
                             </div>
                             <div className="col-12 col-sm-12 col-md-6 col-1g-6 fadeInUp  Wow from-left">
-                                <img className="srv-con-img" src="/assets/img/indus_content.png" alt="AI & Automation icon" style={{height:300,width:'100%'}}/>
+                                <img className="srv-con-img" src="/assets/img/Inner Images/dental.jpg" />
                             </div>
                             <div className="srv-con col-12 col-sm-12 col-md-12 col-lg-12 fadeInUp  Wow from-right" style={{paddingTop:50}}>
                                 <div className="srv-info">

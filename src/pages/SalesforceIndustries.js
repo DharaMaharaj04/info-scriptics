@@ -62,8 +62,56 @@ export default class SalesforceIndustries extends Component {
                                                     </ul>
                                                 </div>
                                             </li>
-                                                
-                                            <li className='serverice_menu_last dropdown relative drop-container textwh'><span>Sales Force</span></li>
+                                            <li className="dropdown relative drop-container">
+                                                <a href="/sales_force" className='serverice_menu textwh'><span >Salesforce</span><i className="text-uppercase " aria-hidden="true"></i></a>
+                                                <div className="bg-white">
+                                                    <ul className="list row dropdown-content">
+                                                    <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
+                                                        <ul className='list-inline px-0'>
+                                                            <li className='ser-sub-lin'>
+                                                                <Link to='/salesforce_salecloud'>Salesforce Sales Cloud</Link>
+                                                            </li>
+                                                            <li className='ser-sub-lin'>
+                                                                <Link to='/salesforce_cpq'>Salseforce CPQ</Link>
+                                                            </li>
+                                                            <li className='ser-sub-lin'>
+                                                                <Link to='/salesforce_industry'>Salesforce Industry</Link>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
+                                                        <ul className='list-inline px-0'>
+                                                            <li className='ser-sub-lin'>
+                                                                <Link to='/salesforce_marketing'>Salesforce Marketing</Link>
+                                                            </li>
+                                                            
+                                                            <li className='ser-sub-lin'>
+                                                                <Link to='/salesforce_studio'>Salesforce Studio</Link>
+                                                            </li>
+                                                            
+                                                            <li className='ser-sub-lin'>
+                                                                <Link to='/salesforce_service'>Salesforce Service</Link>
+                                                            </li>
+                                                            
+                                                            
+                                                        </ul>
+                                                    </li>
+                                                    <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
+                                                        <ul className='list-inline px-0'>
+                                                            <li className='ser-sub-lin'>
+                                                                <Link to='/salesforce-bussinte'>Salesforce Bussiness Intelligence</Link>
+                                                            </li>
+                                                            <li className='ser-sub-lin'>
+                                                                <Link to=''></Link>
+                                                            </li>
+                                                            <li className='ser-sub-lin'>
+                                                                <Link to=''></Link>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    </ul>
+                                                </div>
+                                            </li>     
                                         </ol>
                                     </div>
                                     <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
@@ -86,7 +134,7 @@ export default class SalesforceIndustries extends Component {
                             <p>These pre-built solutions in the Salesforce Platform can help address your specific industry-specific needs by taking common requirements and packaging them for easier deployment for your organization.</p>
                         </div>
                         <div className='col-12 col-lg-5 col-md-5 col-sm-12 col-xs-12 per100' >
-                           <img src='/assets/img/Telco-09-cropped-1.png' alt='Telco-09' />
+                           <img src='/assets/img/Telco-09-cropped-1.png' alt='Telco-09' style={{widht:'auto', height:300}} />
                         </div>
                     </div>
                 </div>
@@ -102,7 +150,7 @@ export default class SalesforceIndustries extends Component {
                             </div>
                             <div className="col-12 col-sm-12 col-md-6 col-1g-6 fadeInUp  Wow from-right">
                                 <div className="sale-info-img per100">
-                                    <img src='/assets/img/Marketo-integration.png' alt='Marketo-integration' />
+                                    <img src='/assets/img/Marketo-integration.png' alt='Marketo-integration'  />
                                 </div>
                             </div>
                         </div>

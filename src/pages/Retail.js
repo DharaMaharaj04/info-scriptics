@@ -86,7 +86,7 @@ export default class Retail extends Component {
                 <section className="srv-content">
                     <div className="container">
                         <div className="row">
-                        <div className='col-12 col-sm-12 col-md-12 col-lg-12'>
+                        <div className='col-12 col-sm-12 col-md-12 col-lg-12' style={{paadding:0}}>
                                 <div className="col-12 col-sm-12 col-md-6 col-lg-6 fadeInUp  Wow from-right">
                                     <div className="indus-info">
                                         <h2 className="indus-title_1">Purpose-Driven. Resilient. Adaptable.</h2>
@@ -100,7 +100,7 @@ export default class Retail extends Component {
                             </div>
                             </div>
                             <div className="col-12 col-sm-12 col-md-6 col-1g-6  fadeInUp  Wow from-left">
-                                <img className="srv-con-img" src="/assets/img/indus_content.png" alt="AI & Automation icon" style={{height:300,width:'100%'}}/>
+                                <img className="srv-con-img" src="/assets/img/Inner Images/retail.jpg"/>
                             </div>
                             <div className="srv-con col-12 col-sm-12 col-md-12 col-lg-12" style={{paddingTop:50}}>
                                 <div className="srv-info">

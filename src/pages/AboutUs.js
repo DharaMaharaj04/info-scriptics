@@ -269,7 +269,7 @@ export class AboutUs extends Component {
                             <OwlCarousel className="owl-theme" {...options} >
                                 <div className='slide-1'>  
                                     <div className='slide-img'>
-                                        <img src="/assets/img/factory-boosts-growth-lead.png" />
+                                        <img src="/assets/img/Inner Images/ESG_Slider_Strategy and Consuting.jpg" />
                                         <div className='slider-overlay-amethyst'></div>
                                     </div>
                                     <div className='caption'>
@@ -287,7 +287,7 @@ export class AboutUs extends Component {
                                 </div>
                                 <div className='slide-2'>  
                                     <div className='slide-img'>
-                                        <img src="/assets/img/interactive.jpeg" />
+                                        <img src="/assets/img/Inner Images/ESG_Slider_Design and Interactive.jpg" />
                                         <div className='slider-overlay-amethyst'></div>
                                     </div>
                                     <div className='caption'>
@@ -305,7 +305,7 @@ export class AboutUs extends Component {
                                 </div>
                                 <div className='slide-3'>  
                                     <div className='slide-img'>
-                                        <img src="/assets/img/emerging-digital-engagement-lead-mob.png" />
+                                        <img src="/assets/img/Inner Images/ESG_Slider_AI and Automation.jpg" />
                                         <div className='slider-overlay-amethyst'></div>
                                     </div>
                                     <div className='caption'>
