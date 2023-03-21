@@ -64,8 +64,62 @@ export default class ScriptisCloud extends Component {
                                                 </ul>
                                             </div>
                                         </li>
-                                            
-                                        <li className='serverice_menu_last dropdown relative drop-container textwh'><span>Cloud Digital Transfomation</span></li>
+                                        <li className="dropdown relative drop-container">
+                                                <a href="/sales_force" className='serverice_menu textwh'><span >Cloud Digital Transfomation</span><i className="text-uppercase " aria-hidden="true"></i></a>
+                                                <div className="bg-white">
+                                                    <ul className="list row dropdown-content">
+                                                        <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
+                                                            <ul className='list-inline px-0 cloud-ui'>
+                                                                <li className='ser-sub-lin'>
+                                                                    <Link to='/development-maintance'>Development Maintance</Link>
+                                                                </li>
+                                                                <li className='ser-sub-lin'>
+                                                                    <Link to='/ui_ux'>UI_UX</Link>
+                                                                </li>
+                                                                <li className='ser-sub-lin'>
+                                                                    <Link to='/devsecops'>DevSecops</Link>
+                                                                </li>
+                                                                <li className='ser-sub-lin'>
+                                                                    <Link to='/automation_reporting'>Cloud Governance Reporting</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
+                                                            <ul className='list-inline px-0 cloud-ui'>
+                                                                <li className='ser-sub-lin'>
+                                                                    <Link to='/mobile_development'>Mobile Development</Link>
+                                                                </li>
+                                                                
+                                                                <li className='ser-sub-lin'>
+                                                                    <Link to='/cloud-sec-eng'>Cloud Security Engineering</Link>
+                                                                </li>
+                                                                <li className='ser-sub-lin'>
+                                                                    <Link to='/application-asses'>Application Assessment</Link>
+                                                                </li>
+                                                                <li className='ser-sub-lin'>
+                                                                    <Link to='/advanced_analy'>Advanced Analytics</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
+                                                            <ul className='list-inline px-0 cloud-ui'>
+                                                                <li className='ser-sub-lin'>
+                                                                    <Link to='/cloud_naive_app'>Cloud Naive App</Link>
+                                                                </li>
+                                                                <li className='ser-sub-lin'>
+                                                                    <Link to='/saas_product'>Saas Product</Link>
+                                                                </li>
+                                                                <li className='ser-sub-lin'>
+                                                                    <Link to='/data_strategy'>Data Strategy</Link>
+                                                                </li>
+                                                                <li className='ser-sub-lin'>
+                                                                    <Link to='/data_govern_eng'>Data Governance Engineering</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                        </li>
                                     </ol>
                                 </div>
                                 <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>

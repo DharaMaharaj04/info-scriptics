@@ -4,8 +4,55 @@ import { Link } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import { Data } from './Data';
 
 export default class SalesForce extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+          itemList: [],
+          itemsToShowList: [],
+          hideLoadMore: false,
+          showResetButton: false
+        };
+      }
+    
+      componentDidMount() {
+        this.getInitialItemList();
+      }
+    
+      getInitialItemList = () => {
+        this.setState({
+          itemList: Data,
+          itemsToShowList: Data.slice(0, 6)
+        });
+      };
+    
+      loadMore = () => {
+        const visibleItemsCount = this.state.itemsToShowList.length;
+        const totalItems = Data.length;
+    
+        const datatoLoad = [
+          ...this.state.itemsToShowList,
+          ...Data.slice(visibleItemsCount, visibleItemsCount + 6)
+        ];
+    
+        const isAllItemsLoaded = datatoLoad.length === totalItems;
+    
+        this.setState({
+          itemsToShowList: datatoLoad,
+          hideLoadMore: isAllItemsLoaded,
+          showResetButton: isAllItemsLoaded
+        });
+      };
+    
+      resetList = () => {
+        this.getInitialItemList();
+        this.setState({
+          hideLoadMore: false,
+          showResetButton: false
+        });
+      };
   render() {
 
     const options = {
@@ -194,33 +241,25 @@ export default class SalesForce extends Component {
             <section className='blog-card'>
                 <div className='container'>
                     <div className='row'>
-                        <div className="card-deck ext-center wow fadeInUp animated from-right appear">
-                            <div className="card career_opt">
-                                <img className="card-img-top" src="/assets/img/blogs/esg-campaign-mob.png"/>
-                                <div className="card-body">
-                                    <a href='/blog-inner'className="card-title">Scriptics Leads Global ESG Rankings</a>
+                        {this.state.itemsToShowList.map(city => (
+                            <div className="col-12 col-md-4 col-sm-12 col-xs-12 card-deck ext-center wow fadeInUp animated from-right appear">
+                                <div className="card career_opt">
+                                    <img className="card-img-top" src={city.img}/>
+                                    <div className="card-body">
+                                        <a href={city.link} className="card-title">{city.title}</a>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="card career_opt">
-                                <img className="card-img-top" src="/assets/img/blogs/collaborates-foster-learning-healthcare-smll.png"/>
-                                <div className="card-body">
-                                    <a href='/blog-inner'><a className="card-title">Scritpics Collaborates with Motherhood Hospitals to Foster Learning in Healthcare through Infosys Springboard</a></a>
-                                </div>
-                            </div>
-                            <div className="card career_opt">
-                                <img className="card-img-top" src="/assets/img/blogs/home-banner-mob.png" alt="Card image cap"/>
-                                <div className="card-body">
-                                    <a href='/blog-inner' className="card-title">Nine Out of Ten Companies Lack the Culture and Organizational Structure to Unlock Digital Growth, Scriptics Report Finds</a>
-                                </div>
-                            </div>
-                            <div className="card career_opt">
-                                <img className="card-img-top" src="/assets/img/blogs/collaborates-bolster-women-empowerment-india-smll.png" alt="Card image cap"/>
-                                <div className="card-body">
-                                    <a href='/blog-inner' className="card-title">Scriptics Foundation Collaborates with Several Social Organizations to Bolster Women Empowerment in India</a>
-                                </div>
-                            </div>
-                        </div>
+                        ))}
                     </div>
+                        {!this.state.hideLoadMore && (
+                            <button className='btn career_btn text-uppercase' onClick={this.loadMore}>Load More</button>
+                        )}
+                        {this.state.showResetButton && (
+                            <div>
+                            <button className='btn career_btn text-uppercase' onClick={this.resetList}>Reset</button>
+                            </div>
+                        )}
                 </div>
             </section>
         </div>

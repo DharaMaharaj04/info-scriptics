@@ -205,6 +205,7 @@
      .clo-indu{margin-top: 40px;}
      .clo-indus img{border-radius: 16px; vertical-align: middle;}
      .clo-ser{ height: 60vh !important; width: auto;}
+     .card-deck{padding-right: 15px!important; padding-left: 15px!important;}
 }
 @media screen and (max-width: 992px) {
     .navbar {padding-top: 10px !important;}
@@ -337,5 +338,8 @@
 @media (min-width: 1440px) and (max-width: 1920px){
     .container-custom-staff { max-width: 1604px; }
 }
-
+@media (min-width: 576px){
+ .card-deck{ margin-left: 0px; margin-right: 0px; padding-right: 0px!important; padding-left: 0px!important; padding-bottom: 30px;}
+ 
+}
 
