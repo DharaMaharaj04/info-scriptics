@@ -41,6 +41,54 @@ const Data = [
         img: "/assets/img/Linkedin/1676998792458.png",
         link:"https://www.linkedin.com/pulse/azure-docker-vs-legacy-apps-scripticstechs/"
     },
+    {
+        id: 8,
+        title: "Importance of web analytics for e-commerce business.",
+        img: "/assets/img/Linkedin/1677157587750.png",
+        link:"https://www.linkedin.com/pulse/importance-web-analytics-e-commerce-business-scripticstechs/"
+    },
+    {
+        id: 9,
+        title: "Assessing Risk and Ability to Pay: The Vital Role of Models for Fintech and Lending Companies",
+        img: "/assets/img/Linkedin/1678264037628.png",
+        link:"https://www.linkedin.com/pulse/assessing-risk-ability-pay-vital-role-models-fintech/"
+    },
+    {
+        id: 10,
+        title: "The first question for business: Which cloud service provider to choose?",
+        img: "/assets/img/Linkedin/1674040738303.png",
+        link:"https://www.linkedin.com/pulse/first-question-business-which-cloud-service-provider-choose-/"
+    },
+    {
+        id: 11,
+        title: "Scriptics Introducing our 3D treatment planning viewer",
+        img: "/assets/img/Linkedin/1671145203376.jpg",
+        link:"https://www.linkedin.com/posts/scripticstechs_digital-manufacturing-opensource-activity-7009291018915196929-_zWI?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+        id: 12,
+        title: "Ai for your business in 2023.",
+        img: "/assets/img/Linkedin/1672933543460.png",
+        link:"https://www.linkedin.com/pulse/ai-your-business-2023-scripticstechs/"
+    },
+    {
+        id: 13,
+        title: "VDI: Should be a Very Detailed Integration with your existing infrastructure.",
+        img: "/assets/img/Linkedin/1672825416792.png",
+        link:"https://www.linkedin.com/pulse/vdi-should-very-detailed-integration-your-existing-infrastructure-/"
+    },
+    {
+        id: 14,
+        title: "Unified to Simplified: Hyper converged Infrastructure",
+        img: "/assets/img/Linkedin/1667486908282.jpg",
+        link:"https://www.linkedin.com/pulse/unified-simplified-hyper-converged-infrastructure-scripticstechs/"
+    },
+    {
+        id: 15,
+        title: "East or west: Your cloud service provider should be the best.",
+        img: "/assets/img/Linkedin/1667398057174.jpg",
+        link:"https://www.linkedin.com/pulse/east-west-your-cloud-service-provider-should-best-scripticstechs/"
+    },
     
   ];
   
