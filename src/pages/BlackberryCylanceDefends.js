@@ -8,6 +8,13 @@ export default class BlackberryCylanceDefends extends Component {
         <div className='blog-page'>
             <Helmet>
                 <title>Scritpics | Blackberry Cylance Defends</title>
+                <meta charset="utf-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta property="og:type" content="website"/>
+                <meta property="og:title" content="Blackberry Cylance Defends"/>
+                <meta property="og:description" content="Protecting Your Manufacturing Floor: How Blackberry Cylance Defends Against Cybersecurity Threats without Disrupting Operations"/>
+                <meta property="og:image" content="https://www.scriptics.ai/assets/img/Linkedin/1674040738302.png"/>
+                <meta property="og:url" content="https://www.scriptics.ai/"/>
                 <meta name="description" content= "Blackberry Cylance Defends" />
                 <meta name="twitter:card" content="summary_large_image"/>
                 <meta name="twitter:site" content="@Scripticstech"/>
@@ -16,7 +23,6 @@ export default class BlackberryCylanceDefends extends Component {
                 <meta name="twitter:creator" content="@Scripticstech"/>
                 <meta name="twitter:image" content="https://www.scriptics.ai/assets/img/Linkedin/1674040738302.png" />
                 <meta name="twitter:domain" content="scriptics.ai"/>
-                
                 <body id="page-Blackberry-Cylance-Defends" />
             </Helmet>
             <section className='bcd-blog'>
