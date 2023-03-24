@@ -9,6 +9,14 @@ export default class BlackberryCylanceDefends extends Component {
             <Helmet>
                 <title>Scritpics | Blackberry Cylance Defends</title>
                 <meta name="description" content= "Blackberry Cylance Defends" />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name="twitter:site" content="@Scripticstech"/>
+                <meta name="twitter:title" content="Blackberry Cylance Defends"/>
+                <meta name="twitter:description" content="Protecting Your Manufacturing Floor: How Blackberry Cylance Defends Against Cybersecurity Threats without Disrupting Operations"/>
+                <meta name="twitter:creator" content="@Scripticstech"/>
+                <meta name="twitter:image" content="https://www.scriptics.ai/assets/img/Linkedin/1674040738302.png" />
+                <meta name="twitter:domain" content="scriptics.ai"/>
+                
                 <body id="page-Blackberry-Cylance-Defends" />
             </Helmet>
             <section className='bcd-blog'>

@@ -87,11 +87,6 @@ function App() {
     <div className="App">
       <Router>
         <Header/>
-          <Helmet>
-            <title>Scriptics Technologies</title>
-            <meta name="description" content="Scriptics Technologies is a software and IT services company serving clients in Canada, the US, UK, UAE."/>
-            <meta name="keywords" content="software company in india, Scriptics Technologies, IT Company"/>
-          </Helmet>
           <Switch>
             <Route exact path='/' component={Home}/>
             <Route exact path='/about-us' component={AboutUs} />
