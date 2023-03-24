@@ -15,7 +15,7 @@ export default class BlackberryCylanceDefends extends Component {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 reader-cover-image'>
-                            <img src='/assets/img/Linkedin/Blackberry-Cylance-Defends.jpeg' alt='Blackberry-Cylance-Defends'/>
+                            <img src='/assets/img/Linkedin/blackberrydefends.jpeg'/>
                         </div>
                         <div className='reader-sec'>
                             <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
