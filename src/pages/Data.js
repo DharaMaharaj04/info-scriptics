@@ -2,7 +2,7 @@ const Data = [
     {
         id: 16,
         title: "Protecting Your Manufacturing Floor: How Blackberry Cylance Defends Against Cybersecurity Threats without Disrupting Operations",
-        img: "/assets/img/Linkedin/blackberrydefends.jpeg",
+        img: "/assets/img/Linkedin/blackberry.jpeg",
         link:"https://www.scriptics.ai/blackberry-cylance-defends"
     },
     {
