@@ -75,6 +75,7 @@ import SalesforceServiceCloud from './pages/SalesforceServiceCloud';
 import SaleforceBusinessIntelligence from './pages/SaleforceBusinessIntelligence';
 import Blogs from './pages/Blogs';
 import BlogInner from './pages/BlogInner';
+import BlackberryCylanceDefends from './pages/BlackberryCylanceDefends';
 
 function App() {
   useEffect(() => {
@@ -162,6 +163,7 @@ function App() {
             <Route exact path='/salesforce-bussinte' component={SaleforceBusinessIntelligence} />
             <Route exact path='/blogs' component={Blogs} />
             <Route exact path='/blog-inner' component={BlogInner} />
+            <Route exact path='/blackberry-cylance-defends' component={BlackberryCylanceDefends} />
             <Route component={Page404} />
            
           </Switch>

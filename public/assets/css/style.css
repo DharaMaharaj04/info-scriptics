@@ -512,9 +512,12 @@ input {width: 100%;height: 40px;background-color: #eee;border: none;padding-left
 .blog-line{width: 100%; height: 1px; background-color: #c8c8c8; margin: 50px 0px;}
 .press-release {padding: 75px 0;}
 .blog-col{ padding-bottom: 30px;}
-
-
-
+.bcd-blog img{ width: 100%;}
+/* .bcd-blog .reader-cover-image{position: relative; display: flex; margin: 0 auto; height: auto; justify-content: center; align-items: center; overflow: hidden; max-width: 720px; max-height: 405px;border-radius: 0;} */
+.reader-heading{ padding-top: 32px;}
+.reader-heading h1{font-size: 37px;}
+/* .reader-sec{ position: relative; display: flex; margin: 0 auto; height: auto; justify-content: center; align-items: center;  max-width: 720px; } */
+.reader-para{ font-size: 17px; line-height: 28px;}
 
 
 
