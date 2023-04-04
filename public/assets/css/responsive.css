@@ -36,12 +36,14 @@
     .dropdown-menu{ border: none; }
     .dropdown-menu .row{ padding: 10px 0; }
     .dropdown-menu li{ margin-bottom: 0; padding: 10px 0; }
-    
     .dropdown-toggle::after{ width: 38px; height: 0; float: right; vertical-align: top; content: url('/assets/img/right_arrow.svg') !important; border: none; }
     .navbar-nav .show .dropdown-toggle::after{ width: 38px; height: 0; float: right; vertical-align: top; content: url('/assets/img/arrow_up.svg') !important; border: none; }
     .header-social{ display: block; }
     .header-social .social-icon a{ color: #212121; }
     .list-inline a{ padding-left: 15px; }
+    .blue_btn { margin-left: 0;} 
+    .blue { padding: 0;}
+    .our-purpose { margin-top: 0;}
      /*** service menu ***/
      .ser-link{display: none;}
      .serv-link > ol.nav-links {padding-left: 0px;}
