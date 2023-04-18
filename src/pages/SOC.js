@@ -18,13 +18,23 @@ export default class SOC extends Component {
         dots: false
     };
 
-
-
     return (
         <div>
             <Helmet>
                 <title>Scritpics | SOC</title>
                 <meta name="description" content="SOC" />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name="twitter:site" content="@Scripticstech"/>
+                <meta name="twitter:title" content="Scritpics | SOC"/>
+                <meta name="twitter:description" content="Scritics SOC"/>
+                <meta name="twitter:creator" content="@Scripticstech"/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:title" content="Scritpics | SOC"/>
+                <meta property="og:description" content="Scriptics SOC"/>
+                <meta property="og:image" content="https://www.scriptics.ai/assets/img/og_meta.png"/>
+                <meta property="og:url" content="https://www.scriptics.ai/"/>
+                <meta name="twitter:image" content="https://www.scriptics.ai/assets/img/1674040738302.png" />
+                <meta name="twitter:domain" content="scriptics.ai"/>
                 <body id="page-service" />
             </Helmet>
                 <section className='srv-main'>

@@ -7,8 +7,6 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 export default class DevelopmentMaintance extends Component {
     render() {
-
-
         const options = {
             loop: false,
             margin: 0,
@@ -18,22 +16,26 @@ export default class DevelopmentMaintance extends Component {
             autoplay: false,
             dots: false
         };
-    
-
-
-
-
         return (
             <div>
                 <Helmet>
                     <title>Scritpics | Web_Development_maintance</title>
                     <meta name="description" content="web Development_maintance" />
+                    <meta name="twitter:card" content="summary_large_image"/>
+                    <meta name="twitter:site" content="@Scripticstech"/>
+                    <meta name="twitter:title" content="Scritpics | Web Development maintance"/>
+                    <meta name="twitter:description" content="Scriptics Web Development maintance"/>
+                    <meta name="twitter:creator" content="@Scripticstech"/>
+                    <meta property="og:type" content="website"/>
+                    <meta property="og:title" content="Scritpics | Web Development maintance"/>
+                    <meta property="og:description" content="Scriptics Web Development maintance"/>
+                    <meta property="og:image" content="https://www.scriptics.ai/assets/img/og_meta.png"/>
+                    <meta property="og:url" content="https://www.scriptics.ai/"/>
+                    <meta name="twitter:image" content="https://www.scriptics.ai/assets/img/1674040738302.png" />
+                    <meta name="twitter:domain" content="scriptics.ai"/>
                     <body id="page-service" />
                 </Helmet>
-                
-
                 <section className='srv-main'>
-                    
                     <OwlCarousel className="owl-theme" {...options} >
                         <div className='slide-1'>  
                             <div className='slide-img'>

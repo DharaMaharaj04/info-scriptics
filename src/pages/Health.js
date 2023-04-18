@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-
+import { Helmet } from 'react-helmet';
 export class Health extends Component{
   render() {
     
@@ -18,6 +18,22 @@ export class Health extends Component{
 
     return (
         <div>
+            <Helmet>
+                <title>Scritpics | Health</title>
+                <meta name="description"  content="" />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name="twitter:site" content="@Scripticstech"/>
+                <meta name="twitter:title" content="Scritpics | Health"/>
+                <meta name="twitter:description" content="Scritics Health"/>
+                <meta name="twitter:creator" content="@Scripticstech"/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:title" content="Scritpics | Health"/>
+                <meta property="og:description" content="Scriptics Health"/>
+                <meta property="og:image" content="https://www.scriptics.ai/assets/img/og_meta.png"/>
+                <meta property="og:url" content="https://www.scriptics.ai/"/>
+                <meta name="twitter:image" content="https://www.scriptics.ai/assets/img/1674040738302.png" />
+                <meta name="twitter:domain" content="scriptics.ai"/>
+            </Helmet>
             <div className="spacer"></div>
             <section className='srv-main'>
                 <OwlCarousel className="owl-theme" {...options} >

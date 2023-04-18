@@ -19,7 +19,19 @@ export default class Chemical extends Component {
             <div className="industries-page">
                 <Helmet>
                     <title>Scritpics | Chemical</title>
-                    <meta name="description"  content />
+                    <meta name="description"  content="Chemical" />
+                    <meta name="twitter:card" content="summary_large_image"/>
+                    <meta name="twitter:site" content="@Scripticstech"/>
+                    <meta name="twitter:title" content="Scritpics | Chemical"/>
+                    <meta name="twitter:description" content="Chemical"/>
+                    <meta name="twitter:creator" content="@Scripticstech"/>
+                    <meta property="og:type" content="website"/>
+                    <meta property="og:title" content="Scritpics | Chemical"/>
+                    <meta property="og:description" content="Scriptics Chemical Industries"/>
+                    <meta property="og:image" content="https://www.scriptics.ai/assets/img/og_meta.png"/>
+                    <meta property="og:url" content="https://www.scriptics.ai/"/>
+                    <meta name="twitter:image" content="https://www.scriptics.ai/assets/img/1674040738302.png" />
+                    <meta name="twitter:domain" content="scriptics.ai"/>
                     <body id="page-industry" className="industry-health"/>
                 </Helmet>
                 <div className="spacer"></div>

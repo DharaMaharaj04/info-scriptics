@@ -12,6 +12,18 @@ export default class Chemical extends Component {
                 <Helmet>
                     <title>Scritpics | Contact</title>
                     <meta name="description"  content />
+                    <meta name="twitter:card" content="summary_large_image"/>
+                    <meta name="twitter:site" content="@Scripticstech"/>
+                    <meta name="twitter:title" content="Scritpics | Contact"/>
+                    <meta name="twitter:description" content="Contact"/>
+                    <meta name="twitter:creator" content="@Scripticstech"/>
+                    <meta property="og:type" content="website"/>
+                    <meta property="og:title" content="Scritpics | Contact"/>
+                    <meta property="og:description" content="Scriptics Computer Vision"/>
+                    <meta property="og:image" content="https://www.scriptics.ai/assets/img/og_meta.png"/>
+                    <meta property="og:url" content="https://www.scriptics.ai/"/>
+                    <meta name="twitter:image" content="https://www.scriptics.ai/assets/img/1674040738302.png" />
+                    <meta name="twitter:domain" content="scriptics.ai"/>
                     <body id="page-case-studies" />
                 </Helmet>
                 <section className="sec contact_page">
@@ -88,7 +100,7 @@ export default class Chemical extends Component {
                                 <div className="col-md-4 col-sm-4 col-xs-12 mb-xs-20 fadeInUp  Wow from-bottom"> 
                                     <a href="/industry_consumer_goods">
                                         <div className="bg-queries pdg-queries">
-                                            <h4>Consumer Goods</h4>
+                                            <h4>Contact</h4>
                                             <span className="head-abtus-bdr"></span>
                                             <div className="yellow-dots-left-sml"> <span></span> <span></span> <span></span> </div>
                                         </div>

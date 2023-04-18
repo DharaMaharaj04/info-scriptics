@@ -22,6 +22,18 @@ export default class MicrosoftOnAws extends Component {
             <Helmet>
                 <title>Scritpics | Microsoft on AWS</title>
                 <meta name="description" content= "Microsoft on AWS" />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name="twitter:site" content="@Scripticstech"/>
+                <meta name="twitter:title" content="Scritpics | Microsoft on AWS"/>
+                <meta name="twitter:description" content="Scritics Microsoft on AWS"/>
+                <meta name="twitter:creator" content="@Scripticstech"/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:title" content="Scritpics | Microsoft on AWS"/>
+                <meta property="og:description" content="Scriptics Microsoft on AWS"/>
+                <meta property="og:image" content="https://www.scriptics.ai/assets/img/og_meta.png"/>
+                <meta property="og:url" content="https://www.scriptics.ai/"/>
+                <meta name="twitter:image" content="https://www.scriptics.ai/assets/img/1674040738302.png" />
+                <meta name="twitter:domain" content="scriptics.ai"/>
                 <body id="page-cloud" />
             </Helmet>
                 <div className="spacer"></div>

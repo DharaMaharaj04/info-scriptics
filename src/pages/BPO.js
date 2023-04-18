@@ -6,6 +6,18 @@ function BPO() {
             <Helmet>
                 <title>Scritpics | BPO</title>
                 <meta name="description" content="What is so good about Customer Service: Sales force"/>
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name="twitter:site" content="@Scripticstech"/>
+                <meta name="twitter:title" content="Scritpics | BPO"/>
+                <meta name="twitter:description" content="What is so good about Customer Service: Sales force"/>
+                <meta name="twitter:creator" content="@Scripticstech"/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:title" content="Scritpics | BPO"/>
+                <meta property="og:description" content="What is so good about Customer Service: Sales force"/>
+                <meta property="og:image" content="https://www.scriptics.ai/assets/img/og_meta.png"/>
+                <meta property="og:url" content="https://www.scriptics.ai/"/>
+                <meta name="twitter:image" content="https://www.scriptics.ai/assets/img/1674040738302.png" />
+                <meta name="twitter:domain" content="scriptics.ai"/>
                 <body id="page-case-sudy" />
             </Helmet>
             <section className="case-study-inner" style={{background:`url(/assets/img/cs-BPO.png) no-repeat`}}>

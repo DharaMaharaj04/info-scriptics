@@ -22,6 +22,18 @@ export default class MathematicalModellingOptimization extends Component {
             <Helmet>
                 <title>Scritpics | Mathematical Modelling and Optimization</title>
                 <meta name="description" content= "Mathematical Modelling and Optimization" />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name="twitter:site" content="@Scripticstech"/>
+                <meta name="twitter:title" content="Scritpics | Mathematical Modelling and Optimization"/>
+                <meta name="twitter:description" content="Scritics Mathematical Modelling and Optimization"/>
+                <meta name="twitter:creator" content="@Scripticstech"/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:title" content="Scritpics | Mathematical Modelling and Optimization"/>
+                <meta property="og:description" content="Scriptics Mathematical Modelling and Optimization"/>
+                <meta property="og:image" content="https://www.scriptics.ai/assets/img/og_meta.png"/>
+                <meta property="og:url" content="https://www.scriptics.ai/"/>
+                <meta name="twitter:image" content="https://www.scriptics.ai/assets/img/1674040738302.png" />
+                <meta name="twitter:domain" content="scriptics.ai"/>
                 <body id="page-service" />
             </Helmet>
                 <div className="spacer"></div>
