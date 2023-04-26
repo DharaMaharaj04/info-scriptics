@@ -36,7 +36,6 @@ export default class Automative extends Component {
                 <meta name="twitter:domain" content="scriptics.ai"/>
                 <body id="page-industry" className="industry-health"/>
                 </Helmet>
-                <div className="spacer"></div>
                 <section className='srv-main'>
                     <OwlCarousel className="owl-theme" {...options} >
                         <div className='slide-1'>  

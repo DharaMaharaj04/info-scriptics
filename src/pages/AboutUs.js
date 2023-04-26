@@ -291,7 +291,7 @@ export class AboutUs extends Component {
                                                 <div className='col-lg-8 col-md-8 col-sm-12 col-xs-12'>
                                                     <div className='slide_content'>
                                                         <h2 className="h2-slide white-color mb-xs-10">MAKE THE FIRST MOVE WITH STRATEGY & CONSULTING</h2>
-                                                        <p className="white-color ">At Scriptics, our real-world and advanced quality solutions will help you power your digitalization.</p>
+                                                        <p className="white-color about-para">At Scriptics, our real-world and advanced quality solutions will help you power your digitalization.</p>
                                                     </div>
                                                 </div>
                                             </div> 
@@ -309,7 +309,7 @@ export class AboutUs extends Component {
                                                 <div className='col-lg-8 col-md-8 col-sm-12 col-xs-12'>
                                                     <div className='slide_content'>
                                                         <h2 className="h2-slide white-color mb-xs-10">INITIAL DESIGN WITH INTERACTIVE TECHNOLOGY</h2>
-                                                        <p className="white-color ">Implement technologies to amplify and automate processes without any human intervention.</p>
+                                                        <p className="white-color about-para">Implement technologies to amplify and automate processes without any human intervention.</p>
                                                     </div>
                                                 </div>
                                             </div> 
@@ -327,7 +327,7 @@ export class AboutUs extends Component {
                                                 <div className='col-lg-8 col-md-8 col-sm-12 col-xs-12'>
                                                     <div className='slide_content'>
                                                         <h2 className="h2-slide white-color mb-xs-10">SCRIPTICS, AI FOR GAMING EXPERIENCE</h2>
-                                                        <p className="white-color ">Uncover the layers of entertainment with an AI-powered Gaming experience to all the gamers.</p>
+                                                        <p className="white-color about-para">Uncover the layers of entertainment with an AI-powered Gaming experience to all the gamers.</p>
                                                     </div>
                                                 </div>
                                             </div> 

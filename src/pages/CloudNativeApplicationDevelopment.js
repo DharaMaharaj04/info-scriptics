@@ -76,8 +76,9 @@ export default class CloudNativeApplicationDevelopment extends Component {
                                                 </ul>
                                             </div>
                                         </li>
-                                            
-                                        <li className='serverice_menu_last dropdown relative drop-container'><span>Cloud Digital Transfomation</span></li>
+                                        <li className='dropdown relative drop-container'>
+                                        <a href="#" className='serverice_menu'><span >Cloud Digital Transformation</span></a>
+                                        </li>
                                     </ol>
                                 </div>
                                 <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>

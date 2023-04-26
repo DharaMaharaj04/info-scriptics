@@ -35,8 +35,7 @@ export default class Dental extends Component {
                 <meta name="twitter:domain" content="scriptics.ai"/>
                 <body id="page-industry" className="industry-health"/>
                 </Helmet>
-                <div className="spacer"></div>
-                <section className="srv-level">
+              { /* <section className="srv-level">
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-sm-12 col-md-12 col-lg-12">
@@ -46,7 +45,7 @@ export default class Dental extends Component {
                             </div>
                         </div>
                     </div>
-                </section>    
+        </section>   */}
                 <section className='srv-main'>
                     <OwlCarousel className="owl-theme" {...options} >
                         <div className='slide-1'>  

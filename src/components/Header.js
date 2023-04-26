@@ -160,13 +160,12 @@ function Header() {
                                     <a id="he_industries" className="nav-link dropdown-toggle header-link " href="/" data-toggle="dropdown" aria-expanded="false">Industries</a>
                                     <div className="dropdown-menu dp-block" aria-labelledby="navbarDropdown"> 
                                         <div className="container">
-                                            <div className="row">
+                                            <div className="row industries_menu">
                                                 <div className="col-12 col-sm-12 col-md-3">
                                                     <ul className="nav flex-column">
                                                         <li className="nav-item"><a className="nav-link" href="/industry_health">Health</a></li>
                                                         <li className="nav-item"><a className="nav-link" href="/industry_checmical">Chemicals</a></li>
                                                         <li className="nav-item"><a className="nav-link" href="/industry_retail">Retail</a></li>
-                                                        <li className="nav-item"><a className="nav-link" href="/"></a></li>
                                                     </ul> 
                                                 </div>
                                                 <div className="col-12 col-sm-12 col-md-3">
@@ -174,7 +173,6 @@ function Header() {
                                                     <li className="nav-item"><a className="nav-link" href="/industry_automative">Automative</a></li>
                                                     <li className="nav-item"><a className="nav-link" href="/industry_dental">Dental</a></li>
                                                     <li className="nav-item"><a className="nav-link" href="/industry_consumer_goods">Consumer Goods</a></li>
-                                                    <li className="nav-item"><a className="nav-link" href="/"></a></li>
                                                 </ul>
                                             </div>
                                             <div className="col-12 col-sm-12 col-md-3">
@@ -182,7 +180,6 @@ function Header() {
                                                     <li className="nav-item"><a className="nav-link" href="/industry_bfsi">BFSI</a></li>
                                                     <li className="nav-item"><a className="nav-link" href="/industry_energy">Energy</a></li>
                                                     <li className="nav-item"><a className="nav-link" href="/industry_oil_and_gas">Oil and Gas</a></li>
-                                                    <li className="nav-item"><a className="nav-link" href="/"></a></li>
                                                 </ul>
                                             </div>
                                             <div className="col-12 col-sm-12 col-md-3">
@@ -190,7 +187,6 @@ function Header() {
                                                     <li className="nav-item"><a className="nav-link" href="/industry_capital_market">Capital Markets</a></li>
                                                     <li className="nav-item"><a className="nav-link" href="/industry_insurance">Insurance</a></li>
                                                     <li className="nav-item"><a className="nav-link" href="/industry_media_entertainment">Media and Entertainment</a></li>
-                                                    <li className="nav-item"><a className="nav-link" href="/"></a></li>
                                                 </ul>
                                             </div>  
                                         </div>
@@ -201,7 +197,7 @@ function Header() {
                                     <a className="nav-link dropdown-toggle header-link" href="/" data-toggle="dropdown" aria-expanded="false">About Scriptics</a>
                                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <div className="container">
-                                            <div className="col-md-12 col-sm-12 col-xs-6">
+                                            <div className="col-md-12 col-sm-12 col-xs-6 about-us-menu">
                                                 <div className="row">
                                                     <div className="col-md-12 col-sm-12 col-xs-12 abt-menu-head">
                                                         <h2 className="about-head">about scriptics</h2>
@@ -290,6 +286,7 @@ function Header() {
                                     <li className="social-twitter"><a href="https://twitter.com/scripticstech/"><i className="fa fa-twitter-square fa-2x"></i></a></li>
                                     <li className="social-facebook"><a href="https://www.facebook.com/scripticsinc"><i className="fa fa-facebook-square fa-2x"></i></a></li>
                                     <li className="social-linkedin"><a href="https://in.linkedin.com/company/scripticstechs"><i className="fa fa-linkedin-square fa-2x"></i></a></li>
+                                    <li className="social-youtube"><a href="https://in.linkedin.com/company/scripticstechs"><i className="fa fa-youtube-square fa-2x"></i></a></li>
                                 </ul>
                             </div>
                         </div>

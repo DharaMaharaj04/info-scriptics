@@ -83,7 +83,7 @@ function FullPageScroll() {
                                 <div className="col-12 col-lg-7 col-md-8 col-sm-12 col-xs-12 home_banner fadeInUp animated from-left">
                                     <div className='head-light'>
                                         <h1 className="h2-heading blue mb-xs-10">WE BELIEVE IN A FUTURE WHERE TECHNOLOGY MAKES YOUR WORLD BETTER.</h1>
-                                        <Link className="btn blue_btn text-uppercase" to="/future_technology">explore</Link>
+                                        <Link className="btn btn-shutter-more text-uppercase firts-banner-btn" to="/future_technology">explore</Link>
                                     </div>
                                 </div>
                                 
@@ -143,76 +143,68 @@ function FullPageScroll() {
                             <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 px-0 wow  fadeInUp animated from-left">
                                 <div className="col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 px-0 ctrl-width-mob">
                                     <div className="content">
-                                        <a href="/" title="Next Generation AI">
-                                            <div className="content-overlay"></div>
-                                            <img alt="Experience" className="content-image" src="/assets/img/best-ai1.jpg" /> 
-                                            <div className="content-details fadeIn-bottom fadIn_title1">
-                                                <h3 className="content-title">Next Generation AI<br /></h3>
-                                                <p className="content-text">
-                                                    <span className="hidden-1024">While Ai - Artificial Intelligence solves many unsolved puzzles for a better world and with more advance technology solutions, we can make a difference in the world. </span> 
-                                                </p>
-                                            </div>       
-                                        </a> 
+                                        <div className="content-overlay"></div>
+                                        <img alt="Experience" className="content-image" src="/assets/img/best-ai1.jpg" /> 
+                                        <div className="content-details fadeIn-bottom fadIn_title1">
+                                            <h3 className="content-title">Next Generation AI<br /></h3>
+                                            <p className="content-text">
+                                                <span className="hidden-1024">While Ai - Artificial Intelligence solves many unsolved puzzles for a better world and with more advance technology solutions, we can make a difference in the world. </span> 
+                                            </p>
+                                        </div>       
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-12 px-0 wow fadeInUp animated from-right">
                                 <div className="col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 px-0 ctrl-width-mob">
                                     <div className="content"> 
-                                        <a href="/" title="GAMING DEVELOPING">
                                         <div className="content-overlay"></div>    
-                                            <img alt="Insight" className="content-image" src="/assets/img/game-dev1.jpg" /> 
-                                            <div className="content-details fadeIn-bottom fadIn_title2">
-                                                <h3 className="content-title">Gaming Developing<br /></h3>
-                                                <p className="content-text">
-                                                    <span className="hidden-1024">Scriptics, one of the best AI gaming developing companies, focuses on providing the best gameplay experience to all the gamers in the world.</span> 
-                                                </p>
-                                            </div>       
-                                        </a> 
+                                        <img alt="Insight" className="content-image" src="/assets/img/game-dev1.jpg" /> 
+                                        <div className="content-details fadeIn-bottom fadIn_title2">
+                                            <h3 className="content-title">Gaming Developing<br /></h3>
+                                            <p className="content-text">
+                                                <span className="hidden-1024">Scriptics, one of the best AI gaming developing companies, focuses on providing the best gameplay experience to all the gamers in the world.</span> 
+                                            </p>
+                                        </div>       
                                     </div>    
                                 </div>
                                 <div className="col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 px-0 ctrl-width-mob">
                                     <div className="content">    
-                                        <a href="/" title="APPLICATION DEVELOPMENT"> 
                                         <div className="content-overlay"></div>       
-                                            <img alt="Innovate" className="content-image" src="/assets/img/product-dev1.jpg" /> 
-                                            <div className="content-details fadeIn-bottom fadIn_title3">
-                                                <h3 className="content-title">Application Development<br /></h3>
-                                                <p className="content-text">
+                                        <img alt="Innovate" className="content-image" src="/assets/img/product-dev1.jpg" /> 
+                                        <div className="content-details fadeIn-bottom fadIn_title3">
+                                             <h3 className="content-title">Application Development<br /></h3>
+                                             <p className="content-text">
                                                     <span className="hidden-1024">We offer a suite of application development services and custom solutions on various platforms which help you achieve strategic IT and business objectives.</span> 
-                                                </p>
-                                            </div>       
-                                        </a> 
+                                             </p>
+                                        </div>       
                                     </div>        
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-12 px-0 wow fadeInUp animated from-left">
                                 <div className="col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 px-0 ctrl-width-mob"> 
                                     <div className="content">            
-                                        <a href="/" title="PRODUCT DEVELOPMENT"> 
                                         <div className="content-overlay"></div>           
-                                            <img alt="Accelerate" className="content-image" src="/assets/img/application.jpg" /> 
-                                            <div className="content-details fadeIn-bottom fadIn_title4">
-                                                <h3 className="content-title">Product Development</h3>
-                                                <p className="content-text">
-                                                    <span className="hidden-1024">We provide all the expertise and innovation you need to compete in your market of choice. We enable application availability without downtime or interruption.</span> 
-                                                </p>
-                                            </div>           
-                                        </a>
+                                        <div className='insight-img'>
+                                            <img alt="Accelerate" className="content-image" src="/assets/img/application.jpg" />
+                                        </div> 
+                                         <div className="content-details fadeIn-bottom fadIn_title4">
+                                            <h3 className="content-title">Product Development</h3>
+                                             <p className="content-text">
+                                                <span className="hidden-1024">We provide all the expertise and innovation you need to compete in your market of choice. We enable application availability without downtime or interruption.</span> 
+                                            </p>
+                                        </div>           
                                     </div>         
                                 </div>
                                 <div className="col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 px-0 ctrl-width-mob"> 
                                     <div className="content">           
-                                        <a href="/" title="Assure">
                                         <div className="content-overlay"></div>        
-                                            <img  alt="Assure" className="content-image" src="/assets/img/product-main1.jpg" /> 
-                                            <div className="content-details fadeIn-bottom fadIn_title5">
-                                                <h3 className="content-title">Production Develpoment</h3>
-                                                <p className="content-text">
-                                                    <span className="hidden-1024">As a software application development, maintenance and support expert, Scriptics provides services designed to support our clients as their business grows and changes.</span> 
-                                                </p>
-                                            </div>       
-                                        </a> 
+                                        <img  alt="Assure" className="content-image" src="/assets/img/product-main1.jpg" /> 
+                                        <div className="content-details fadeIn-bottom fadIn_title5">
+                                           <h3 className="content-title">Production Develpoment</h3>
+                                            <p className="content-text">
+                                                <span className="hidden-1024">As a software application development, maintenance and support expert, Scriptics provides services designed to support our clients as their business grows and changes.</span> 
+                                            </p>
+                                        </div>       
                                     </div>
                                 </div>    
                             </div>
@@ -354,43 +346,35 @@ function FullPageScroll() {
                                 <div className='row col-eq-ht no-gutters'>
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-0 ctrl-width-mob">
                                         <div className="new_in"> 
-                                            <a href="/" title="Insight">  
-                                                <img alt="Insight" className="content-image" src="/assets/img/strategy.png" /> 
-                                                <div className="content-details fadeIn-bottom">
-                                                    <h3 className="content-title">STRATEGY<br /></h3>
-                                                </div>      
-                                            </a>   
+                                            <img alt="Insight" className="content-image" src="/assets/img/strategy.png" /> 
+                                            <div className="content-details fadeIn-bottom">
+                                                <h3 className="content-title">STRATEGY<br /></h3>
+                                            </div>      
                                         </div>
                                     </div>        
                                     <div className="col-12 col-lg-6 col-md-6 col-sm-12 col-xs-12 px-0 ctrl-width-mob">
                                         <div className="new_in">    
-                                            <a href="/" title="Innovate">        
-                                                <img alt="Innovate" className="content-image" src="/assets/img/technology.png" /> 
-                                                <div className="content-details fadeIn-bottom">
-                                                    <h3 className="content-title">TECHNOLOGY<br/></h3>    
-                                                </div>       
-                                            </a> 
+                                            <img alt="Innovate" className="content-image" src="/assets/img/technology.png" /> 
+                                            <div className="content-details fadeIn-bottom">
+                                                <h3 className="content-title">TECHNOLOGY<br/></h3>    
+                                            </div>       
                                         </div>        
                                     </div>
                             
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-0 ctrl-width-mob">
                                         <div className="new_in">            
-                                            <a href="/" title="Accelerate">           
-                                                <img alt="Accelerate" className="content-image" src="/assets/img/ai-game.png" /> 
-                                                <div className="content-details fadeIn-bottom">
-                                                    <h3 className="content-title">AI FOR GAMING</h3>    
-                                                </div>           
-                                            </a>
+                                            <img alt="Accelerate" className="content-image" src="/assets/img/ai-game.png" /> 
+                                            <div className="content-details fadeIn-bottom">
+                                                <h3 className="content-title">AI FOR GAMING</h3>    
+                                            </div>           
                                         </div>           
                                     </div>
                                     <div className="col-12 col-lg-6 col-md-6 col-sm-12 col-xs-12 px-0 ctrl-width-mob"> 
                                         <div className="new_in">           
-                                            <a href="/" title="Assure">       
-                                                <img  alt="Assure" className="content-image" src="/assets/img/consult.png" /> 
-                                                <div className="content-details fadeIn-bottom">
-                                                    <h3 className="content-title"> CONSULTING<br /></h3>    
-                                                </div>       
-                                            </a> 
+                                            <img  alt="Assure" className="content-image" src="/assets/img/consult.png" /> 
+                                            <div className="content-details fadeIn-bottom">
+                                                <h3 className="content-title"> CONSULTING<br /></h3>    
+                                            </div>       
                                         </div>
                                     </div>    
                                 </div>    

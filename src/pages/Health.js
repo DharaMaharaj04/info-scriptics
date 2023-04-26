@@ -34,7 +34,6 @@ export class Health extends Component{
                 <meta name="twitter:image" content="https://www.scriptics.ai/assets/img/1674040738302.png" />
                 <meta name="twitter:domain" content="scriptics.ai"/>
             </Helmet>
-            <div className="spacer"></div>
             <section className='srv-main'>
                 <OwlCarousel className="owl-theme" {...options} >
                     <div className='slide-1'>  

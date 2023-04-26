@@ -29,9 +29,7 @@ p{ font-family: HNB; font-size: 14px; color: #212121; line-height: 25px;}
 .fixed-top .navbar-brand h1{ color: #ffffff; font-family: HNC!important; }
 .navbar-brand{ margin: 0 9.3%; }
 .nav-link.dropdown-toggle.header-link{ font-size: 16px;}
-/* .navbar-collapse .navbar-nav .nav-item a{ } */
-.bg-white .navbar-collapse .navbar-nav .nav-item a{font-size: 14px; padding: 0 1em;}
-/* .show .navbar-nav .nav-item a {} */
+.bg-white .navbar-collapse .navbar-nav .nav-item a{ font-size: 16px; padding: 0 1em;}
 .black{color: #2f3640 !important;}
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover { color: #212121; font-weight: bold;}
 .navbar .dropdown-menu { width:99.99%; left:0; right:0; }
@@ -49,6 +47,7 @@ p{ font-family: HNB; font-size: 14px; color: #212121; line-height: 25px;}
 .dp-block .row{ padding-bottom: 0px; }
 .dp-block .dropdown-menu li{ margin-bottom: 50px; padding-left: 50px; }
 .header-social{ display: none; }
+.industries_menu ul li a::after{ content: ''; display: block; position: absolute; width: 75%; height: 4%; border-bottom: 1px solid #e2e2e2; }
 /*** About header starts***/
 .list-inline li{ margin-bottom: 20px !important; padding-top: 0px; }
 
@@ -84,7 +83,7 @@ ul.footer-txt > li {margin-bottom: 10px;}
 ul.footer-txt > li > a {color: #3F3F3F;font-size: 16px;}
 ul.footer-txt > li > a:hover{color: #bcb8b8;text-decoration: none;}
 .ftr-1 > .pb50 > .row > .col-lg-2, .ftr-1 > .pb50 > .row > .col-lg-3{position: inherit;}
-.footer-email {background-color: transparent;border: none!important;}
+.footer-email {background-color: transparent;border: 1px solid rgba(0,0,0,.125);}
 .footer-email { margin-bottom: 25px;}
 .footer-btn {background-color: transparent;color: #686868;font-size: 14px;font-family: HNR;border: 1px solid #000;border-radius: 100px;padding: 10px 14px;position: relative;}
 /*** scroll-Up **/
@@ -107,7 +106,8 @@ ul.footer-txt > li > a:hover{color: #bcb8b8;text-decoration: none;}
 .front_slider ul li .dot span::before{content: '';position: absolute;top:50%; left:0;transform: translate(7px, -50%);border-top: 7px solid transparent;border-bottom: 7px solid transparent;display: block; }
 .front_slider ul li .dot::before,
 .front_slider ul li .dot::after{content: '';position: absolute;top:50%;display: block;transition: .2s ease-out; border: 0px solid #fff;background-color: #fff; height:0.5px;width: 32px;left:0;transform: translateY(-50%);}
-
+.firts-banner-btn{ color: #000000!important; border: 1px solid #000000!important;     margin-left: 30px;}
+.firts-banner-btn:hover { border: 1px solid #000; color: #fff!important; background-position: left bottom;}
 .front_slider ul li .dot.active::after,
 .front_slider ul li.dark:hover .dot::after{transform: translateY(-50%) scale(1);border: 2px solid #7e7e7e;background-color: #7e7e7e;opacity: 1;}
 .front_slider ul li:hover .dot::after{transform: translateY(-50%) scale(1);border: 2px solid #ffffff;background-color: #ffffff;opacity: 1;}
@@ -134,6 +134,8 @@ ul.footer-txt > li > a:hover{color: #bcb8b8;text-decoration: none;}
 .over_content{position: relative;left: 0;right: 0;}
 .white-color{color: #fff;}
 .over_content p{color: #fff;}
+.insight-img{ background-color: rgb(0, 0, 0);}
+.insight-img img{ opacity: 0.6;}
 /*** case-study ***/
 .case-cat:before {content: "";display: block;border-top: 1px solid #ffffff!important;width: 36px!important;margin-top: 13px;margin-right: 10px;}
 .case-cat {display: flex;}
@@ -361,6 +363,7 @@ button.close{ color: #fff; background-color: #000; border-radius: 20%; border: 2
 .cnt-mail {border: 1px solid #ff9901;padding: 10px;border-radius: 20%;border-top-width: thick;}
 /*** about ***/
 .esg{ margin: 50px 0;}
+.about-para{ font-size: 20px;}
 .fz-30 {font-size: 30px !important;display: block;padding-bottom: 20px;}
 .bg-jade-light {background-color: #A8D7CD;}
 .bg-sapphire-light {background-color: #92D1FF;}
@@ -518,7 +521,9 @@ input {width: 100%;height: 40px;background-color: #eee;border: none;padding-left
 .reader-heading h1{font-size: 37px;}
 /* .reader-sec{ position: relative; display: flex; margin: 0 auto; height: auto; justify-content: center; align-items: center;  max-width: 720px; } */
 .reader-para{ font-size: 17px; line-height: 28px;}
-
+.team .nav-tabs .nav-link {
+  color: #000;
+}
 
 
 
