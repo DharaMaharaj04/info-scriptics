@@ -11,7 +11,7 @@ export default class BlackberryCylanceDefends extends Component {
                 <meta charset="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta property="og:type" content="website"/>
-                <meta property="og:title" content="Blackberry Cylance Defends"/>
+                <meta property="og:title" content="Protecting Your Manufacturing Floor: How Blackberry Cylance Defends Against Cybersecurity Threats without Disrupting Operations"/>
                 <meta property="og:description" content="Protecting Your Manufacturing Floor: How Blackberry Cylance Defends Against Cybersecurity Threats without Disrupting Operations"/>
                 <meta property="og:image" content="https://www.scriptics.ai/assets/img/Linkedin/1674040738302.png"/>
                 <meta property="og:url" content="https://www.scriptics.ai/"/>

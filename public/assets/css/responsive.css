@@ -12,31 +12,32 @@
     .navbar-nav .col-sm-12{ padding-left: 20px!important; padding-right: 20px!important; }
     .fixed-top{ position: initial; }
     /* #page-home .navbar-brand{} */
-    #page-home .navbar-brand,#page-case-studies .navbar-brand,#page-case-study .navbar-brand,#page-industry .navbar-brand,#page-service .navbar-brand, #page-cloud .navbar-brand{padding-left: 20px;}
+    /* #page-home .navbar-brand,#page-case-studies .navbar-brand,#page-case-study .navbar-brand,#page-industry .navbar-brand,#page-service .navbar-brand, #page-cloud .navbar-brand{padding-left: 15px;} */
     .fixed-top .navbar-brand h1{ color: #212121; }
-    header .container{ padding-right: 0; padding-left: 0; overflow: hidden; }.navbar{ padding: 0!important; }
+    header .container{ padding-right: 0; padding-left: 0; overflow: hidden; }
     nav .header-inner{ width: 100%; border-bottom: 1px solid #D8D8D8; }
     .navbar-collapse {margin-left: 0 !important;}
     .nav-link.dropdown-toggle{ border-bottom: 1px solid #D8D8D8; }
     .navbar-nav .nav-item:first-child .nav-link.dropdown-toggle{ border-top: 1px solid #D8D8D8; }
     .navbar-nav .nav-item:last-child .nav-link.dropdown-toggle{ border-bottom: none; }
-    .navbar-brand img{ padding-left: 20px; }
-    .navbar-light .navbar-toggler{ border: none; padding-right: 20px; }
-    .navbar-collapse .navbar-nav .nav-item a{ color: #000 !important;}
+    .navbar-brand img{ padding-left: 0px; }
+    .header-link{ font-family: HNC;}
+    .navbar-light .navbar-toggler{ border: none;}
+    .navbar-collapse .navbar-nav .nav-item a{ color: #000 !important; font-size: 14px; font-family: 'HNB';}
     .navbar-toggler{ padding: 0; float: right; }
     .navbar-toggler-icon{ height: 2.5em; }
     button:focus{ outline: none; }
     .navbar-brand,.navbar-collapse{ margin: 0%; }
-    .navbar-collapse .navbar-nav .nav-item .dropdown-toggle,.bg-white .navbar-collapse .navbar-nav .nav-item .dropdown-toggle{ padding: 20px 10px; font-size: 20px; text-decoration: underline;}
-    .bg-white .navbar-collapse .navbar-nav .nav-item a{ font-size: 20px;}
+    .navbar-collapse .navbar-nav .nav-item .dropdown-toggle,.bg-white .navbar-collapse .navbar-nav .nav-item .dropdown-toggle{ padding: 20px 0px; font-size: 20px; text-decoration: none;}
+    .bg-white .navbar-collapse .navbar-nav .nav-item a{ font-size: 14px; font-family: 'HNB';}
     .navbar-collapse{ background-color: #fff;}
     .header-head{ width: 60%; }
     .nav-button{ display: none; }
     .dropdown-menu .container{ padding-right: 0; padding-left: 15px; }
-    .dropdown-menu{ border: none; }
+    .dropdown-menu{ border: none; font-size: 14px; }
     .dropdown-menu .row{ padding: 10px 0; }
     .dropdown-menu li{ margin-bottom: 0; padding: 10px 0; }
-    .dropdown-toggle::after{ width: 38px; height: 0; float: right; vertical-align: top; content: url('/assets/img/right_arrow.svg') !important; border: none; }
+    .dropdown-toggle::after{ width: 40px; height: 0; float: right; vertical-align: top; content: url('/assets/img/right_arrow.svg') !important; border: none; }
     .navbar-nav .show .dropdown-toggle::after{ width: 38px; height: 0; float: right; vertical-align: top; content: url('/assets/img/arrow_up.svg') !important; border: none; }
     .header-social{ display: block; }
     .header-social .social-icon a{ color: #212121; }
