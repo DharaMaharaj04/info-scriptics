@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import { Data } from './Linkedin_data';
+import { Data } from './Data';
 
 export default class SalesForce extends Component {
     constructor(props) {
