@@ -77,7 +77,12 @@ export default class DevelopmentMaintance extends Component {
                                                 <li className='serverice_menu_last dropdown relative drop-container textwh'><span>Web app development & maintenance</span></li>
                                             </ol>
                                         </div>
-                                           
+                                        <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+                                            <div className='slide_content'>
+                                                <p class="white-color about-para">WebWorks: Crafting Dynamic Digital Experiences</p>
+                                                <h2 className='white-color'> Web Apps</h2>
+                                            </div>
+                                        </div>
                                     </div> 
                                 </div>     
                             </div>      

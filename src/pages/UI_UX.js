@@ -80,8 +80,14 @@ export default class UI_UX extends Component {
                                                 </li>
                                                 <li className='serverice_menu_last dropdown relative drop-container textwh'><span>UI/UX Design</span></li>
                                             </ol>
+                                            
                                         </div>
-                                           
+                                        <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+                                            <div className='slide_content'>
+                                                <p class="white-color about-para">Designing Delight: Crafting Memorable Experiences with UX/UI</p>
+                                                <h2 className='white-color'>UX/UI</h2>
+                                            </div>
+                                        </div>
                                     </div> 
                                 </div>     
                             </div>      

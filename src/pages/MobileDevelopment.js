@@ -82,7 +82,14 @@ export default class mobileDevelopment extends Component {
                                                     </div>
                                                 </li>
                                                 <li className='serverice_menu_last dropdown relative drop-container textwh'><span>Mobile app development & maintenance</span></li>
+                                                
                                             </ol>
+                                            <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+                                                <div className='slide_content'>
+                                                    <p class="white-color about-para">App-tivating Innovation: Crafting Unique Mobile Experiences</p>
+                                                    <h2 className='white-color'>Mobile Apps</h2>
+                                                </div>
+                                            </div> 
                                         </div>
                                            
                                     </div> 
