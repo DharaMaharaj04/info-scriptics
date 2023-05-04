@@ -286,7 +286,7 @@ function Header() {
                                     <li className="social-twitter"><a href="https://twitter.com/scripticstech/"><i className="fa fa-twitter-square fa-2x"></i></a></li>
                                     <li className="social-facebook"><a href="https://www.facebook.com/scripticsinc"><i className="fa fa-facebook-square fa-2x"></i></a></li>
                                     <li className="social-linkedin"><a href="https://in.linkedin.com/company/scripticstechs"><i className="fa fa-linkedin-square fa-2x"></i></a></li>
-                                    <li className="social-youtube"><a href="https://in.linkedin.com/company/scripticstechs"><i className="fa fa-youtube-square fa-2x"></i></a></li>
+                                    <li className="social-youtube"><a href="https://www.youtube.com/@scripticstechnologies6312"><i className="fa fa-youtube-square fa-2x"></i></a></li>
                                 </ul>
                             </div>
                         </div>
