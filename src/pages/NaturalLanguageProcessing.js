@@ -42,7 +42,7 @@ export default class NaturalLanguageProcessing extends Component {
                                         <div className='serv-link col-12'>
                                             <ol className=" nav-links">
                                                 <li className="dropdown relative drop-container">
-                                                    <a href="#" className='serverice_menu textwh'>service<i className="text-uppercase " aria-hidden="true"></i></a>
+                                                    <a href="#" className='serverice_menu textwh'>Service<i className="text-uppercase " aria-hidden="true"></i></a>
                                                     <div className="bg-white">
                                                         <ul className="list dropdown-content list-inline ">
                                                             <li className='ser-sub-lin'>Development & Maintenance</li>
@@ -126,7 +126,7 @@ export default class NaturalLanguageProcessing extends Component {
                                         <div className='serv-link col-12'>
                                             <ol className=" nav-links">
                                                 <li className="dropdown relative drop-container">
-                                                    <a href="#" className='serverice_menu textwh'>service<i className="text-uppercase " aria-hidden="true"></i></a>
+                                                    <a href="#" className='serverice_menu textwh'>Service<i className="text-uppercase " aria-hidden="true"></i></a>
                                                     <div className="bg-white">
                                                         <ul className="list dropdown-content list-inline ">
                                                             <li className='ser-sub-lin'>Development & Maintenance</li>
@@ -204,7 +204,7 @@ export default class NaturalLanguageProcessing extends Component {
                                         <div className='serv-link col-12'>
                                             <ol className=" nav-links">
                                                 <li className="dropdown relative drop-container">
-                                                    <a href="#" className='serverice_menu textwh'>service<i className="text-uppercase " aria-hidden="true"></i></a>
+                                                    <a href="#" className='serverice_menu textwh'>Service<i className="text-uppercase " aria-hidden="true"></i></a>
                                                     <div className="bg-white">
                                                         <ul className="list dropdown-content list-inline ">
                                                             <li className='ser-sub-lin'>Development & Maintenance</li>
