@@ -22,26 +22,10 @@ export default class ScriptisCloud extends Component {
     return (
       <div>
         <Helmet>
-            <title>Scritpics | Cloud Consulting</title>
-            <meta name="description" content="Cloud Consulting" />
-            <meta name="twitter:card" content="summary_large_image"/>
-            <meta name="twitter:site" content="@Scripticstech"/>
-            <meta name="twitter:title" content="Scritpics | Scriptics Cloud Consulting"/>
-            <meta name="twitter:description" content="Scritics Scriptics Cloud Consulting"/>
-            <meta name="twitter:creator" content="@Scripticstech"/>
-            <meta property="og:type" content="website"/>
-            <meta property="og:title" content="Scritpics | Scriptics Cloud Consulting"/>
-            <meta property="og:description" content="Scriptics Scriptics Cloud Consulting"/>
-            <meta property="og:image" content="https://www.scriptics.ai/assets/img/og_meta.png"/>
-            <meta property="og:url" content="https://www.scriptics.ai/"/>
-            <meta name="twitter:image" content="https://www.scriptics.ai/assets/img/1674040738302.png" />
-            <meta name="twitter:domain" content="scriptics.ai"/>
             <body id="page-service" />
         </Helmet>
-       
         <section className='srv-main'>
             <OwlCarousel className="owl-theme" {...options} >
-            
                 <div className='clo-ser'>  
                     <div className='slide-img'>
                         <img src='/assets/img/Cloud Service/Cloud digital transformation.jpg' alt='Cloud digital transformation.jpg' />   
@@ -50,8 +34,8 @@ export default class ScriptisCloud extends Component {
                     <div className='caption'>
                         <div className='container'>
                             <div className='row'>
-                                <div className='serv-link col-12'>
-                                    <ol className=" nav-links">
+                                <div className='salesforce-nav serv-link col-12'>
+                                    <ol className="nav-links">
                                         <li className="dropdown relative drop-container">
                                             <a href="#" className='serverice_menu textwh'>service<i className="text-uppercase" aria-hidden="true"></i></a>
                                             <div className="bg-white">
@@ -68,10 +52,10 @@ export default class ScriptisCloud extends Component {
                                             <div className="bg-white">
                                                 <ul className="list dropdown-content list-inline">
                                                     <li className='ser-sub-lin'>
-                                                        <Link to='/sales_force'>Sales Force</Link>
+                                                        <Link  target="_blank" to='/sales_force'>Sales Force</Link>
                                                     </li>
                                                     <li className='ser-sub-lin'>
-                                                        <Link to='/cloud_digital_transfomation'>Cloud Digital Transfomation</Link>
+                                                        <Link  target="_blank" to='/cloud_digital_transfomation'>Cloud Digital Transfomation</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -83,49 +67,49 @@ export default class ScriptisCloud extends Component {
                                                         <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
                                                             <ul className='list-inline px-0 cloud-ui'>
                                                                 <li className='ser-sub-lin'>
-                                                                    <Link to='/development-maintance'>Development Maintance</Link>
+                                                                    <Link  target="_blank" to='/development-maintance'>Development Maintance</Link>
                                                                 </li>
                                                                 <li className='ser-sub-lin'>
-                                                                    <Link to='/ui_ux'>UI_UX</Link>
+                                                                    <Link  target="_blank" to='/ui_ux'>UI_UX</Link>
                                                                 </li>
                                                                 <li className='ser-sub-lin'>
-                                                                    <Link to='/devsecops'>DevSecops</Link>
+                                                                    <Link  target="_blank" to='/devsecops'>DevSecops</Link>
                                                                 </li>
                                                                 <li className='ser-sub-lin'>
-                                                                    <Link to='/automation_reporting'>Cloud Governance Reporting</Link>
+                                                                    <Link  target="_blank" to='/automation_reporting'>Cloud Governance Reporting</Link>
                                                                 </li>
                                                             </ul>
                                                         </li>
                                                         <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
                                                             <ul className='list-inline px-0 cloud-ui'>
                                                                 <li className='ser-sub-lin'>
-                                                                    <Link to='/mobile_development'>Mobile Development</Link>
+                                                                    <Link  target="_blank" to='/mobile_development'>Mobile Development</Link>
                                                                 </li>
                                                                 
                                                                 <li className='ser-sub-lin'>
-                                                                    <Link to='/cloud-sec-eng'>Cloud Security Engineering</Link>
+                                                                    <Link  target="_blank" to='/cloud-sec-eng'>Cloud Security Engineering</Link>
                                                                 </li>
                                                                 <li className='ser-sub-lin'>
-                                                                    <Link to='/application-asses'>Application Assessment</Link>
+                                                                    <Link  target="_blank" to='/application-asses'>Application Assessment</Link>
                                                                 </li>
                                                                 <li className='ser-sub-lin'>
-                                                                    <Link to='/advanced_analy'>Advanced Analytics</Link>
+                                                                    <Link  target="_blank" to='/advanced_analy'>Advanced Analytics</Link>
                                                                 </li>
                                                             </ul>
                                                         </li>
                                                         <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
                                                             <ul className='list-inline px-0 cloud-ui'>
                                                                 <li className='ser-sub-lin'>
-                                                                    <Link to='/cloud_naive_app'>Cloud Naive App</Link>
+                                                                    <Link  target="_blank" to='/cloud_naive_app'>Cloud Naive App</Link>
                                                                 </li>
                                                                 <li className='ser-sub-lin'>
-                                                                    <Link to='/saas_product'>Saas Product</Link>
+                                                                    <Link  target="_blank" to='/saas_product'>Saas Product</Link>
                                                                 </li>
                                                                 <li className='ser-sub-lin'>
-                                                                    <Link to='/data_strategy'>Data Strategy</Link>
+                                                                    <Link  target="_blank" to='/data_strategy'>Data Strategy</Link>
                                                                 </li>
                                                                 <li className='ser-sub-lin'>
-                                                                    <Link to='/data_govern_eng'>Data Governance Engineering</Link>
+                                                                    <Link  target="_blank" to='/data_govern_eng'>Data Governance Engineering</Link>
                                                                 </li>
                                                             </ul>
                                                         </li>

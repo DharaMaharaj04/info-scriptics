@@ -22,20 +22,6 @@ export default class BigDataAnalysis extends Component {
         return (
             <div className="service-page">
                 <Helmet>
-                    <title>Scritpics | Big Data Analysis</title>
-                    <meta name="description" content="Big Data Analysis" />
-                    <meta name="twitter:card" content="summary_large_image"/>
-                    <meta name="twitter:site" content="@Scripticstech"/>
-                    <meta name="twitter:title" content="Big Data Analysis"/>
-                    <meta name="twitter:description" content="Big Data Analysis"/>
-                    <meta name="twitter:creator" content="@Scripticstech"/>
-                    <meta property="og:type" content="website"/>
-                    <meta property="og:title" content="Big Data Analysis"/>
-                    <meta property="og:description" content="Big Data Analysis"/>
-                    <meta property="og:image" content="https://www.scriptics.ai/assets/img/og_meta.png"/>
-                    <meta property="og:url" content="https://www.scriptics.ai/"/>
-                    <meta name="twitter:image" content="https://www.scriptics.ai/assets/img/1674040738302.png" />
-                    <meta name="twitter:domain" content="scriptics.ai"/>
                     <body id="page-service" />
                 </Helmet>
                 <section className='srv-main'>
@@ -77,7 +63,6 @@ export default class BigDataAnalysis extends Component {
                                                                     </li>
                                                                 </ul>
                                                             </li>
-                                                            
                                                             <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
                                                                 <ul className='list-inline px-0'>
                                                                     <li className='ser-sub-lin'>
@@ -91,8 +76,6 @@ export default class BigDataAnalysis extends Component {
                                                                     <li className='ser-sub-lin'>
                                                                         <Link to='/signal_processing'>Digital Signal Processing</Link>
                                                                     </li>
-                                                                    
-                                                                    
                                                                 </ul>
                                                             </li>
                                                             <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
@@ -111,14 +94,12 @@ export default class BigDataAnalysis extends Component {
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                
                                                 <li className='serverice_menu_last dropdown relative drop-container textwh'><span>Big Data Analysis</span></li>
                                             </ol>
                                         </div>
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                             <div className='slide_content'>
-                                                <h2 className="h2-slide white-color mb-xs-10">MAKE THE FIRST MOVE WITH STRATEGY & CONSULTING</h2>
-                                               
+                                                <h2 className="h2-slide white-color mb-xs-10">Sense-Making in the Big Data Universe: Insights for a Better Tomorrow</h2>
                                             </div>
                                         </div>
                                     </div> 
@@ -168,16 +149,12 @@ export default class BigDataAnalysis extends Component {
                                                                     <li className='ser-sub-lin'>
                                                                         <Link to='/computer_vision'>Computer Vision</Link>
                                                                     </li>
-                                                                    
                                                                     <li className='ser-sub-lin'>
                                                                         <Link to='/big_data_analysis'>Big data analytics</Link>
                                                                     </li>
-                                                                    
                                                                     <li className='ser-sub-lin'>
                                                                         <Link to='/signal_processing'>Digital Signal Processing</Link>
                                                                     </li>
-                                                                    
-                                                                    
                                                                 </ul>
                                                             </li>
                                                             <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
@@ -196,14 +173,12 @@ export default class BigDataAnalysis extends Component {
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                
                                                 <li className='serverice_menu_last dropdown relative drop-container textwh'><span>Big Data Analysis</span></li>
                                             </ol>
                                         </div>
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                             <div className='slide_content'>
-                                                <h2 className="h2-slide white-color mb-xs-10">INITIAL DESIGN WITH INTERACTIVE TECHNOLOGY</h2>
-                                                
+                                                <h2 className="h2-slide white-color mb-xs-10">Smart Data, Smarter Decisions: Harnessing the Power of Analytics for Strategic Insights</h2>
                                             </div>
                                         </div>
                                     </div>  
@@ -247,22 +222,17 @@ export default class BigDataAnalysis extends Component {
                                                                     </li>
                                                                 </ul>
                                                             </li>
-                                                            
                                                             <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
                                                                 <ul className='list-inline px-0'>
                                                                     <li className='ser-sub-lin'>
                                                                         <Link to='/computer_vision'>Computer Vision</Link>
                                                                     </li>
-                                                                    
                                                                     <li className='ser-sub-lin'>
                                                                         <Link to='/big_data_analysis'>Big data analytics</Link>
                                                                     </li>
-                                                                    
                                                                     <li className='ser-sub-lin'>
                                                                         <Link to='/signal_processing'>Digital Signal Processing</Link>
                                                                     </li>
-                                                                    
-                                                                    
                                                                 </ul>
                                                             </li>
                                                             <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
@@ -281,14 +251,12 @@ export default class BigDataAnalysis extends Component {
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                
                                                 <li className='serverice_menu_last dropdown relative drop-container textwh'><span>Big Data Analysis</span></li>
                                             </ol>
                                         </div>
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                             <div className='slide_content'>
-                                                <h2 className="h2-slide white-color mb-xs-10">SCRIPTICS, AI FOR GAMING EXPERIENCE</h2>
-                                                
+                                                <h2 className="h2-slide white-color mb-xs-10">Transform Your Data into Actionable Insights with Advanced Analytics Tools</h2>
                                             </div>
                                         </div>
                                     </div> 
@@ -309,7 +277,6 @@ export default class BigDataAnalysis extends Component {
                                 <div className="srv-info">
                                     <p>We, at Scriptics, help organizations to look at data from a different point of view, giving it perspective and purpose. We help you to understand the underlying, the things that often, do not come into sight immediately or are often neglected. Data is usually collected and stored in many forms – sizes, sources, processes may differ, We, through Big Data Analysis enable you to streamline and make sense of the vast amount of data that is in continuous inflow.</p>
                                     <p className="srv-info">Scriptics and its usage of Big Data Analysis help in enhanced decision making – both in speed and in quality. We enable the use of ultra-modern techniques of processing and interpreting data that aids in gaining the competitive advantage of knowing your market in a way like no other. Not only is it good for the business from the profits point of view, but also improves customer interactions and customer satisfaction.<br/>Some of the benefits offered by Scriptics through the mastery of Big Data Analysis include the following:</p>
-                                
                                 </div>
                             </div>
                             <div className="col-12 col-sm-12 col-md-6 col-1g-6 fadeInUp  Wow from-left">

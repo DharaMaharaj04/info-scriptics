@@ -21,20 +21,6 @@ export default class DeepLearning extends Component {
         return (
             <div className="service-page">
             <Helmet>
-                <title>Scritpics | Deep Learning</title>
-                <meta name="description" content= "Deep Learning" />
-                <meta name="twitter:card" content="summary_large_image"/>
-                <meta name="twitter:site" content="@Scripticstech"/>
-                <meta name="twitter:title" content="Scritpics | Deep Learning"/>
-                <meta name="twitter:description" content="Deep Learning"/>
-                <meta name="twitter:creator" content="@Scripticstech"/>
-                <meta property="og:type" content="website"/>
-                <meta property="og:title" content="Scritpics | Deep Learning"/>
-                <meta property="og:description" content="Deep Learning"/>
-                <meta property="og:image" content="https://www.scriptics.ai/assets/img/og_meta.png"/>
-                <meta property="og:url" content="https://www.scriptics.ai/"/>
-                <meta name="twitter:image" content="https://www.scriptics.ai/assets/img/1674040738302.png" />
-                <meta name="twitter:domain" content="scriptics.ai"/>
                 <body id="page-service" />
             </Helmet>
                 <section className='srv-main'>
@@ -116,7 +102,7 @@ export default class DeepLearning extends Component {
                                         </div>
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                             <div className='slide_content'>
-                                                <h2 className="h2-slide mb-xs-10">MAKE THE FIRST MOVE WITH STRATEGY & CONSULTING</h2>
+                                                <h2 className="h2-slide mb-xs-10">Fancy a Challenge? Exploring the Cutting-Edge of Deep Learning Insights</h2>
                                                
                                             </div>
                                         </div>
@@ -201,7 +187,7 @@ export default class DeepLearning extends Component {
                                         </div>
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                             <div className='slide_content'>
-                                                <h2 className="h2-slide white-color mb-xs-10">INITIAL DESIGN WITH INTERACTIVE TECHNOLOGY</h2>
+                                                <h2 className="h2-slide white-color mb-xs-10">Shattering the Myths of Deep Learning: A Smart Approach</h2>
                                                 
                                             </div>
                                         </div>
@@ -286,7 +272,7 @@ export default class DeepLearning extends Component {
                                         </div> 
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12 fadeInUp  Wow from-bottom'>
                                             <div className='slide_content'>
-                                                <h2 className="h2-slide white-color mb-xs-10">SCRIPTICS, AI FOR GAMING EXPERIENCE</h2>
+                                                <h2 className="h2-slide white-color mb-xs-10">The Future is Now: How Deep Learning is Transforming Industries</h2>
                                                 
                                             </div>
                                         </div>

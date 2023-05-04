@@ -23,7 +23,6 @@ function FullPageScroll() {
         className: "slider"
     };  
 
-
     return (
         <div>
             <nav className="front_slider">

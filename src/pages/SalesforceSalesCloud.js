@@ -23,20 +23,6 @@ export default class SalesforceSalesCloud extends Component {
       <div>
         <div className="service-page">
             <Helmet>
-                <title>Scritpics | Salesforce Sales Cloud</title>
-                <meta name="description" content= "Salesforce Sales Cloud" />
-                <meta name="twitter:card" content="summary_large_image"/>
-                <meta name="twitter:site" content="@Scripticstech"/>
-                <meta name="twitter:title" content="Scritpics | Salesforce Sales Cloud"/>
-                <meta name="twitter:description" content="Scritics Salesforce Sales Cloud"/>
-                <meta name="twitter:creator" content="@Scripticstech"/>
-                <meta property="og:type" content="website"/>
-                <meta property="og:title" content="Scritpics | Salesforce Sales Cloud"/>
-                <meta property="og:description" content="Scriptics Salesforce Sales Cloud"/>
-                <meta property="og:image" content="https://www.scriptics.ai/assets/img/og_meta.png"/>
-                <meta property="og:url" content="https://www.scriptics.ai/"/>
-                <meta name="twitter:image" content="https://www.scriptics.ai/assets/img/1674040738302.png" />
-                <meta name="twitter:domain" content="scriptics.ai"/>
                 <body id="page-service" />
             </Helmet>
             <section className='srv-main'>
@@ -49,10 +35,10 @@ export default class SalesforceSalesCloud extends Component {
                         <div className='caption'>
                             <div className='container'>
                                 <div className='row'>
-                                    <div className='serv-link col-12'>
-                                        <ol className=" nav-links">
+                                    <div className='salesforce-nav serv-link col-12'>
+                                        <ol className="nav-links">
                                             <li className="dropdown relative drop-container">
-                                                <a href="#" className='serverice_menu textwh'>service<i className="text-uppercase" aria-hidden="true"></i></a>
+                                                <a href="#" className='serverice_menu textwh'>Service<i className="text-uppercase" aria-hidden="true"></i></a>
                                                 <div className="bg-white">
                                                     <ul className="list dropdown-content list-inline">
                                                         <li className='ser-sub-lin'>Development & Maintenance</li>
@@ -67,43 +53,43 @@ export default class SalesforceSalesCloud extends Component {
                                                 <div className="bg-white">
                                                     <ul className="list dropdown-content list-inline">
                                                         <li className='ser-sub-lin'>
-                                                            <Link to='/sales_force'>Sales Force</Link>
+                                                            <Link  target="_blank" to='/sales_force'>Sales Force</Link>
                                                         </li>
                                                         <li className='ser-sub-lin'>
-                                                            <Link to='/cloud_digital_transfomation'>Cloud Digital Transfomation</Link>
+                                                            <Link  target="_blank" to='/cloud_digital_transfomation'>Cloud Digital Transfomation</Link>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </li>
-                                            <li className="dropdown relative drop-container">
+                                            <li className="dropdown relative drop-container desktop-menu">
                                                 <a href="/sales_force" className='serverice_menu textwh'><span >Salesforce</span><i className="text-uppercase " aria-hidden="true"></i></a>
                                                 <div className="bg-white">
                                                     <ul className="list row dropdown-content">
                                                     <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
                                                         <ul className='list-inline px-0'>
                                                             <li className='ser-sub-lin'>
-                                                                <Link to='/salesforce_salecloud'>Salesforce Sales Cloud</Link>
+                                                                <Link  target="_blank" to='/salesforce_salecloud'>Salesforce Sales Cloud</Link>
                                                             </li>
                                                             <li className='ser-sub-lin'>
-                                                                <Link to='/salesforce_cpq'>Salseforce CPQ</Link>
+                                                                <Link  target="_blank" to='/salesforce_cpq'>Salseforce CPQ</Link>
                                                             </li>
                                                             <li className='ser-sub-lin'>
-                                                                <Link to='/salesforce_industry'>Salesforce Industry</Link>
+                                                                <Link  target="_blank" to='/salesforce_industry'>Salesforce Industry</Link>
                                                             </li>
                                                         </ul>
                                                     </li>
                                                     <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
                                                         <ul className='list-inline px-0'>
                                                             <li className='ser-sub-lin'>
-                                                                <Link to='/salesforce_marketing'>Salesforce Marketing</Link>
+                                                                <Link  target="_blank" to='/salesforce_marketing'>Salesforce Marketing</Link>
                                                             </li>
                                                             
                                                             <li className='ser-sub-lin'>
-                                                                <Link to='/salesforce_studio'>Salesforce Studio</Link>
+                                                                <Link  target="_blank" to='/salesforce_studio'>Salesforce Studio</Link>
                                                             </li>
                                                             
                                                             <li className='ser-sub-lin'>
-                                                                <Link to='/salesforce_service'>Salesforce Service</Link>
+                                                                <Link  target="_blank" to='/salesforce_service'>Salesforce Service</Link>
                                                             </li>
                                                             
                                                             
@@ -112,19 +98,61 @@ export default class SalesforceSalesCloud extends Component {
                                                     <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
                                                         <ul className='list-inline px-0'>
                                                             <li className='ser-sub-lin'>
-                                                                <Link to='/salesforce-bussinte'>Salesforce Bussiness Intelligence</Link>
+                                                                <Link  target="_blank" to='/salesforce-bussinte'>Salesforce Bussiness Intelligence</Link>
                                                             </li>
                                                             <li className='ser-sub-lin'>
-                                                                <Link to=''></Link>
+                                                                <Link  target="_blank" to=''></Link>
                                                             </li>
                                                             <li className='ser-sub-lin'>
-                                                                <Link to=''></Link>
+                                                                <Link  target="_blank" to=''></Link>
                                                             </li>
                                                         </ul>
                                                     </li>
                                                     </ul>
                                                 </div>
                                             </li>     
+                                            <li className="dropdown relative drop-container mobile-menu">
+                                                <a href="#" className='serverice_menu textwh'><span >Salesforce</span><i className="text-uppercase " aria-hidden="true"></i></a>
+                                                <div className="bg-white">
+                                                    <ul className="list dropdown-content list-inline">
+                                                        <li className='ser-sub-lin'>
+                                                            <Link to='/salesforce_salecloud' target="_blank">Salesforce Sales Cloud</Link>
+                                                        </li>
+                                                        <li className='ser-sub-lin'>
+                                                            <Link to='/salesforce_cpq' target="_blank">Salseforce CPQ</Link>
+                                                        </li>
+                                                        <li className='ser-sub-lin'>
+                                                            <Link to='/salesforce_industry' target="_blank">Salesforce Industry</Link>
+                                                        </li>
+                                                        <li className='ser-sub-lin'>
+                                                            <Link to='/cloud_digital_transfomation' target="_blank">Cloud Digital Transfomation</Link>
+                                                        </li>
+                                                        <li className='ser-sub-lin'>
+                                                            <Link to='/salesforce_salecloud' target="_blank">Salesforce Sales Cloud</Link>
+                                                        </li>
+                                                        <li className='ser-sub-lin'>
+                                                            <Link to='/salesforce_cpq' target="_blank">Salseforce CPQ</Link>
+                                                        </li>
+                                                        <li className='ser-sub-lin'>
+                                                            <Link to='/salesforce_industry' target="_blank">Salesforce Industry</Link>
+                                                        </li>
+                                                        <li className='ser-sub-lin'>
+                                                            <Link to='/salesforce_marketing' target="_blank">Salesforce Marketing</Link>
+                                                        </li>
+                                                        
+                                                        <li className='ser-sub-lin'>
+                                                            <Link to='/salesforce_studio' target="_blank">Salesforce Studio</Link>
+                                                        </li>
+                                                        
+                                                        <li className='ser-sub-lin'>
+                                                            <Link to='/salesforce_service' target="_blank">Salesforce Service</Link>
+                                                        </li>
+                                                        <li className='ser-sub-lin'>
+                                                            <Link to='/salesforce-bussinte' target="_blank">Salesforce Bussiness Intelligence</Link>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
                                         </ol>
                                     </div>
                                     <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12'>

@@ -17,25 +17,9 @@ export default class NaturalLanguageProcessing extends Component {
             autoplay: true,
             dots: true
         };    
-
-
         return (
             <div className="service-page">
             <Helmet>
-                <title>Scritpics | Natural Language Processing</title>
-                <meta name="description" content= "Natural Language Processing" />
-                <meta name="twitter:card" content="summary_large_image"/>
-                <meta name="twitter:site" content="@Scripticstech"/>
-                <meta name="twitter:title" content="Scritpics | Natural Language Processing"/>
-                <meta name="twitter:description" content="Scritics Natural Language Processing"/>
-                <meta name="twitter:creator" content="@Scripticstech"/>
-                <meta property="og:type" content="website"/>
-                <meta property="og:title" content="Scritpics | Natural Language Processing"/>
-                <meta property="og:description" content="Scriptics Natural Language Processing"/>
-                <meta property="og:image" content="https://www.scriptics.ai/assets/img/og_meta.png"/>
-                <meta property="og:url" content="https://www.scriptics.ai/"/>
-                <meta name="twitter:image" content="https://www.scriptics.ai/assets/img/1674040738302.png" />
-                <meta name="twitter:domain" content="scriptics.ai"/>
                 <body id="page-service" />
             </Helmet>
                 <section className='ser-link'>
@@ -124,8 +108,7 @@ export default class NaturalLanguageProcessing extends Component {
                                         </div>
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                             <div className='slide_content'>
-                                                <h2 className="h2-slide white-color mb-xs-10">MAKE THE FIRST MOVE WITH STRATEGY & CONSULTING</h2>
-                                               
+                                                <h2 className="h2-slide white-color mb-xs-10">Natural Language Wizard: Smart Communication Solutions</h2>
                                             </div>
                                         </div>
                                     </div> 
@@ -169,22 +152,17 @@ export default class NaturalLanguageProcessing extends Component {
                                                                     </li>
                                                                 </ul>
                                                             </li>
-                                                            
                                                             <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
                                                                 <ul className='list-inline px-0'>
                                                                     <li className='ser-sub-lin'>
                                                                         <Link to='/computer_vision'>Computer Vision</Link>
                                                                     </li>
-                                                                    
                                                                     <li className='ser-sub-lin'>
                                                                         <Link to='/big_data_analysis'>Big data analytics</Link>
                                                                     </li>
-                                                                    
                                                                     <li className='ser-sub-lin'>
                                                                         <Link to='/signal_processing'>Digital Signal Processing</Link>
                                                                     </li>
-                                                                    
-                                                                    
                                                                 </ul>
                                                             </li>
                                                             <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
@@ -203,14 +181,12 @@ export default class NaturalLanguageProcessing extends Component {
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                
                                                 <li className='serverice_menu_last dropdown relative drop-container textwh'><span>Natural Language processing</span></li>
                                             </ol>
                                         </div>
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                             <div className='slide_content'>
-                                                <h2 className="h2-slide white-color mb-xs-10">INITIAL DESIGN WITH INTERACTIVE TECHNOLOGY</h2>
-                                                
+                                                <h2 className="h2-slide white-color mb-xs-10">SmartScript: The Ultimate Language Tool</h2>
                                             </div>
                                         </div>
                                     </div>  
@@ -254,22 +230,17 @@ export default class NaturalLanguageProcessing extends Component {
                                                                     </li>
                                                                 </ul>
                                                             </li>
-                                                            
                                                             <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
                                                                 <ul className='list-inline px-0'>
                                                                     <li className='ser-sub-lin'>
                                                                         <Link to='/computer_vision'>Computer Vision</Link>
                                                                     </li>
-                                                                    
                                                                     <li className='ser-sub-lin'>
                                                                         <Link to='/big_data_analysis'>Big data analytics</Link>
                                                                     </li>
-                                                                    
                                                                     <li className='ser-sub-lin'>
                                                                         <Link to='/signal_processing'>Digital Signal Processing</Link>
                                                                     </li>
-                                                                    
-                                                                    
                                                                 </ul>
                                                             </li>
                                                             <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
@@ -294,7 +265,7 @@ export default class NaturalLanguageProcessing extends Component {
                                         </div> 
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                             <div className='slide_content'>
-                                                <h2 className="h2-slide mb-xs-10">SCRIPTICS, AI FOR GAMING EXPERIENCE</h2>
+                                                <h2 className="h2-slide mb-xs-10">SCRIPTICS, AI FOR GAMING EXPERIENCELanguage Alchemy: Transforming Words into Actionable Intelligence</h2>
                                                 
                                             </div>
                                         </div>

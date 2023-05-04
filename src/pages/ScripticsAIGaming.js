@@ -22,20 +22,6 @@ export default class ScripticsAIGaming extends Component {
         return (
             <div className="service-page">
                 <Helmet>
-                    <title>Scritpics | Scriptics AI for Gaming</title>
-                    <meta name="description" content= "Scriptics AI for Gaming" />
-                    <meta name="twitter:card" content="summary_large_image"/>
-                    <meta name="twitter:site" content="@Scripticstech"/>
-                    <meta name="twitter:title" content="Scritpics | Scriptics AI for Gaming"/>
-                    <meta name="twitter:description" content="Scritics Scriptics AI for Gaming"/>
-                    <meta name="twitter:creator" content="@Scripticstech"/>
-                    <meta property="og:type" content="website"/>
-                    <meta property="og:title" content="Scritpics | Scriptics AI for Gaming"/>
-                    <meta property="og:description" content="Scriptics Scriptics AI for Gaming"/>
-                    <meta property="og:image" content="https://www.scriptics.ai/assets/img/og_meta.png"/>
-                    <meta property="og:url" content="https://www.scriptics.ai/"/>
-                    <meta name="twitter:image" content="https://www.scriptics.ai/assets/img/1674040738302.png" />
-                    <meta name="twitter:domain" content="scriptics.ai"/>
                     <body id="page-service" />
                 </Helmet>
                 <section className='srv-main'>
@@ -48,10 +34,10 @@ export default class ScripticsAIGaming extends Component {
                             <div className='caption'>
                                 <div className='container'>
                                     <div className='row'>
-                                        <div className='serv-link col-12'>
-                                            <ol className=" nav-links">
+                                        <div className='salesforce-nav serv-link col-12'>
+                                            <ol className="nav-links">
                                                 <li className="dropdown relative drop-container">
-                                                    <a href="#" className='serverice_menu textwh'>service<i className="text-uppercase " aria-hidden="true"></i></a>
+                                                    <a href="#" className='serverice_menu textwh'>Service<i className="text-uppercase " aria-hidden="true"></i></a>
                                                     <div className="bg-white">
                                                         <ul className="list dropdown-content list-inline ">
                                                             <li className='ser-sub-lin'>Development & Maintenance</li>
@@ -117,8 +103,7 @@ export default class ScripticsAIGaming extends Component {
                                         </div>
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                             <div className='slide_content'>
-                                                <h2 className="h2-slide white-color mb-xs-10">MAKE THE FIRST MOVE WITH STRATEGY & CONSULTING</h2>
-                                            
+                                                <h2 className="h2-slide white-color mb-xs-10">Game Changer: AI's Impact on the Gaming World</h2>
                                             </div>
                                         </div>
                                     </div> 
@@ -202,7 +187,7 @@ export default class ScripticsAIGaming extends Component {
                                         </div>
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                             <div className='slide_content'>
-                                                <h2 className="h2-slide mb-xs-10">INITIAL DESIGN WITH INTERACTIVE TECHNOLOGY</h2>
+                                                <h2 className="h2-slide mb-xs-10">Thinking Outside the Box: How AI is Shaping Gaming's Future</h2>
                                                 
                                             </div>
                                         </div>
@@ -287,8 +272,7 @@ export default class ScripticsAIGaming extends Component {
                                         </div> 
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12 fadeInUp  Wow from-bottom'>
                                             <div className='slide_content'>
-                                                <h2 className="h2-slide white-color mb-xs-10">SCRIPTICS, AI FOR GAMING EXPERIENCE</h2>
-                                                
+                                                <h2 className="h2-slide white-color mb-xs-10">Unleash the potential of AI in gaming</h2>
                                             </div>
                                         </div>
                                     </div> 

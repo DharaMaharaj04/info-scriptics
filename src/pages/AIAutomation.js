@@ -21,20 +21,6 @@ export default class AIAutomation extends Component {
         return (
             <div className="service-page">
                 <Helmet>
-                    <title>Scritpics | AI & Automation</title>
-                    <meta name="description" content="AI & Automation" />
-                    <meta name="twitter:card" content="summary_large_image"/>
-                    <meta name="twitter:site" content="@Scripticstech"/>
-                    <meta name="twitter:title" content="Scritpics | AI & Automation"/>
-                    <meta name="twitter:description" content="Turn data into actionable insights"/>
-                    <meta name="twitter:creator" content="@Scripticstech"/>
-                    <meta property="og:type" content="website"/>
-                    <meta property="og:title" content="Scritpics | AI & Automation"/>
-                    <meta property="og:description" content="Turn data into actionable insights"/>
-                    <meta property="og:image" content="https://www.scriptics.ai/assets/img/og_meta.png"/>
-                    <meta property="og:url" content="https://www.scriptics.ai/"/>
-                    <meta name="twitter:image" content="https://www.scriptics.ai/assets/img/1674040738302.png" />
-                    <meta name="twitter:domain" content="scriptics.ai"/>
                     <body id="page-service" />
                 </Helmet>
                 
@@ -111,13 +97,12 @@ export default class AIAutomation extends Component {
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                
                                                 <li className='serverice_menu_last dropdown relative drop-container textwh'><span>Ai & Automation</span></li>
                                             </ol>
                                         </div>
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                             <div className='slide_content'>
-                                                <h2 className="h2-slide white-color mb-xs-10">MAKE THE FIRST MOVE WITH STRATEGY & CONSULTING</h2>
+                                                <h2 className="h2-slide white-color mb-xs-10">Leveraging Automation to Save Time, Fuel and Resources</h2>
                                             </div>
                                         </div>
                                     </div> 
@@ -200,7 +185,7 @@ export default class AIAutomation extends Component {
                                         </div>
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                             <div className='slide_content'>
-                                                <h2 className="h2-slide mb-xs-10">INITIAL DESIGN WITH INTERACTIVE TECHNOLOGY</h2>
+                                                <h2 className="h2-slide mb-xs-10">Ai & Automation INSIGHT Tools to Ease Your Daily Life</h2>
                                             </div>
                                         </div>
                                     </div>  
@@ -281,7 +266,7 @@ export default class AIAutomation extends Component {
                                         </div> 
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                             <div className='slide_content'>
-                                                <h2 className="h2-slide white-color mb-xs-10">SCRIPTICS, AI FOR GAMING EXPERIENCE</h2>
+                                                <h2 className="h2-slide white-color mb-xs-10">The Power and Possibilities of AI and Automation in Today's World</h2>
                                                 
                                             </div>
                                         </div>

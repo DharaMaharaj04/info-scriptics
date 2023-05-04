@@ -21,29 +21,8 @@ export default class ComputerVision extends Component {
         return (
             <div className="service-page">
             <Helmet>
-                <title>Scritpics | Computer Vision</title>
-                <meta name="description" content= "Computer Vision" />
-                <meta name="twitter:card" content="summary_large_image"/>
-                <meta name="twitter:site" content="@Scripticstech"/>
-                <meta name="twitter:title" content="Scritpics | Computer Vision"/>
-                <meta name="twitter:description" content="Computer Vision"/>
-                <meta name="twitter:creator" content="@Scripticstech"/>
-                <meta property="og:type" content="website"/>
-                <meta property="og:title" content="Scritpics | Computer Vision"/>
-                <meta property="og:description" content="Scriptics Computer Vision"/>
-                <meta property="og:image" content="https://www.scriptics.ai/assets/img/og_meta.png"/>
-                <meta property="og:url" content="https://www.scriptics.ai/"/>
-                <meta name="twitter:image" content="https://www.scriptics.ai/assets/img/1674040738302.png" />
-                <meta name="twitter:domain" content="scriptics.ai"/>
                 <body id="page-service" />
             </Helmet>
-                <section className='ser-link'>
-                    <div className="">
-	                    <div className="container">
-		                    
-	                    </div>
-                    </div>
-                </section>
                 <section className='srv-main'>
                     <OwlCarousel className="owl-theme" {...options} >
                         <div className='slide-1'>  
@@ -121,7 +100,7 @@ export default class ComputerVision extends Component {
                                         </div>
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                             <div className='slide_content'>
-                                                <h2 className="h2-slide white-color mb-xs-10">MAKE THE FIRST MOVE WITH STRATEGY & CONSULTING</h2>
+                                                <h2 className="h2-slide white-color mb-xs-10">Pixel Perfect: Achieving Precision with Computer Vision</h2>
                                             </div>
                                         </div>
                                     </div> 
@@ -197,13 +176,12 @@ export default class ComputerVision extends Component {
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                
                                                 <li className='serverice_menu_last dropdown relative drop-container textwh'><span>Computer Vision</span></li>
                                             </ol>
                                         </div>
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                             <div className='slide_content'>
-                                                <h2 className="h2-slide mb-xs-10">INITIAL DESIGN WITH INTERACTIVE TECHNOLOGY</h2>
+                                                <h2 className="h2-slide mb-xs-10">Seeing is Believing: The Next Frontier of Computer Vision Innovation</h2>
                                             </div>
                                         </div>
                                     </div>  
@@ -247,7 +225,6 @@ export default class ComputerVision extends Component {
                                                                     </li>
                                                                 </ul>
                                                             </li>
-                                                            
                                                             <li className='col-lg-4 col-md-4 col-sm-12 col-xs-12 align-list'>
                                                                 <ul className='list-inline px-0'>
                                                                     <li className='ser-sub-lin'>
@@ -285,8 +262,7 @@ export default class ComputerVision extends Component {
                                         </div> 
                                         <div className='col-lg-7 col-md-7 col-sm-12 col-xs-12'>
                                             <div className='slide_content'>
-                                                <h2 className="h2-slide white-color mb-xs-10">MAKE THE FIRST MOVE WITH STRATEGY & CONSULTING</h2>
-                                               
+                                                <h2 className="h2-slide white-color mb-xs-10">The Digital Eye: Unraveling the Wonders of Computer Vision</h2>
                                             </div>
                                         </div>
                                     </div> 

@@ -499,6 +499,9 @@ input {width: 100%;height: 40px;background-color: #eee;border: none;padding-left
 .sale-info .col-12 {margin-top: 120px;}
 .font-s {font-size: 20px;}
 .sale-info-2 .sale-info-cont{ margin-top: -60px;}
+.desktop-menu{display: flex;}
+.mobile-menu{ display: none;}
+.sale-buss img{ width: inherit;}
 
 /*** Blog page ***/
 .blogIndicator{ background-color: #df9926; color: #ffffff; padding: 8px; display: inline-block; position: relative; font-size: 14px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase;}
@@ -524,7 +527,6 @@ input {width: 100%;height: 40px;background-color: #eee;border: none;padding-left
 .team .nav-tabs .nav-link {
   color: #000;
 }
-
 
 
 
