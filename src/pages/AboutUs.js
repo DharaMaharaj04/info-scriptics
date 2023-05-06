@@ -147,7 +147,7 @@ export class AboutUs extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="tab-pane fade tab-style ml-3 mt-3" id="tab-1" role="tabpanel">
+                                    <div className="tab-pane fade tab-style" id="tab-1" role="tabpanel">
                                         <div className='loc_tab bood row'>
                                             <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                                                 <h2>Board of Directors</h2>
@@ -196,20 +196,20 @@ export class AboutUs extends Component {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className='col-12 col-sm-12 col-md-9 col-1g-9 bd-para'>
-                                                <p>As an experienced entrepreneur with expertise in product development, business strategy, and international business development, having a Bachelor’s degree in Electrical Engineering from JNTU and Masters degree in International Marketing and Business Development from SKEMA Business School, France. Chakradhar possess a unique skill set that help drive the startups he mentored to new heights of success. His deep understanding of product development allows him to create innovative and market-driven solutions that meet the needs of customers and stay ahead of the competition.</p>
-                                                <p>His strategic mindset and business acumen enable to identify and grab new opportunities, navigate challenges, and make informed decisions that align with his overall vision and goals. He have a keen eye for identifying market trends, analyzing customer behavior, and leveraging market intelligence to gain a competitive advantage.</p>
-                                                <p>His experience in international business development has given the ability to expand into new markets, establish global partnerships, and develop effective go-to-market strategies for diverse cultural and business environments. He understands the complexities of international trade, regulatory compliance, and localization, which allows to penetrate international markets and grow the business globally.</p>
-                                                <p>His strong leadership skills and ability to build and manage high-performing teams are key drivers of the success. He inspires and motivate his team, foster a collaborative and inclusive work culture, and empower the employees to achieve their full potential. Excellent communication and negotiation skills enable him to build relationships, network with stakeholders, and forge strategic alliances that contribute to the business growth.</p>
-                                            </div>
-                                            <div className='col-12 col-sm-12 col-md-3 col-1g-3 bd'>
-                                                <img src='/assets/img/V.p.jpg' alt='V.p.jpg' />
-                                                <h4>Chakradhar</h4>
-                                                <p>VP- product & partnerships</p>
+                                            <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>           
+                                                <div className='eqh-box'>
+                                                    <div className='team-desc text-center'>
+                                                        <h4>Bhargav Bhatt</h4>
+                                                        <p className="title">Director</p>
+                                                        <div className='linked'>
+                                                            <a href="https://www.linkedin.com/in/bbhatt99/"><i className="fa fa-linkedin"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="tab-pane fade tab-style ml-3 mt-3" id="tab-2" role="tabpanel">
+                                    <div className="tab-pane fade tab-style" id="tab-2" role="tabpanel">
                                         <div className='loc_tab row exo'>
                                             <div className='col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12'>
                                                 <h2>Executive Officers</h2>
@@ -258,16 +258,17 @@ export class AboutUs extends Component {
                                                     </div>
                                                 </div>
                                             </div>   
-                                            <div className='col-12 col-sm-12 col-md-9 col-1g-9 bd-para'>
-                                                <p>Bhargav Bhatt is an exceptional 23-year-old tech enthusiast, with expertise in Cloud Native applications, Salesforce, Cybersecurity, Application Development, Managed Cloud Services, Migration to cloud, Hybrid Cloud, and Hypernext Datacenters, Bhargav has achieved six Amazon Web Services, four Microsoft Azure, and two Google certificates. He has managed teams of over 200 individuals and worked with more than 50 mainstream clients, providing full-cycle application or software development solutions and cybersecurity services to medium and large enterprises.</p>
-                                                <p>When he's not innovating in the tech industry, Bhargav enjoys freestyle HIP-HOP with his friends, exploring every interesting aspect of computer technology, and traveling to new places. Follow him on Instagram @bkbhatt99 to keep up with his adventures.</p>
-                                                <p>Bhargav's passion and expertise make him a valuable asset in the tech industry. He is always open to new opportunities and collaborations, and is eager to explore the potential of the tech industry. If you're interested in partnering with him and Scriptics, or would like to learn more about their services, don't hesitate to reach out.</p>
-                                            </div>
-                                            <div className='col-12 col-sm-12 col-md-3 col-1g-3 bd'>
-                                                <img src='/assets/img/bhargav-bhatt.jpg' alt='bhargav-bhatt.jpg' />
-                                                <h4>Bhargav Bhatt</h4>
-                                                <p>Director</p>
-                                            </div>
+                                            <div className='col-lg-3 col-md-12 col-sm-12 col-xs-12'>
+                                                <div className='eqh-box'>
+                                                    <div className='team-desc text-center'>
+                                                        <h4>Chakradhar</h4>
+                                                        <p className="title">VP - Product & Partnerships</p>
+                                                        <div className='linked'>
+                                                            <a href="http://linkedin.com/in/chakradhar-tarivitla-cspo%C2%AE-63055720"><i className="fa fa-linkedin"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>   
                                         </div>      
                                     </div>
                                 </div>
