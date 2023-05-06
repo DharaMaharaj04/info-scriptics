@@ -379,7 +379,11 @@ button.close{ color: #fff; background-color: #000; border-radius: 20%; border: 2
 .srv-content p{ text-align: justify;}
 .future-tech{background-image: url(/assets/img/future_tech_banner.png); background-position: center center; background-size: cover;}
 .future-of-technology{ height: 350px;}
-
+.bd-para p{ font-size: 16px;}
+.bd img{ width: inherit;}
+.bd{ text-align: center;}
+.bd h4{ margin: 10px 0px 10px 0px;}
+.bd-space{ border-bottom: 1px solid #e2e2e2; margin: 10px 0px 20px 0px;}
 /*** blackberry cyber security ***/
 .cyber_head h3{ padding-top: 50px; }
 .cyber-title{padding-top: 40px;}
