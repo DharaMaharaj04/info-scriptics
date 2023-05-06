@@ -207,16 +207,6 @@ export class AboutUs extends Component {
                                                 <h4>Chakradhar</h4>
                                                 <p>VP- product & partnerships</p>
                                             </div>
-                                            <div className='col-12 col-sm-12 col-md-12 col-1g-12 bd-space'></div>
-                                            <div className='col-12 col-sm-12 col-md-9 col-1g-9 bd-para'>
-                                                <p>Bhargav Bhatt is an exceptional 23-year-old tech enthusiast, with expertise in Cloud Native applications, Salesforce, Cybersecurity, Application Development, Managed Cloud Services, Migration to cloud, Hybrid Cloud, and Hypernext Datacenters, Bhargav has achieved six Amazon Web Services, four Microsoft Azure, and two Google certificates. He has managed teams of over 200 individuals and worked with more than 50 mainstream clients, providing full-cycle application or software development solutions and cybersecurity services to medium and large enterprises.</p>
-                                                <p>When he's not innovating in the tech industry, Bhargav enjoys freestyle HIP-HOP with his friends, exploring every interesting aspect of computer technology, and traveling to new places. Follow him on Instagram @bkbhatt99 to keep up with his adventures.</p>
-                                                <p>Bhargav's passion and expertise make him a valuable asset in the tech industry. He is always open to new opportunities and collaborations, and is eager to explore the potential of the tech industry. If you're interested in partnering with him and Scriptics, or would like to learn more about their services, don't hesitate to reach out.</p>
-                                            </div>
-                                            <div className='col-12 col-sm-12 col-md-3 col-1g-3 bd'>
-                                                <img src='/assets/img/bhargav-bhatt.jpg' alt='bhargav-bhatt.jpg' />
-                                                <h4>Bhargav Bhatt</h4>
-                                            </div>
                                         </div>
                                     </div>
                                     <div className="tab-pane fade tab-style ml-3 mt-3" id="tab-2" role="tabpanel">
@@ -268,6 +258,16 @@ export class AboutUs extends Component {
                                                     </div>
                                                 </div>
                                             </div>   
+                                            <div className='col-12 col-sm-12 col-md-9 col-1g-9 bd-para'>
+                                                <p>Bhargav Bhatt is an exceptional 23-year-old tech enthusiast, with expertise in Cloud Native applications, Salesforce, Cybersecurity, Application Development, Managed Cloud Services, Migration to cloud, Hybrid Cloud, and Hypernext Datacenters, Bhargav has achieved six Amazon Web Services, four Microsoft Azure, and two Google certificates. He has managed teams of over 200 individuals and worked with more than 50 mainstream clients, providing full-cycle application or software development solutions and cybersecurity services to medium and large enterprises.</p>
+                                                <p>When he's not innovating in the tech industry, Bhargav enjoys freestyle HIP-HOP with his friends, exploring every interesting aspect of computer technology, and traveling to new places. Follow him on Instagram @bkbhatt99 to keep up with his adventures.</p>
+                                                <p>Bhargav's passion and expertise make him a valuable asset in the tech industry. He is always open to new opportunities and collaborations, and is eager to explore the potential of the tech industry. If you're interested in partnering with him and Scriptics, or would like to learn more about their services, don't hesitate to reach out.</p>
+                                            </div>
+                                            <div className='col-12 col-sm-12 col-md-3 col-1g-3 bd'>
+                                                <img src='/assets/img/bhargav-bhatt.jpg' alt='bhargav-bhatt.jpg' />
+                                                <h4>Bhargav Bhatt</h4>
+                                                <p>Director</p>
+                                            </div>
                                         </div>      
                                     </div>
                                 </div>
