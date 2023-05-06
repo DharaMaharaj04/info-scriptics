@@ -345,7 +345,7 @@ button.close{ color: #fff; background-color: #000; border-radius: 20%; border: 2
 .nav-tabs .nav-link:hover{ background-color: #ff9901; color: #fff;}
 .nav-tabs .nav-link:ative{ background-color: #ff9901 !important; color: #fff;}
 .loc_tab{ padding-top: 40px; margin: 30px 0; height: 200px; max-width: 40%;}
-.loc_tab p{ font-size: 18px;}
+.loc_tab p{ font-size: 18px; padding: 0 15px;}
 .scrtabs-tab-scroll-arrow.scrtabs-tab-scroll-arrow-right {width: 48px; /* affects amount of scrollToActiveTab movement */padding-left: 6px;}
 .canada{background-image: url(/assets/img/canada.jpg); background-repeat: no-repeat;}
 .usa{background-image: url(/assets/img/usa.jpg); background-repeat: no-repeat;}
