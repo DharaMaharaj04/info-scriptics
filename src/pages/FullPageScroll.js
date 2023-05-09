@@ -417,7 +417,7 @@ function FullPageScroll() {
                 <section className="sec contact_us nav_name" id="contact_us">
                     <div className='container'>
                         <div className='row'>
-                            <div className='col-lg-6 col-md-6 col-sm-12 contact_back col-xs-12'>
+                            <div className='col-lg-6 col-md-12 col-sm-12 contact_back col-xs-12'>
                                 <div className='row'>
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-0 mb-sm-40">
                                         <div className='border'>
@@ -450,7 +450,7 @@ function FullPageScroll() {
                                 </div>
                             </div>
                             <div className='col-lg col-md'></div>
-                            <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center over_content">
+                            <div className="col-lg-5 col-md-12 col-sm-12 col-xs-12 text-center over_content">
                                 <h2 className='cnt_us_txt white-color mb30'>STAY IN WITH OUR NEWSLETTER</h2>
                                 <a className="btn  text-uppercase career_btn" href="/contact/#subscribe-newsletter">Contact Us</a>
                             </div>

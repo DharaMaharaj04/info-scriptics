@@ -227,7 +227,8 @@
     .eco-partner-img{width: 100%; height: 40%;}
     .spacer {padding-top: 5px !important;}
     .cntry-nme {font-size: 11px !important;} 
-    .cnt_us_txt {font-size: 42px;line-height: 48px;}   
+    .contact_us{ padding-left: 15px; padding-right: 15px;}
+    .cnt_us_txt {font-size: 42px; line-height: 48px; padding-top: 50px;}   
     .indus-info { flex-direction: column-reverse;}   
     .indus-info img {padding-top: 26px;} 
     .ctrl-width-mob{ margin-bottom: 20px;}
