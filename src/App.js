@@ -85,6 +85,13 @@ function App() {
   }, [])
   return (
     <div className="App">
+      <Helmet>
+        <title>Scriptics | Technology that delivers on your promise</title>
+        <base target="_blank" href="https://www.scriptics.ai" />  
+        <link rel="canonical" href="https://www.scriptics.ai" />
+        <meta name="title" content="Scriptics | Technology that delivers on your promise" />
+        <meta name="description" content="Scriptics aims at transforming organizations digitally with innovative and sustainable IT solutions that deliver value to the business - scriptics.ai"/> 
+      </Helmet>
       <Router>
         <Header/>
           <Switch>
