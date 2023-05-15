@@ -7,6 +7,7 @@ export default class BlackberryCylanceDefends extends Component {
     return(
         <div className='blog-page'>
             <Helmet>
+                <title>Protecting Your Manufacturing Floor: How Blackberry Cylance Defends Against Cybersecurity Threats without Disrupting Operations</title>
                 <meta property="og:type" content="website"/>
                 <meta property="og:title" content="Protecting Your Manufacturing Floor: How Blackberry Cylance Defends Against Cybersecurity Threats without Disrupting Operations"/>
                 <meta property="og:description" content="Protecting Your Manufacturing Floor: How Blackberry Cylance Defends Against Cybersecurity Threats without Disrupting Operations"/>

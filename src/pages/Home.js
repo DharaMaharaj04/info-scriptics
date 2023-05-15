@@ -7,6 +7,7 @@ export class Home extends Component {
         return ( 
             <div>
                 <Helmet>
+                    <title>Scriptics</title>
                     <meta property="og:title" content="Scriptics | Technology that delivers on your promise" />
                     <meta property="og:url" content="https://www.scriptics.ai" />
                     <meta property="og:type" content="website" />

@@ -84,9 +84,10 @@ function App() {
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, [])
   return (
-    <div className="App">
+    <div>
       <Helmet>
-        <title>Scriptics | Technology that delivers on your promise</title>
+        <meta charset="utf-8" />
+        <title>React</title>
         <base target="_blank" href="https://www.scriptics.ai" />  
         <link rel="canonical" href="https://www.scriptics.ai" />
         <meta name="title" content="Scriptics | Technology that delivers on your promise" />
@@ -167,7 +168,6 @@ function App() {
             <Route exact path='/blog-inner' component={BlogInner} />
             <Route exact path='/blackberry-cylance-defends' component={BlackberryCylanceDefends} />
             <Route component={Page404} />
-           
           </Switch>
         <Footer/>
       </Router>
