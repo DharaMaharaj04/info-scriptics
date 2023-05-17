@@ -84,15 +84,7 @@ function App() {
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, [])
   return (
-    <div>
-      <Helmet>
-        <meta charset="utf-8" />
-        <title>React</title>
-        <base target="_blank" href="https://www.scriptics.ai" />  
-        <link rel="canonical" href="https://www.scriptics.ai" />
-        <meta name="title" content="Scriptics | Technology that delivers on your promise" />
-        <meta name="description" content="Scriptics aims at transforming organizations digitally with innovative and sustainable IT solutions that deliver value to the business - scriptics.ai"/> 
-      </Helmet>
+    <div className="App">
       <Router>
         <Header/>
           <Switch>
