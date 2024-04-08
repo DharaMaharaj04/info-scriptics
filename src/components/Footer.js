@@ -51,14 +51,14 @@ function Footer() {
                                             <img src="/assets/img/facebook.svg" width="20" height="20" alt="Facebook" />
                                         </a>
                                     </li>
-                                    <li className="list-inline-item">
+                                    <li className="list-inline-item foo_link">
                                         <a aria-label="Follow us on LinkedIn" title="Follow us on LinkedIn" target="_blank" href="https://www.linkedin.com/company/scripticstechs/" rel="noopener noreferrer"> 
                                             <img src="/assets/img/linkedin.svg" width="20" height="20" alt="LinkedIn" />
                                         </a>
                                     </li>
                                     <li className="list-inline-item">
                                         <a aria-label="Follow us on YouTube" title="Follow us on YouTube" target="_blank" href="https://www.youtube.com/@scripticstechnologies6312/" rel="noopener noreferrer">
-                                            <img src="/assets/img/youtube.svg" width="20" height="20" alt="Youtube" />
+                                            <img src="/assets/img/youtube.svg" className="foo_you" width="22" height="26" alt="Youtube" />
                                         </a>
                                     </li>
                                 </ul>
