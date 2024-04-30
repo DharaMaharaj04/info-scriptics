@@ -255,8 +255,7 @@
     .navbar-collapse .navbar-nav .nav-item a {padding: 0 .5rem;}
     .vCISO {background-image: url(/assets/img/strategicservices-it1-vciso-992.jpg);}
     .foo_you{padding-top: 5px;} .foo_link{margin-right: 12px !important; }}
-@media screen and (max-width: 1024px){
-    .fixed-top{ position: initial; } .fixed-top .navbar-brand h1{ color: #212121; }.slider-arrow{ display: none; }.front_slider{display: none;}}
+@media screen and (max-width: 1024px){.fixed-top{ position: initial; } .fixed-top .navbar-brand h1{ color: #212121; }.slider-arrow{ display: none; }.front_slider{display: none;}}
 @media screen and (min-width: 1024px){
     /** header **/
     .over_content{top: 15%;} 
@@ -279,8 +278,7 @@
 @media screen and (min-width: 1200px){
     /** header **/ .navbar-collapse{ margin-left: 26em; }.cnt_us_txt{ font-size: 64px;}.cntry-nme{ font-size: 18px;}
     /*** CYBER SECURITY ***/ .owl-carousel .owl-prev{ left: -33px; }.owl-carousel .owl-next{ right: -33px;}}
-@media screen and (max-width: 1280px) {
-    .front_slider { left: 10px;}.navbar-collapse {margin-left: 14em;}.box{ right: 0px;}}
+@media screen and (max-width: 1280px) {.front_slider { left: 10px;}.navbar-collapse {margin-left: 14em;}.box{ right: 0px;}}
 @media screen and (min-width: 1280px) {.cntry-nme{ font-size: 20px;}.navbar-collapse {margin-left: 26em;}.offset-lg-right-1 { margin-right: 8.333333%; }}
 @media (min-width: 1440px) and (max-width: 1920px){.container-custom-staff { max-width: 1604px; }}
 @media (min-width: 576px){ .card-deck{ margin-left: 0px; margin-right: 0px; padding-right: 0px!important; padding-left: 0px!important; padding-bottom: 30px;}}
