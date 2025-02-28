@@ -11,13 +11,16 @@ p{font-family: HNB;font-size: 14px;color: #212121;line-height: 25px;}
 #page-case-studies .navbar-brand,#page-case-study .navbar-brand,
 #page-industry .navbar-brand,#page-service .navbar-brand,
 #page-cloud .navbar-brand{content: url("/assets/img/scriptics_wht_bg.svg") !important;}
-.navbar{padding-top: 40px !important;}.bg-white{padding-top: 10px!important;box-shadow: 0px 15px 25px #00000026;margin-bottom: 0px;}
+.navbar{padding-top: 40px !important;}
+.bg-white{padding-top: 10px!important;box-shadow: 0px 15px 25px #00000026;margin-bottom: 0px;}
 .fixed-top .navbar-brand h1{color: #ffffff;font-family: HNC!important;}
 .navbar-brand{margin: 0 9.3%;}.nav-link.dropdown-toggle.header-link{font-size: 16px;}
 .bg-white .navbar-collapse .navbar-nav .nav-item a{font-size: 16px;padding: 0 1em;}
 .black{color: #2f3640 !important;}
-.navbar-light .navbar-nav .nav-link:focus, 
-.navbar-light .navbar-nav .nav-link:hover {color: #212121;font-weight: bold;}
+.navbar-light .navbar-nav 
+.nav-link:focus, 
+.navbar-light .navbar-nav 
+.nav-link:hover {color: #212121;font-weight: bold;}
 .navbar .dropdown-menu {width:99.99%;left:0;right:0;}
 .navbar-light .navbar-nav .nav-link {color: rgb(0 0 0);}
 .dropdown-menu{padding: 0;margin: 0;background-clip: unset;}
@@ -35,7 +38,8 @@ p{font-family: HNB;font-size: 14px;color: #212121;line-height: 25px;}
 .abt-menu-row{padding: 0 !important;}.abt-menu-head{padding-top: 20px;}.abt-menu-head h2{margin-bottom: 10px;text-transform: uppercase;}
 .abt-menu-head ul a{text-align: left;letter-spacing: 0px;font-weight: 500;color: #212121 !important;text-transform: uppercase;opacity: 1;}
 .menu-seprator {float: left;width: 100%;border-bottom: 1px solid #e2e2e2;margin: 0 90px 5px 15px;}
-.box{position: absolute;right: 40px;}.searchBox {position: fixed;right: 6%;transform: translate(-50%,50%);border:2px solid white;height: 40px;border-radius: 40px;padding: 0px;}
+.box{position: absolute;right: 40px;}
+.searchBox {position: fixed;right: 6%;transform: translate(-50%,50%);border:2px solid white;height: 40px;border-radius: 40px;padding: 0px;}
 .searchBox:hover > .searchInput {width: 240px;padding: 0 6px;}.searchBox:hover > .searchButton {background: white;color : #2f3640;}
 .searchButton {color: rgb(46, 45, 45);float: right;width: 40px;height: 40px;background: transparent;display: flex;justify-content: center;align-items: center;transition: 0.4s;border: none;}
 .searchInput {border:none;background: none;outline:none;float:left;padding: 0;color: white;font-size: 16px;transition: 0.4s;line-height: 40px;width: 0px;}
@@ -81,7 +85,8 @@ ul.footer-txt > li > a {color: #3F3F3F;font-size: 16px;}ul.footer-txt > li > a:h
 .front_slider ul .text-colo-white.active .dot::after{height:4px;width: 55px;border: 2px solid #fff;background-color: #fff;transform: translateY(-50%) scale(0);}
 .front_slider ul .text-colo-white.active .dot::after, .front_slider ul .text-colo-white.active:hover .dot::after{transform: translateY(-50%) scale(1);border: 2px solid #fff;background-color: #fff;opacity: 1;}
 .bottom{transform: translateY(-85%);}.top{transform: translateY(-40%);}
-.front_slider ul li .dot.active::after{border: 2px solid #7e7e7e;background-color: #7e7e7e;}.over_content{position: relative;left: 0;right: 0;}.white-color{color: #fff;}
+.front_slider ul li .dot.active::after{border: 2px solid #7e7e7e;background-color: #7e7e7e;}
+.over_content{position: relative;left: 0;right: 0;}.white-color{color: #fff;}
 .over_content p{color: #fff;}.insight-img{background-color: rgb(0, 0, 0);}.insight-img img{opacity: 0.6;}
 .case-cat:before {content: "";display: block;border-top: 1px solid #ffffff!important;width: 36px!important;margin-top: 13px;margin-right: 10px;}
 .case-cat {display: flex;}
